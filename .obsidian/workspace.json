@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf"
+                "file": "Programming/Competitive Programming/Resources/Websites.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "The C++ Programming Language, 4th Edition by Stroustrup B."
+              "icon": "lucide-file",
+              "title": "Websites"
             }
           }
         ]
@@ -167,8 +169,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
+    "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf.crdownload",
     "Programming/Resources",
     "Programming/Resouces",

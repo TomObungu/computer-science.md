@@ -19,6 +19,7 @@ USACO Gudie: [Dashboard · USACO Guide](https://usaco.guide/dashboard/)
 - Allows virtual Codeforces contest training
 
 ## Youtube
+How to avoid getting stuck in the debugging cycle: [How to Avoid Getting Stuck in the Debugging Cycle?](https://www.youtube.com/watch?v=KBWQPiOZDuY)
 Data stuctures playlist: https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu
 - Graph theory playlist: https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P
 DSA Course: [https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-](https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ- "https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-")
