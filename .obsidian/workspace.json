@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "5d6d511411b1e55c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dc009dc5b9e54a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dd76267c7d00006",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "The C++ Programming Language, 4th Edition by Stroustrup B."
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44f75c2fd5c2c4a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b0359899fcdeaf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca239ac187d07cbf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a5f081809f2799e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "hash",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4f5464b92c8f6eb5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a4b8d599d250f3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "550c14d9fe805763",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2387a0379c611831",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9605b28894037958",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c94a63040d9c8f75",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0d11298b0b0a9a62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "floating": {
+    "id": "0d69aa055eb3a25c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3030c7628bca36cd",
+        "type": "window",
+        "children": [
+          {
+            "id": "239d71857f8f2378",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a8fbd6701cacb669",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 128,
+        "y": 124,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "3dd76267c7d00006",
+  "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Websites.md",
+    "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
+    "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf.crdownload",
+    "Programming/Resources",
+    "Programming/Resouces",
+    "Programming/New folder",
+    "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
+    "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
+    "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
+    "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
+    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/Untitled.md",
+    "Programming/Competitive Programming/Problem Catorgorization.md",
+    "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md",
+    "Programming Shortcuts.md",
+    "Programming/CodeForces/Metacognition.md",
+    "Untitled.md",
+    "Programming/CodeForces/2001 B. Make A Permutation.md",
+    "Programming/CodeForces/1878 A. How Much Does Daytona Cost.md",
+    "Programming/CodeForces/2132 A. Homework.md",
+    "Programming/CodeForces/Programming IMpl.md",
+    "Programming/CodeForces/1896 A. Jagged Swaps - 800.md",
+    "Programming/CodeForces/1899 A. Game with Integers - 800.md",
+    "Programming/CodeForces/1881 A. Don't Try To Count - 800.md",
+    "Programming/CodeForces/1873 C. Target Practice.md",
+    "Programming/CodeForces/1900 A. Cover In Water.md",
+    "Programming/CodeForces/1903 A. Halloumi Boxes.md",
+    "Programming/CodeForces/1901 A. A Line Trip.md",
+    "Programming/CodeForces/231 A. Team - 800.md",
+    "2078 A Final Verdict.md",
+    "Programming/ProgrammizPro/Coin Change Problem.md",
+    "Gould's Sequence.md",
+    "Valid Boomering.md",
+    "Programming/ProgrammizPro/Triplet Zero Sum.md"
+  ]
+}
