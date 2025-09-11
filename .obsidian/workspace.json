@@ -165,41 +165,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "0d69aa055eb3a25c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3030c7628bca36cd",
-        "type": "window",
-        "children": [
-          {
-            "id": "239d71857f8f2378",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a8fbd6701cacb669",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 128,
-        "y": 124,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
     "Programming/Competitive Programming/Resources/Websites.md",
