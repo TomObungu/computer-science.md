@@ -263,3 +263,8 @@ A quantifier connects a logical expression to the elements of a set. The most im
 ∀x(∃y(y < x))
 
 This means for all x there is an element y such that y < x. This is true for all integers but false in the set of natural numbers
+
+![[Pasted image 20250917203809.png]]
+
+## Floor and ciel
+![[Pasted image 20250917203853.png]]
