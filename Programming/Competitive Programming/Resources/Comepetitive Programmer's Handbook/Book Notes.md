@@ -257,3 +257,9 @@ $\phi$ {2}, {4}, {7}, {2, 4}, {2, 7}, {4, 7} and {2, 4, 7}.
 
 # Logic
 ![[Pasted image 20250917203518.png]]
+
+A quantifier connects a logical expression to the elements of a set. The most important quantifiers are ∀ (for all) and ∃ (there is). For example,
+
+∀x(∃y(y < x))
+
+This means for all x there is an element y such that y < x. This is true for all integers but false in the set of natural numbers
