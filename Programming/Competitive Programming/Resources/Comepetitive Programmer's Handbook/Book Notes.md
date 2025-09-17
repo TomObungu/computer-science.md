@@ -66,6 +66,14 @@ cout << b << "\n"; // -1757895751
 
 [[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=17&selection=5,5,13,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 17]]
 
+An important property of the remainder is that in addition, subtraction and multiplication, the remainder can be taken before the operation: 
+
+(a + b) mod m = (a mod m + b mod m) mod m 
+(a − b) mod m = (a mod m − b mod m) mod m 
+(a · b) mod m = (a mod m · b mod m) mod m 
+
+
+Thus, we can take the remainder after every operation and the numbers will never become too large.
 
 
 ## 1.4
