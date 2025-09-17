@@ -186,4 +186,48 @@ if (abs(a-b) < 1e-9)
 { // a and b are equal 
 }
 ```
+
+## Representing integers using float
+For example, using double, it is possible to accurately represent all integers whose absolute value is at most 2^53.
+
+floating point types in competitive programming are the 64-bit double and, as an extension in the g++ compiler, the 80-bit long double. In most cases, double is enough, but long double is more accurate.
 ## 1.4
+
+# Macros
+```C++
+typedef long long ll;
+```
+
+```C++
+typedef vector<int> vi; 
+typedef pair<int,int> pi;
+```
+
+```C++
+#define F first 
+#define S second 
+#define PB push_back 
+#define MP make_pair
+```
+
+# 1.5
+Sum of all n up to n = 
+$$
+\frac{n(n + 1)}{2}
+$$
+
+Sum of $x^{2}$ up to n = 
+$$
+\frac{n(n+1)(2n+1)}{6}
+$$
+Sum of arithmetic progression = 
+$$
+\frac{n(a+b)}{2}
+$$
+Sum of  a geometric progression with constant 2 e.g.
+3,6,12,24
+$a+ak+ak^{2}$
+$$
+\frac{bk-a}{2}
+$$
+Where a is the first number and b is the last number
