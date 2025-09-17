@@ -142,10 +142,10 @@ unsigned long long factorial(int n)
 This is due to (a + b + c) % M =  ( ( ( a + b ) % M ) + c ) % M.
 
 ## Negative modulo
-In practice, if you prefer the modulo to return a negative number i.e 
+In practice, the modulo of a negative number will return a negative number i.e 
 ```
 -5%3 = -2,
 ```
 
-However in c++, the result of % should be in the range 0 n - 1 so -5%3 actually ends to 
+If the result of % should be in the range 0 n - 1 then 
 ## 1.4
