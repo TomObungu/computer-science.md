@@ -254,3 +254,6 @@ If each element of A also belongs to S, we say that A is a subset of S, denoted 
 The $\phi$ symbol denotes an empty set
 
 $\phi$ {2}, {4}, {7}, {2, 4}, {2, 7}, {4, 7} and {2, 4, 7}.
+
+# Logic
+![[Pasted image 20250917203518.png]]
