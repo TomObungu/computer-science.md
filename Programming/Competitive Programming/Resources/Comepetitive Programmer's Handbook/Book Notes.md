@@ -293,3 +293,6 @@ The International Collegiate Programming Contest (ICPC) is an annual program- mi
 
 ## Books
 ![[Pasted image 20250917204338.png]]
+
+## 2.3
+![[Pasted image 20250917204621.png]]
