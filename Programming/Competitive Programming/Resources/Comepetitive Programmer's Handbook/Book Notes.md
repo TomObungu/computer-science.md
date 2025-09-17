@@ -44,20 +44,20 @@ int a = 123456789;
 long long b = a*a; 
 cout << b << "\n"; // -1757895751
 ```
-> both numbers in the expres-sion a*a are of type int and the result is also of type int. Because of this, the variable b will contain a wrong result. 
+both numbers in the expression a * a are of type int and the result is also of type int. Because of this, the variable b will contain a wrong result. 
 
-> an be solved by changing the type of a to long long or by changing the expression to (long long)a * a
+an be solved by changing the type of a to long long or by changing the expression to (long long)a * a
 
 
-> Still, it is good to know that the g++ compiler also provides a 128-bit type __int128_t with a value range of −2127 . . . 2127 − 1 or about −1038 . . . 1038.
+Still, it is good to know that the g++ compiler also provides a 128-bit type __int128_t with a value range of −2127 . . . 2127 − 1 or about −1038 . . . 1038.
 
 
 ## Modular Arithmetic
-> Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m (for example modulo 10^9 + 7)
+Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m (for example modulo 10^9 + 7)
 
 
 
-> The idea is that even if the actual answer is very large, it suffices to use the types int and long long
+The idea is that even if the actual answer is very large, it suffices to use the types int and long long
 
 
 
