@@ -268,3 +268,18 @@ This means for all x there is an element y such that y < x. This is true for all
 
 ## Floor and ciel
 ![[Pasted image 20250917203853.png]]
+## Closed form fomula for calculating nth fibbonacci number
+
+$f(n) =$
+$$
+\frac{(1+\sqrt{ 5 })^{n}-(1-\sqrt{ 5 })^{n}}{2^{n}\sqrt{ 5 }}
+$$
+
+## Logarithms
+![[Pasted image 20250917204112.png]]
+
+
+## 1.6 
+> The International Olympiad in Informatics (IOI) is an annual programming contest for secondary school students. Each country is allowed to send a team of four students to the contest. There are usually about 300 participants from 80 countries
+
+[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=25&selection=65,0,68,9|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 25]]
