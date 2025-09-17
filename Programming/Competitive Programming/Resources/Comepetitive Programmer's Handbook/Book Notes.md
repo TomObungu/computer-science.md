@@ -360,6 +360,15 @@ The algorithm is effcient as it havles the size of the subarray at each step,
 
 he recursion consists of O(log n) levels, and processing each level takes O(n) time. Merging the subarrays array[a . . . k] and array[k + 1 . . . b] is possible in linear time, because they are already sorted. For example, consider sorting the following array:
 
+## Counting sort
+O(n) sorting algorithm. Only works for n >= 0 and c where c  = O(n)
+Store two separate arrays, or a bookeeping array, whose indiciies are elements of the original array. The algorithm iterates through the original array and calculates how many times each element appears in the array.
+![[Pasted image 20250917213530.png]]
+Once iterated over the input array, simply output the corresponding index of the counting array for the value at that index.
+
+Construction of the bookkeeping array takes O(n) time. After this, the sorted array can be created in O(n) time because the number of occurrences of each element can be retrieved from the bookkeeping array. Thus, the total time complexity of counting sort is O(n). Counting sort is a very efficient algorithm but it can only be used when the constant c is small enough, so that the array elements can be used as indices in the bookkeeping array.
+
+
 
 ### C++ functions for binary search
 C++ functions The C++ standard library contains the following functions that are based on binary search and work in logarithmic time:
