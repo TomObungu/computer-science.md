@@ -244,3 +244,13 @@ For example, in the above set 4 ∈ X and 5 ∉ X .
 • The complement ¯A consists of elements that are not in A. The interpre- tation of a complement depends on the universal set, which contains all possible elements. For example, if A = {1, 2, 5, 7} and the universal set is {1, 2, . . . , 10}, then ¯A = {3, 4, 6, 8, 9, 10}. 
 
 • The difference A \ B = A ∩ ¯B consists of elements that are in A but not in B. Note that B can contain elements that are not in A. For example, if A = {2, 3, 7, 8} and B = {3, 5, 8}, then A \ B = {2, 7}.
+
+If each element of A also belongs to S, we say that A is a subset of S, denoted by A ⊂ S. 
+
+ **set S always has 2|S| subsets,** including the empty set. 
+ 
+ For example, the subsets of the set {2, 4, 7} are
+
+The $\phi$ symbol denotes an empty set
+
+$\phi$ {2}, {4}, {7}, {2, 4}, {2, 7}, {4, 7} and {2, 4, 7}.
