@@ -46,25 +46,20 @@ cout << b << "\n"; // -1757895751
 ```
 > both numbers in the expres-sion a*a are of type int and the result is also of type int. Because of this, the variable b will contain a wrong result. 
 
-[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=130,2,147,29|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
-
 > an be solved by changing the type of a to long long or by changing the expression to (long long)a * a
 
-[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=147,42,159,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
 
 > Still, it is good to know that the g++ compiler also provides a 128-bit type __int128_t with a value range of −2127 . . . 2127 − 1 or about −1038 . . . 1038.
-
-[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=164,11,196,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
 
 
 ## Modular Arithmetic
 > Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m (for example modulo 10^9 + 7)
 
-[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=236,0,243,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
+
 
 > The idea is that even if the actual answer is very large, it suffices to use the types int and long long
 
-[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=17&selection=5,5,13,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 17]]
+
 
 An important property of the remainder is that in addition, subtraction and multiplication, the remainder can be taken before the operation: 
 
