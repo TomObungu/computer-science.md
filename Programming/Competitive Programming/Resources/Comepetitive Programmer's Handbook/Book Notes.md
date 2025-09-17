@@ -343,9 +343,19 @@ Essientially work out the sum each sub array fro left to right
 
 # 3.1 Sorting theory
 
-If an array is reversed it will take the largest number of inversions possible;
+If an array is reversed it will take the largest number of inversions possible for when the algorithm is constrained to swapping consecutive elements only. E.g Bubble sort
 $$
 1+2+\dots+(n-1)=\frac{n(n-1)}{2}
 $$
+Hence if a sorting algorithm can only swap consecutive elements. each swaps removes only 1 inversion thus the complexity is at least O(n^2)
 
-The 
+## Merge sort theory
+Merge sort is efficient because it is not limited to swapping consecutive elements. The algorithm works as: Sorting array[a..b]
+1. If a=b then already sorted
+2. Calculate the position of the middle element k = floor((a+b)/2)
+3. Recursively sort sub array [a...k]
+4. Recursively sort sub arry [k+1...b]
+5. Merge the sorted sub arrays
+The algorithm is effcient as it havles the size of the subarray at each step, 
+
+he recursion consists of O(log n) levels, and processing each level takes O(n) time. Merging the subarrays array[a . . . k] and array[k + 1 . . . b] is possible in linear time, because they are already sorted. For example, consider sorting the following array:
