@@ -305,12 +305,20 @@ Simply go through all possible subarrays and calculate the sum of the values and
 
 ```C++
 int best = 0;
-for (int b = a; b < n; b++) {
-	int sum = 0;
+for (int a = 0; a < n; a++) {
+	for (int b = a; b < n; b++) {
+		int sum = 0;
 		for (int k = a; k <= b; k++) {
-			sum += array[k];
+		sum += array[k];
+		}
 		best = max(best,sum);
 	}
 }
-cout << best << "\n"
+cout << best << "\n";
 ```
+
+The varibles a and b fix the last and first index of the subarray and the sum of all values of is calculated to the variable sum. The varible best contains the maximum sum found during the search.
+
+Time complexity -> O(n^3)
+
+### Method 2
