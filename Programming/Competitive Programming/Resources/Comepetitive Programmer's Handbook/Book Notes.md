@@ -75,5 +75,8 @@ An important property of the remainder is that in addition, subtraction and mult
 
 Thus, we can take the remainder after every operation and the numbers will never become too large.
 
+Example 
+The following can calculate n!
+
 
 ## 1.4
