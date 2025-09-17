@@ -231,3 +231,16 @@ $$
 \frac{bk-a}{2}
 $$
 Where a is the first number and b is the last number
+
+## Set Theory
+If a set S contains an element x, we write x ∈ S, and otherwise we write x ∉ S. 
+
+For example, in the above set 4 ∈ X and 5 ∉ X . 
+
+• The intersection A ∩ B consists of elements that are in both A and B. For example, if A = {1, 2, 5} and B = {2, 4}, then A ∩ B = {2}. 
+
+• The union A ∪ B consists of elements that are in A or B or both. For example, if A = {3, 7} and B = {2, 3, 8}, then A ∪ B = {2, 3, 7, 8}. 
+
+• The complement ¯A consists of elements that are not in A. The interpre- tation of a complement depends on the universal set, which contains all possible elements. For example, if A = {1, 2, 5, 7} and the universal set is {1, 2, . . . , 10}, then ¯A = {3, 4, 6, 8, 9, 10}. 
+
+• The difference A \ B = A ∩ ¯B consists of elements that are in A but not in B. Note that B can contain elements that are not in A. For example, if A = {2, 3, 7, 8} and B = {3, 5, 8}, then A \ B = {2, 7}.
