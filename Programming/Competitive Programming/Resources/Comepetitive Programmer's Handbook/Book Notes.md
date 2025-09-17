@@ -1,0 +1,1 @@
+It is possible to store the input as a txt file and then output it to a seperate file for seperate contest

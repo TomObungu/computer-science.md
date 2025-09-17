@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
+                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Course Takeways"
+              "title": "Book Notes"
             }
           }
         ]
@@ -199,17 +199,17 @@
         "y": 120,
         "width": 1024,
         "height": 800,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "d64512d6d2488873",
+  "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/Resources/GeeksForGeeks",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Programming Shortcuts.md",
     "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
