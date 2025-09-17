@@ -291,3 +291,5 @@ The IOI consists of two five-hour long contests. In both contests, the partic- i
 ### ICPC
 The International Collegiate Programming Contest (ICPC) is an annual program- ming contest for university students. Each team in the contest consists of three students, and unlike in the IOI, the students work together; there is only one computer available for each team. The ICPC consists of several stages, and finally the best teams are invited to the World Finals. While there are tens of thousands of participants in the contest, there are only a small number2 of final slots available, so even advancing to the finals is a great achievement in some regions. In each ICPC contest, the teams have five hours of time to solve about ten algorithm problems. A solution to a problem is accepted only if it solves all test cases efficiently. During the contest, competitors may view the results of other
 
+## Books
+![[Pasted image 20250917204338.png]]
