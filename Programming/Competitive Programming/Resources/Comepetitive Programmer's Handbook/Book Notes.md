@@ -69,12 +69,75 @@ However modulo divison is distributive overn +,- and * but not division
 
 The result of ( a % b ) will always be less than b. i.e (a%b) <= (b-1)
 
-ue to the size of variable limitations, we **perform modulo M at each intermediate stage** so that range overflow never occurs.
-
 ### Why 10^9 + 7
 1. 10^9 + 7 is prime and is large enough to fit the largest integer data type
 2. Taking the mod a prime number will generally produce a spaced result
 3. First 10 digit prime, infact any primte number less than 2^30 will fine in order to prevent oflow
 
+## Using modulo to compute large numbesr
+ue to the size of variable limitations, we **perform modulo M at each intermediate stage** so that range overflow never occurs.
 
+For example if we ran this code:
+```
+a = 145785635595363569532135132
+b = 3151635135413512165131321321
+c = 999874455222222200651351351
+m = 1000000007
+Print (a*b*c)%m.
+```
+
+In most languages like c++ where the maximum size of an integer is 2^64 - 1. a * b * c will not fit and thus the system will drop some significant digits and will output an incorrect answer:
+
+The correct answer is 
+```
+(a*b*c)%m = 798848767
+```
+
+Using modulo at each intermediate stage will allow the correct answer to prevent integer overflow
+
+```
+Take modulo at each intermediate steps:
+i = 1
+i = (i*a) % m    // i = 508086243
+i = (i*b) % m    // i = 144702857
+i = (i*c) % m    // i = 798848767
+i = 798848767
+```
+
+Thus whenever asked to computer large numbers with the modulo m 10^9 + 7 then declare m as a variable and % m on each intermediate step
+
+### Wrong approach
+```C++
+unsigned long long factorial(int n)
+{
+    const unsigned int M = 1000000007;
+    unsigned long long f = 1;
+
+    for (int i = 1; i <= n; i++)
+        f = f * i;  // WRONG APPROACH as
+                    // f may exceed (2^64 - 1)
+
+    return f % M;
+}
+
+// This code is contributed by Shubham Singh
+```
+
+### Correct approach
+```
+unsigned long long factorial(int n)
+{
+    const unsigned int M = 1000000007;
+
+    unsigned long long f = 1;
+    for (int i = 1; i <= n; i++)
+        f = (f*i) % M;  // Now f never can
+                        // exceed 10^9+7
+    return f;
+}
+
+// This code is contributed by Shubham Singh
+```
+
+This is due to (a + b + c) % M =  ( ( ( a + b ) % M ) + c ) % M.
 ## 1.4
