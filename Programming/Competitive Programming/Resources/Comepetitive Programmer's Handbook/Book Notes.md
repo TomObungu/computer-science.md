@@ -304,16 +304,15 @@ How could we the find maximum subarray of a given array n. Interesting problem w
 Simply go through all possible subarrays and calculate the sum of the values and maintain the maximum sum:
 
 ```C++
-int best = 0; 
-for (int a = 0; a < n; a++) { 
-	for (int b = a; b < n; b++) { 
-		int sum = 0; 
-		for (int k = a; k <= b; k++) { 
-			sum += array[k]; } best = max(best,sum); 
-			} 
-		} 
-		cout << best << "\n"; 
-	}
-	
-	}
+int best = 0;
+for (int a = 0; a < n; a++) {
+	for (int b = a; b < n; b++) {
+int sum = 0;
+for (int k = a; k <= b; k++) {
+sum += array[k];
+}
+best = max(best,sum);
+}
+}
+cout << best << "\n"
 ```
