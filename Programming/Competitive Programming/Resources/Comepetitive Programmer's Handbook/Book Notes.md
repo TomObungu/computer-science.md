@@ -369,3 +369,5 @@ C++ functions The C++ standard library contains the following functions that are
 • upper_bound returns a pointer to the first array element whose value is larger than x. 
 
 • equal_range returns both above pointers.
+
+The functions assume that the array is sorted. If there is no such element, the pointer points to the element after the last array element. For example, the following code finds out whether an array contains an element with value x: auto k = lower_bound(array,array+n,x)-array; if (k < n && array[k] == x) { // x found at index k }
