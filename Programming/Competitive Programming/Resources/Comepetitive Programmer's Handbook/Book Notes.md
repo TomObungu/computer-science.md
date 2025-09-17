@@ -55,23 +55,26 @@ Still, it is good to know that the g++ compiler also provides a 128-bit type __i
 ## Modular Arithmetic
 Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m (for example modulo 10^9 + 7)
 
-
-
 The idea is that even if the actual answer is very large, it suffices to use the types int and long long
-
-
 
 An important property of the remainder is that in addition, subtraction and multiplication, the remainder can be taken before the operation: 
 
-(a + b) mod m = (a mod m + b mod m) mod m 
-(a − b) mod m = (a mod m − b mod m) mod m 
-(a · b) mod m = (a mod m · b mod m) mod m 
+- ( a + b) % c = ( ( a % c ) + ( b % c ) ) % c
+- ( a * b) % c = ( ( a % c ) * ( b % c ) ) % c
+- ( a - b) % c = ( ( a % c ) - ( b % c ) ) % c
 
+Thus, we can take the remainder after every operation and the numbers will never become too large
 
-Thus, we can take the remainder after every operation and the numbers will never become too large.
+However modulo divison is distributive overn +,- and * but not division
 
-Example 
-The following can calculate n!
+The result of ( a % b ) will always be less than b. i.e (a%b) <= (b-1)
+
+ue to the size of variable limitations, we **perform modulo M at each intermediate stage** so that range overflow never occurs.
+
+### Why 10^9 + 7
+1. 10^9 + 7 is prime and is large enough to fit the largest integer data type
+2. Taking the mod a prime number will generally produce a spaced result
+3. First 10 digit prime, infact any primte number less than 2^30 will fine in order to prevent oflow
 
 
 ## 1.4
