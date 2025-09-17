@@ -280,6 +280,14 @@ $$
 
 
 ## 1.6 
+
+### IOI
 > The International Olympiad in Informatics (IOI) is an annual programming contest for secondary school students. Each country is allowed to send a team of four students to the contest. There are usually about 300 participants from 80 countries
 
 [[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=25&selection=65,0,68,9|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 25]]
+
+The IOI consists of two five-hour long contests. In both contests, the partic- ipants are asked to solve three algorithm tasks of various difficulty. The tasks are divided into subtasks, each of which has an assigned score. Even if the contestants are divided into teams, they compete as individuals. The IOI syllabus [ 41] regulates the topics that may appear in IOI tasks. Almost all the topics in the IOI syllabus are covered by this book. Participants for the IOI are selected through national contests. Before the IOI, many regional contests are organized, such as the Baltic Olympiad in Informatics (BOI), the Central European Olympiad in Informatics (CEOI) and the Asia-Pacific Informatics Olympiad (APIO). Some countries organize online practice contests for future IOI participants, such as the Croatian Open Competition in Informatics [11] and the USA Comput- ing Olympiad [ 68]. In addition, a large collection of problems from Polish contests is available online [60].
+
+### ICPC
+The International Collegiate Programming Contest (ICPC) is an annual program- ming contest for university students. Each team in the contest consists of three students, and unlike in the IOI, the students work together; there is only one computer available for each team. The ICPC consists of several stages, and finally the best teams are invited to the World Finals. While there are tens of thousands of participants in the contest, there are only a small number2 of final slots available, so even advancing to the finals is a great achievement in some regions. In each ICPC contest, the teams have five hours of time to solve about ten algorithm problems. A solution to a problem is accepted only if it solves all test cases efficiently. During the contest, competitors may view the results of other
+
