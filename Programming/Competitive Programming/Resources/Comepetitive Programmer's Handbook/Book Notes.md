@@ -328,4 +328,15 @@ Consider the subproblem of finding the maximum-sum subarray that ends at positio
 
 In the latter case, since we want to find a subarray with maximum sum, the subarray that ends at position k − 1 should also have the maximum sum. Thus, we can solve the problem efficiently by calculating the maximum subarray sum for each ending position from left to right. The following code implements the algorithm:
 
+Code to find maximum subsegment:
+```C++
+int best = 0, sum = 0; 
+for (int k = 0; k < n; k++) { 
+	sum = max(array[k],sum+array[k]); 
+	best = max(best,sum); 
+} 
+cout << best << "\n"
+```
 Essientially work out the sum each sub array fro left to right
+
+![[Pasted image 20250917210639.png]]
