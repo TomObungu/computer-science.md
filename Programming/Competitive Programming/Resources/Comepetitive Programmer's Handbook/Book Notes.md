@@ -322,4 +322,6 @@ The varibles a and b fix the last and first index of the subarray and the sum of
 Time complexity -> O(n^3)
 
 ### Method 3
-It is possible to sovle in O(n) by calculating the sum of each sub array for each array positoin. 
+It is possible to sovle in O(n) by calculating the sum of each sub array for each array position
+
+Consider the subproblem of finding the maximum-sum subarray that ends at position k. There are two possibilities: 1. The subarray only contains the element at position k. 2. The subarray consists of a subarray that ends at position k − 1, followed by the element at position k
