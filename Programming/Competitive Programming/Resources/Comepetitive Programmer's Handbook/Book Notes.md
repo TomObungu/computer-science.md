@@ -58,5 +58,8 @@ cout << b << "\n"; // -1757895751
 
 
 ## Modular Arithmetic
-Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m (for 6 example, ”modulo 109 + 7”).
+> Sometimes, the answer to a problem is a very large number but it is enough to output it ”modulo m”, i.e., the remainder when the answer is divided by m
+
+[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=236,0,243,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
+
 ## 1.4
