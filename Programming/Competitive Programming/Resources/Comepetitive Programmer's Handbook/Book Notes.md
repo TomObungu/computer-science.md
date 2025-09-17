@@ -359,3 +359,13 @@ Merge sort is efficient because it is not limited to swapping consecutive elemen
 The algorithm is effcient as it havles the size of the subarray at each step, 
 
 he recursion consists of O(log n) levels, and processing each level takes O(n) time. Merging the subarrays array[a . . . k] and array[k + 1 . . . b] is possible in linear time, because they are already sorted. For example, consider sorting the following array:
+
+
+### C++ functions for binary search
+C++ functions The C++ standard library contains the following functions that are based on binary search and work in logarithmic time:
+
+• lower_bound returns a pointer to the first array element whose value is at least x. 
+
+• upper_bound returns a pointer to the first array element whose value is larger than x. 
+
+• equal_range returns both above pointers.
