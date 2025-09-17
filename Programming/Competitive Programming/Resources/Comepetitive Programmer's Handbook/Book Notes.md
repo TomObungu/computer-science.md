@@ -62,5 +62,10 @@ cout << b << "\n"; // -1757895751
 
 [[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=16&selection=236,0,243,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 16]]
 
+> The idea is that even if the actual answer is very large, it suffices to use the types int and long long
+
+[[[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf#page=17&selection=5,5,13,1|[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen], page 17]]
+
+
 
 ## 1.4
