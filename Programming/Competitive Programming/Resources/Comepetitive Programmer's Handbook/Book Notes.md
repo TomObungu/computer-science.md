@@ -340,3 +340,12 @@ cout << best << "\n"
 Essientially work out the sum each sub array fro left to right
 
 ![[Pasted image 20250917210639.png]]
+
+# 3.1 Sorting theory
+
+If an array is reversed it will take the largest number of inversions possible;
+$$
+1+2+\dots+(n-1)=\frac{n(n-1)}{2}
+$$
+
+The 
