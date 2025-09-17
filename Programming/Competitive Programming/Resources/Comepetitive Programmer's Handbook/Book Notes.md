@@ -124,7 +124,7 @@ unsigned long long factorial(int n)
 ```
 
 ### Correct approach
-```
+```C++
 unsigned long long factorial(int n)
 {
     const unsigned int M = 1000000007;
@@ -147,5 +147,26 @@ In practice, the modulo of a negative number will return a negative number i.e
 -5%3 = -2,
 ```
 
-If the result of % should be in the range 0 n - 1 then 
+If the result of % should be in the range 0 n - 1 then -5%3 = 1. So for this convert it into a positive modular equivalent.
+
+```C++
+int mod(int a, int m)
+{
+    return (a % m + m) % m;
+}
+
+// This code is contributed by 
+// Shubham Singh(SHUBHAMSINGH10)
+```
+
+### MMI
+The multiplicative inverse of a number y is z if (z * y) == 1
+
+Dividing a number x by another number y is the same as multiplying x with the multiplicative inverse of y.
+
+/ y == x * y^(-1) == x * z (where z is multiplicative inverse of y).
+
+In mathematics, the modular multiplicative inverse of an integer 'a' is an integer 'x' such that the product ax is congruent to 1 with respect to the modulus m.
+
+ax=1(modm)
 ## 1.4
