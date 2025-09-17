@@ -178,4 +178,12 @@ If M = 13, the MMI of 7 is 2 as (7 * 2) % 13 == 1.
 ```
 
 **Etended Euclidean algorithm** and the second using **Fermat’s Little Theorem**.
+
+## Precision errors
+this technique can be used whilst subtracting floats by checking if the difference is smaller than some $\varepsilon$ 
+```C++
+if (abs(a-b) < 1e-9) 
+{ // a and b are equal 
+}
+```
 ## 1.4
