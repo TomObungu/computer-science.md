@@ -295,4 +295,25 @@ The International Collegiate Programming Contest (ICPC) is an annual program- mi
 ![[Pasted image 20250917204338.png]]
 
 ## 2.3
-![[Pasted image 20250917204621.png]]
+![[Pasted image 20250917204621.png]]For example, if the input size is n = 105, it is probably expected that the time complexity of the algorithm is O(n) or O(n log n). This information makes it easier to design the algorithm, because it rules out approaches that would yield an algorithm with a worse time complexity. Still, it is important to remember that a time complexity is only an estimate of efficiency, because it hides the constant factors. For example, an algorithm that runs in O(n) time may perform n/2 or 5n operations. This has an important effect on the actual running time of the algorithm
+
+# 2.4 Maximum subarray sum
+How could we the find maximum subarray of a given array n. Interesting problem when the integers given can be negative
+
+### Method 1
+Simply go through all possible subarrays and calculate the sum of the values and maintain the maximum sum:
+
+```C++
+int best = 0; 
+for (int a = 0; a < n; a++) { 
+	for (int b = a; b < n; b++) { 
+		int sum = 0; 
+		for (int k = a; k <= b; k++) { 
+			sum += array[k]; } best = max(best,sum); 
+			} 
+		} 
+		cout << best << "\n"; 
+	}
+	
+	}
+```
