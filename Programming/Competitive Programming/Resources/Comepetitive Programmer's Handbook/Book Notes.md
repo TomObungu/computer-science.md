@@ -160,6 +160,7 @@ int mod(int a, int m)
 ```
 
 ### MMI
+https://www.geeksforgeeks.org/dsa/modulo-1097-1000000007/
 The multiplicative inverse of a number y is z if (z * y) == 1
 
 Dividing a number x by another number y is the same as multiplying x with the multiplicative inverse of y.
@@ -169,4 +170,12 @@ Dividing a number x by another number y is the same as multiplying x with the mu
 In mathematics, the modular multiplicative inverse of an integer 'a' is an integer 'x' such that the product ax is congruent to 1 with respect to the modulus m.
 
 ax=1(modm)
+
+```
+If M = 7, the MMI of 4 is 2 as (4 * 2) %7 == 1,
+If M = 11, the MMI of 7 is 8 as (7 * 8) % 11 == 1,
+If M = 13, the MMI of 7 is 2 as (7 * 2) % 13 == 1.
+```
+
+**Etended Euclidean algorithm** and the second using **Fermat’s Little Theorem**.
 ## 1.4
