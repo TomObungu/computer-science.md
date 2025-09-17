@@ -1,5 +1,5 @@
 
-
+# 1.2
 It is possible to take in input all at once using seperate `<<` such that  when using cout:
 ```C++
 int a, b; 
@@ -22,3 +22,16 @@ It is possible to store the input as a .txt file and then output it to a separat
 freopen("input.txt", "r", stdin); 
 freopen("output.txt", "w", stdout);
 ```
+---
+C++ template:
+```C++
+#include <bits/stdc++.h> 
+using namespace std; 
+int main() { 
+// solution comes here 
+}
+```
+
+
+# 1.3
+int -> $2\exp1$
