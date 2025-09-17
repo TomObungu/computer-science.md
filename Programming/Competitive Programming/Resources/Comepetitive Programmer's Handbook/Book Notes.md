@@ -321,4 +321,5 @@ The varibles a and b fix the last and first index of the subarray and the sum of
 
 Time complexity -> O(n^3)
 
-### Method 2
+### Method 3
+It is possible to sovle in O(n) by calculating the sum of each sub array for each array positoin. 
