@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+                "file": "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book Notes"
+              "title": "Course Takeways"
             }
           }
         ]
@@ -199,13 +199,14 @@
         "y": 0,
         "width": 960,
         "height": 1040,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "a00f431eca638114",
+  "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Pasted image 20250917213530.png",
