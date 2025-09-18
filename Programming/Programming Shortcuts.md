@@ -6,7 +6,7 @@ Compare a known length of matching patterns in a vector:
 ---
 Find an element in an vector or a string:
 ```C++
-x.find(s)
+	x.find(s)
 ```
 ___
 Check if a hash table contains a certain key:
