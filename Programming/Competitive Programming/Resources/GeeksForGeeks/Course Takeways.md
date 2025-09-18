@@ -2,7 +2,15 @@
 # Reverse an array
 Overall it is better to use inbuilt sorting functions provided by the language's standard library rather than implementing your own. 
 
-In C++ some functions may allow passing in a callback funcotin
+In C++, std::sort allows passing in a callback function for sorting conditions.
+
+```C++
+std::sort(mMyClassVector.begin(), mMyClassVector.end(), [](const MyClass &a, const MyClass &b)
+{ 
+    return a.mProperty > b.mProperty; 
+});
+```
+
 
 https://www.geeksforgeeks.org/problems/reverse-squared-sum/0
 Using i to negate the sign of a sum using a for loop:

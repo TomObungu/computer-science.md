@@ -199,16 +199,17 @@
         "y": 0,
         "width": 960,
         "height": 1040,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Pasted image 20250917213530.png",
     "Pasted image 20250917210639.png",
     "Pasted image 20250917204832.png",
@@ -218,7 +219,6 @@
     "Pasted image 20250917203853.png",
     "Pasted image 20250917203809.png",
     "Pasted image 20250917203518.png",
-    "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/Resources/GeeksForGeeks",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Programming Shortcuts.md",
@@ -229,7 +229,6 @@
     "Programming/New folder",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
-    "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Untitled.md",
     "Programming/Competitive Programming/Problem Catorgorization.md",
