@@ -6,9 +6,15 @@ Compare a known length of matching patterns in a vector:
 ---
 Find an element in an vector or a string:
 ```C++
-	x.find(s)
+ // using std::find with vector and iterator:
+  std::vector<int> myvector (myints,myints+4);
+  std::vector<int>::iterator it;
+
+  it = find (myvector.begin(), myvector.end(), 30);
 ```
-___
+
+---
+```
 Check if a hash table contains a certain key:
 ```C++
 distinctNums.count(product)
