@@ -31,3 +31,12 @@ cout << ((n % 2 == 1) ? -answer : answer)<< '\n';
 
 ## Sum Of Digits in a number
 The best way to work out the sum of digits in a given number
+```C++
+    string s = to_string(n);
+    vector<int> digits;
+    
+    for (char c : s) 
+	    digits.push_back(c - '0');
+	for (auto it = vec.begin(); it != vec.end(); ++it) 
+		cout << it << " \n"[it != vec.end()]
+```
