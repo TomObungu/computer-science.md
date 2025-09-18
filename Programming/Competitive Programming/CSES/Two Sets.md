@@ -8,3 +8,126 @@ f this this is the case it can be proven that a solution is possible. The soluti
 A standard method of implementation is to put all of the distinct integers of the permutation of n inside set 1. Have a variable named target that will indicate the target to be searched for within the set 1. Start of by setting the target to n(n+1)/4. Then subtract  the largest element within the set from target. If the result is in the set then reduce target to the result then add the element to set 2. Repeat for the next element in the set.
 
 If the element is not in the set 
+
+## Old solution
+```C++
+#include <iostream>
+
+#include <vector>
+
+#include <numeric>
+
+  
+
+using std::cout;
+
+using std::cin;
+
+using std::vector;
+
+using std::iota;
+
+  
+
+signed main() {
+
+unsigned n = 0;
+
+cin >> n;
+
+  
+
+if (n == 1) {
+
+cout << "NO"; exit(0);
+
+}
+
+  
+
+unsigned sum_of_all_n = (n * ( n + 1 )) / 2;
+
+  
+
+bool division_possible = ((sum_of_all_n) % 2 == 0);
+
+  
+
+if(!division_possible) {
+
+cout << "NO"; exit(0);
+
+}
+
+  
+
+vector<unsigned> nums(n);
+
+iota(nums.begin(), nums.end(), 1);
+
+  
+
+vector<unsigned> set_one{}, set_two{};
+
+  
+
+unsigned a = sum_of_all_n / 2, b = 0, r = 0;
+
+r = a - nums[0];
+
+if(r % 2 == 1) {
+
+a = r; b += nums[0];
+
+set_one.push_back(nums[0]);
+
+}
+
+for (unsigned i = 1; i < n; i++)
+
+{
+
+r = a - nums[i]; b += nums[i];
+
+if (b + r == sum_of_all_n / 2) {
+
+set_one.push_back(nums[r-1]);
+
+break;
+
+}
+
+if(r % 2 == 1) {
+
+a = r;
+
+set_one.push_back(nums[i]);
+
+}
+
+else
+
+set_two.push_back(nums[i]);
+
+}
+
+  
+
+cout << "YES\n" << set_one.size() << '\n';
+
+  
+
+for (auto it = set_one.begin(); it != set_one.end(); ++it)
+
+cout << *it << " ";
+
+cout << "\n" << set_two.size() << '\n';
+
+  
+
+for (auto it = set_two.begin(); it != set_two.end(); ++it)
+
+cout << *it << " ";
+
+}
+```
