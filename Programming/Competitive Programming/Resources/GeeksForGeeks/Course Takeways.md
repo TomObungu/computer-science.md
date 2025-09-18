@@ -28,3 +28,6 @@ answer += (i % 2 == 0) ? (-(x*x)) : (x*x);
 cout << ((n % 2 == 1) ? -answer : answer)<< '\n';
 ```
 ---
+
+## Sum Of Digits in a number
+The best way to work out the sum of digits in a given number
