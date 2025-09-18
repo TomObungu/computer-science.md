@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
+                "file": "Programming/Competitive Programming/CSES/Two Sets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Course Takeways"
+              "title": "Two Sets"
             }
           }
         ]
@@ -204,10 +204,12 @@
       }
     ]
   },
-  "active": "a00f431eca638114",
+  "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
+    "Programming/Competitive Programming/CSES/Two Sets.md",
+    "Programming/Competitive Programming/CSES",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
@@ -228,7 +230,6 @@
     "Programming/Resouces",
     "Programming/New folder",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
-    "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Untitled.md",
     "Programming/Competitive Programming/Problem Catorgorization.md",
