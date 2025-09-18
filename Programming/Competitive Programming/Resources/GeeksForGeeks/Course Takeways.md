@@ -40,3 +40,10 @@ The best way to work out the sum of digits in a given number
 	for (auto it = vec.begin(); it != vec.end(); ++it) 
 		cout << it << " \n"[it != vec.end()]
 ```
+
+## Check if a string a palindrome
+```
+string s {};
+cin >> s;
+
+```
