@@ -11,14 +11,12 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250917203518.png"
               },
-              "icon": "lucide-file",
-              "title": "Book Notes"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250917203518"
             }
           }
         ]
@@ -74,8 +72,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,10 +165,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dd76267c7d00006",
+  "active": "ca239ac187d07cbf",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attch",
+    "Pasted image 20250917203809.png",
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/Problem Catorgorization.md",
+    "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
+    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+    "Pasted image 20250917204112.png",
+    "Pasted image 20250917203853.png",
+    "Pasted image 20250917203518.png",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Codeforces/TLE CP-31 Sheet/A. Doremy's Paint.md",
     "Pasted image 20250918225907.png",
@@ -181,24 +187,16 @@
     "Pasted image 20250918173648.png",
     "Pasted image 20250918172852.png",
     "Pasted image 20250918172822.png",
-    "Programming/Competitive Programming/Resources/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/CSES",
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Pasted image 20250917213530.png",
     "Pasted image 20250917210639.png",
-    "Pasted image 20250917204832.png",
-    "Pasted image 20250917204621.png",
-    "Pasted image 20250917204338.png",
-    "Pasted image 20250917204112.png",
     "Programming/Competitive Programming/Resources/GeeksForGeeks",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
     "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf.crdownload",
     "Programming/Resources",
-    "Programming/Resouces",
-    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Untitled.md",
-    "Programming/Competitive Programming/Problem Catorgorization.md",
     "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md",
     "Programming/CodeForces/Metacognition.md",
     "Untitled.md",
