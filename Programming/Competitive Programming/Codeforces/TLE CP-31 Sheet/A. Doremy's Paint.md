@@ -8,3 +8,8 @@ The maximum time complexity is 100^3 = 10^6  operations. Thus for n = 100, with 
 
 # Simplify a question
 ![[Pasted image 20250918225907.png]]
+
+# Solution
+For this question you must recognise that if there are 3 distinct integers in the array then it impossible to have such an array:
+![[Pasted image 20251011192952.png]]
+![[Pasted image 20251011192936.png]]
