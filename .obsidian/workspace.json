@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Programming Shortcuts.md",
+                "file": "Programming/Competitive Programming/Codeforces/TLE CP-31 Sheet/A. Doremy's Paint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programming Shortcuts"
+              "title": "A. Doremy's Paint"
             }
           }
         ]
@@ -169,8 +169,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Programming Shortcuts.md",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Codeforces/TLE CP-31 Sheet/A. Doremy's Paint.md",
