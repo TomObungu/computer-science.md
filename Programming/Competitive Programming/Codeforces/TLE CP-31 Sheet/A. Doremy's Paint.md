@@ -10,6 +10,7 @@ The maximum time complexity is 100^3 = 10^6  operations. Thus for n = 100, with 
 ![[Pasted image 20250918225907.png]]
 
 # Solution
-For this question you must recognise that if there are 3 distinct integers in the array then it impossible to have such an array:
+For this question you must recognise that if there are 3 distinct integers in the array then it is impossible to have such an array:
 ![[Pasted image 20251011192952.png]]
+As well as that, every odd position must have the same integer and every even position must also have the same integer
 ![[Pasted image 20251011192936.png]]
