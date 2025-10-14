@@ -14,3 +14,4 @@ For this question you must recognise that if there are 3 distinct integers in th
 ![[Pasted image 20251011192952.png]]
 As well as that, every odd position must have the same integer and every even position must also have the same integer
 ![[Pasted image 20251011192936.png]]
+The code approach can be reused for future scenarios, especially this snippet of code that pertains the condition for odd number input size:
