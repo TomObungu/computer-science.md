@@ -1,8 +1,4 @@
 t1 t2 t3 t4
- t1 - t2 -> t2 - t1
- t1 - t3  -> t3 - t1
- t1 - t4 -> t4 - t1
- t2 - t4 -> t4 - t2
- t2 - t3 -> t3 - t2
- t3 -  t4 -> t4 - t3
+Efficiency of t1 t2 t3:
+
  
