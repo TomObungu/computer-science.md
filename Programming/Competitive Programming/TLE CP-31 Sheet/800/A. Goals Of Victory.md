@@ -1,3 +1,1 @@
-t1 t2 t3 t4
-Efficiency of t1 t2 t3:
-t1 - t2 -> 
+For this question I just needed to recognise that net efficiency of the the sum of all the teams will be 0
