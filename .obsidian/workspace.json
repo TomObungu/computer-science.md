@@ -11,14 +11,12 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/CSES/Two Sets.md",
-                "mode": "source",
-                "source": false
+                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
               },
-              "icon": "lucide-file",
-              "title": "Two Sets"
+              "icon": "lucide-file-text",
+              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
             }
           }
         ]
@@ -167,8 +165,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ca239ac187d07cbf",
+  "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/CSES/Two Sets.md",
     "Untitled",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
@@ -196,11 +195,9 @@
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/attachments/Pasted image 20250917203518.png",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attch",
     "Programming/Competitive Programming/GeeksForGeeks/Course Takeways.md",
     "Programming/attachments/Pasted image 20250917204112.png",
     "Programming/attachments/Pasted image 20250918225907.png",
-    "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/attachments/Pasted image 20250918172852.png",
     "Programming/Competitive Programming/Untitled.md",
     "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md",
