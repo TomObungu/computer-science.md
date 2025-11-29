@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
+                "file": "Programming/Competitive Programming/CSES/Two Sets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Target Practice"
+              "title": "Two Sets"
             }
           }
         ]
@@ -167,13 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dd76267c7d00006",
+  "active": "ca239ac187d07cbf",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
+    "Untitled",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
-    "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
     "Programming/Competitive Programming/Problem Catorgorization.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800",
     "Programming/Programming Shortcuts.md",
     "Computational Problem Solving/Untitled.canvas",
@@ -214,7 +215,6 @@
     "Programming/CodeForces/1873 C. Target Practice.md",
     "Programming/CodeForces/1900 A. Cover In Water.md",
     "Programming/CodeForces/1903 A. Halloumi Boxes.md",
-    "Programming/CodeForces/1901 A. A Line Trip.md",
-    "Programming/CodeForces/231 A. Team - 800.md"
+    "Programming/CodeForces/1901 A. A Line Trip.md"
   ]
 }
