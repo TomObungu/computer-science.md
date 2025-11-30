@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
+                "file": "Programming/Programming Shortcuts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
+              "icon": "lucide-file",
+              "title": "Programming Shortcuts"
             }
           }
         ]
@@ -167,6 +169,7 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Untitled",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
@@ -187,7 +190,6 @@
     "Programming/attachments/Pasted image 20250917204832.png",
     "Programming/attachments/Pasted image 20250917203853.png",
     "Programming/attachments/Pasted image 20250917203809.png",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
