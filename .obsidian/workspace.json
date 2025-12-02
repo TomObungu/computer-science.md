@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Programming Shortcuts.md",
+                "file": "Programming/Competitive Programming/USACO/Programming Contest Problem Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programming Shortcuts"
+              "title": "Programming Contest Problem Types"
             }
           }
         ]
@@ -169,6 +169,10 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/USACO",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+    "Programming/Competitive Programming/USACO/Programming Contest Problem Types.md",
+    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Untitled",
@@ -178,7 +182,6 @@
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800",
-    "Programming/Programming Shortcuts.md",
     "Computational Problem Solving/Untitled.canvas",
     "Computational Problem Solving/UK Bebras Challenge 2025",
     "Untitled.md",
@@ -190,7 +193,6 @@
     "Programming/attachments/Pasted image 20250917204832.png",
     "Programming/attachments/Pasted image 20250917203853.png",
     "Programming/attachments/Pasted image 20250917203809.png",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
@@ -201,7 +203,6 @@
     "Programming/attachments/Pasted image 20250917204112.png",
     "Programming/attachments/Pasted image 20250918225907.png",
     "Programming/attachments/Pasted image 20250918172852.png",
-    "Programming/Competitive Programming/Untitled.md",
     "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md",
     "Programming/CodeForces/Metacognition.md",
     "Programming/CodeForces/2001 B. Make A Permutation.md",
