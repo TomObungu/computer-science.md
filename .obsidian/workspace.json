@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
+                "file": "Programming/Programming Shortcuts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
+              "icon": "lucide-file",
+              "title": "Programming Shortcuts"
             }
           }
         ]
@@ -167,13 +169,13 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
     "Programming/Competitive Programming/USACO/USACO.training/Programming Contest Problem Types.md",
     "Programming/Competitive Programming/USACO/USACO.training",
     "Programming/Competitive Programming/USACO",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Programming Shortcuts.md",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Untitled",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
@@ -212,7 +214,6 @@
     "Programming/CodeForces/1881 A. Don't Try To Count - 800.md",
     "Programming/CodeForces/1873 C. Target Practice.md",
     "Programming/CodeForces/1900 A. Cover In Water.md",
-    "Programming/CodeForces/1903 A. Halloumi Boxes.md",
-    "Programming/CodeForces/1901 A. A Line Trip.md"
+    "Programming/CodeForces/1903 A. Halloumi Boxes.md"
   ]
 }
