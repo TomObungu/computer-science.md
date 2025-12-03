@@ -11,14 +11,12 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
-                "mode": "source",
-                "source": false
+                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
               },
-              "icon": "lucide-file",
-              "title": "Ad hoc  problems"
+              "icon": "lucide-file-text",
+              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
             }
           }
         ]
@@ -169,8 +167,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/USACO/USACO.training/Programming Contest Problem Types.md",
     "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
+    "Programming/Competitive Programming/USACO/USACO.training/Programming Contest Problem Types.md",
     "Programming/Competitive Programming/USACO/USACO.training",
     "Programming/Competitive Programming/USACO",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
