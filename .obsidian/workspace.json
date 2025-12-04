@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "count digits",
+                "query": "set from ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -167,7 +168,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dd76267c7d00006",
+  "active": "a5f081809f2799e1",
   "lastOpenFiles": [
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
