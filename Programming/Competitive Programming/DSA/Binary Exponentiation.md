@@ -1,0 +1,1 @@
+Iterative method of binary exponentiation to achieve exponenetiation in $O\log()$

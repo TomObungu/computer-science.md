@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Problem Retrospective.md",
+                "file": "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problem Retrospective"
+              "title": "Binary Exponentiation"
             }
           }
         ]
@@ -169,8 +169,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/DSA",
     "Programming/Competitive Programming/Problem Catorgorization.md",
     "Programming/Programming Shortcuts.md",
