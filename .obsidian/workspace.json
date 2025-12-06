@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Programming Shortcuts.md",
+                "file": "Programming/Competitive Programming/Problem Retrospective.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programming Shortcuts"
+              "title": "Problem Retrospective"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,21 +167,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5f081809f2799e1",
+  "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Problem Catorgorization.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
     "Programming/Competitive Programming/USACO/USACO.training/Programming Contest Problem Types.md",
     "Programming/Competitive Programming/USACO/USACO.training",
     "Programming/Competitive Programming/USACO",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Untitled",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
-    "Programming/Competitive Programming/Problem Catorgorization.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800",
     "Computational Problem Solving/Untitled.canvas",
