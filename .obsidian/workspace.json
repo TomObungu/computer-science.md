@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
+                "file": "Programming/Competitive Programming/DSA/Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Exponentiation"
+              "title": "Resources"
             }
           }
         ]
@@ -169,8 +169,10 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
+    "Programming/Competitive Programming/DSA/Resources.md",
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/DSA",
     "Programming/Competitive Programming/Problem Catorgorization.md",
     "Programming/Programming Shortcuts.md",
@@ -213,8 +215,6 @@
     "Programming/CodeForces/1896 A. Jagged Swaps - 800.md",
     "Programming/CodeForces/1899 A. Game with Integers - 800.md",
     "Programming/CodeForces/1881 A. Don't Try To Count - 800.md",
-    "Programming/CodeForces/1873 C. Target Practice.md",
-    "Programming/CodeForces/1900 A. Cover In Water.md",
-    "Programming/CodeForces/1903 A. Halloumi Boxes.md"
+    "Programming/CodeForces/1873 C. Target Practice.md"
   ]
 }
