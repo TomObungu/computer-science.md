@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/DSA/Resources.md",
+                "file": "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "Binary Exponentiation"
             }
           }
         ]
@@ -169,8 +169,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
     "Programming/Competitive Programming/DSA/Resources.md",
+    "Programming/Resources/The C++ Programming Language, 4th Edition by Stroustrup B..pdf",
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/DSA",
@@ -200,7 +200,6 @@
     "Programming/attachments/Pasted image 20250917203853.png",
     "Programming/attachments/Pasted image 20250917203809.png",
     "Programming/Competitive Programming/Resources/Websites.md",
-    "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/attachments/Pasted image 20250917203518.png",
     "Programming/Competitive Programming/GeeksForGeeks/Course Takeways.md",
     "Programming/attachments/Pasted image 20250917204112.png",
