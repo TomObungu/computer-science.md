@@ -1,17 +1,11 @@
+An algorithm used to generate all distinct subsets of integers up to a given integer $N$:
+
+How it works:
+1. 
+
 ```C++
 #include <bits/stdc++.h>
 using namespace::std;
-
-/*  
-    Generate subsets of n
-    E.g n = 3
-    Subsets of n will be:
-    1
-    2
-    3
-    12
-    etc...
-*/ 
 
 bool print_vec(vector<int> arr){
     if(arr.empty())

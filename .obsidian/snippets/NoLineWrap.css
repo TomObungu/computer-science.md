@@ -1,11 +1,3 @@
-/*un-wrap code*/
-.HyperMD-codeblock {
-    white-space: nowrap;
-}
-
-.markdown-rendered :not(.print) code,
-body :not(.print) code {
-  word-break: normal;
-  word-wrap: break-word;
-  white-space: pre;
+pre {
+overflow-x: scroll;
 }
