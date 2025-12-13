@@ -60,5 +60,53 @@ Start from the leftmost spot and move rightwards.
 
  Repeat this process until no segment of consecutive weak spots remains.
 
+## Solution (My implementation)
+```C++
+#include <bits/stdc++.h>
+using namespace std;
 
+int solve() {
+    int n = 0, m = 0, k = 0;
+    cin >> n >> m >> k;
+    string s {};
+    cin >> s;
+    int ans = 0;
+    int i = 0;
+    while(i < n){
+        if(s[i] == '0'){
+            int start = i;
+            int cnt = 0;
+            while(i < n && s[i] == '0'){
+                cnt++;
+                i++;
+            }
+            while(cnt>=m){
+                int pos = start + m - 1;
+                for(int j = 0; j < k && pos + j < n; j++){
+                    s[pos + j] = '1';
+                }
+
+                ans++;
+                start = pos + k;
+                cnt = i - start;
+            }
+        } else {
+            i++;
+        }
+    }
+    return ans;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 0; cin >> t;
+    for(int tc = 0; tc < t; tc++){
+        cout << solve() << '\n';
+    }
+    return 0;
+}
+
+```
 
