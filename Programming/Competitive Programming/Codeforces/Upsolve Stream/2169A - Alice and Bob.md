@@ -43,3 +43,70 @@ And for any $v_{i}> a$, $b>a$ will always be closer to $v_{i}$ than $a$
 Thus using  using $b=a+1$, the number of points Bob gets will be equal to the number of marbles having $v_{i}>a$. 
 
 So it is is enough to check only $b=a-1$ and $b=a+1$ and compare the points received for both scenarios. Return the value of $b$ yielding the largest points. 
+
+### My solution
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int solve() {
+    ll n = 0, a = 0;
+    cin >> n >> a;
+
+    vector<ll> v(n);
+    for(auto& i : v) cin >> i;
+
+    ll b = 0, tp = 0, p = 0;
+    for(int i = a - 1; i < a + 2; i+=2){
+        tp = 0;
+        for(auto& v_i : v)
+            if(abs(v_i - a) > abs(v_i - i))
+                tp++;
+        if(tp > p) b = i, p = tp;
+    }
+
+    return b;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t; cin >> t;
+    while (t--) {
+        cout << solve() << '\n';
+    }
+    return 0;
+}
+```
+
+How the editorial has a better way of writing the solution, using two pointers.
+
+We know from the problem solution, that 
+```C++
+#include <bits/stdc++.h>
+ 
+using namespace std;
+ 
+int t;
+ 
+int main() {
+    cin >> t;
+    for (int tc = 0; tc < t; ++tc) {
+        int n, a;
+        cin >> n >> a;
+        vector <int> v(n);
+        int l = 0, r = 0;
+        for (int i = 0; i < n; ++i) {
+            cin >> v[i];
+            if (a > v[i]) ++l;
+            if (a < v[i]) ++r;
+        }
+        
+        cout << (l > r ? a - 1 : a + 1) << endl;
+    }
+    return 0;
+}
+```
