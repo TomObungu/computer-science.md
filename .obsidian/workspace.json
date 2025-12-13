@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
+                "file": "Programming/Competitive Programming/Problem Retrospective.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2169A - Alice and Bob"
+              "title": "Problem Retrospective"
             }
           }
         ]
@@ -167,10 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dd76267c7d00006",
+  "active": "ca239ac187d07cbf",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/DSA/Resources/Resources.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
+    "Programming/Competitive Programming/DSA/Resources/Resources.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/DSA/Resources",
