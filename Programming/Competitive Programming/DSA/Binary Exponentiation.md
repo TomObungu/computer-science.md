@@ -5,8 +5,6 @@ $$
 (X \cdot Y)\cdot Z= X(Y \cdot Z)
 $$
 
-
-
 Iterative method of binary exponentiation to achieve exponentiation in $O\log(b)$ where $b$ is the exponent in $a^{b}$:
 ```C++
 int power(int a, int b){
