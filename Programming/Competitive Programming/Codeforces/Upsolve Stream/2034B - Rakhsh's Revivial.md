@@ -9,7 +9,7 @@ My approach is very similar to the solution, that is I would find the first 0 in
 
 If I found the case where it was an consecutive string of $k$, then I would flip all the $0s$ to 1 and increment the counter for Timar used. 
 
-My approach was almost the solution, It's just I faced some issues in implementation whilst writing my code or I had a minor logic error in the code>
+My approach was almost the solution, It's just I faced some issues in implementation whilst writing my code or I had a minor logic error in the code
 ```C++
 #include <iostream>
 #include <string>
