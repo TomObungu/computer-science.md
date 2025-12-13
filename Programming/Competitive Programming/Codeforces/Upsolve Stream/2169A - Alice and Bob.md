@@ -2,7 +2,9 @@
 My mistake was was simply taking the mathematical statements at face 
 value and trying to brute force a value of $b$. 
 
-I looped for every possible value of $b$ up to supposedly $2\times 10^{9}$ , took the absolute difference between element $v_{i}$ and compared if it was less than the absolute difference for the current value of $a$.  For each time this was the case, I would increment a point variable to signify the amount of points bob got.  
+I looped for every possible value of $b$ up to supposedly $2\times 10^{9}$ , took the absolute difference between element $v_{i}$ and compared if it was less than the absolute difference for the current value of $a$.  
+
+For each time this was the case, I would increment a point variable to signify the amount of points bob got.  
 
 I would then store the point variable using a temporary variable and compare if it was greater than the previous value of the point variable. If it was, I would store that as the result of value of $b$. 
 
@@ -36,8 +38,8 @@ Thus using $b=a-1$, the number of points Bob gets will be equal to the the numbe
 
 Using any $b < a - 1$ results in the answer not becoming better. 
 
-And for any $v_{i}\geq a$, $a$ will always be closer to $v_{i}$ than any $b<a$. 
+And for any $v_{i}> a$, $b>a$ will always be closer to $v_{i}$ than $a$  
 
-Thus using 
+Thus using  using $b=a+1$, the number of points Bob gets will be equal to the number of marbles having $v_{i}>a$. 
 
-So it is is enough to check only $b=a-1$ and $b=a+1$ and compare the larger out of the values of $b$ and select the largest point having value. 
+So it is is enough to check only $b=a-1$ and $b=a+1$ and compare the points received for both scenarios. Return the value of $b$ yielding the largest points. 
