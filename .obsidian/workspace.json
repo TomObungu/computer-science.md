@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Codeforces/Upsolve Stream/1859A - Untied We Stand.md",
+                "file": "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1859A - Untied We Stand"
+              "title": "2091 B - Team Training"
             }
           }
         ]
@@ -169,12 +169,15 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Codeforces/Reflections/1859A - Untied We Stand.md",
+    "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
+    "Programming/Competitive Programming/Codeforces/Reflections",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1858A - Buttons.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/1859A - Untied We Stand.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
     "Programming/Competitive Programming/DSA/Resources/Resources.md",
     "Programming/Programming Shortcuts.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/DSA/Number Theory/Modular Arithmetic.md",
     "Programming/Competitive Programming/DSA/Number Theory",
     "Programming/Competitive Programming/DSA/Generating Subsets Of Integers Up To N.md",
@@ -182,7 +185,6 @@
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2034B - Rakhsh's Revivial.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "Programming/Competitive Programming/DSA/Resources",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
@@ -195,7 +197,6 @@
     "Programming/Competitive Programming/USACO/USACO.training/Ad hoc  problems.md",
     "Programming/Competitive Programming/USACO/USACO.training/Programming Contest Problem Types.md",
     "Programming/Competitive Programming/USACO/USACO.training",
-    "Programming/Competitive Programming/USACO",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
@@ -214,7 +215,6 @@
     "Programming/attachments/Pasted image 20250917204112.png",
     "Programming/attachments/Pasted image 20250918225907.png",
     "Programming/attachments/Pasted image 20250918172852.png",
-    "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md",
-    "Programming/CodeForces/Metacognition.md"
+    "Programming/Competitive Programming/ProgrammizPro/Is a Disarium number.md"
   ]
 }
