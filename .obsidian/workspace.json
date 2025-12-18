@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Problem Retrospective.md",
+                "file": "Programming/Competitive Programming/DSA/Resources/Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problem Retrospective"
+              "title": "Resources"
             }
           }
         ]
@@ -169,6 +169,8 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Programming Shortcuts.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/DSA/Resources/Resources.md",
     "Programming/Competitive Programming/DSA/Number Theory/Modular Arithmetic.md",
     "Programming/Competitive Programming/DSA/Number Theory",
@@ -176,11 +178,9 @@
     "Programming/Competitive Programming/DSA/Generating Subsets From Given Set Of Integers.md",
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
-    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2034B - Rakhsh's Revivial.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "Programming/Competitive Programming/DSA/Resources",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
