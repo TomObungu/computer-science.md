@@ -165,50 +165,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "25be73696f470795",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7fba8652c6847049",
-        "type": "window",
-        "children": [
-          {
-            "id": "a064577ca7557b2a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1e638dc9d968911f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Book Notes"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1050,
-        "y": 191,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102939.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102904.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102805.png",
