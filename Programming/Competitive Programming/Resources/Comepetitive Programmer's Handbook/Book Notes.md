@@ -380,3 +380,15 @@ C++ functions The C++ standard library contains the following functions that are
 • equal_range returns both above pointers.
 
 The functions assume that the array is sorted. If there is no such element, the pointer points to the element after the last array element. For example, the following code finds out whether an array contains an element with value x: auto k = lower_bound(array,array+n,x)-array; if (k < n && array[k] == x) { // x found at index k }
+
+
+# 4.4 Iterators
+![[Pasted image 20251219102655.png]]
+
+![[Pasted image 20251219102748.png]]
+
+![[Pasted image 20251219102805.png]]
+
+![[Pasted image 20251219102904.png]]
+
+![[Pasted image 20251219102939.png]]

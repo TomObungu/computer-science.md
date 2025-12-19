@@ -71,7 +71,7 @@ Find the index of an element in an iterable:
 ```C++
 distance(vec.begin(), min_it)
 ```
-Can add a custom callback function to min_element to have conditions. In this case the condition is to check if the magnitude of the the in the current element smallest element **a** is less than the magnitude of another smallest element **b** within the given range of the iterator. Tell iterator to consider the element with the smaller absolute value
+Can add a custom callback function to min_element to have conditions. In this case the condition is to check if the magnitude of the the current smallest element **a** is less than the magnitude of another smallest element **b** within the given range of the iterator. Tell iterator to consider the element with the smaller absolute value
 ```C++
 auto min_it = min_element(vec.begin(), vec.end(), [](int a, int b)
 {
