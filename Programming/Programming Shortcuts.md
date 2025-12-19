@@ -34,10 +34,15 @@ Check if iterable is sorted in descending order
 ---
 Overloaded  function to output a vector using cout
 ```C++
-template <typename T>std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {    
-	for (auto elem = vec.begin(); it != vec.end(); ++it)        
-		os << elem << " \n"[it != vec.end()]   
-	return os;
+template <typename T>
+ostream& operator<<(ostream& os, const vector<T>& vec) {
+    bool first = true;
+    for (const auto& elem : vec) {
+        if (!first) os << ' ';
+        os << elem;
+        first = false;
+    }
+    return os;
 }
 ```
 ---
@@ -233,3 +238,4 @@ General way to alternate between two numbers:
                  
               counter++
 ```
+

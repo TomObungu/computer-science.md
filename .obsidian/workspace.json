@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
+                "file": "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
+              "icon": "lucide-file",
+              "title": "1790C - Permutations"
             }
           }
         ]
@@ -167,9 +169,16 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
+    "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
     "Programming/Programming Shortcuts.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2021A - Meaning Mean.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2034B - Rakhsh's Revivial.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2118B - Make It Permutation.md",
+    "Programming/Competitive Programming/Codeforces/Reflections/1859A - Untied We Stand.md",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102939.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102904.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102805.png",
@@ -177,21 +186,15 @@
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102655.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments",
     "Programming/Competitive Programming/DSA/Resources/Resources.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2118B - Make It Permutation.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2021A - Meaning Mean.md",
-    "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
-    "Programming/Competitive Programming/Codeforces/Reflections/1859A - Untied We Stand.md",
     "Programming/Competitive Programming/Codeforces/Reflections",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1858A - Buttons.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2169A - Alice and Bob.md",
     "Programming/Competitive Programming/DSA/Number Theory/Modular Arithmetic.md",
     "Programming/Competitive Programming/DSA/Number Theory",
     "Programming/Competitive Programming/DSA/Generating Subsets Of Integers Up To N.md",
     "Programming/Competitive Programming/DSA/Generating Subsets From Given Set Of Integers.md",
     "Programming/Competitive Programming/DSA/Binary Exponentiation.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2034B - Rakhsh's Revivial.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "Programming/Competitive Programming/DSA/Resources",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Inform.md",
