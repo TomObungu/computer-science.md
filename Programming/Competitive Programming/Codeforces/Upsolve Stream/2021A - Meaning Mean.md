@@ -46,3 +46,24 @@ int solve() {
     return *a.begin();
 }
 ```
+However to try and get random access using the set data structure degenerates the time complexity to $O(n^{2})$ as n gets larger when using sets:
+```C++
+auto it1 = a.begin();
+std::advance(it1, i);
+
+auto it2 = a.begin();
+std::advance(it2, j);
+```
+
+
+
+My logic could have also been simulated using a priority queue:
+```C++
+priority_queue<int, vector<int>, greater<int>> pq;
+
+while (pq.size() > 1) {
+    int x = pq.top(); pq.pop();
+    int y = pq.top(); pq.pop();
+    pq.push((x + y) / 2);
+}
+```
