@@ -75,3 +75,4 @@ In this case `MAX_D` is 365. How this works under the hood is by creating and ar
 
 In general this gives a time complexity of $O\left( N^{2} \cdot \frac{D}{W} \right)$ where $D$ is the number of bits required in the bitset and $W$ is word size which represents the maximum size allocated to a single binary data type e.g `int` has a word size of 32, `long long int` has a word size of 64 and so on. 
 
+![[Pasted image 20251221224933.png]]
