@@ -40,3 +40,18 @@ Output:
 ```
 20
 ```
+
+## Intersections of workers days problem
+
+https://youtu.be/jqJ5s077OKo?si=RZkeD_tbLagV1IhS&t=113
+
+There are $N\leq 5000$ workers. Each is available during some days of the month. Find two workers with maximum intersection of their schedules
+
+Let's say you are given the schedules of the days that the workers are working during the month like this:
+![[Pasted image 20251221223634.png]]
+
+It is possible to solve this problem by representing the month as a bitset of length 30 and the days the worker is working as 1 in. E.g. for the first schedule:
+$$
+\{2,3,5,6,8\}
+$$
+The binary representation of the days 
