@@ -1,5 +1,8 @@
 # Counting number of bits using GCC __builtin
 
+
+https://www.topcoder.com/thrive/articles/A%20bit%20of%20fun:%20fun%20with%20bits
+
 Using ``__builtin_popcount(n)`` will return the number of 1s in the binary representation of some number $n$.
 
 Using ``__builtin_ctz(n)``  will return the trailing zeros in the the binary representation of some number $n$ and likewise ``__builtin_clz(n)`` will return the leading zeros. 

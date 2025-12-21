@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Bitwise Operations.md",
+                "file": "Programming/Bitsets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bitwise Operations"
+              "title": "Bitsets"
             }
           }
         ],
@@ -185,13 +185,14 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Bitwise Operations.md",
+    "Programming/Bitsets.md",
     "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Competitive Programming/attachments/Pasted image 20251221214735.png",
     "Programming/Competitive Programming/attachments/Pasted image 20251221213246.png",
     "Programming/Competitive Programming/attachments",
     "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
     "Excalidraw",
-    "Programming/Competitive Programming/Bitwise Operations.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1859A - United We Stand.md",
