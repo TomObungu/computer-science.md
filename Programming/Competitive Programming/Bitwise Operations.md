@@ -11,3 +11,32 @@ We can get the highest bit by doing 32 - ``__builtin_ctz(n)`` if using ``unsgine
 
 If ``__builtin_clz(n)`` returns something like 4, then the lowest bit is the 4th bit from the right and so on.
 
+How it is possible to do the same thing with `std::bitset`. 
+```C++
+bitset<8>(5).count
+```
+
+Popcount yields just the same asm output on latest g++. However, `__builtin_popcount` is an gcc extension and won't be available on neither other compilers nor other architectures than x86. Therefore, bitset option is clearly option.
+## Example
+```C++
+// C++ code to demonstrate the
+// __builtin_popcount function
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+    long long n = 1e15;
+
+    // Printing the number of set bits in n
+    cout << __builtin_popcountll(n);
+
+    return 0;
+}
+```
+Output:
+```
+20
+```
