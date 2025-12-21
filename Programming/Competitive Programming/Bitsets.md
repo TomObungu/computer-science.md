@@ -65,6 +65,20 @@ Where the value of the day corresponds to the position of the binary stirng that
 
 After you have a bitset of all workers schedule, you just need to computer the bitwise AND between every other bitset of the schedule and return the result of the bitwise AND with the most number of 1s.
 
+### Example implementation
+
+```C++
+#include <bits/stdc++.h>
+using namespace std;
+
+int solve(){
+}
+
+int main(){
+
+}
+```
+
 It is possible to do that using `bitset<n>(n & m).count()`
 
 This gives the time complexity of $O(N^{2})$ as we will need to compare each workers schedule with every other workers schedule.
