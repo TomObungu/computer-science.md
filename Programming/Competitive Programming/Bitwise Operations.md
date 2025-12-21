@@ -69,4 +69,9 @@ It is possible to do that using `bitset<n>(n & m).count()`
 
 This gives the time complexity of $O(N^{2})$ as we will need to compare each workers schedule with every other workers schedule.
 
-Now if the problem were to be the schedules of workers in a year where are
+Now if the problem were to be the schedules of workers in a year where there are 365 days, we will need to initialise a bit of size $365$ for each worker:
+![[Pasted image 20251221224355.png]]
+In this case `MAX_D` is 365. How this works under the hood is by creating and array of  4 separate bitsets of size 32 (if using 32-bit integers) .
+
+In general this gives a time complexity of $O\left( N^{2} \cdot \frac{D}{W} \right)$ where $D$ is the number of bits required in the bitset and $W$ is word size which represents the maximum size allocated to a single binary data type e.g `int` has a word size of 32, `long long int` has a word size of 64 and so on. 
+
