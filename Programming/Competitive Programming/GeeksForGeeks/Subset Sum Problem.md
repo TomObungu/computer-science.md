@@ -1,0 +1,1 @@
+Given an array of numbers and a integer x. In it possible to get x by adding elements of a given array by using a boolean table. The method is similar to sieve of Eratosthenes. Initially keep zero in all it's indexes
