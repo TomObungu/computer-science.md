@@ -41,9 +41,3 @@ The best way to work out the sum of digits in a given number
 		cout << it << " \n"[it != vec.end()]
 ```
 
-## Check if a string a palindrome
-```
-string s {};
-cin >> s;
-
-```
