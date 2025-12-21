@@ -27,8 +27,18 @@ We use this solve the subset mask problem by iterating over each subset and comp
 
 ```C++
 for(int mask = 0; mask < (1 << n); mask++){
-	long long sum
+	long long sum_of_this_subset = 0;
+	for(int i = 0; i < n; i++){
+		if(mask & (1 << i)){ // Compare if bit at position i from the right is 1
+			sum_of_this_subset +=a[i];
+	}
+	if(sum_of_this_subset == S){
+		return "YES;
+	}
 }
+return "NO";
 ```
 
+
+Time complexity: $O(2^{N} \cdot N)$, where $N$ is the size of the subset. 
 
