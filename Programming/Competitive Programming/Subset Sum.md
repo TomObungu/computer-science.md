@@ -6,7 +6,7 @@ This method is effective for when $N\leq 20$.
 
 This algorithm works by using a bitmask of $x$ where $0\leq  x \leq 2^{N}$. For each bit mask, the algorithm compares each bit and checks if the bit in that position is $1$. 
 
-Even though $x$ itself is a number that ranges from $0\leq x\leq 2^{N}$, each bit mask is the binary representation of $x$. E.g when $x=0$, the bitmask will be $00$
+Even though $x$ itself is a number that ranges from $0\leq x\leq 2^{N}$, each bit mask is the binary representation of $x$. E.g when $x=0$, the bitmask will be $00000000$, when $x=1$, the bit mask will be $00000001$, $x=2$: $00000010$ and so on.
 
 We iterate from mask $0$ to  $2^{N}$ as this considers $2^{N}$ different values, which is every possible mask, which is every possible subset.
 
@@ -17,9 +17,18 @@ Below is a visual representation of what is happening when iterating over each b
 
 For each possible binary representation, each bit that is 1 corresponds to an index of the subset. For example, for a subset of size $N=3$ representing a 3 bit binary number, if the most significant bit is 1 then this corresponds to index 0 of the subset. If the second most bit from the left is 1, then that corresponds to index 1 of the subset and so on.  we add that value at that index to the sum. 
 
-Since there are $2^N$ different binary representations, each different binary representation represents the combinations of numbers from the given subset that can be summed together. 
+Since there are $2^N$ different binary representations, each different binary representation represents the combinations of indexes from the given subset. For each index that is 1, we add that to the sum of that subset and compare.
 ![[Pasted image 20251221213246.png]]
 
-We use this solve the subset mask problem by iterating 
+We use this solve the subset mask problem by iterating over each subset and comparing check if that sum is equal to that target value $S$
+
+## Code
+![[Pasted image 20251221214735.png]]
+
+```C++
+for(int mask = 0; mask < (1 << n); mask++){
+	long long sum
+}
+```
 
 
