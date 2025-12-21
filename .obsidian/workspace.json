@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Subset Sum"
             }
+          },
+          {
+            "id": "224e68aee7ee0d8e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-21 21.22.18.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,11 +177,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3dd76267c7d00006",
+  "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Subset Sum.md",
+    "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
+    "Excalidraw",
     "Programming/Competitive Programming/Bitwise Operations.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
@@ -184,7 +201,6 @@
     "Programming/Competitive Programming/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/GeeksForGeeks/Subset Sum Problem.md",
-    "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Forbidden Integer.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
@@ -197,7 +213,6 @@
     "DSA/Binary Exponentiation.md",
     "Number Theory/Modular Arithmetic.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102939.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102904.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102805.png",
@@ -209,7 +224,6 @@
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "DSA/Resources",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad",
-    "Programming/British Informatics Olympiad",
     "Computational Problem Solving/Untitled.canvas",
     "Programming/attachments/Pasted image 20251011192952.png",
     "Programming/attachments/Pasted image 20251011192936.png",
