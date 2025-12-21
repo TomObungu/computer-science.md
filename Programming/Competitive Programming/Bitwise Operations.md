@@ -54,4 +54,19 @@ It is possible to solve this problem by representing the month as a bitset of le
 $$
 \{2,3,5,6,8\}
 $$
-The binary representation of the days 
+The binary representation of the days that worker is working can be represented as:
+$$
+\begin{gather*}
+\{2,3,5,6,8\} \\ \\
+01101101
+\end{gather*}
+$$
+Where the value of the day corresponds to the position of the binary stirng that is 1. 
+
+After you have a bitset of all workers schedule, you just need to computer the bitwise AND between every other bitset of the schedule and return the result of the bitwise AND with the most number of 1s.
+
+It is possible to do that using `bitset<n>(n & m).count()`
+
+This gives the time complexity of $O(N^{2})$ as we will need to compare each workers schedule with every other workers schedule.
+
+Now if the problem were to be the schedules of workers in a year where are
