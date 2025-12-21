@@ -4,4 +4,4 @@ https://youtu.be/xXKL9YBWgCY?si=l1zlpgPimmhsEEGi&t=556
 
 This method is effective for when $N\leq 20$. 
 
-tHIS 
+This algorithm works by using a bit mask of $x$ where $1\leq  x \leq N$. 
