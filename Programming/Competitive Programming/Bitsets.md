@@ -122,3 +122,10 @@ In this case `MAX_D` is 365. How this works under the hood is by creating and ar
 In general this gives a time complexity of $O\left( N^{2} \cdot \frac{D}{W} \right)$ where $D$ is the number of bits required in the bitset and $W$ is word size which represents the maximum size allocated to a single binary data type e.g `int` has a word size of 32, `long long int` has a word size of 64 and so on. 
 
 ![[Pasted image 20251221224933.png]]
+
+
+# Problem with how many different values appear in the sequence:
+![[Pasted image 20251221232937.png]]
+It is possible to allocate a bitset of $10^{7}$ as apposed to a boolean array of size $10^{7}$. A bit set of size $10^{7}$ will have size 128MB whereas a boolean array will have about 10 million bytes which is 1GB.
+![[Pasted image 20251221233045.png]]Time complexity for both approaches
+![[Pasted image 20251221233126.png]]
