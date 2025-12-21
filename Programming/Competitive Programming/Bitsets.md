@@ -72,6 +72,7 @@ After you have a bitset of all workers schedule, you just need to computer the b
 using namespace std;
 
 int solve(){
+int N
 }
 
 int main(){
