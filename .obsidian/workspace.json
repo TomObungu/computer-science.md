@@ -25,12 +25,14 @@
             "id": "224e68aee7ee0d8e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md"
+                "file": "Programming/Competitive Programming/Subset Sum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-21 21.22.18.excalidraw"
+              "icon": "lucide-file",
+              "title": "Subset Sum"
             }
           }
         ],
@@ -183,8 +185,8 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Subset Sum.md",
     "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
+    "Programming/Competitive Programming/Subset Sum.md",
     "Excalidraw",
     "Programming/Competitive Programming/Bitwise Operations.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
