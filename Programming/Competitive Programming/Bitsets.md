@@ -72,13 +72,44 @@ After you have a bitset of all workers schedule, you just need to computer the b
 using namespace std;
 
 int solve(){
-int N
+    int n;
+    cin >> n;
+    vector<bitset<31>> schedules(n); // days 1..30
+    for (int i = 0; i < n; i++) {
+        int k;
+        cin >> k;
+        for (int j = 0; j < k; j++) {
+            int day;
+            cin >> day;
+            schedules[i].set(day);
+        }
+    }
+    int max_intersection = 0;
+    for (int i = 0; i < n; i++)
+        for (int j = i + 1; j < n; j++) {
+            int intersection = (schedules[i] & schedules[j]).count();
+            max_intersection = max(max_intersection, intersection);
+        }
+    return max_intersection;
 }
 
 int main(){
-
+    cout << solve() << '\n';
 }
 ```
+
+Example input:
+```C++
+3
+5 2 3 5 6 8
+4 2 4 5 8
+6 1 2 10 12 14 16
+```
+Output: 3
+
+
+--- 
+
 
 It is possible to do that using `bitset<n>(n & m).count()`
 
