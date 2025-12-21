@@ -8,9 +8,12 @@ This algorithm works by using a bit mask of $x$ where $1\leq  x \leq 2^{N}$. For
 
 We iterate from mask $0$ to  $2^{N}$ as this considers $2^{N}$ different values, which is every possible mask, which is every possible subset.
 
-
-
-
 The number of bits will be $N$. That is if we have a subset of length $8$, then we will compare each of the 8 bits of the bitset mask and check if it is 1 by using the bitwise $\&$ operation. If the bit in that position of that mask is 1 then we add it to a sum of the subset varible.
 
 ## What this represents:
+B
+![[Pasted image 20251221213246.png]]
+
+
+
+

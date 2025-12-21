@@ -25,12 +25,14 @@
             "id": "224e68aee7ee0d8e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md"
+                "file": "Programming/Competitive Programming/Subset Sum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-21 21.22.18.excalidraw"
+              "icon": "lucide-file",
+              "title": "Subset Sum"
             }
           }
         ],
@@ -183,8 +185,10 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Subset Sum.md",
+    "Programming/Competitive Programming/attachments/Pasted image 20251221213246.png",
+    "Programming/Competitive Programming/attachments",
     "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
+    "Programming/Competitive Programming/Subset Sum.md",
     "Excalidraw",
     "Programming/Competitive Programming/Bitwise Operations.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
@@ -211,7 +215,6 @@
     "CP-Algorithms",
     "DSA/Resources/Resources.md",
     "DSA/Binary Exponentiation.md",
-    "Number Theory/Modular Arithmetic.md",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102939.png",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments/Pasted image 20251219102904.png",
@@ -223,7 +226,6 @@
     "Programming/Competitive Programming/Number Theory",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
     "DSA/Resources",
-    "Programming/British Informatics Olympiad/2025 British Informatics Olympiad",
     "Computational Problem Solving/Untitled.canvas",
     "Programming/attachments/Pasted image 20251011192952.png",
     "Programming/attachments/Pasted image 20251011192936.png",
