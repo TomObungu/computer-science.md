@@ -3,4 +3,12 @@ In this knapsack problem, there is a standard way to implement this approach usi
 
 Let's go through the solution as if we were using a boolean array. Afterwards we will implement a few changes to use bitsets.
 
-Firstly create a boolean of size $N$ and initili
+Let's take the case for when $W=7$ and $N = \{2,3\}$
+
+Firstly create a boolean of size $N$ and initialise the first element in the boolean array to true, and everything else false. Call the boolean array $can$
+
+In each index ,$i$ inside the boolean array, $can[i]$ corresponds to whether we can get a subset with its sum equal to $i$
+
+![[Pasted image 20251225225309.png]]
+
+Starting from the first index which is true, in this case it is $0$, we check if the $$
