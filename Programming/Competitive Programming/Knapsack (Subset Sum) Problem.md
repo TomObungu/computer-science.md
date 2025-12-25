@@ -13,7 +13,21 @@ In each index ,$i$ inside the boolean array, $can[i]$ corresponds to whether we 
 
 Starting from the first index which is true, in this case it is $0$, we check if the the element 
 
-Let's take in the first element of 2 and call it x. In this case $x=2$.
+Let's take in the first element of 2 and call it $x$. In this case $x=2$.
 
-So we start of from 0 in can and then add 
+So we start of from 0 in can and then jump to index 2 and mark it as true.
 ![[Pasted image 20251225230026.png]]
+
+Now taking tthe second element of $x$. In this case $x=3$. So ow for each element that is true. We go to start true index starting from $0$ and then add $3$ to index and make it as true.
+
+So in this case, we start off at $0$ and we add 3, thus $3$ gets set to true.
+We then move to the next true which is 2 and we add 3, thus $5$ gets marked as true.
+
+This overall process will represent if it possible to represent a sum from a set of size $N$ of given integers $\{x_{1},x_{2}\dots x_{N}\}$
+
+Lastly to check if it possible, we simply check the index of $W$ is true and return if it's possible to make a sum of $W$ from the given subet.
+
+## Implementation
+![[Pasted image 20251225230529.png]]
+
+We take the inputs $n$
