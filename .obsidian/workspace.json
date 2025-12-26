@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/CSES/Two Knights.md",
+                "file": "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Two Knights"
+              "title": "Knapsack (Subset Sum) Problem"
             }
           },
           {
@@ -225,7 +225,7 @@
           }
         ],
         "direction": "vertical",
-        "x": 960,
+        "x": 0,
         "y": 0,
         "width": 960,
         "height": 1040,
@@ -234,11 +234,14 @@
       }
     ]
   },
-  "active": "224e68aee7ee0d8e",
+  "active": "bcf49fc7b19500a3",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226212411.png",
-    "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
+    "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/Bitsets.md",
     "Programming/Competitive Programming/CSES/Two Knights.md",
+    "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
+    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226212411.png",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226211446.png",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226211433.png",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226210824.png",
@@ -249,14 +252,10 @@
     "Untitled.md",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226205801.png",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226204445.png",
-    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226204129.png",
     "Programming/Competitive Programming/CSES/attachments",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1904A - Forked!.md",
     "Programming/Competitive Programming/Subset Sum.md",
-    "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
-    "Programming/Competitive Programming/Bitsets.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/attachments",
     "Excalidraw",
