@@ -36,3 +36,12 @@ Afterwards we initialise the boolean array and set the first element $0$ to true
 
 For $N$ iterations, we take an input $x$. Afterwards we work backwards
 ![[Pasted image 20251225230810.png]]![[Pasted image 20251226232429.png]]
+
+With changes, it is possible to write the code below using bitsets:
+![[Pasted image 20251226232552.png]]
+
+This is because the above operation is computationally identical to computing the bitwise OR with the bits shifted to right $x$ times.
+![[Pasted image 20251226232644.png]]
+
+
+In the code, the bit is shift is to the left because, bitsets are indexed in reverse order in comparison to an array.
