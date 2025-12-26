@@ -84,11 +84,7 @@ The number of bad ways can be evaluated to $4n^{2}-12n+8$ or $4(n-1)(n-2)$ .  Th
 $$
 \frac{(n^{2}-1)(n^{2})}{2} - 4(n-1)(n-2)
 $$
-
-However, this only true for except the interval  $(1,2)$ in which the answer is just:
-$$
-\frac{(n^{2}-1)(n^{2})}{2}
-$$
+which is $$
 
 ## Implementation
 Thus the solution can be simplified to just a few lines:
