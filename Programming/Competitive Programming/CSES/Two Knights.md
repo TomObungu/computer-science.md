@@ -80,4 +80,17 @@ And 2 appears 4 times on each corner:
 
 
 # Bonus
-The number of bad ways can be evaluated to $4n^{2}-12n+8$ or $4(n-1)(n-2)$ .  That is number of squares that 
+The number of bad ways can be evaluated to $4n^{2}-12n+8$ or $4(n-1)(n-2)$ .  That is number of attacking squares that a knight can be placed on a $n \times n$ grid. Thus the the total number of ways two knights can be placed on a $n \times n$ board without attacking each other is:
+$$
+\frac{(n^{2}-1)(n^{2})}{2} - 4(n-1)(n-2)
+$$
+
+However, this only true for except the interval  $(1,2)$ in which the answer is just:
+$$
+\frac{(n^{2}-1)(n^{2})}{2}
+$$
+
+## Implementation
+Thus the solution can be simplified to just a few lines:
+![[Pasted image 20251226212411.png]]
+
