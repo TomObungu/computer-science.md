@@ -34,4 +34,12 @@ How ever it is better to use above formula due to implementation of factorial fu
 
 The only the that remains is calculated the number of ways to place 2 knights so they wont attack each other:
 
+We can think about it by consider the attacking squares that one knight attacks for each square of the chess board
 
+When the knight is on the top left most tile, it attacks to squares. We consider this for each square and add this number to the sum $Y$
+
+![[Pasted image 20251226204129.png]]
+
+We can represent the attacking squares of a knight on each square by writing its number in the tile:
+
+![[Pasted image 20251226204445.png]]
