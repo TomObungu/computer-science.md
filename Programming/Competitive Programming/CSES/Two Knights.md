@@ -74,3 +74,10 @@ The number 3 appears 8 times
 
 And 2 appears 4 times on each corner:
 ![[Pasted image 20251226210824.png]]
+
+# Implementation
+![[Pasted image 20251226211433.png]]
+
+
+# Bonus
+The number of bad ways can be evaluated to $4n^{2}-12n+8$ or $4(n-1)(n-2)$ .  That is number of squares that 
