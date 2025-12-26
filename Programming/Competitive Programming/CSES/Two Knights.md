@@ -43,3 +43,12 @@ When the knight is on the top left most tile, it attacks to squares. We consider
 We can represent the attacking squares of a knight on each square by writing its number in the tile:
 
 ![[Pasted image 20251226204445.png]]
+However the approach of going through each cell and counting the number of attacking squares is not a valid solution.
+
+For this problem, we have $1 \leq  n <= 10000$, a computer running C++ can perform about $10^{8}$ operations. Thus if we have the of the board is $n^{2}$ and we must return the number of ways two knights cannot attack each other for every $n_{i}$ up to $n$. This gives a time complexity of:
+$$
+\frac{(n)(n-1)}{2}(n^{2})
+$$
+Which is roughly quartic / cubic time complexity.
+
+Thus, it possible 
