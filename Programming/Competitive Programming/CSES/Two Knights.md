@@ -51,4 +51,5 @@ $$
 $$
 Which is roughly quartic / cubic time complexity.
 
-Thus, it possible 
+Thus, it is possible evaluate the attack squares of a knight based on a pattern that looks like this:
+![[Pasted image 20251226205801.png]]
