@@ -51,7 +51,10 @@ $$
 $$
 Which is roughly quartic / cubic time complexity.
 
-Thus, it is possible evaluate the attack squares of a knight based on a pattern that looks like this:
+Thus, it is possible evaluate the attack squares of a knight based on a pattern that looks like this.
+
+Note the below patterns are for when 
+
 ![[Pasted image 20251226205801.png]]
 
 We can evaluate the pattern
@@ -60,4 +63,14 @@ We can see in the the middle of the board, there is a  $(n-4) *  (n-4)$ square w
 
 ![[Pasted image 20251226210457.png]]
 
-We can see around the $(n-4)*(n-4)$ square, we have a sides of 6 that is $(n-4)*4$ times
+We can see around the $(n-4)*(n-4)$ square, we have a sides of 6 that is $(n-4)4$ times
+![[Pasted image 20251226210549.png]]
+
+We can see for 4, it is $(n-3)4$
+![[Pasted image 20251226210659.png]]
+
+The number 3 appears 8 times
+![[Pasted image 20251226210800.png]]
+
+And 2 appears 4 times on each corner:
+![[Pasted image 20251226210824.png]]
