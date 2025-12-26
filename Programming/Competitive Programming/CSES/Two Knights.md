@@ -30,3 +30,8 @@ $$
 ![[Pasted image 20251226203304.png]]
 
 How ever it is better to use above formula due to implementation of factorial function.
+
+
+The only the that remains is calculated the number of ways to place 2 knights so they wont attack each other:
+
+
