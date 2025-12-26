@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Codeforces/Upsolve Stream/1904A - Forked!.md",
+                "file": "Programming/Competitive Programming/CSES/Two Knights.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1904A - Forked!"
+              "title": "Two Knights"
             }
           },
           {
@@ -235,8 +235,14 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
-    "Programming/Competitive Programming/Subset Sum.md",
+    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226203022.png",
+    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226202959.png",
+    "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226202914.png",
+    "Programming/Competitive Programming/CSES/attachments",
+    "Programming/Competitive Programming/CSES/Two Sets.md",
+    "Programming/Competitive Programming/CSES/Two Knights.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1904A - Forked!.md",
+    "Programming/Competitive Programming/Subset Sum.md",
     "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
     "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
     "Programming/Competitive Programming/attachments/Pasted image 20251225230810.png",
@@ -248,13 +254,10 @@
     "Programming/Competitive Programming/attachments/Pasted image 20251221233126.png",
     "Programming/Competitive Programming/attachments/Pasted image 20251221233045.png",
     "Programming/Competitive Programming/attachments/Pasted image 20251221232937.png",
-    "Programming/Competitive Programming/attachments/Pasted image 20251221224933.png",
-    "Programming/Competitive Programming/attachments/Pasted image 20251221224355.png",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/attachments",
     "Excalidraw",
-    "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1859A - United We Stand.md",
     "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
@@ -271,8 +274,6 @@
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
-    "Programming/Competitive Programming/Resources/Websites.md",
-    "Programming/Programming Shortcuts.md",
     "Programming/Competitive Programming/Number Theory",
     "CP-Algorithms",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
@@ -280,7 +281,6 @@
     "Programming/Competitive Programming/Codeforces/Reflections",
     "Programming/Competitive Programming/Number Theory",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream",
-    "DSA/Resources",
     "Computational Problem Solving/Untitled.canvas"
   ]
 }
