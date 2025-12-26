@@ -35,4 +35,4 @@ We take the inputs $n$ and the weight $W$.
 Afterwards we initialise the boolean array and set the first element $0$ to true. 
 
 For $N$ iterations, we take an input $x$. Afterwards we work backwards
-![[Pasted image 20251225230810.png]]
+![[Pasted image 20251225230810.png]]![[Pasted image 20251226232429.png]]
