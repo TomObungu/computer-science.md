@@ -197,51 +197,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "18a32358b8d49cc2",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c4b27a904dc1b514",
-        "type": "window",
-        "children": [
-          {
-            "id": "da1bdaee80393388",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bcf49fc7b19500a3",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2025-12-21 21.22.18.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 960,
-        "height": 1040,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "964fefb95441131f",
+  "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
     "Programming/Competitive Programming/Bitsets.md",
     "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
     "Programming/Competitive Programming/attachments/Pasted image 20251226232644.png",
     "Programming/Competitive Programming/attachments/Pasted image 20251226232552.png",
     "Programming/Competitive Programming/attachments/Pasted image 20251226232429.png",
-    "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/CSES/Two Knights.md",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226212411.png",
