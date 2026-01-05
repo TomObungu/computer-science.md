@@ -25,14 +25,12 @@
             "id": "224e68aee7ee0d8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/Subset Sum.md",
-                "mode": "source",
-                "source": false
+                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
               },
-              "icon": "lucide-file",
-              "title": "Subset Sum"
+              "icon": "lucide-file-text",
+              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
             }
           },
           {
@@ -199,6 +197,8 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+    "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
     "Programming/Competitive Programming/Bitsets.md",
@@ -218,7 +218,6 @@
     "Untitled.md",
     "Programming/Competitive Programming/CSES/attachments",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1904A - Forked!.md",
-    "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/attachments",
     "Excalidraw",
