@@ -25,12 +25,14 @@
             "id": "224e68aee7ee0d8e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf"
+                "file": "Programming/Competitive Programming/Subset Sum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen]"
+              "icon": "lucide-file",
+              "title": "Subset Sum"
             }
           },
           {
@@ -197,11 +199,15 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Problem Retrospective.md",
+    "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
+    "Programming/Competitive Programming/Bitsets.md",
+    "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
+    "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
+    "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Doremy's Paint.md",
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Subset Sum.md",
-    "Programming/Competitive Programming/Problem Retrospective.md",
-    "Programming/Competitive Programming/Knapsack (Subset Sum) Problem.md",
-    "Programming/Competitive Programming/Bitsets.md",
     "Programming/Competitive Programming/CSES/Two Sets.md",
     "Programming/Competitive Programming/CSES/Two Knights.md",
     "Excalidraw/Drawing 2025-12-21 21.22.18.excalidraw.md",
@@ -221,7 +227,6 @@
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/attachments",
     "Excalidraw",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1859A - United We Stand.md",
     "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
@@ -234,11 +239,8 @@
     "Programming/Competitive Programming/GeeksForGeeks/Course Takeways.md",
     "Programming/Competitive Programming/GeeksForGeeks/Subset Sum Problem.md",
     "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Forbidden Integer.md",
-    "Programming/Competitive Programming/TLE CP-31 Sheet/800/C. Target Practice.md",
-    "Programming/Competitive Programming/TLE CP-31 Sheet/800/A. Goals Of Victory.md",
     "Programming/Competitive Programming/Number Theory",
     "CP-Algorithms",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments",
     "Programming/Competitive Programming/Codeforces/Reflections",
     "Programming/Competitive Programming/Number Theory",
