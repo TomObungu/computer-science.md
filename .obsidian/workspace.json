@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "set from ",
+                "query": "binary exponen",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +197,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "224e68aee7ee0d8e",
+  "active": "ca239ac187d07cbf",
   "lastOpenFiles": [
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
