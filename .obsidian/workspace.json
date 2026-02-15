@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Random Research/Gradual Typing.md",
+                "file": "Theory/Random Research/Typing Systems/Type System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gradual Typing"
+              "title": "Type System"
             }
           },
           {
@@ -199,8 +199,10 @@
   },
   "active": "224e68aee7ee0d8e",
   "lastOpenFiles": [
+    "Theory/Random Research/Typing Systems/Gradual Typing.md",
+    "Theory/Random Research/Typing Systems/Type System.md",
+    "Theory/Random Research/Typing Systems",
     "Programming/Competitive Programming/Subset Sum.md",
-    "Theory/Random Research/Gradual Typing.md",
     "Theory/Random Research",
     "Theory",
     "Programming/Competitive Programming/Problem Retrospective.md",
@@ -240,11 +242,9 @@
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1858A - Buttons.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2021A - Meaning Mean.md",
     "Programming/Competitive Programming/GeeksForGeeks/Course Takeways.md",
-    "Programming/Competitive Programming/GeeksForGeeks/Subset Sum Problem.md",
     "Programming/Competitive Programming/Number Theory",
     "CP-Algorithms",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/attachments",
-    "Programming/Competitive Programming/Codeforces/Reflections",
     "Computational Problem Solving/Untitled.canvas"
   ]
 }
