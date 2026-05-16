@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+                "file": "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Informatics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book Notes"
+              "title": "2025 British Informatics"
             }
           }
         ]
@@ -170,10 +170,10 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
     "conflict-files-obsidian-git.md",
-    "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2021A - Meaning Mean.md",
@@ -208,7 +208,6 @@
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226210800.png",
     "Programming/Competitive Programming/CSES/attachments/Pasted image 20251226210659.png",
     "Untitled.md",
-    "Programming/Competitive Programming/CSES/attachments",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1904A - Forked!.md",
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1859A - United We Stand.md",
