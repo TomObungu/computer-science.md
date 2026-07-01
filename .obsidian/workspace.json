@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf"
+                "file": "Theory/Software Architecture/Archetypes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Algorithm Design Manual 3rd Ed"
+              "icon": "lucide-file",
+              "title": "Archetypes"
             }
           }
         ]
@@ -168,12 +170,14 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
+    "Theory/Software Architecture/Archetypes.md",
+    "Theory/Software Architecture",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
     "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
-    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Informatics.md",
@@ -189,7 +193,6 @@
     "Theory/Random Research/Typing Systems/Type System.md",
     "Theory/Random Research/Discrete Maths",
     "Theory/Random Research/Typing Systems/attachments/Pasted image 20260215222248.png",
-    "Theory/Random Research/Typing Systems/attachments",
     "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/1362A - Johnny and Ancient Computer.md",
@@ -212,7 +215,6 @@
     "Programming/Bitsets.md",
     "Programming/Competitive Programming/Codeforces/Reflections/1859A - United We Stand.md",
     "Programming/Competitive Programming/Codeforces/Reflections/2091 B - Team Training.md",
-    "Programming/Competitive Programming/Codeforces/Upsolve Stream/2118B - Make It Permutation.md",
     "Computational Problem Solving/Untitled.canvas"
   ]
 }
