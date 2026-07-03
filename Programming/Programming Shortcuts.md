@@ -54,7 +54,7 @@ for (auto it = vec.rbegin(); it != vec.rend(); ++it)
 
 ```C++
 for (auto it = vec.begin(); it != vec.end(); ++it)    
-	cout << it << " \n"[it + work 1 == vec.end()]
+	cout << it << " \n"[it + 1 == vec.end()]
 ```
 
 Check if an element is equal to specific address in range loop:
