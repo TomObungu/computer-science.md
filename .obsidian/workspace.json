@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf"
+                "file": "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Dynamic_Programming"
+              "title": "[Tutorial] A Way to Practice Competitive Programming"
             }
           }
         ]
@@ -92,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for [Tutorial] A Way to Practice Competitive Programming"
             }
           },
           {
@@ -150,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,20 +168,20 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
+    "Theory/Software Architecture/Archetypes.md",
+    "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
     "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/Competitive Progrmaming 4/cp4-1.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
     "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
-    "Theory/Software Architecture/Archetypes.md",
     "Programming/Programming Shortcuts.md",
     "Programming/Bitsets.md",
     "Theory/Software Architecture",
     "Programming/Competitive Programming/Resources/Websites.md",
-    "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Informatics.md",
     "conflict-files-obsidian-git.md",
@@ -192,7 +192,6 @@
     "Programming/Luau",
     "Theory/Random Research/Typing Systems/Gradual Typing.md",
     "Theory/Random Research/Typing Systems/Type System.md",
-    "Theory/Random Research/Discrete Maths",
     "Theory/Random Research/Typing Systems/attachments/Pasted image 20260215222248.png",
     "Programming/Competitive Programming/Subset Sum.md",
     "Programming/Competitive Programming/Problem Retrospective.md",
