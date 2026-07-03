@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf"
+                "file": "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "CPlusPlusNotesForProfessionals"
+              "title": "Dynamic_Programming"
             }
           }
         ]
@@ -168,6 +168,7 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
     "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/Competitive Progrmaming 4/cp4-1.pdf",
@@ -181,7 +182,6 @@
     "Theory/Software Architecture",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
-    "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Informatics.md",
     "conflict-files-obsidian-git.md",
