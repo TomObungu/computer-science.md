@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf"
+                "file": "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Tutorial] A Way to Practice Competitive Programming"
+              "title": "CPlusPlusNotesForProfessionals"
             }
           }
         ]
@@ -168,21 +168,22 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
+    "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
+    "Programming/Competitive Programming/Resources/Competitive Progrmaming 4/cp4-1.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
+    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
+    "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Theory/Software Architecture/Archetypes.md",
     "Programming/Programming Shortcuts.md",
     "Programming/Bitsets.md",
-    "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
     "Theory/Software Architecture",
     "Programming/Competitive Programming/Resources/Websites.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
     "Programming/Competitive Programming/Resources/CPlusPlusNotesForProfessionals.pdf",
-    "Programming/Competitive Programming/Resources/C++ Algorithms_ next_permutation().pdf",
-    "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Codeforces/Reflections/1790C - Permutations.md",
     "Programming/British Informatics Olympiad/2025 British Informatics Olympiad/2025 British Informatics.md",
-    "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "conflict-files-obsidian-git.md",
     "Programming/Competitive Programming/Codeforces/Upsolve Stream/2021A - Meaning Mean.md",
     "Programming/Competitive Programming/CSES/Two Knights.md",
