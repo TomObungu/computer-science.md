@@ -11,12 +11,14 @@
             "id": "3dd76267c7d00006",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf"
+                "file": "Programming/Programming Shortcuts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "[Tutorial] A Way to Practice Competitive Programming"
+              "icon": "lucide-file",
+              "title": "Programming Shortcuts"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
+                "file": "Programming/Programming Shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for [Tutorial] A Way to Practice Competitive Programming"
+              "title": "Backlinks for Programming Shortcuts"
             }
           },
           {
@@ -168,6 +170,7 @@
   },
   "active": "3dd76267c7d00006",
   "lastOpenFiles": [
+    "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Algorithm Design Manual 3rd Ed.pdf",
     "Theory/Software Architecture/Archetypes.md",
     "Programming/Competitive Programming/Resources/Dynamic_Programming.pdf",
@@ -176,7 +179,6 @@
     "Programming/Competitive Programming/Resources/AlgorithmsNotesForProfessionals.pdf",
     "Programming/Competitive Programming/Resources/Competitive Progrmaming 4/cp4-1.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/Book Notes.md",
-    "Programming/Competitive Programming/Resources/[Tutorial] A Way to Practice Competitive Programming.pdf",
     "Programming/Competitive Programming/Resources/Comepetitive Programmer's Handbook/[CPH] [Competitive Programmer’s Handbook] [Antti Laaksonen].pdf",
     "Programming/Programming Shortcuts.md",
     "Programming/Bitsets.md",
