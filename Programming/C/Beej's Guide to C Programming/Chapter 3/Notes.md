@@ -1,6 +1,3 @@
-
-
-
 In C a string can be represented as a `char *.
 
 Recall that `printf()` can take in arguments using the `%` sign. `%d` stands for integer. `%f` stands for float and so on:
@@ -8,7 +5,6 @@ Recall that `printf()` can take in arguments using the `%` sign. `%d` stands for
 printf("%d, %d\n", i, j); 
 ```
 
-# 3.2.4 The Comma Operator
 
 The comma operator always takes the right most expression 
 
@@ -33,5 +29,15 @@ printf("%zu\n", sizeof(3.14)); // prints 8 on my system
 printf("%zu\n", sizeof(int)); // prints 4 on my system 
 ```
 
-# 3.3.4 The `for `
+It is possible to initialise two variables in a for loop
 
+```C
+for(int i = 0; int j = 999; i < 10; i++; j--){
+	printf("%d, %d\n", i, j);
+}
+```
+
+If a break statement is encounted 
+```C
+
+```
