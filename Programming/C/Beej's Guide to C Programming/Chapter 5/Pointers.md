@@ -75,4 +75,17 @@ int main(void){
 }
 ```
 
-In the example code, it is possible to define a parameter as a pointer such as `int *p` then pass in the address of the variable into the function. Altercations can be done the original variable by using the `*` dereference operator. 
+In the example code, it is possible to define a parameter as a pointer such as `int *p` then pass in the address of the variable into the function using the `&` operator. Altercations can be done the original variable by using the `*` dereference operator. Don't forget syntax to initialise a pointer is `int *j = &i`. You must pass the pointer into the function. 
+
+You can also pass the address directly into the function like this:
+```C
+void increment(int *p) {
+    (*p)++;
+}
+
+int main(void) {
+    int i = 10;
+    increment(&i);
+}
+```
+
