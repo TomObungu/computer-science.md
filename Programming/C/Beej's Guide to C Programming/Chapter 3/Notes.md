@@ -37,7 +37,13 @@ for(int i = 0; int j = 999; i < 10; i++; j--){
 }
 ```
 
-If a break statement is encounted 
+If a `break` statement is encountered inside a switch case, the code jumps of of the switch. 
 ```C
-
+switch(x){
+	case 0:
+		printf("x is 0. \'n")
+		break;
+		
+}
 ```
+If there is no `break` statement in the case, the code will just fall through to the next case.  Switch statements can also be used for char types like `'a'`
