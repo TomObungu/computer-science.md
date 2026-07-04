@@ -58,5 +58,30 @@ You can also put simple constant expressions
 ```
 #define COUNT 5
 
-int a[COUNT] = {[COUNT-3], }
+int a[COUNT] = {[COUNT-3]=3, 2, 1}
 ```
+
+# 6.5 Multidimensional Arrays
+Below is an example of how to initialise a 2D array;
+
+```C
+int a[2][5] = { // Initialize a 2D array
+	{0, 1, 2, 3, 4},
+	{5, 6, 7, 8, 9}
+}
+```
+
+```C
+int a[3][3] = {[0][0]=1, [1][1]=1, [2][2]=1}
+```
+This example above builds a 3D identity matrix like this:
+$$
+\begin{pmatrix}
+1  & 0  & 0 \\
+0  &  1  &  0 \\
+0  &  0  & 1
+\end{pmatrix}
+$$
+
+
+# 6.6 Arrays and Pointers
