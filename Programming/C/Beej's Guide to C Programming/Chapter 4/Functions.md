@@ -23,7 +23,7 @@ int foo(void){
 
 # 4.3 Empty Parameter Lists, pg 28
 
-The book tells me to do this whenever I had an empty parameter inside function protoype:
+The book tells me to do this whenever I had an empty parameter inside function prototype:
 ```C
 void foo(void)
 ```
