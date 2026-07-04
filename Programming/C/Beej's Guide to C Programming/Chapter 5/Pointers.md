@@ -89,3 +89,19 @@ int main(void) {
 }
 ```
 
+# 5.5 The NULL pointer
+
+You can set pointers to the `NULL` pointer if it doesn't point to anything. 
+
+```C
+int *p =;
+p = NULL
+```
+
+Dereferencing it will produce undefined behaviour. 
+
+Putting an asterisk in front of the variable name will turn it into a pointer.
+```C
+int *a, b, c, *d, e, *f, g, h, *i
+```
+In the code above `a`, `d`, `f` and `i` are all `int` pointers. 
