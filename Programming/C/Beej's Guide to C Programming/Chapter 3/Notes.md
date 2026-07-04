@@ -9,3 +9,14 @@ printf("%d, %d\n", i, j);
 The `sizeof` operator tells you the size in bytes that a particular variable or data type uses in memory. 
 
 This can be different on different systems, except for `char` which is always 1 byte. 
+
+The sizeof operation returns a `size_t`
+
+The `size_t` data type is an unsigned integer type that can return a different size in bytes at compile time. E.g. If the parameters passed into the `sizeof` function is an integer it will return 4 but if it is a float, it will return 8. 
+
+
+```c++
+printf("%zu\n", sizeof(a)); // prints 4 on my system
+printf("%zu\n", sizeof(3.14)); // prints 8 on my system
+printf("%zu\n", sizeof(int)); // prints 4 on my system 
+```
