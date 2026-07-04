@@ -85,3 +85,29 @@ $$
 
 
 # 6.6 Arrays and Pointers
+
+Below are all the possible ways to pass an array into a function
+```C
+void times2(int *a, int len)
+void times3(int a[], int len)
+void times4(int a[5], int len
+```
+
+The code below allows the changing of values of arrays in functions
+```C++
+#include <stdio.h>
+void double_array(int *a, int len)
+{
+	for (int i = 0; i < len; i++)
+	a[i] *= 2;
+}
+
+int main(void)
+{
+	int x[5] = {1, 2, 3, 4, 5};
+	double_array(x, 5);
+
+for (int i = 0; i < 5; i++)
+	printf("%d\n", x[i]); // 2, 4, 6, 8, 10!
+22 }
+```
