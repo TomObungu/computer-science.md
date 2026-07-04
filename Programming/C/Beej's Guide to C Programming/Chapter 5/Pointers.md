@@ -52,3 +52,27 @@ When you have a pointer to a variable, you alter the original variable through t
 ```
 
 In the example code, the line `&p` indicates that the pointer holds the address of `i`.  This dereference operator is `*`. This means the value at the address is changed. Thus, the line `*p=20` is synonymous with the code `i=20`. 
+
+
+# 5.4 Passing pointers as arguments (Passing by reference)
+
+```C
+ #include <stdio.h>
+
+void increment(int *p) { // note that it accepts a pointer to an int
+	5 *p = *p + 1; // add one to the thing p points to
+}
+
+int main(void){
+	int i = 10;
+	int *j = &i; // note the address-of; turns it into a pointer to i
+	
+	printf("i is %d\n", i); // prints "10"
+	printf("i is also %d\n", *j); // prints "10"
+	
+	increment(j); // j is an int*--to i
+	printf("i is %d\n", i); // prints "11"!
+}
+```
+
+In the example code, it is possible to define a parameter as a pointer such as `int *p` then pass in the address of the variable into the function. Altercations can be done the original variable by using the `*` dereference operator. 
