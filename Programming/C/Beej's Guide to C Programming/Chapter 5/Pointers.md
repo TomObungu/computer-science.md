@@ -22,4 +22,16 @@ The value of i is 10
 And its address is 0x7ffddf7072a4
 
 ```
-- Sma
+- Small side note, the hexadecimal above maps to some large number in order of magnitude of $10^{11}$. How is it possible to have this much RAM. Well it's actually just a large number being allocated with a virtual address in the physical RAM.
+
+It is possible to define pointers and then assign the address of other variables to them. This is through the `&` operator. 
+```C
+int i; 
+int *p;
+
+p = &i
+```
+
+
+# 5.4 Dereferencing 
+When passing a pinter 
