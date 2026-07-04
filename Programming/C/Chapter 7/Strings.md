@@ -10,6 +10,9 @@ In C you can put the quotation marks inside a string using:
 # 7.2 String Variables
 
 `char *s = "Hello, world!"`. Is the same as `char s[] = "Hello, world!`. This is because `char *s` and `char s[]` as the same as both are just pointers to the first element in contiguous section of memory.
+
+However `char *s` is not mutable
+
 ```C
 char *s = "Hello, world!";
 printf("%s\n", s); // "Hello, world!"
@@ -33,3 +36,11 @@ int main(void) {
 	printf("\n");
 }
 ```
+
+
+
+
+
+char t[] = "Hello, again!"; // t is an array copy of the string
+t[0] = 'z'; // No problem
+printf("%s\n", t); // "zello, again!
