@@ -34,4 +34,21 @@ p = &i
 
 
 # 5.4 Dereferencing 
-When passing a pinter 
+When you have a pointer to a variable, you alter the original variable through the pointer by dereferencing the pointer. 
+
+```C
+{
+	int i;
+	int *p;
+	
+	p = &i;
+	
+	i = 10;
+	*p = 20;
+	
+	printf("i is %d\n", i);
+	printf("i is $d\n", *p)
+}
+```
+
+In the example code, the line `&p` indicates that the pointer holds the address of `i`.  This dereference operator is `*`. This means the value at the address is changed. Thus, the line `*p=20` is synonymous with the code `i=20`. 
