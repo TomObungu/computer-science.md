@@ -109,5 +109,38 @@ int main(void)
 
 for (int i = 0; i < 5; i++)
 	printf("%d\n", x[i]); // 2, 4, 6, 8, 10!
-22 }
+}
 ```
+
+Once the array has been passed into the function, you can access the elements of array as normal using index notation `a[i]`
+
+With multidimensional arrays, C needs to know all the dimensions of array except the first one. 
+```C
+#include <stdio.h>
+
+void print_2D_array(int a[2][3])
+{
+  for (int row = 0; row < 2; row++) {
+	  for (int col = 0; col < 3; col++)
+		printf("%d ", a[row][col]);
+	printf("\n");
+	}
+}
+
+int main(void) {
+	int x[2][3] = {
+		{1, 2, 3},
+		 {4, 5, 6}
+	};
+
+	print_2D_array(x);
+}
+
+```
+
+Both calls below: 
+```
+void print_2D_array(int a[2][3])
+void print_2D_array(int a[][3])
+```
+Are suitable function calls to print the array
