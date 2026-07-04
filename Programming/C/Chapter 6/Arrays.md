@@ -47,3 +47,16 @@ int a[100] = {0};
 // 
 int a[100] = {5};
 ```
+
+You can do some cool stuff with setting specific array elements in the initialiser by specifying an index for the value:
+```C
+int a[10] = {0, 11, 22, [5]=55, 66, 77};
+```
+In the above you can start off from the beginning of the array then jump to and index using `[x] = y`
+
+You can also put simple constant expressions
+```
+#define COUNT 5
+
+int a[COUNT] = {[COUNT-3], }
+```
