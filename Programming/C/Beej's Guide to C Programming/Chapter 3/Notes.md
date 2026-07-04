@@ -1,3 +1,6 @@
+
+
+
 In C a string can be represented as a `char *.
 
 Recall that `printf()` can take in arguments using the `%` sign. `%d` stands for integer. `%f` stands for float and so on:
@@ -5,7 +8,16 @@ Recall that `printf()` can take in arguments using the `%` sign. `%d` stands for
 printf("%d, %d\n", i, j); 
 ```
 
+# 3.2.4 The Comma Operator
 
+The comma operator always takes the right most expression 
+
+```C
+int x = (1,2,3);
+printf("%d", x); // prints 3
+```
+
+# 3.2.7 The sizeof Operator
 The `sizeof` operator tells you the size in bytes that a particular variable or data type uses in memory. 
 
 This can be different on different systems, except for `char` which is always 1 byte. 
@@ -20,3 +32,6 @@ printf("%zu\n", sizeof(a)); // prints 4 on my system
 printf("%zu\n", sizeof(3.14)); // prints 8 on my system
 printf("%zu\n", sizeof(int)); // prints 4 on my system 
 ```
+
+# 3.3.4 The `for `
+
