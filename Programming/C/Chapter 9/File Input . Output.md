@@ -100,4 +100,45 @@ To read an entire line at once you use `fgets` instead of `fgetc`. You need to h
 # 9.4 Formatted Input
 You can use `fscanf` to skip leading whitespaces when reading and return `EOF` on end-of-file or on errors. 
 
-You use `fscanf` like you would when doing `scanf `
+You use `fscanf` like you would when doing `scanf` or `printf` with the `%` specifiers
+
+E.g if you have a file with lines like this:
+```
+...
+blue 29.9 173
+right 20.7 135
+...
+```
+
+Use `fscanf` to parse the lines based on the white spaces
+
+```C
+scanf(fp, "%s %f %d", name, &length, &mass)
+```
+
+
+Thus below is an example to parse a text file separated by whitespaces
+
+```C
+1 #include <stdio.h>
+2
+3 int main(void)
+4 {
+5 FILE *fp;
+6 char name[1024]; // Big enough for any line this program will encounter
+Chapter 9. File Input/Output 60
+7 float length;
+8 int mass;
+9
+10 fp = fopen("whales.txt", "r");
+11
+12 while (fscanf(fp, "%s %f %d", name, &length, &mass) != EOF)
+13 printf("%s whale, %d tonnes, %.1f meters\n", name, mass, length);
+14
+15 fclose(fp);
+16 }
+```
+
+# 9.5 Writing Text Files
+
+In the same we can use 
