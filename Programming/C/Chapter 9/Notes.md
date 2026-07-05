@@ -211,9 +211,49 @@ Running the output in the `.bin` file will give the binary output
 05 25 00 58 ff 0c
 ```
 
-You can also define the maximum length of your inputted strings like this
+Below is a neat example that takes in the input of a file and then stores them in a struct.
+
 ```C
-scanf(fp, "%49s %hu %9s",
+void parse_file(const char* file_name){
+	FILE* fp;
+	
+	struct person individual;
+
+	fp = fopen(file_name, "r");
+
+	if(fp == NULL) {
+		printf("Error opening file");
+		return;
+	}
+
+
+	while(fscanf(fp, "%32s %hu %4s", individual.name,
+		&individual.age, individual.height) != EOF)
+		printf("Name : %s, Age : %hu, Height : %s \n", individual.name,
+			individual.age, individual.height);	
+
+	fclose(fp);
+}
+
 ```
 
-Below is a neat example that 
+Things learnt are that you must pass into pre-defined arrays into const chars in structs otherwise you'll get a segfault. It is possible to overcome this through memory allocation which can be defined later. 
+
+You must also define the size of the array to be `+ 1` to considerate the extra null character
+```C
+struct person {
+	char name[33];
+	unsigned short age;
+	char height[5];
+};
+
+```
+
+Buffer checks can be done using `$xs` where `x` is the maximum size of the string. It is good practice to do the size array minus one to discard the null terminator `\0`
+You can also define the maximum length of your inputted strings like this
+```C
+...
+fscanf(fp, "%32s %hu %4s", individual.name
+...
+```
+
