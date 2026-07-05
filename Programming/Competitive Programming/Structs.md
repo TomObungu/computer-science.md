@@ -35,4 +35,6 @@ struct car saturn = {.speed=175, .name="Saturn SL/2"}
 
 To pass the struct into a function, you can either pass the struct by value or by reference. Passing in the struct directly will pass it by value. Passing a pointer to the struct will pass it by reference. 
 
-T
+Threre are two cases you'd want to pass a pointer to the struct
+1. You need the function to make changes to the struct
+2. It is cheaper to pass in a pointer to the stack than the struct itself
