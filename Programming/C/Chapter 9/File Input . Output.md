@@ -72,3 +72,32 @@ We've open the file as `"r"` which means to open the file for reading.
 13 fclose(fp);
 14 
 ```
+
+
+## 9.3.1 Reading a line at a time
+
+To read an entire line at once you use `fgets` instead of `fgetc`. You need to have a char array of suitable size to store the line 
+```C
+1 #include <stdio.h>
+2
+3 int main(void)
+4 {
+5 FILE *fp;
+6 char s[1024]; // Big enough for any line this program will encounter
+7 int linecount = 0;
+8
+9 fp = fopen("quote.txt", "r");
+10
+11 while (fgets(s, sizeof s, fp) != NULL)
+12 printf("%d: %s", ++linecount, s);
+13
+14 fclose(fp);
+15 }
+
+```
+
+
+# 9.4 Formatted Input
+You can use `fscanf` to skip leading whitespaces when reading and return `EOF` on end-of-file or on errors. 
+
+You use `fscanf` like you would when doing `scanf `
