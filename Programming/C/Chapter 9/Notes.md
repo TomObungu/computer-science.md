@@ -249,7 +249,8 @@ struct person {
 
 ```
 
-Buffer checks can be done using `$xs` where `x` is the maximum size of the string. It is good practice to do the size array minus one to discard the null terminator `\0`
+Buffer checks can be done using `$xs` where `x` is the maximum size of the string. e.g `54s`It is good practice to do the `(x-1)s` minus one to discard the null terminator `\0`
+
 You can also define the maximum length of your inputted strings like this
 ```C
 ...
