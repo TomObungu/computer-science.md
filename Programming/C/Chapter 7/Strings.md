@@ -38,9 +38,24 @@ int main(void) {
 ```
 
 
-
-
-
+```C
 char t[] = "Hello, again!"; // t is an array copy of the string
 t[0] = 'z'; // No problem
 printf("%s\n", t); // "zello, again!
+```
+
+However if you declare the string as an array, it possible to mutate the
+
+It is possible to get the length of a string using `strlen()`
+
+```C 
+printf("The string is %zu bytes long.\n", strlen(s));
+```
+
+
+C strings are composed of a pointer to the first character in the string. At the end of a C strings is a zero-valued byte or NUL character.  This is usually written as `\0`. 
+
+`strnlen()` works by counting the chars in the string until it find `\0`
+
+
+#
