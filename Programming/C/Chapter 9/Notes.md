@@ -215,3 +215,5 @@ You can also define the maximum length of your inputted strings like this
 ```C
 scanf(fp, "%49s %hu %9s",
 ```
+
+Below is a neat example that 
