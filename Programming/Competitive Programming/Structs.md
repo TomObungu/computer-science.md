@@ -38,3 +38,21 @@ To pass the struct into a function, you can either pass the struct by value or b
 Threre are two cases you'd want to pass a pointer to the struct
 1. You need the function to make changes to the struct
 2. It is cheaper to pass in a pointer to the stack than the struct itself
+
+# 8.5 Copying and returning structs
+
+Just assign one to the other and also return it from the function
+
+```C
+struct a,b;
+b = a 
+
+
+stuct c = myFunction();
+```
+
+The copies are not deep copies
+
+Deep copies follows the pointers and copies the data they point to aswell. A shallow copy just copies the pointers. 
+
+# 8.6
