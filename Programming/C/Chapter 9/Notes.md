@@ -210,3 +210,8 @@ Running the output in the `.bin` file will give the binary output
 ```
 05 25 00 58 ff 0c
 ```
+
+You can also define the maximum length of your inputted strings like this
+```C
+scanf(fp, "%49s %hu %9s",
+```
