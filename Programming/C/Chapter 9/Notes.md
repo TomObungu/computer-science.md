@@ -206,4 +206,7 @@ include <stdio.h>
 20 }
 ```
 
-Running the output in the `.bin` file will 
+Running the output in the `.bin` file will give the binary output
+```
+05 25 00 58 ff 0c
+```
