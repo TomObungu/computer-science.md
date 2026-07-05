@@ -58,4 +58,8 @@ C strings are composed of a pointer to the first character in the string. At the
 `strnlen()` works by counting the chars in the string until it find `\0`
 
 
-#
+7.7 Copying a string
+
+To copy a string you must use `strcpy(source, destination)`.
+
+The destination array needs to be as large as the source array. 
