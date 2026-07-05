@@ -141,4 +141,39 @@ Chapter 9. File Input/Output 60
 
 # 9.5 Writing Text Files
 
-In the same we can use 
+In the same we can use `fgetc`, `fgets` and `fscanf` to read and parse text streams.
+
+`fputc`, `fputs` and `fprintf` are their writing equivalents. 
+
+This through using `fopen`  in `w` mode instead of `r`. 
+
+Below is code snippet that utilises the functions 
+
+```C
+1 #include <stdio.h>
+2
+3 int main(void)
+4 {
+5 FILE *fp;
+6 int x = 32;
+7
+8 fp = fopen("output.txt", "w");
+9
+10 fputc('B', fp);
+11 fputc('\n', fp); // newline
+12 fprintf(fp, "x = %d\n", x);
+13 fputs("Hello, world!\n", fp);
+14
+15 fclose(fp);
+16 }
+```
+
+It produces a text file like this
+```
+B
+x = 32
+Hello, world!
+```
+
+As mentioned earlier, `stdout` is its own file stream thus you could replace `fp = stdout` and it will write to the terminal/screen. 
+
