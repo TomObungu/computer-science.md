@@ -177,3 +177,33 @@ Hello, world!
 
 As mentioned earlier, `stdout` is its own file stream thus you could replace `fp = stdout` and it will write to the terminal/screen. 
 
+# Binary File I/O
+
+You can read an array of bytes and write them to a `.bin` file using `fread` and `fwrite`. When opening the `.bin` file ensure `b` is added to to `fopen`. 
+
+Below is a program that will write the binary equivalent the data in the array 
+
+```C
+include <stdio.h>
+2
+3 int main(void)
+4 {
+5 FILE *fp;
+6 unsigned char bytes[6] = {5, 37, 0, 88, 255, 12};
+7
+8 fp = fopen("output.bin", "wb"); // wb mode for "write binary"!
+9
+10 // In the call to fwrite, the arguments are:
+11 //
+12 // * Pointer to data to write
+13 // * Size of each "piece" of data
+14 // * Count of each "piece" of data
+15 // * FILE*
+16
+17 fwrite(bytes, sizeof(char), 6, fp);
+18
+19 fclose(fp);
+20 }
+```
+
+Running the output in the `.bin` file will 
