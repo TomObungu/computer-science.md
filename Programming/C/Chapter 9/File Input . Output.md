@@ -49,3 +49,26 @@ We've open the file as `"r"` which means to open the file for reading.
 
 
 `fopen` returns `NULL` if something goes wrong
+
+`fgetc` gets a character from the file stream. Subsequent calls to `fgetc` will get the next character and so on. 
+
+# 9.3 `EOF`
+
+`EOF` is a special character  macro. Once `fgetc` is reaches the end of the file it will return it. Its type is not `char`. That is why when you are defining the variable to store the result of `fgetc`, you define it as an `int`. Anyway this the code to print the contents of a file using `fgetc`
+
+```C
+1 #include <stdio.h>
+2
+3 int main(void)
+4 {
+5 FILE *fp;
+6 int c;
+7
+8 fp = fopen("hello.txt", "r");
+9
+10 while ((c = fgetc(fp)) != EOF)
+11 printf("%c", c);
+12
+13 fclose(fp);
+14 
+```
