@@ -13,3 +13,16 @@ int main(void){
 }
 ```
 
+It is also good to add error checking to avoid undefined behaviour
+```C
+int *x;
+
+x = malloc(sizeof(int) * 10);
+
+if (x == NULL) {
+	printf("Error allocating 10 ints\n");
+// do something here to handle it
+}
+```
+
+The `calloc` function 
