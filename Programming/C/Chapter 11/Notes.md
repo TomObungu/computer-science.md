@@ -93,3 +93,20 @@ memcpy(&my_clone_struct, &my_struct, sizeof(my_struct)));
 However when dealing with structs you must use `=` instead of `memcpy`
 
 If `void*` didn't exist. We'd have to write a specialized `memcpy` functions for each type of data required like this:
+
+```C
+nemcpy_int(int *a, int *b, int count);
+memcpy_float(float *a, float *b, int count);
+memcpy_double(double *a, double *b, int count);
+memcpy_char(char *a, char *b, int count);
+memcpy_unsigned_char(unsigned char *a, unsigned char *b, int count);
+// etc... blech!
+```
+
+Much better to use `void*` and have one function that can do it all. 
+
+However if the type if `void*`, there are things you cannot do:
+1. You can't do pointer arithmetic on them
+2. You can't dereference them
+3. You can't use arrow operator as that's a derefernce
+4. You can't use array notation as that's also a dereference. 
