@@ -52,3 +52,17 @@ Void pointers are pointers that indicate that type of the thing being pointed to
 There two main use cases to void pointers
 1. If a function is operating on something byte-by-byte. E.g. the function `memcpy` copies bytes from memory to one pointer to another but the pointers can be any type. 
 2. If using function pointers to pass another function into a callback function. In this case the function calling the passed 
+
+Let's take a look at the `memcpy` function. 
+
+```C
+void *memcpy(void *s1, void *s2, size_t n)
+```
+
+The function copies `n` bytes of data from address `s2` to the memory address starting at `s1`. 
+
+The special thing is that parameters are both `void*`. 
+
+This allows having a pointer to a source of and pointer to a destination and the number of bytes you want to copy, you can copy any type of data. 
+
+Below is an example of `memcpy` working for the `int` data type:
