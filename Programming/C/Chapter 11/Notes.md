@@ -47,4 +47,8 @@ Above is an implementation of `strlen` using pointer arithmetic
 
 # 11.3 `void` Pointers
 
-Void pointers indi
+Void pointers are pointers that indicate that type of the thing being pointed to is not known. This is useful as it can be used in functions to have flexibility. 
+
+There two main use cases to void pointers
+1. If a function is operating on something byte-by-byte. E.g. the function `memcpy` copies bytes from memory to one pointer to another but the pointers can be any type. 
+2. If using function pointers to pass another function into a callback function. In this case the function calling the passed 
