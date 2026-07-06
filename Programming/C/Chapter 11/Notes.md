@@ -65,4 +65,31 @@ The special thing is that parameters are both `void*`.
 
 This allows having a pointer to a source of and pointer to a destination and the number of bytes you want to copy, you can copy any type of data. 
 
-Below is an example of `memcpy` working for the `int` data type:
+Below is an example of `memcpy` working for the `int` array data type:
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main(void){
+	int a[] = {11, 22, 33};
+	int b[3];
+	
+	memcpy(b, a, 3 * sizeof(int)); // copy 3 ints of data
+	
+	printf("%d\n", b[1]) // prints 22
+}
+```
+
+The goodness of `void*` is that we could even copy a `float` or a `struct` with `memcpy()`
+
+```C
+struct my_struct;
+struct my_clone_struct;
+// ...
+memcpy(&my_clone_struct, &my_struct, sizeof(my_struct)));
+```
+
+However when dealing with structs you must use `=` instead of `memcpy`
+
+If `void*` didn't exist. We'd have to write a specialized `memcpy` functions for each type of data required like this:
