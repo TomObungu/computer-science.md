@@ -30,4 +30,24 @@ It is possible to write hex digits like this C
 ```C
 int a = 0x1A2B
 ```
-printing this number will yield an octal nu
+printing this number will yield a hex number
+
+Padding a number `0` like this will cause the number to be treated as an octal number:
+```C
+int a = 012
+```
+
+## Integer Constants and suffixes
+
+![[Pasted image 20260707134742.png]]
+
+
+# Exponent notation
+It is possible to write exponent notation using `-` or `+`. For example if you want to write 0.000123 in a `double` you do
+```C
+double x = 1.2345-3
+```
+If you want to write 100 trillion you do 
+```C
+long long x = 
+```
