@@ -138,4 +138,6 @@ void *my_memcpy(void *dest, void *src, int byte_count)
 
 In casting  a `void *` to a char *  is permitted by the language standard. The resulting pointer points directly to the first byte of the structure.  This is because sizeof(char) is exactly 1 byte in C. Incrementing a char * by one moves the pointer forward exactly one byte. This allows stepping through the entire memory footprint of the structure. 
 
-In the case of `structs` owever there is a problem of padding bytes. Compilers automatically insert invisible, unused bytes between data types. If you compare two identical data t
+In the case of `structs`, there is a problem of padding bytes. Compilers automatically insert invisible, unused bytes between structure members. This is to ensure that data aligns cleanly in the CPU's hardware architecture. 
+
+Comparing 

@@ -54,5 +54,3 @@ stuct c = myFunction();
 The copies are not deep copies
 
 Deep copies follows the pointers and copies the data they point to aswell. A shallow copy just copies the pointers. 
-
-# 8.6
