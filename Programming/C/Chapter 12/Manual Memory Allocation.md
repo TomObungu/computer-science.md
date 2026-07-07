@@ -142,4 +142,32 @@ while (!done) {
 
 Some OS may require values to begin on memory address that are multiples of 2. Or that 64-bit values begin on memory address that are multiples of 2,4, or 8. It depends on the CPU.
 
-`malloc`, `calloc` and `realloc` us
+`malloc`, `calloc` and `realloc` usually give values that are well-aligned. but does not give a guarantee. 
+
+But there are times when data can be aligned at a smaller boundary. This is more common with embedded systems programming. 
+
+That's where `aligned_alloc` comes. With aligned alloc you can specify the boundary of bits that the memory can be aligned on, alongside the number of bytes. However the bytes must be aligned on boundaries that are powers of 2 e.g. 2, 4, 8, 16 and so on.
+
+```C
+// Allocated 256 bytes on a 64 bit boundary
+aligned_alloc(64, 256) // 256 = 64 * 4*
+```
+
+Below is an implemntation of `realloc` that aligns the bytes with `align_alloc`
+```C
+void *aligned_realloc(void *ptr, size_t old_size, size_t alignment, size_t size)
+{
+	char *new_ptr = aligned_alloc(alignment, size);
+	
+	if (new_ptr == NULL)
+		return NULL;
+		
+	size_t copy_size = old_size < size? old_size: size; // get min
+	if (ptr != NULL)
+		memcpy(new_ptr, ptr, copy_size);
+		
+	free(ptr);
+	
+	return new_ptr;
+}
+```
