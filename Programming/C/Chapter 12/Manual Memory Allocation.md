@@ -1,6 +1,15 @@
 Other language like Javascript, Python all use garbage collection but in C you must manage all the memory yourself. 
 
+
+# Stack
 In C some variables are automatically allocated and deallocated such as variables on the **stack**. 
+
+Below is a diagram explaining the stack. 
+
+![[Pasted image 20260707114854.png]]
+
+The stack is orded and al
+
 
 How manual memory allocation happens on the **heap**. 
 
@@ -85,4 +94,18 @@ np = realloc(p, num_floats * sizeof(float))
 ```
 
 
-Below is a code example that show first allocating space for 20 elements then resizing the space for 
+Below is a code example that show first allocating space for 20 elements then resizing the space for 40 elements
+
+```C
+float *p = malloc(size *p * 20);
+
+float *new_p = realloc(p, sizeof *p * 40);
+```
+
+Now we can also assign `p` to `new_p`. Doing so will cause `p` and `new_p` to point to same chunk of memory, so called `free(p)` will free free both
+
+```C
+p = new_P
+// at the end of the program 
+free(p)
+```
