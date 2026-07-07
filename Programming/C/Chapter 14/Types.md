@@ -15,4 +15,19 @@ The `char` type is signed by default. The maximum value of `char` is 127 and the
 
 For all unsigned values the maximum value will always be $2^{x}-1$, where $x$ is the number of bits. 
 
+The number of decimal digits that stored in each type are given by these macros:
 
+![[Pasted image 20260707134131.png]]
+
+When using these floats, going past the defined limit will cause things to start to go wrong. 
+
+You can define the number of significant figures by putting `.11` next to the type specifier when printing
+```C
+printf("%.11f\n", f);
+```
+
+It is possible to write hex digits like this C
+```C
+int a = 0x1A2B
+```
+printing this number will yield an octal nu
