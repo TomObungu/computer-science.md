@@ -126,7 +126,16 @@ Here is an example in a custom defined `memcpy` function:
 ```C
 void *my_memcpy(void *dest, void *src, int byte_count)
 {
-	char *s = src, *d = 
-
+	char *s = src, *d = dest
+	
+	while(byte_count--)
+		*++d = *++s;
+		
+	return dest;
 }
 ```
+
+
+In casting  a `void *` to a char *  is permitted by the language standard. The resulting pointer points directly to the first byte of the structure.  This is because sizeof(char) is exactly 1 byte in C. Incrementing a char * by one moves the pointer forward exactly one byte. This allows stepping through the entire memory footprint of the structure. 
+
+In the case of `structs` owever there is a problem of padding bytes. Compilers automatically insert invisible, unused bytes between data types. If you compare two identical data t
