@@ -181,6 +181,17 @@ Some functions in the `stdlib.h` library require a comparison function to passed
 
 Below is an example that will be passed into the `qSort` function and sorts `struct` data types in ascending order 
 
+Our `struct` data type is a container for an animal
+
+```C
+struct animal {
+	char *name;
+	int leg_count;
+};
+```
+
+Now here is our comparitive function that will be passed into the `qsort` function. The parameters are `void*` as `qsort` only compares the
+
 ```C
 int compar( const void *elem1, const void *elem2)
 {
@@ -197,3 +208,9 @@ if (animal1->leg_count < animal2->leg_count)
 }
 ```
 
+Now if you have an array of structs like this
+```C
+struct animal a[4] = {
+	{.}
+}
+```
