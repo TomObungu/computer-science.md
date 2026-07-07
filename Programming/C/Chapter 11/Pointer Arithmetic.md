@@ -177,4 +177,23 @@ s1.b = 99;
 # The other case of `void *` when using callback functions
 
 
-Some functions in the `stdlib.h` library require a comparison function to passed into functions like `qSort` 
+Some functions in the `stdlib.h` library require a comparison function to passed into functions like `qSort`. When forming the comparison function, the parameters must be `void*`.
+
+Below is an example that will be passed into the `qSort` function and sorts `struct` data types in ascending order 
+
+```C
+int compar( const void *elem1, const void *elem2)
+{
+const struct animal *animal1 = elem1
+const struct *animal2 = elem2; 
+
+if (animal1->leg_count > animal2->leg_count)
+	return 1;
+
+if (animal1->leg_count < animal2->leg_count)
+	return -1;
+	
+	return 0;
+}
+```
+
