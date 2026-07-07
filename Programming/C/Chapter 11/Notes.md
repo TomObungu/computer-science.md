@@ -119,4 +119,14 @@ void *p = &a; // points to 'X' // cannot dereference this
 char *q = p // q also points to the 'X' // 
 ```
 
-The void pointer can point to any type but if the type of 
+The void pointer can point to any type but the type `void *` itself can converted to another type
+
+Here is an example in a custom defined `memcpy` function:
+
+```C
+void *my_memcpy(void *dest, void *src, int byte_count)
+{
+	char *s = src, *d = 
+
+}
+```
