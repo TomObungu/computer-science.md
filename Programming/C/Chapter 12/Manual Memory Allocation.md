@@ -27,11 +27,9 @@ Below is a diagram explaining the stack and heap:
 ![[Pasted image 20260707115422.png]]
 
 
-
 In C you can tell C to explicitly allocate a certain number of bytes that you can use you please. These bytes will remain allocated until that memory is explicitly freed. 
 
 When using manual memory allocation routines in C. You must include the `stdlib.h` header. 
-
 
 # 12.1 Allocating and Deallocating, `malloc` and `free`
 The `malloc` function accepts a number of bytes to allocate and returns a void pointer to that block of newly allocated memory. Since it is a void pointer, you can assign it to whatever type you want. Recall that `sizeof` is in bytes. The pointer storing the result of `malloc` is identical to an array of the size allocated by `malloc`. 
@@ -123,3 +121,5 @@ p = new_P
 // at the end of the program 
 free(p)
 ```
+
+## 12.5
