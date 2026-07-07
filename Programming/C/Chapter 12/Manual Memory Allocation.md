@@ -2,8 +2,10 @@ Other language like Javascript, Python all use garbage collection but in C you m
 
 In C some variables are automatically allocated and deallocated such as variables on the **stack**. 
 
-In C you can tell C to explicitly allocate a certain number of bytes that you can use you please. These bytes will remain allocated until that memory is explicitly freed. 
+How manual memory allocation happens on the **heap**. 
 
+
+In C you can tell C to explicitly allocate a certain number of bytes that you can use you please. These bytes will remain allocated until that memory is explicitly freed. 
 
 When using manual memory allocation routines in C. You must include the `stdlib.h` header. 
 
@@ -40,4 +42,5 @@ char *p = malloc(3490)
 ```
 
 
-The `calloc` function 
+## `calloc`
+The `calloc` function takes in the size of one element and the number of elements you wish to allocate. The `calloc` function 
