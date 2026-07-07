@@ -230,4 +230,47 @@ truct animal a[4] = {
 }
 ```
 
-However in this example `void*`
+However in this example `void*` has its limits. You will still need write a `compar` function for every other data you will need to compare with. Thankfully, this problem can be resolved using C macros
+
+Below is an example MACRO that can allow definition other types
+
+```C
+#define DEFINE_COMPARE_FUNCTION(type)                       \
+int compare_##type(const void *elem1, const void *elem2) {  \
+    type val1 = *(const type *)elem1;                       \
+    type val2 = *(const type *)elem2;                       \
+    if (val1 > val2) return 1;                              \
+    if (val1 < val2) return -1;                             \
+    return 0;                                               \
+}
+
+```
+
+The `##` operator is the token-pasting operator. It glues `compar_` and the given `type` together to create a unique function name 
+
+Below is an example of the macros in place
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+// 1. Generate the functions automatically
+DEFINE_COMPARE_FUNCTION(int)
+DEFINE_COMPARE_FUNCTION(float)
+DEFINE_COMPARE_FUNCTION(double)
+
+int main() {
+    int int_array[] = {5, 2, 9, 1, 7};
+    float float_array[] = {3.4f, 1.2f, 5.6f};
+
+    // 2. Use the generated functions directly in qsort
+    qsort(int_array, 5, sizeof(int), compare_int);
+    qsort(float_array, 3, sizeof(float), compare_float);
+
+    // Print sorted int array to verify
+    for(int i = 0; i < 5; i++) printf("%d ", int_array[i]);
+    
+    return 0;
+}
+
+```
