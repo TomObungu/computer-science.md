@@ -1,17 +1,31 @@
 Other language like Javascript, Python all use garbage collection but in C you must manage all the memory yourself. 
 
 
-# Stack
+# The Stack
 In C some variables are automatically allocated and deallocated such as variables on the **stack**. 
 
 Below is a diagram explaining the stack. 
 
 ![[Pasted image 20260707114854.png]]
 
-The stack is orded and al
+The stack is ordered and all data has a fixed size that does not change. E.g floats take up 4 bytes, doubles take up 7 bytes. 
 
+The timing and order things are placed on the stack depends on how functions are called and when they return.
 
-How manual memory allocation happens on the **heap**. 
+When a function is called, its local variables are placed on the stack, when it returns, they are removed. 
+
+# The heap
+Tmanual memory allocation happens on the **heap**. 
+
+The heap is for dynamic allocation of memory. 
+
+Blocks of memory of different size can be requested off the heap. This can be done at runtime. 
+
+Data on the heap can be different sizes and are not necessarily in order. 
+
+Below is a diagram explaining the stack and heap:
+![[Pasted image 20260707115422.png]]
+
 
 
 In C you can tell C to explicitly allocate a certain number of bytes that you can use you please. These bytes will remain allocated until that memory is explicitly freed. 
