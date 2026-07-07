@@ -49,5 +49,15 @@ double x = 1.2345-3
 ```
 If you want to write 100 trillion you do 
 ```C
-long long x = 
+long long x = 1.0+14
+```
+You could also use `e` instead of `+`
+
+## Hexadecimal floating point constants
+
+All hexadecimal numbers begin with a `0x` just like integer numbers. 
+
+However you must specify the exponent with `p`. For example the hex number below
+```C
+double x = 0xa.1p3;
 ```
