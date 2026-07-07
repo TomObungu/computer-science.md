@@ -62,12 +62,27 @@ int main(void)
 
 # 12.3 Allocating space for an array
 
-It is possible to specify the number of bytes of memory, using like this 
-```
-char *p = malloc(3490)
-```
-
-
 ## `calloc`
 The `calloc` function takes in the size of one element and the number of elements you wish to allocate. The `calloc` function 
 
+```C
+int *p = calloc(10, sizeof(int))
+```
+
+
+# 12.5 Changing Allocated Size with realloc()
+
+`realloc` can resize the memory pointer that was formed by using `malloc` or `calloc`. 
+
+This is useful for later on things like implementing dynamic array data structures or having variable size input at runtime. 
+
+When calling `realloc` you must specify the number of bytes to allocate. Not just the elements. This usually means multiplying by the `sizeof(x)` where `x` is the data type. 
+
+```
+float num_floats *= 2;
+
+np = realloc(p, num_floats * sizeof(float))
+```
+
+
+Below is a code example that show first allocating space for 20 elements then resizing the space for 
