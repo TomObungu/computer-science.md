@@ -111,3 +111,12 @@ However if the type if `void*`, there are things you cannot do:
 3. You can't use arrow operator as that's a derefernce
 4. You can't use array notation as that's also a dereference. 
 
+However a way overcome this is via converting the `void *` to another type before using it.  It possible to do this by assigning the variable of the desired type:
+```C
+char a = 'X';
+
+void *p = &a; // points to 'X' // cannot dereference this
+char *q = p // q also points to the 'X' // 
+```
+
+The void pointer can point to any type but if the type of 
