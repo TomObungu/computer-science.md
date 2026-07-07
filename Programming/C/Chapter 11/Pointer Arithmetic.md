@@ -210,7 +210,24 @@ if (animal1->leg_count < animal2->leg_count)
 
 Now if you have an array of structs like this
 ```C
-struct animal a[4] = {
-	{.}
+int main(void)
+{
+
+truct animal a[4] = {
+	{.name="Dog", .leg_count=4},
+	{.name="Monkey", .leg_count=2},
+	{.name="Antelope", .leg_count=4},
+    {.name="Snake", .leg_count=0}
+}
+
+
+	qsort(a, 4, sizeof(struct animal), compar);
+
+	// Print them all out
+	for (int i = 0; i < 4; i++) {
+		printf("%d: %s\n", a[i].leg_count, a[i].name);
+	}
 }
 ```
+
+However in this example `void*`
