@@ -110,3 +110,4 @@ However if the type if `void*`, there are things you cannot do:
 2. You can't dereference them
 3. You can't use arrow operator as that's a derefernce
 4. You can't use array notation as that's also a dereference. 
+

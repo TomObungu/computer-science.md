@@ -34,7 +34,10 @@ if (x == NULL) {
 ```
 # 12.3 Allocating space for an array
 
-
+It is possible to specify the number of bytes of memory, using like this 
+```
+char *p = malloc(3490)
+```
 
 
 The `calloc` function 
