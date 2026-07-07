@@ -122,4 +122,24 @@ p = new_P
 free(p)
 ```
 
-## 12.5
+## 12.5.2 
+It is possible to set pointer to `NULL` then use `realloc` without needing to call `malloc` on initialising 
+```C
+int *p = NULL;
+int length = 0;
+while (!done) {
+	// Allocate 10 more ints:
+	length += 10;
+	p = realloc(p, sizeof *p * length);
+	// Do amazing things
+	// ...
+}
+```
+
+
+
+# 12.6 alinged alloc
+
+Some OS may require values to begin on memory address that are multiples of 2. Or that 64-bit values begin on memory address that are multiples of 2,4, or 8. It depends on the CPU.
+
+`malloc`, `calloc` and `realloc` us
