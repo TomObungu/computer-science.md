@@ -140,4 +140,41 @@ In casting  a `void *` to a char *  is permitted by the language standard. The r
 
 In the case of `structs`, there is a problem of padding bytes. Compilers automatically insert invisible, unused bytes between structure members. This is to ensure that data aligns cleanly in the CPU's hardware architecture. 
 
-Comparing 
+Comparing two identical structs byte-by-byte using `char *` might fail. The active data fields will match perfectly but the uninitialised padding bytes between. 
+
+For example if two structs are compared 
+
+```C
+struct MyStruct s1;
+s1.a = 'X';
+s1.b = 99;
+
+struct MyStruct s2;
+s2.a = 'X';
+s2.b = 99;
+
+```
+
+In the memory the bytes will look this:
+
+![[Pasted image 20260707110652.png]]
+
+To solve this you can use `memset` to force every single byte of the structs memory including the hidden padding gaps to be zero before assigning any values to the fields. 
+
+```C
+struct MyStruct s1;
+
+// 1. Force the entire memory block (including padding) to be 0
+memset(&s1, 0, sizeof(s1));
+
+// 2. Now safely assign your values
+s1.a = 'X';
+s1.b = 99;
+
+```
+
+
+# The other case of `void *` when using callback functions
+
+
+Some functions in the `stdlib.h` library require a comparison function to passed into functions like `qSort` 
