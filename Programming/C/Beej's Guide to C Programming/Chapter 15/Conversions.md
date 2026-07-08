@@ -1,3 +1,4 @@
+https://beej.us/guide/bgc/html/#string-to-numeric-value
 To convert a number to a string use `snprintf`
 
 It works like `printf` but instead it prints the out to a string variable. 
