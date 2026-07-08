@@ -1,5 +1,9 @@
 https://www.geeksforgeeks.org/c/format-specifiers-in-c/
 
+https://cplusplus.com/reference/cstdio/printf/#google_vignette
+
+C strings that are written to `stdout` can have format specifiers that are replac
+
 # Character specifier - `%c`
 
 ```C
