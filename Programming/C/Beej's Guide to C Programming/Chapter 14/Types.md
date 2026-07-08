@@ -15,6 +15,11 @@ The `char` type is signed by default. The maximum value of `char` is 127 and the
 
 For all unsigned values the maximum value will always be $2^{x}-1$, where $x$ is the number of bits. 
 
+# 14.4 More Float : double and long double
+
+We can find out the bits  of precision allocated for the floating point decimal types in `<float.h>`
+
+
 The number of decimal digits that stored in each type are given by these macros:
 
 ![[Pasted image 20260707134131.png]]

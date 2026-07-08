@@ -42,4 +42,8 @@ For better error handling, use the `strtol` functions also in `stdlib.h`. These 
 
 `strtol` - string to long int
 `strtoll` - string to long long int
-`strto
+`strtoul` - string to unsigned long int
+`strtoull` - string to unsigned long long int
+``strtof - string to float
+`strtof` - string to double
+`strtold` - string to long double 
