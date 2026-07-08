@@ -15,3 +15,12 @@ For example the number `67` in octal can be represented like this
 Translating the binary from the octal representation of `67` gives `110111`. 
 
 The binary value of `110111` is `103`. Thus 
+
+The number `747` can be represented in octal by splitting the digits into the base `8` like this $8^{2}8^{1}8^{0}$:
+
+
+| 7   |     |     | \|  | 4   |     |     | \|  | 7   |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 4   | 2   | 1   | \|  | 4   | 2   | 1   | \|  | 4   | 2   | 1   |
+| 1   | 1   | 1   | \|  | 1   | 0   | 0   | \|  | 1   | 1   | 1   |
+ 
