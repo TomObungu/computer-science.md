@@ -22,4 +22,4 @@ To convert from octal to decimal you take each individual digit and multiply it 
 E.g 
 $627_{8} = 6(8^{2}) +2(8^{1}) + 7(8^{0}) = 1580_8$
 
-To convert from decimal to octal, you can convert to binary then to octal 
+To convert from decimal to octal, you can convert to binary then to octal.

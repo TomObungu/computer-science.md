@@ -19,4 +19,14 @@ The specifier character at the end is the most significant component
 `%u` - unsigned integers
 
 ## Unsigned Octal 
+`printf("%o\n, 67)"` gives output `103`
+
+`%x or X` gives unsigned hexadecimal number with `%X` being captialised
+
+`%f or F` gives floats with `%F` being capitalised. Only matters 
+
+`%e or E` gives scientific notation with `%E` being capitalised e.g. `3.14159e+2`or `3.14159E+2`
+
+
+`%s` gives strings
 
