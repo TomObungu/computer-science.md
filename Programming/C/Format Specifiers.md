@@ -8,4 +8,9 @@ scanf("%c", &c);
 printf("The entered character: %c", c);
 ```
 
-# I
+# Integer Format Specifier - `%d` or %i
+
+```C
+    printf("Printed using %%d: %d\n", x);
+    printf("Printed using %%i: %i", x);
+```
