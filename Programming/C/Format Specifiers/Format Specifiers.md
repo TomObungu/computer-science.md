@@ -44,10 +44,34 @@ The specifier character at the end is the most significant component
 `%%` prints a single % to the stream
 
 
-# Length Flag
+# Length 
 
 These go before the specifier and indicate the length of the data type. 
 
 E.g. if you have a variable `long long double x` can be represented with `%llf` where `ll` denotes that is of `long long` and `f` denotes it of floating point decimal
 
-`%hh% denotes signed char
+`%hh denotes signed char
+`h` denotes `short in`
+`l` denotes `long int`
+`ll` denotes long
+`z` denotes `size_t`
+
+`j` denotes `intmax_t
+`t` denotes `ptrdiff_t`
+`L` denotes `long double` as well 
+
+
+# Flags
+`-` Justify left align within the given field 
+
+`#` adds the `0x`, `0` or `0X` to things like octal, hex 
+
+`0` left pads the number with zeros. Used with width specifier
+# Width
+
+`(number)` minimum number of characters to be printed
+
+
+
+
+
