@@ -71,6 +71,9 @@ E.g. if you have a variable `long long double x` can be represented with `%llf` 
 
 `(number)` minimum number of characters to be printed
 
+# Precision 
+`.(number)` represents the minimum number of digits to be written e.g `.11f` specifies minimum 11 digits to be printed
+
 
 
 
