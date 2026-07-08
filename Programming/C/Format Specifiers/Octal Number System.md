@@ -13,4 +13,13 @@ Thus the binary number `110 111` can be represented in octal like this
 | 4   | 2   | 1   | \|  | 4   | 2   | 1   |
 | 6   |     |     | \|  | 7   |     |     |
 
-Thus the base 2 binary number `110111` has val
+Thus the base 2 binary number `110111` has value `67` in octal. 
+
+In general we represent octal numbers like this `Oo67`
+
+To convert from octal to decimal you take each individual digit and multiply it by $8^{x}$ where $x$ is the index of the digit 
+
+E.g 
+$627_{8} = 6(8^{2}) +2(8^{1}) + 7(8^{0}) = 1580_8$
+
+To convert from decimal to octal, you can convert to binary then to octal 
