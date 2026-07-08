@@ -25,7 +25,7 @@ The specifier character at the end is the most significant component
 
 `%x or X` gives unsigned hexadecimal number with `%X` being captialised
 
-`%f or F` gives floats with `%F` being capitalised. Only matters 
+`%f or F` gives floats with `%F` being capitalised. Can be used with both `float` and `double` 
 
 `%e or E` gives scientific notation with `%E` being capitalised e.g. `3.14159e+2`or `3.14159E+2`
 
@@ -44,3 +44,10 @@ The specifier character at the end is the most significant component
 `%%` prints a single % to the stream
 
 
+# Length Flag
+
+These go before the specifier and indicate the length of the data type. 
+
+E.g. if you have a variable `long long double x` can be represented with `%llf` where `ll` denotes that is of `long long` and `f` denotes it of floating point decimal
+
+`%hh% denotes signed char
