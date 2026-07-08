@@ -2,19 +2,21 @@ https://www.geeksforgeeks.org/c/format-specifiers-in-c/
 
 https://cplusplus.com/reference/cstdio/printf/#google_vignette
 
-C strings that are written to `stdout` can have format specifiers that are replac
+C strings that are written to `stdout` can have format specifiers that are replaced by the values specified in subsequent additional arugments and formatted as requested
 
-# Character specifier - `%c`
+The syntax for format specifiers is as follow
 
-```C
-scanf("%c", &c);
-
-printf("The entered character: %c", c);
 ```
 
-# Integer Format Specifier - `%d` or %i
+% [flags] [width] [.precision] [length] specifier
 
-```C
-    printf("Printed using %%d: %d\n", x);
-    printf("Printed using %%i: %i", x);
 ```
+
+The specifier character at the end is the most significant component 
+
+# Specifiers
+`%d or %i`  - signed integers
+`%u` - unsigned integers
+
+## Unsigned Octal 
+
