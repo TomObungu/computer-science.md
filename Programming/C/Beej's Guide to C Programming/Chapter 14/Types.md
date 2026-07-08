@@ -19,10 +19,18 @@ For all unsigned values the maximum value will always be $2^{x}-1$, where $x$ is
 
 We can find out the bits  of precision allocated for the floating point decimal types in `<float.h>`
 
-
 The number of decimal digits that stored in each type are given by these macros:
 
 ![[Pasted image 20260707134131.png]]
+
+It varies system by system but the number of bytes of precision can be represented using `sizeof`
+
+![[Pasted image 20260708083228.png]]
+
+
+In the `<float.h>` header, you can find out the number of decimal digits encoded in a float with these macros
+
+![[Pasted image 20260708083355.png]]
 
 When using these floats, going past the defined limit will cause things to start to go wrong. 
 
@@ -46,6 +54,8 @@ int a = 012
 
 ![[Pasted image 20260707134742.png]]
 
+
+When dealing with integers use 
 
 # Exponent notation
 It is possible to write exponent notation using `-` or `+`. For example if you want to write 0.000123 in a `double` you do
