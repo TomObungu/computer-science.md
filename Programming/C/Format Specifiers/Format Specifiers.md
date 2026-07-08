@@ -37,5 +37,10 @@ The specifier character at the end is the most significant component
 
 `%s` gives strings 
 
-`%p` gives pointers e.g. `printf("%p", my_pointer)` prints adderss e
+`%p` gives pointers e.g. `printf("%p", my_pointer)` prints address e.g. `0x7ffe6f71e60c`
+
+`%n` prints nothing
+
+`%%` prints a single % to the stream
+
 
