@@ -6,21 +6,11 @@ Hexadecimal is a base $16$ system whereas Octal is a base `8` system. This is be
 
 ![[Pasted image 20260708090456.png]]
 
-For example the number `67` in octal can be represented like this
+Thus the binary number `110 111` can be represented in octal like this
 
-| 6   |     |     | \|  | 7   |     |     |
+| 1   | 1   | 0   | \|  | 1   | 1   | 1   |
 | --- | --- | --- | --- | --- | --- | --- |
 | 4   | 2   | 1   | \|  | 4   | 2   | 1   |
-| 1   | 1   | 0   | \|  | 1   | 1   | 1   |
-Translating the binary from the octal representation of `67` gives `110111`. 
+| 6   |     |     | \|  | 7   |     |     |
 
-The binary value of `110111` is `103`. Thus 
-
-The number `747` can be represented in octal by splitting the digits into the base `8` like this $8^{2}8^{1}8^{0}$:
-
-
-| 7   |     |     | \|  | 4   |     |     | \|  | 7   |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 4   | 2   | 1   | \|  | 4   | 2   | 1   | \|  | 4   | 2   | 1   |
-| 1   | 1   | 1   | \|  | 1   | 0   | 0   | \|  | 1   | 1   | 1   |
- 
+Thus the base 2 binary number `110111` has val
