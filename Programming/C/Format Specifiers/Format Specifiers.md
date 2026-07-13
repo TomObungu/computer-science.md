@@ -4,7 +4,7 @@ https://cplusplus.com/reference/cstdio/printf/#google_vignette
 
 https://learn.microsoft.com/en-us/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions?view=msvc-170
 
-C strings that are written to `stdout` can have format specifiers that are replaced by the values specified in subsequent additional arugments and formatted as requested
+C strings that are written to `stdout` can have format specifiers that are replaced by the values specified in subsequent additional arguments and formatted as requested
 
 The syntax for format specifiers is as follow
 
