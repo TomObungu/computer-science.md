@@ -19,3 +19,10 @@ To install `.deb` files run this command
 ```bash
 sudo install ./your_file.den
 ```
+
+
+# Uses
+- Servers, where stability and predictable updates are important
+- Development environments, where users want a clean and dependable base system
+- Desktop systems
+- Learning Linux
