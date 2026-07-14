@@ -8,4 +8,6 @@ The Kernel is the core component of an operating system. It acts as a bridge all
 
 Other UNIX-like systems such as BSD and MINIX were being developed at the time but they all lacked a freely available and unified kernel.
 
-This all changed when Linus Torvalds begin 
+This all changed when Linus Torvalds began developing a new kernel as a personal project in 1991. This kernel filled the missing piece of the GNU operating system. 
+
+![[Pasted image 20260714102957.png]]
