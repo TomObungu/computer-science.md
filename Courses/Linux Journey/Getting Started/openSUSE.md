@@ -12,4 +12,4 @@ OpenSUSE is known for two main release approaches. Leap and Tumbleweed. Leap is 
 openSUSE uses the RPM package format and tools such as `zypper` to install, update and remove software. This puts it in a different package family from Debian and Ubuntu, which use `.deb` packages and APT. 
 
 ## YaST
-One of the best-known features of openSUSE is YaST. YaST is an administration and setup tool that helps manage software, services, storage and networking. 
+YaST stands for "Yet another setup tool". One of the best-known features of openSUSE is YaST. YaST is an administration and setup tool that helps manage software, services, storage and networking. 
