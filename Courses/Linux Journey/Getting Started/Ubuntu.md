@@ -16,4 +16,4 @@ Ubuntu uses two main release types. It publishes a new release every six months 
 As a Debian-based system, Ubuntu uses the `.deb` package format. 
 
 # Desktop and Server User
-Ubuntu is used on both desktop and server
+Ubuntu is used on both desktop and server systems. On the desktop side, it is known for a polished GNOME-based experience and relatively approachable defaults. 
