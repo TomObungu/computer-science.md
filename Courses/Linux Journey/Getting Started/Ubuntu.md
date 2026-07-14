@@ -1,0 +1,1 @@
+Ubuntu is developed by Canonical and is built on Debian 

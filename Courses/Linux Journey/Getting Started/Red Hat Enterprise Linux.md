@@ -21,6 +21,8 @@ RHEL uses the RPM package format and tools such as DNF to install, update and ma
 
 # Certifications
 
-RHEL is also closely associated with professional training and certification. Credential
+RHEL is also closely associated with professional training and certification. Credentials such as RHCSA and RHCE are well known in Linux administration and are part of why RHEL remains highly visible in professional environments. 
+
+
 
 
