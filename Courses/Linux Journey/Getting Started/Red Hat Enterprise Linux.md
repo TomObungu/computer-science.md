@@ -1,5 +1,6 @@
 Often called RHEL, is a commercial Linux distribution built by Red Hat. 
 
+![[Pasted image 20260714110255.png]]
 It is designed for organisations that need long support windows, predictable releases, security maintenance and professional support. 
 
 It is used across servers, data centres, cloud systems and regulated business environments. 
