@@ -1,0 +1,1 @@
+The pipe `|` operator takes the standard output of the command on its left and uses it as the standard  input for the command on the right.
