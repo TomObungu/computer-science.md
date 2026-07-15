@@ -57,3 +57,5 @@ You can find directories using the `type` and `-d`. For regular files do `f`
 
 ## Running Actions on results
  You can use the `-exec`  tag to run actions on each file that is found
+
+For example here is a command that  recursively finds all the `.png` files inside a folder called `Downloads-backup`, deletes them whilst printing out what's been deleted. 
