@@ -1,0 +1,1 @@
+Use the `clear` command to wipe your display and start with a fresh screen.
