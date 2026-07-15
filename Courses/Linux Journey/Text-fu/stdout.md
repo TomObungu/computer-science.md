@@ -21,3 +21,13 @@ cout >> "Hello World!"
 ```
 
 You are appending to the `stdout`, the text "Hello World!"
+
+Below is an example 
+
+```bash
+echo "and this is some text added to it" >> myfile.txt 
+tom@tom-LOQ-15ARP9:~$ cat myfile.txt 
+This is my file
+and this is some text added to it
+
+```
