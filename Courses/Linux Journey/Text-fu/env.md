@@ -19,4 +19,6 @@ This makes a variable `TEST` and sets the value equal to `test`.
 To make the environment variables persist across all sessions. You must add `export` to the end of the `~/.bashrc` file. 
 
 To apply changes to the `~/.bashrc` file run:
-`source ~/.bashrc`
+`source ~/.bashrc
+
+`
