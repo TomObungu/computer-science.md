@@ -1,0 +1,1 @@
+Use `logout` when you do something like SSH.
