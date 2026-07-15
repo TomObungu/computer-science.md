@@ -24,6 +24,12 @@ the `{}` placeholder is regex to show that the command is replaced by each match
 
 The `\;` marks the end of the command. 
 
+You can also use the `-print` command to print out the files types. This is like `ls` but with wildcards
+
+```bash
+find -type f -name ".jpg" -print 
+
+```
 # Size and time 
 Below is a command to find a file greater than 10 megabytes in the home directory 
 ```bash
