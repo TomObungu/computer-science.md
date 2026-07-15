@@ -47,3 +47,12 @@ $ mv -v file1 file2 somedirectory/
 ```
 # find
 
+You can find file types like this
+```bash
+find ./Downloads -name "*.jpg"
+
+```
+
+You can find directories using the `type` and `-d`. For regular files do `f`
+
+## Running Actions on results
