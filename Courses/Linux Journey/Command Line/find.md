@@ -29,3 +29,9 @@ Below is a command to find a file greater than 10 megabytes in the home director
 ```bash
 find ~ -type f -size +10M
 ```
+
+Below is a command that finds a file that has been edited within the last 9 days
+```bash
+find ./Downloads -type f -mtime -9
+-mtime -
+```
