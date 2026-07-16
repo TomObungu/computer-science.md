@@ -2,4 +2,4 @@ Instead of manually digging through countless lines of text to find a specific s
 
 At its core, grep searches for patterns within a file. 
 
-You 
+For 
