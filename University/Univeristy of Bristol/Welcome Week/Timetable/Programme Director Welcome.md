@@ -46,6 +46,6 @@ There is a lot of technial advice on the Sharepoint. These include self-usage gu
 https://uob.sharepoint.com./sites/fse-tech 
 
 # 
-Will have the opptunity 
+Will have the oppertunity to do some coursework during the contact hours. However WE as CS students 
 
-All lectures arecr are accessable through 
+All lectures are recorded and  are accessable through the Bristol learning portal which is Blackboard. 
