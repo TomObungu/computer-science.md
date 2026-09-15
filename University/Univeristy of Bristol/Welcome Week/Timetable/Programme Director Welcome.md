@@ -45,7 +45,9 @@ There is a lot of technial advice on the Sharepoint. These include self-usage gu
 
 https://uob.sharepoint.com./sites/fse-tech 
 
-# 
-Will have the oppertunity to do some coursework during the contact hours. However WE as CS students 
+# Miscellaneous 
+Will have the oppertunity to do some coursework during the contact hours. However, WE as CS students will not have less coursework (homework) in regards to this. 
 
-All lectures are recorded and  are accessable through the Bristol learning portal which is Blackboard. 
+All lectures are recorded and are accessable through the Bristol learning portal which is Blackboard. 
+
+Lecture materials will be available some few days before the the lectures. This can allow pre-study. 
