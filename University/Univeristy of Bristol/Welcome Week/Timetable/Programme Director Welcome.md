@@ -37,3 +37,15 @@ You are not to share your work. You must cite and ackowledge all matierals you u
 
 # Tutor 
 On the Thursday, the six duplicate sessions will be with your personal tutor. 
+
+# Workshops
+Hackspace 
+
+There is a lot of technial advice on the Sharepoint. These include self-usage guids
+
+https://uob.sharepoint.com./sites/fse-tech 
+
+# 
+Will have the opptunity 
+
+All lectures arecr are accessable through 
