@@ -13,3 +13,9 @@ Exams:
 
 
 # Marks
+Marks over 40 are a pass
+Marks in 50s are Ok
+Marks in 60 are good
+First class is 70+
+Marks over 80 are rare
+100% represents ultimate geni
