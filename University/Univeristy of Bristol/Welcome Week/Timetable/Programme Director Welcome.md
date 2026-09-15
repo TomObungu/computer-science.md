@@ -19,7 +19,7 @@ Marks in 50s are Ok
 Marks in 60 are good
 First class is 70+
 Marks over 80 are rare
-100% represents ultimate genius. 
+100% (100 out of 100) represents ultimate genius. 
 
 You will find yourself getting 55-65. However aim for the best. 
 
@@ -54,3 +54,4 @@ All lectures are recorded and are accessable through the Bristol learning portal
 
 Lecture materials will be available some few days before the the lectures. This can allow pre-study. 
 
+Some materials will be on Blackboard, some will be on Teams and some will be on Github. You lecturerers will let you know. Be vigilant to check 
