@@ -35,3 +35,5 @@ If you are found to be plagarising you will recieve zero marks. Repeat offerns m
 
 You are not to share your work. You must cite and ackowledge all matierals you use. 
 
+# Tutor 
+On the Thursday, the six duplicate sessions will be with your personal tutor. 
