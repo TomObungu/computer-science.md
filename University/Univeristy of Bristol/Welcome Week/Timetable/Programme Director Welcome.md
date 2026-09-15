@@ -24,3 +24,8 @@ Marks over 80 are rare
 You will find yourself getting 55-65. However aim for the best. 
 
 The marks you get on your first do not count towards your final degree. The final degree is dependent on the second and third years. 
+
+If you get something like 80 on your final project, it can be considered good enough to be published. 
+
+# Credit Points (CP)
+You need to have a total of 120 CP within the first year. This menas you will need to pass at least 
