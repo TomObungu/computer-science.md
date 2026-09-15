@@ -11,7 +11,6 @@ Summative coursework:
 Exams:
 	 Assesments at the end of term
 
-
 # Marks
 Lower marks are easy to achieve but each extra point becomes harder and harder to get. Reminds me of the logarithmic scale. 
 
@@ -24,4 +23,4 @@ Marks over 80 are rare
 
 You will find yourself getting 55-65. However aim for the best. 
 
-The marks you get on your first do not count towards your final degree. The final degree is dependent on the second and 
+The marks you get on your first do not count towards your final degree. The final degree is dependent on the second and third years. 
