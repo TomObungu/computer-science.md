@@ -28,4 +28,10 @@ The marks you get on your first do not count towards your final degree. The fina
 If you get something like 80 on your final project, it can be considered good enough to be published. 
 
 # Credit Points (CP)
-You need to have a total of 120 CP within the first year. This means you will need to pass at least in *every*
+You need to have a total of 120 CP within the first year. This means you will need to pass at least in **every** unit within the first needs to have over 40+ marks.
+
+# Plagiarism
+If you are found to be plagarising you will recieve zero marks. Repeat offerns may be required to withdraw.
+
+You are not to share your work. You must cite and ackowledge all matierals you use. 
+
