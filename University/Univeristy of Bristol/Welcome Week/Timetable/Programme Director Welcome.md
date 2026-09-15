@@ -13,9 +13,15 @@ Exams:
 
 
 # Marks
+Lower marks are easy to achieve but each extra point becomes harder and harder to get. Reminds me of the logarithmic scale. 
+
 Marks over 40 are a pass
 Marks in 50s are Ok
 Marks in 60 are good
 First class is 70+
 Marks over 80 are rare
-100% represents ultimate geni
+100% represents ultimate genius. 
+
+You will find yourself getting 55-65. However aim for the best. 
+
+The marks you get on your first do not count towards your final degree. The final degree is dependent on the second and 
