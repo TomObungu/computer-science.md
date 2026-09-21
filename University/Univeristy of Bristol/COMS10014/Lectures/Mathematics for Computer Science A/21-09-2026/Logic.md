@@ -42,6 +42,7 @@ The hierachy of operator precedence is:
 # Associativity
 A binary operator $o$ is associative if $( p )$
 
+Implication is not associative. By convention,
 
 
 
