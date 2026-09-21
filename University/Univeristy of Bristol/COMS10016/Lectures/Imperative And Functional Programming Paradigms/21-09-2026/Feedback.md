@@ -12,3 +12,6 @@ For 5-6 hours within a week, there is In-Person feedback.
 There is a **must-pass** exam on at the end of the unit worth 80% of the unit mark. And two small pieces of summative coursework woth 10% of the unit mark. 
 
 Each coursework also prepares you for the exam and is deliberatley split into two halves.  
+
+# Resources
+https://uob-coms10016.github.io/2026/
