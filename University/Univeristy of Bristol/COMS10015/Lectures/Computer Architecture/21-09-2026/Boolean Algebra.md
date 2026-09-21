@@ -31,3 +31,39 @@ Then you must take the result into Boolean algebra.
 
 
 
+# Axioms
+## Commutativity
+$$
+x \wedge y \equiv y  \wedge x
+$$
+## Association 
+$$
+ (x \wedge y) \wedge z \equiv x \wedge  (y\wedge z) 
+$$
+## Distribution
+$$
+x \wedge (y \lor z) \equiv (x \wedge y) \lor (x \wedge z)
+$$
+
+## Absorption
+$$
+x \wedge (x \lor y) \equiv x
+$$
+# De Morgan's law
+$$
+¬(x \wedge y) \equiv ¬x \lor ¬y
+$$
+
+# Implication
+Why does x=0 and y=0 in the logic statement of x => y evaluate to true? Will this is due to the the implication law. 
+$$
+x \implies y \equiv ¬x \wedge y
+$$
+
+
+| $x$ | $y$ | $x \implies y$ |
+| --- | --- | -------------- |
+
+
+# NAND
+The symbolic representation of NOT-AND is $\land$
