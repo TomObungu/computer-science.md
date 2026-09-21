@@ -23,3 +23,7 @@ Thus, you will need to get 8 CP overall at the end of the year on the summative 
 The formative assessments are worth 0CP and there help within the course. 
 
 The coursework content is released is within online sources within TB1. The encrypt week or deadline for the formative co
+
+Weeks 6, 12, 18 and 24 and the consolodation weeks in where there are no lectures. During these weeks are also when the formative exams are also. 
+
+The online 
