@@ -32,8 +32,7 @@ However my lecturer states that all procedures are functions.
 
 However most mathematicians may consider the function that does not return a value to not be a function. Mathematically you may consider a function that doesn't return a result as a function that maps the empty set to the empty set. 
 
-Where as in the scope of a engineer, a function such a void function that doesn't return a result 
-
+Where as in the scope of a engineer, a function such a void function that doesn't return a result would still be considered a procedure. 
 
 ## Simple programs
 A program must containt exactlty one procedure named `main`, which is started when the program is executed. 
