@@ -8,4 +8,3 @@ Mathematics is a common language for communicating ideas. It is a system for thi
 
 # Resources
 https://cs-uob.github.io/COMS10014/
-
