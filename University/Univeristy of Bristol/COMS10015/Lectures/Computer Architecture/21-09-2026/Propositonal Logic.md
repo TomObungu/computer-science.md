@@ -30,3 +30,4 @@ Single statements can be combinued using various connectives e.g. $¬$
 In general if there are $n$ inputs, the truth table will have $2^{n}$ rows. 
 One can view the out oas a form of specification.
 
+
