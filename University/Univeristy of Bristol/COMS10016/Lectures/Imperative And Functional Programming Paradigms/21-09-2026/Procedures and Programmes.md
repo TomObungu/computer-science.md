@@ -7,7 +7,7 @@ An example of an imperative and procedural language is C. Another type of impera
 
 Mathematical functions take argumetns from well defined sets and return a result element from other well defined set. For example:
 $$
-f : Z \times Z \to |
+f : Z \times Z \to Z
 $$
 In funciton notoation:
 $$
@@ -20,6 +20,10 @@ int f(int a, int b)
 
 In C, functions consist of two parts, a signature such as `int(f(int x, int y)` and abody surrounded by `{...}`
 
-A function that only calculates the result using it's arguments is called a **pure** function. This means only the input parameters
+A function that only calculates the result using it's arguments is called a **pure** function. This means only the input parameters. 
+
+
+
+
 
 
