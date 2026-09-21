@@ -1,0 +1,1 @@
+A strong motivation within the unit is the emphasis of open source and open-hardware. For example take the Novena laptop. It was designed by 

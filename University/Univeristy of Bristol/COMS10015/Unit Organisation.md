@@ -1,5 +1,3 @@
-# Part 2: Unit Organisation 
-
 There are three themes throughout the lectures on a higher level. This involves taking concepts within mathematics and physics and turning them into high level abstract concepts of physics. This is a similar approach taken to a course like electronic engineering.
 
 The three themes involve:
@@ -26,4 +24,6 @@ The coursework content is released is within online sources within TB1. The encr
 
 Weeks 6, 12, 18 and 24 and the consolodation weeks in where there are no lectures. During these weeks are also when the formative exams are also. 
 
-The online 
+The online sources are:
+https://www.ole.bris.ac.uk/
+https://cs-uob.github.io/COMS10015/
