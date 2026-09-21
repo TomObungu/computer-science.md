@@ -11,13 +11,15 @@ $$
 We can capture the output of a Boolean function for every possible combination using truth tables. Inputs sit left of the divider and the outputs to the right.
 
 # Conjunctions (AND)
-The symbol for a conjunction in formal logic is $\^$
+The symbol for a conjunction in formal logic is $\wedge$
 The conjunction of two propositions. The result is true if both sub-propositions are true. 
 
 # Disjunctions (OR)
-The  
+The  symbol for a disjunction in formal logic is $\lor$
+The disjunction of two proposiitions. The result is true if either on of sub-propoistions are true. 
 
 # Negation (NOT)
+The symbol fo a negational propositoin in formal logic is $¬$
 A unary operator, i.e with only one input, that flips true to false and false to true. 
 
 # Implication 
@@ -28,7 +30,7 @@ True if either the antecedent is false, or the consequent is true.
 E.g. (If it is past 5pm, then it implies that work has finished)
 
 ## Implication and vacuous truth
-For example take a statement such as "If pigs can fly then, then work has finished". In this scenario since the statement is always a claim that doesn't hold any value, then on the truth table, the statement will always return true. Regardless of any input
+For example take a statement such as "If pigs can fly then, then work has finished". In this scenario since the statement is always a claim that doesn't hold any value, then on the truth table, the statement will always return true. Regardless of any input the result will always be $\top$
 
 # Alternative Notation
 
