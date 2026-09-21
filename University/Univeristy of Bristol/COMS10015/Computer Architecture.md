@@ -1,2 +1,1 @@
-# Part 1
-There are many layers of abstraction when it comes to computer science 
+There are three themes throughout the lectures on a higher level. This involves taking concepts within mathematics and physics and turning them into t
