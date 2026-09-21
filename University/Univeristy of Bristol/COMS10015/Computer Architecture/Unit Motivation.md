@@ -7,8 +7,7 @@ For example, take video game graphics between the 1970s and 1990s. There has bee
 
 Sometimes these changes happen symbiotetically within other fields. That is, because of the advancements in hardware, computer scientists are capable to innovate new and improved algorithms and methods of rendering. 
 
-
-Another example is the advancement of a Google's data centres from the 
-Software stacks demand care with respect to computer architecture@
+Another example is the advancement of a Google's data centres from the 1997s to 2007s. The data centres on the left was just a standard array of basic computers, however 
+Software stacks demand care with respect to computer architecture
 
 
