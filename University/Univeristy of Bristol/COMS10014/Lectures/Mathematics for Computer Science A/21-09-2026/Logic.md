@@ -42,7 +42,16 @@ The hierachy of operator precedence is:
 # Associativity
 A binary operator $o$ is associative if $( p )$
 
-Implication is not associative. By convention,
+Implication is not associative. By convention
+
+For example 
+$$
+\begin{gather*}
+p \implies q \implies r \equiv p \implies (q \implies r) \\ \\
+p \implies q \implies r \neq (p \implies q) \implies r \\ 
+p \implies q \implies r \neq p \implies (q \implies r)
+\end{gather*}
+$$
 
 
 
