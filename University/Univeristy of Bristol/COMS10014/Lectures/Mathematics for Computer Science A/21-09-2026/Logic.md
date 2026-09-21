@@ -15,7 +15,7 @@ The symbol for a conjunction in formal logic is $\^$
 The conjunction of two propositions. The result is true if both sub-propositions are true. 
 
 # Disjunctions (OR)
-The 
+The  
 
 # Negation (NOT)
 A unary operator, i.e with only one input, that flips true to false and false to true. 
@@ -54,9 +54,16 @@ p \implies q \implies r \neq p \implies (q \implies r)
 $$
 
 # Functional Completeness
-A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function.
+A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function. For each row where the function is true, build the term that matches the row using conjunction, negation and disjunction. 
 
+## Theorem 1
+$\wedge, \lor$ and $¬$ are together functionally complete. 
 
+For example this exclusive OR function (XOR) $\oplus$can entirely be represented entirely out 
+
+$$
+p \oplus q \equiv f(p,q) = (p \wedge ¬p) \lor (¬p \wedge q)
+$$
 
 
 
