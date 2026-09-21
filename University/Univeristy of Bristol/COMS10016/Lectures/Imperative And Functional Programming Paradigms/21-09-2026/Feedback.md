@@ -6,3 +6,5 @@ Programming Languages
 		2. Declarative
 			1. Logic 
 			2. Functional e.g. Haskell. 
+
+For 5-6 hours within a week, there is In-Person feedback.
