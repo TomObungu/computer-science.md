@@ -20,3 +20,7 @@ ls -ltr
 ```
 
 dotfiles are hidden by default and often store configuration such as `.bashrc`
+
+It is possible to find group conditions using parenthesis and the Boolean -o 'OR' and -a 'AND' operators. 
+
+When combinig
