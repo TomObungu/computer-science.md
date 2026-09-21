@@ -11,7 +11,7 @@ $$
 We can capture the output of a Boolean function for every possible combination using truth tables. Inputs sit left of the divider and the outputs to the right.
 
 # Conjunctions (AND)
-The symbol for a conjunction in formal logic is 
+The symbol for a conjunction in formal logic is $\^$
 The conjunction of two propositions. The result is true if both sub-propositions are true. 
 
 # Disjunctions (OR)
@@ -28,7 +28,26 @@ True if either the antecedent is false, or the consequent is true.
 E.g. (If it is past 5pm, then it implies that work has finished)
 
 ## Implication and vacuous truth
-The 
+For example take a statement such as "If pigs can fly then, then work has finished". In this scenario since the statement is always a claim that doesn't hold any value, then on the truth table, the statement will always return true. Regardless of any input
+
+# Alternative Notation
+
+# Operator Precedence
+The hierachy of operator precedence is:
+1. Parenthesis
+2. Negation
+3. Conjunction
+4. Disjunctions 
+
+# Associativity
+A binary operator $o$ is associative if $( p )$
+
+
+
+
+
+
+
 
 
 
