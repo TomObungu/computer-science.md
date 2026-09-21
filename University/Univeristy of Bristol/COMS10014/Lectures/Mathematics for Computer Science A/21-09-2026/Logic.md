@@ -53,6 +53,11 @@ p \implies q \implies r \neq p \implies (q \implies r)
 \end{gather*}
 $$
 
+# Functional Completeness
+A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function.
+
+
+
 
 
 
