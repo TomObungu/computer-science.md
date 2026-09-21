@@ -21,3 +21,5 @@ Summative assessment. Each summative assessment is out of 20 credit points (CP).
 Thus, you will need to get 8 CP overall at the end of the year on the summative assessment. 
 
 The formative assessments are worth 0CP and there help within the course. 
+
+The coursework is released is within the 
