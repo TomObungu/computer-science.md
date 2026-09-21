@@ -1,4 +1,4 @@
-I solved the problem. I just writing this out showcase the differences between my implementation and the editorial implementation. I might need this in a future question.
+I solved the problem. I was just writing this out showcase the differences between my implementation and the editorial implementation. I might need this in a future question.
 
 ## My solution
 
