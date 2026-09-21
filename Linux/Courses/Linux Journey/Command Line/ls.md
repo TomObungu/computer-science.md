@@ -23,4 +23,10 @@ dotfiles are hidden by default and often store configuration such as `.bashrc`
 
 It is possible to find group conditions using parenthesis and the Boolean -o 'OR' and -a 'AND' operators. 
 
-When combinig
+When combining parenthesis you need them to control evaluation order. Since parenthesis are special characters, they must be escaped with backslashes or quoted. 
+
+For example, the command below allows the use of multiple file 
+
+```shell
+find . -type f \(-name "*.mp4" -o -name "*.mov" \) -exec mv {} Videos \;
+```
