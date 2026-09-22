@@ -1,0 +1,1 @@
+Flags are special arguments that modify how the command works. Short ones have one da
