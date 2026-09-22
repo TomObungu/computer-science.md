@@ -13,3 +13,18 @@ However some statements seem to be propositonal but cannot be evaluated because 
 
 "A man says he is lying, is what he says true of false?"
 
+## Propositonal functions
+A propositional function is just a short-hand way of writing a proposition, we give the function a name a list of free variables. 
+
+In this case the function $g$ can hold the proposition:
+$$
+g: \text{The temperature is 90} ^\circ
+$$
+
+For futrue cases, you can use the notation the propositional function in further logic. 
+
+Another example is writing a function:
+$$
+h(x) : x^\circ equals 90^\circ 
+$$
+Now
