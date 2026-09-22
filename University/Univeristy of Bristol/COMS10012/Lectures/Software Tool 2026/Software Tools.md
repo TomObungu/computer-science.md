@@ -51,4 +51,12 @@ R-x = 101_2 = 5_8
 
 The chmod command is used to change permissions. 
 
-Systemd is a service manager for Linux. 
+Systemd is a service manager for Linux.  It can show the state of your server state machine. The command to see the state of your server is 
+```
+systemctl status
+```
+
+The command will also show the system logs. In this case the prefix `-n 3` will show the last 3 logs.
+```
+journalctl -n 3
+```
