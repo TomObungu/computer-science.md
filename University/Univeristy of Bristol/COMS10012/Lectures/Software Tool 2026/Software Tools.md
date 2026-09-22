@@ -51,3 +51,4 @@ R-x = 101_2 = 5_8
 
 The chmod command is used to change permissions. 
 
+Systemd is a service manager for Linux. 
