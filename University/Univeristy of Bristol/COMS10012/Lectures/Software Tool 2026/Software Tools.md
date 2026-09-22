@@ -60,3 +60,6 @@ The command will also show the system logs. In this case the prefix `-n 3` will 
 ```
 journalctl -n 3
 ```
+
+# Question
+A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
