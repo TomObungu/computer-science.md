@@ -16,6 +16,12 @@ However some statements seem to be propositonal but cannot be evaluated because 
 ## Propositonal functions
 A propositional function is just a short-hand way of writing a proposition, we give the function a name a list of free variables. 
 
+For example the function:
+$$
+f(x,y): x=y
+$$
+Passing the parameters $f(10,20)$ performs the binding $x=10$
+and $y=20$, essentially $10=20$
 In this case the function $g$ can hold the proposition:
 $$
 g: \text{The temperature is 90} ^\circ
@@ -25,6 +31,10 @@ For futrue cases, you can use the notation the propositional function in further
 
 Another example is writing a function:
 $$
-h(x) : x^\circ equals 90^\circ 
+h(x) : x^\circ \text{ equals } 90^\circ 
 $$
-Now
+We can now bind a $x$ value via $h(10)$, we find:
+$$
+h(10) = 10^\circ \text{ equals } 90 ^\circ 
+$$
+Thus evaluating the propositional statement $h(10)$ will yield false. 777
