@@ -5,3 +5,19 @@ Running `man -k` or apropos to search for the manual things.
 See `man intro` for beginner stuff, 
 
 The will try and stick to POSIX with the lab machines the standard. 
+
+
+# OpenSSH
+
+The SSH protocal lets you login and run commands on remote computers. It runs on port 22. 
+
+OpenSSH is the most common implementation of the protocal. It was developed alongside the OpenBSD subsystems.
+
+For example running the ssh command would look like this:
+```shell
+ssh evelyn@imac
+
+ssh -X evelyn@imac firefox
+```
+
+You might want to ce
