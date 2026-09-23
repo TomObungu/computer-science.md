@@ -92,7 +92,6 @@ $$
 ¬(\phi \lor \psi) \equiv ¬\phi \lor ¬ \psi
 \end{gather*}
 $$
-
 ## Implication 
 $$
 \begin{gather*}
