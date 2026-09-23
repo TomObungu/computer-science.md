@@ -24,4 +24,17 @@ $$
 \end{gather*}
 $$
 # Commutativity
-This means that the 
+This means that the algebraic statements are true regardless of the ordering of the variables.
+$$
+\phi \wedge \psi \equiv \psi \wedge \phi
+$$
+# Distributitivity 
+This means that the single statement on the left hand side of the equation can be further expanded into a fuller form containing the corresponding conjunctions and disjunctions. Below is the case for pushing a conjunction within a disjunction.
+$$
+\phi \wedge ( \psi \lor \rho) \equiv (\phi \wedge \psi) \lor (\phi \wedge \rho)
+$$
+Below is the case for pushing a disjunction within a conjunction:
+$$
+\phi \lor( \psi \wedge \rho) \equiv (\phi \lor \psi)\wedge (\phi \wedge \rho)
+$$
+# Absoption 
