@@ -102,3 +102,9 @@ p \wedge q \implies r \\
 $$
 
 
+A counter example to the implication law 
+	- $p$ is true
+	- Counterexample to $q \implies r$
+		- $q$ is true
+		- $r$ is false
+A counter example to the implication law
