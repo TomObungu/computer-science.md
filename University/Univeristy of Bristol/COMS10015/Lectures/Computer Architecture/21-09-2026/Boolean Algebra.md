@@ -57,7 +57,7 @@ $$
 # Implication
 Why does x=0 and y=0 in the logic statement of x => y evaluate to true? Will this is due to the the implication law. 
 $$
-x \implies y \equiv ¬x \wedge y
+x \implies y \equiv ¬x \lor y
 $$
 
 
