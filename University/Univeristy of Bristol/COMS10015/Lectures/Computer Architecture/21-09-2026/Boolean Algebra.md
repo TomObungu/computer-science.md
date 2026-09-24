@@ -51,7 +51,7 @@ x \wedge (x \lor y) \equiv x
 $$
 # De Morgan's law
 $$
-¬(x \wedge y) \equiv ¬x \lor ¬y
+¬(x \wedge y) \equiv ¬x \lor y
 $$
 
 # Implication
