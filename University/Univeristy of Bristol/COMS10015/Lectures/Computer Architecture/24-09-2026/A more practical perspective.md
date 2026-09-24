@@ -1,5 +1,7 @@
-Descional operators such as $\&\&$ are operators that are computing a descision 
+Descional operators such as $\&\&$ are operators that are computing a descision.
 
+Computational operators such as $\&$ are computational operators that are computing an operation such as bitwise operators. 
+ 
 # Question
 Simplify the Boolean expression
 $$
@@ -11,3 +13,4 @@ f = ¬(a \lor b) \wedge ¬(c \lor d \lor e) \lor ¬(a \lor b) \\ \\
 = ¬(a \lor b)
 \end{gather*}
 $$
+
