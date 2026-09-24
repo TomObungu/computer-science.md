@@ -1,0 +1,1 @@
+Descional operators such as $\&\&$ are operators that are computing a descision 
