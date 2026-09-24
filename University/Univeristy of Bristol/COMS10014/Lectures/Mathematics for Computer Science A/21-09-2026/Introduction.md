@@ -1,5 +1,5 @@
 # What is mathematics?
-Mathematics is a common language for communicating ideas. It is a system for thinking about problems to  a variety of tasks. Furthermore, it an abstraction to underlying patterns and structures. 
+Mathematics is a common language for communicating ideas. It is a system for thinking about problems to  a variety of tasks. Furthermore, it is an abstraction to underlying patterns and structures. 
 
 # Topics
 - Logic and Proofs (Weeks 1-4)
