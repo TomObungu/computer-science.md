@@ -3,4 +3,7 @@ A platform is a combination of processor, operating system device drivers, libra
 
 A data type is a class of data item, as defined by the variables it can take and the operations that can be performed on it. 
 
-However in imperative languages such as C, the properties of types may differ on different platforms. For example one machine architecure a `int` type may be 32bits however in 
+However in imperative languages such as C, the properties of types may differ on different platforms. For example in one machine architecure, an `int` type may be 32 bits however in some archtectures may be 16 bits. 
+
+## Common Arithmetic Types in C
+Below is a table for the most common ranges for arithmetic types in C:
