@@ -177,7 +177,22 @@ Once your `sshd` service has started, you can run
 systemctl status sshd
 ```
 
-
+# Things to do on the computer:
+![[Pasted image 20260926191725.png]]
 # Question
 A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
-
+![[Pasted image 20260926191829.png]]
+Remember that 
+$$
+\underbrace{ 0 }_{ \text{directory} }\underbrace{ 7 }_{ user }\underbrace{ 5 }_{ group }\underbrace{ 4 }_{ other }
+$$
+Since nigel is part of the same group, he has permission 5. Now the permission is in octal. Converting this to binary gives 
+```shell
+5_8 = 101_2
+```
+Comparing this with the RWX strcuture we are given:
+```
+R W X
+1 0 1
+```
+Meaning nigel has permission to read the file, no permission to write (edit) to the file and permission to execute the file. 
