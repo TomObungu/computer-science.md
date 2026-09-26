@@ -68,7 +68,13 @@ For example a **user A** may trick user B into connecting to **their** machine i
 
 User A can prevent this man in the middle attack by checking the authenticity of the key fingerprint with the known actual machine key.
 
-### arp spoofing
+### ARP spoofing
+https://en.wikipedia.org/wiki/ARP_spoofing
+ARP spoofing is is technique used by a man in the middle attacker. It involves associatiating the attacker's MAC address with the target IP such that any data being sent to the target IP is sent to the attacker instead. 
+
+The attack involves the user sending spoofed addresses onto a network. A spoofed address is an address that falsly identifies as another address by falsifying data. 
+
+# 
 # Users, groups and the UNIX DAC
 In linux and most UNIX systems, the concept of users means each user has control over the minimum things they need to work. 
 
