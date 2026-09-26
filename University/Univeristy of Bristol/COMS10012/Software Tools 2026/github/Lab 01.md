@@ -27,3 +27,4 @@ You can then type `whoami` and `uname -a` to check who you are logged in as. You
 
 You can exit the connection using the `exit` command.
 # Setting up ssh keys
+When connecting to a machine
