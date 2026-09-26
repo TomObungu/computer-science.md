@@ -19,7 +19,7 @@ If an error is shown that ssh is not found, you don't have (Open)SSH installed .
 # Connecting via ssh
 You can use ssh to remotely connect to your instituions lab machines. Often time your institution will set up a network access portal and a domain that can be connected to. The command for connecting often follows.
 ```shell
-ssh USERNAME@YOUR-INSTITUION-DOMAIN.COM
+ssh USERNAME@YOUR-INSTITUION-DOMAIN.HOSTNAME
 ```
 In my case, my instition required connected to portals vpn via web browser before forming the ssh.
 
