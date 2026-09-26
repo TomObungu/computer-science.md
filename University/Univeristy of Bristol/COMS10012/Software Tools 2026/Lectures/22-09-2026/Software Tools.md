@@ -6,6 +6,8 @@ See `man intro` for beginner stuff,
 
 The will try and stick to POSIX with the lab machines the standard. 
 
+# User group and 
+
 # OpenSSH
 
 The SSH protocol lets you login and run commands on remote computers. It runs on port 22. 
