@@ -63,5 +63,19 @@ The command will also show the system logs. In this case the prefix `-n 3` will 
 journalctl -n 3
 ```
 
+# Systemd
+Systemmd is a service manager for Linux. The most 'normal' or commonly used one is system. You can run the command `systemctl status` to see the status of your linux server.
+```shell
+systemctl
+```
+You can also use `journalctl` to see the logs of your computer/system to monitor activity within your system server
+```shell
+journalctl -n 3
+```
+The `-n` suffix allows your specify the amount of log information you want to see. 
+The `systemctl status ssd 
+`
+
+
 # Question
 A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
