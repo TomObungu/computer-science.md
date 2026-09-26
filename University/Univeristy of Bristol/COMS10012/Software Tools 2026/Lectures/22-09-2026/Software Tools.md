@@ -90,7 +90,6 @@ Binary programs go in `bin/`. Bootloader stuff goes in `boot/`. Device files suc
 
 The filesystem configuarions will be different for each system. It will be different on MAC, WSL and openBSD.
 
-
 # Users, groups and the UNIX DAC
 In linux and most UNIX systems, the concept of users means each user has control over the minimum things they need to work. 
 
@@ -100,7 +99,14 @@ The command Sudo means `Super User DO`. This allows you to temporarily become th
 
 UNIX systems traditionally control access to everything through files. Almost everything is treated as a file which can be read, written and executed. (RWX)
 
-Every file is owned by exactly one user and on group. 
+**Every file is owned by exactly one user and on group.** 
+
+When using `ls -l`, it is possible to show the group and user for each file
+For example, the file `.deb` file below is owned by user `tom`and group `tom`
+```shell
+-rw-rw-r--  1 tom tom 117341968 Sep 26 11:56 linux_f5vpn.x86_64.deb
+
+```
 
 The RWX system can be represented as binary and octal 
 
@@ -110,6 +116,9 @@ RWX = 111_2 = 7_8
 R-x = 101_2 = 5_8
 --- = 000_2 = 0_8
 ```
+
+
+
 
 The chmod command is used to change permissions. 
 
