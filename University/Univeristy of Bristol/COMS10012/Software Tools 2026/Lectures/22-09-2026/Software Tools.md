@@ -147,7 +147,7 @@ The command will also show the system logs. In this case the prefix `-n 3` will 
 journalctl -n 3
 ```
 
-The 
+The directory of what users and groups exist and who belongs to what is kept in `/etc/passwd` and `/etc/group`. User passwords are somtimes kept in `/etc/shadow`.
 
 # Service Managers
 ## Systemd
@@ -176,6 +176,7 @@ Once your `sshd` service has started, you can run
 ```shell
 systemctl status sshd
 ```
+
 
 # Question
 A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
