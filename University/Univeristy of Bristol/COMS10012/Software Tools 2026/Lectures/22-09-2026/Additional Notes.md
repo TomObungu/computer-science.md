@@ -33,7 +33,6 @@ If you have somone with physical access to the machine, they check the authentic
 ssh-keyscan -q -t ed25519 localhost
 ```
 
-
 # The Linux Filesystem
 Running the `tree -L` command on the root folder `/` allows inspection of the filesystem of a linux machine. 
 ![[Pasted image 20260926182800.png]]
@@ -49,3 +48,6 @@ Binary programs go in `bin/`. Bootloader stuff goes in `boot/`. Device files suc
 `/opt` may also contain the same.
 
 The filesystem configuarions will be different for each system. It will be different on MAC, WSL and openBSD.
+
+# Users, groups 
+Almost everything is treated as file which can be read, written or executed. Every file is owned by exactly one user and one group. Running the `ls -l` allows seeing the groups and users of a listed files. 
