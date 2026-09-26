@@ -108,6 +108,12 @@ For example, the file `.deb` file below is owned by user `tom`and group `tom`
 
 ```
 
+Inspecting the file output from running `ls -` some more we can see that:
+$$
+\underbrace{ - }_{ directory }\underbrace{ rw- }_{ user }\underbrace{ rw- }_{ group }\underbrace{ r-- }_{ other }  1 \ tom \ tom  \ 117341968 \ Sep 26 11:56  \ linux_f5vpn.x86_64.deb
+$$
+We can see the RWX permission for each user, group or other for the file.
+
 The RWX system can be represented as binary and octal 
 
 For example the file can be read to written to and executed can be written as 
@@ -117,10 +123,19 @@ R-x = 101_2 = 5_8
 --- = 000_2 = 0_8
 ```
 
-
-
-
 The chmod command is used to change permissions. 
+For example running
+```
+ chmod 666 linux_f5vpn.x86_64.deb 
+```
+Changes the permission for the group, user and other from:
+```shell
+-rw-rw-rw-  1 tom tom 117341968 Sep 26 11:56 linux_f5vpn.x86_64.deb
+```
+To:
+```shell
+--wx-wx-wx  1 tom tom 117341968 Sep 26 11:56 linux_f5vpn.x86_64.deb
+```
 
 Systemd is a service manager for Linux.  It can show the state of your server state machine. The command to see the state of your server is 
 ```
