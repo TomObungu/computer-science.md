@@ -22,4 +22,6 @@ You can use ssh to remotely connect to your instituions lab machines. Often time
 ssh USERNAME@YOUR-INSTITUION-DOMAIN.COM
 ```
 In my case, my instition required connected to portals vpn via web browser before forming the ssh.
+
+You can then type `whoami` and `uname -a` to check who you are logged in as. You can then try `hostname` which prints the machine name
 # Setting up ssh keys
