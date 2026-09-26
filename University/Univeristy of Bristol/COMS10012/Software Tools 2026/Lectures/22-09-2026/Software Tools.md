@@ -74,7 +74,23 @@ ARP spoofing is is technique used by a man in the middle attacker. It involves a
 
 The attack involves the user sending spoofed addresses onto a network. A spoofed address is an address that falsly identifies as another address by falsifying data. 
 
-# 
+# The Linux Filesystem
+Running the `tree -L` command on the root folder `/` allows inspection of the filesystem of a linux machine. 
+![[Pasted image 20260926182800.png]]
+
+Binary programs go in `bin/`. Bootloader stuff goes in `boot/`. Device files such as raw disks are in `dev/`.  Configuration files go in `etc/`. Programs for the root user go in `sbin/`. Temporary files go in `/tmp`. Files being served go in `/srv` or var/
+
+`run/` is for runtime things. 
+
+`/usr` contains the same again but its stuff that the OS thinks you need.  
+
+`/usr/local` contains the same local things needed but for stuff that has been locally installed on the specific machine. 
+
+`/opt` may also contain the same.
+
+The filesystem configuarions will be different for each system. It will be different on MAC, WSL and openBSD.
+
+
 # Users, groups and the UNIX DAC
 In linux and most UNIX systems, the concept of users means each user has control over the minimum things they need to work. 
 
@@ -107,6 +123,8 @@ The command will also show the system logs. In this case the prefix `-n 3` will 
 journalctl -n 3
 ```
 
+The 
+
 # Service Managers
 ## Systemd
 Systemmd is a service manager for Linux. The most 'normal' or commonly used one is system. You can run the command `systemctl status` to see the status of your linux server.
@@ -137,3 +155,4 @@ systemctl status sshd
 
 # Question
 A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
+
