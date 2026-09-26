@@ -12,4 +12,4 @@ You can test the status of your connectivity as a client using
 ssh localhost
 ```
 
-You 
+If it asks for a password, then the ssh client is working. 
