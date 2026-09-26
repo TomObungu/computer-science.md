@@ -63,7 +63,8 @@ The command will also show the system logs. In this case the prefix `-n 3` will 
 journalctl -n 3
 ```
 
-# Systemd
+# Service Managers
+## Systemd
 Systemmd is a service manager for Linux. The most 'normal' or commonly used one is system. You can run the command `systemctl status` to see the status of your linux server.
 ```shell
 systemctl
@@ -73,9 +74,22 @@ You can also use `journalctl` to see the logs of your computer/system to monitor
 journalctl -n 3
 ```
 The `-n` suffix allows your specify the amount of log information you want to see. 
-The `systemctl status ssd 
-`
+The  `systemctl status sshd`  allows you to monitor the status of your `sshd` unit service once it has been turned on. 
 
+However in order to actually turn on the sshd service, you need to run the command:
+```shell
+systemctl start sshd
+```
+In order to cause the `sshd` service to run at boot you use the `enable` tag. Furthermore you can use the `--now` tag to simulatanously turn it on and enable it at boot
+```shell
+systemctl enable sshd
+systemctl enable --now sshd
+```
+`
+Once your `sshd` service has started, you can run
+```shell
+systemctl status sshd
+```
 
 # Question
 A file is owned by brian (group users), and has permissions 0754. Can nigel (group) read it and can he edit. 
