@@ -1,6 +1,9 @@
 # Propositions
-A proposition is either a statement that is either true of false. True and false are the two Boolean values. The represent the truth value of a proposition 
+A proposition is either a statement that is either true of false. True and false are the two Boolean values. The represent the truth value of a proposition - the answer to a propositional question.
 
+For example $12 < 14$ is a proposition and it's associated boolean value is $\top$. 
+
+# Notation for Booleans
 The propositional symbols for Boolean in mathematical set logic can be represented as :
 $$
 \begin{gather*}
@@ -10,13 +13,34 @@ $$
 $$
 We can capture the output of a Boolean function for every possible combination using truth tables. Inputs sit left of the divider and the outputs to the right.
 
+Boolean logic can also be seen in circuits and bits as $1 / 0$, in everyday logic and programming languages as true and false.
+
+# Truth tables
+A truth table is a table capturing the output of a Boolean function for every possible input combination. Inputs sit left of the divider, outputs to the right and every combination of inputs must appear. If this is the case, the table is incomplete.
+
+Consider a truth table with everyday propositional statements:
+
+| Night Mode Option? | Is it past 5pm? | Night Mode? |
+| ------------------ | --------------- | ----------- |
+| $\bot$             | $\bot$          | $\bot$      |
+| $\bot$             | $\top$          | $\bot$      |
+| $\top$             | $\bot$          | $\bot$      |
+| $\top$             | $\top$          | $\top$      |
+
+The example above can be used for let's say when a website switches to night mode just if the nightmode option is selected AND it's past 5pm. 
 # Conjunctions (AND)
-The symbol for a conjunction in formal logic is $\wedge$
-The conjunction of two propositions. The result is true if both sub-propositions are true. 
+The symbol for a conjunction in formal logic is $\wedge$.
+The conjunction of two propositions. The result is true if both sub-propositions are true. This is true if the "conjuncts", are true. Below is an example table showing the conjuctive propositions between $p$ and $q$:
+
+| p      | q      | $p \wedge q$ |
+| ------ | ------ | ------------ |
+| $\bot$ | $\bot$ | $\bot$       |
+| $\bot$ | $\top$ | $\bot$       |
+| $\top$ | $\bot$ | $\bot$       |
+| $\top$ | $\top$ | $\top$       |
 
 # Disjunctions (OR)
-The  symbol for a disjunction in formal logic is $\lor$
-The disjunction of two proposiitions. The result is true if either on of sub-propoistions are true. 
+The  symbol for a disjunction in formal logic is $\lor$. The disjunction of two proposiitions. The result is true if either on of sub-propoistions are true. 
 
 # Negation (NOT)
 The symbol fo a negational propositoin in formal logic is $¬$
