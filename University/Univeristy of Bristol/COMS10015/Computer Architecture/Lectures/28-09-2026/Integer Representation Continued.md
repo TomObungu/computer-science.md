@@ -22,7 +22,7 @@ In this case, $f$ is a function that has an action on $\hat{x}$ and $\hat{y}$ su
 	2. Produces $(n+1)$ bit sum as $\hat{r}$ as a result. 
 
 # Agenda : produce a design for $f$
-Now consider the case of producing designs for function $f$ which function correctly and satisify pertinent quality metrics. That is is efficient in time and space $(O(n), \Omega ()))$
+Now consider the case of producing designs for function $f$ which function correctly and satisify pertinent quality metrics. That is is efficient in time and space $(O(n), \Omega (n)))$
 
 ## Addition in theory
 Consider the familiar decimal addition found in base $10$:
@@ -66,12 +66,11 @@ $$
 | 0        | 1   | 0   |     |     |
 | 0        | 1   | 1   |     |     |
 | 0        | 0   | 1   |     |     |
-By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders. Each connection is called a full adder cell. 
+
+By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders. Each connection is called a full adder cell. The connection between them is called the carry chain. 
 
 # Cases of signed and unsigned integers
 When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude of $r=x+y$ can exceed what is represented via $\hat{r}$. 
 
 1. If $\hat{x}$ and $\hat{y}$ are unsigned, and 
 2. If $\hat{x}$ and $\hat{y}$ are signed and signs between them are incorrect, then there is a overflow error
-
-Adding two positive 
