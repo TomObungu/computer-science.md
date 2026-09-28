@@ -29,10 +29,10 @@ Consider the familiar decimal addition found in base $10$:
 $$
 \begin{gather*}
 x = 107_{(10)} \mapsto 1 \ 0 \ 7 \\ 
-y = 14_{(14)} \mapsto 0 \ 1 \ 4 \\
+y = 14_{(14)} \ \ \mapsto 0 \ 1 \ 4 \\
 \hline 
-c = \\\ 
-r = \\
+c = \qquad \qquad  0 \ 1 \ 0 \ \\
+r = \qquad \qquad   
 \end{gather*}
 $$
 $$
