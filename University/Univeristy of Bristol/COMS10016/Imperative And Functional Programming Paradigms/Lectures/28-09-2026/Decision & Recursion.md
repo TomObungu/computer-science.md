@@ -55,7 +55,9 @@ switch (INT_EXP) {
 }
 ```
 
-However our lecturerer advises to not use switch cases as it can make procedures unnecessarily big. Try to consider one line per case, maybe a function call - try to decompose your logic 
+However our lecturerer advises to not use switch cases as it can make procedures unnecessarily big. Try to consider one line per case, maybe a function call - try to decompose your logic.
+
+One of the things that seperates the `default` statement and `else` is that the statement only depends on if a case was not broken before. If a case is broken before 
 
 # Recursion
 
