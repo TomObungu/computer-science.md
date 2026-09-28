@@ -18,7 +18,7 @@ $$
 \begin{gather*}
 \hat{X}_{LE} = \langle X_{1},X_{2},X_{3},X_{4},X_{5},X_{6},X_{7},X_{8},X_{1},  \rangle = \langle 1,1,0,1,1,1,1,\rangle
 \\ \\
-\hat{X}_{BE} = \langle 1,1,1,1,0,1,1,\rangle
+\hat{X}_{BE} = \langle 1,1,1,1,0,1,1\rangle
 \end{gather*}
 $$
 Following the idea of vecotrial Boolean functions, given an n-element bit-sequence $X$ and an $m$-element bit-sequence $Y$, it possible to clarify to overload operators to write the variable $X$ if its indexed within a data structure with an index of $i$ . For example consider the operations for:
