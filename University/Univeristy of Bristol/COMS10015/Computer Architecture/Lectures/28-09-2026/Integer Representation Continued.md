@@ -65,7 +65,7 @@ $$
 | 0        | 0   | 0   | 0   | 0   |
 | 0        | 1   | 0   |     |     |
 | 0        | 1   | 1   |     |     |
-| 0        |     |     |     |     |
+| 0        | 0   | 1   |     |     |
 By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders
 
 # Cases of signed and unsigned integers
