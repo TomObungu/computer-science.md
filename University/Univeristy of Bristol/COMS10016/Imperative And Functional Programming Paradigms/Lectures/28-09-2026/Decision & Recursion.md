@@ -58,3 +58,35 @@ switch (INT_EXP) {
 However our lecturerer advises to not use switch cases as it can make procedures unnecessarily big. Try to consider one line per case, maybe a function call - try to decompose your logic 
 
 # Recursion
+
+# Self-Calling Produres
+I like to visualise recursive functions using reccurence relations as mentioned within the exercises.
+
+Consider this case:
+```
+int sum(int n){
+    if( n == 1) return 1;
+    else return n + sum(n-1);
+}
+```
+
+For example take the concept of triangle numbers. Mathematically triangle numbers can be expressed using the the recurrenece relation of:
+$$
+\begin{gather*}
+T(n_{i}) = n \\ \\
+T(n_{i+i}) = n + (n+1)
+\end{gather*}
+$$
+For example consider a function for the recursive form to get the $nth$ triangle number. In this case we can define the base case of $T(n)$ within this section of the code:
+```
+if (n == 1)
+```
+
+In recursion, functions are called in order and placed on the call stack in reverse order. Each function is then called from reverse order called with its instance and variables for that function:
+
+![[Pasted image 20260928104045.png]]
+
+# Call Stack
+A processor has acess to a call stack, containing stack frames. Each function  call generates an instance of local variables written on, one for each function call which is in progress. 
+
+![[Pasted image 20260928104152.png]]
