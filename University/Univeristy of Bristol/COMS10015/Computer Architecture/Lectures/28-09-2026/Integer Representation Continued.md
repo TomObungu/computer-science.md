@@ -36,7 +36,6 @@ r = \qquad \qquad   1\ 2 \ 1
 \end{gather*}
 $$
 
-
 # Algorithm in place
 
 Below is the formal mathematical representation of the above algorithms on addition. Is is rigorous in the case that it contains the base $b$ and carry digit $c$ as  variables. This adds versatility and makes it a general purpose algorithm that be universally shared. 
@@ -66,6 +65,7 @@ $$
 | 0        | 0   | 0   | 0   | 0   |
 | 0        | 1   | 0   |     |     |
 | 0        | 1   | 1   |     |     |
+| 0        |     |     |     |     |
 By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders
 
 # Cases of signed and unsigned integers
@@ -74,4 +74,4 @@ When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude o
 1. If $\hat{x}$ and $\hat{y}$ are unsigned, and 
 2. If $\hat{x}$ and $\hat{y}$ are signed and signs between them are incorrect, then there is a overflow error
 
-
+Consider 
