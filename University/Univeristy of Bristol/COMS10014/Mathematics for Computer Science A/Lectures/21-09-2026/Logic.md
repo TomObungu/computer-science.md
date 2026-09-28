@@ -55,7 +55,22 @@ A unary operator, i.e with only one input, that flips true to false and false to
 # Implication 
 Encodes "if p then q." We refer to p as the antecedent (left of the arrow), and q is the consequent (right).
 
-True if either the antecedent is false, or the consequent is true.
+True if either the antecedent is false, or the consequent is true. The truth table as this, where $p$ is the antecedent and $q$ is the consequent. 
+
+| p      | q      | $p \implies q$ |
+| ------ | ------ | -------------- |
+| $\bot$ | $\bot$ | $\top$         |
+| $\bot$ | $\top$ | $\top$         |
+| $\top$ | $\bot$ | $\bot$         |
+| $\top$ | $\top$ | $\top$         |
+
+This can also be represented in regular Boolean expressive form:
+$$
+¬p \wedge q
+$$
+As well as that, 
+
+
 
 E.g. (If it is past 5pm, then it implies that work has finished)
 
