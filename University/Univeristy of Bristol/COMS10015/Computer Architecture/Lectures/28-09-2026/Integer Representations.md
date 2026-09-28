@@ -21,7 +21,8 @@ $$
 \hat{X}_{BE} = \langle 1,1,1,1,0,1,1,\rangle
 \end{gather*}
 $$
-Following the idea of vecotrial Boolean functions, given an n-element bit-sequence $X$ and an $m$-element bit-sequence $Y$, it possible to clarify to overload operators to write the variable $X$ if its indexed within a data structure with an index of $i$ . For example consider the operations for 
+Following the idea of vecotrial Boolean functions, given an n-element bit-sequence $X$ and an $m$-element bit-sequence $Y$, it possible to clarify to overload operators to write the variable $X$ if its indexed within a data structure with an index of $i$ . For example consider the operations for:
+1. Overload $\oslash \in \{¬\}. i.ie$
 
 # Hamming Weight
 The Hamming Weight is the number of bits within a binary sequence $X$ that are equal to $1$. That is the number of times $X_{i}=1$. This can be expressed as:
