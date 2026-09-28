@@ -66,7 +66,7 @@ $$
 | 0        | 1   | 0   |     |     |
 | 0        | 1   | 1   |     |     |
 | 0        | 0   | 1   |     |     |
-By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders
+By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders. Each connection is called a full adder cell. 
 
 # Cases of signed and unsigned integers
 When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude of $r=x+y$ can exceed what is represented via $\hat{r}$. 
