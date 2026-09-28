@@ -1,0 +1,1 @@
+Somtimes enums are used to define isolated constants instead of sequences. Isolated enums 
