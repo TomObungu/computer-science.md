@@ -14,6 +14,8 @@ grade(mark)); ...
 int grade(int mark) { ... } // full definition with body
 ```
 
+It is possible to use forward declarations for useage of header files for multi-file projects. 
+
 # Shadowing
 The procedure identifier has global scope, whilst the variable grade has a local scope limited to this procedure only. In such situations the identifier declared last takes precedence and all other identifiers of the same name are temporarily not accessible or shadowed.  We are usually not allowed to declare the same identifier name twice in exactly the same scope. 
 
@@ -54,3 +56,5 @@ switch (INT_EXP) {
 ```
 
 However our lecturerer advises to not use switch cases as it can make procedures unnecessarily big. Try to consider one line per case, maybe a function call - try to decompose your logic 
+
+# Recursion
