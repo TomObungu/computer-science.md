@@ -37,12 +37,14 @@ Consider the case of $\phi \implies \psi$. To prove $\phi \implies \psi$. Assume
 
 Let's take the case of $x > 0  \implies x>1$. We start of by assuming $x>0$ and the goal in mind becomes proving $x>1$.
 # Elimination 
-If we have $\phi\implies \psi$ and we have $\phi$ then $\psi$ is true. The statement to 'have' means that $\phi$ is true or that $\phi$ has been proven. 
+If we have $\phi\implies \psi$ and we have $\phi$ then $\psi$ is true. The statement to 'have' means that $\phi$ is true or that $\phi$ has been proven. This means the basis of elimination starts from a true statement. 
 
 Consider the case of $((p\implies p)\implies q)\implies q$.  We start of by assuming that $((p\implies p)\implies q)$.
 
 The goal the becomes proving $q$. However within this assumption there is an implication of $(p \implies p)$. Thus we have a secondary sub-goal which is to show $(p\implies p)$. 
 
 However this implication also has it's own assumption of $p$. This makes another sub-goal of $p$. 
+
+If we were to use Elimination for the statement of $x > 0 \implies x +1$
 
 
