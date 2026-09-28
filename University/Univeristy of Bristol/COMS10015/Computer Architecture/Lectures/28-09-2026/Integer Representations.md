@@ -47,18 +47,30 @@ Where each $\hat{x}_{i}$ represents one of the n digits taken from the set $X = 
 
 ## Value of $b>10$
 For $b>10$,, we can't express $\hat{x}_{i}$ using a single Arabic numeral itself. For $b>10$. Singlular letters are used instead.
-
-
+$$
+\begin{gather*}
+A \mapsto 10 \\ \\
+B \mapsto 11 \\ \\
+C \mapsto 12 \\ \\
+D \mapsto 13 \\ \\
+E \mapsto 14 \\ \\
+F \mapsto 15 \\ \\
+\end{gather*}
+$$
 ## Example 
-Consider an example where $b=10$. This means that
+Consider an example where $b=10 and that $x=123$. This means that
 $$
 x \in X = 10 = \langle 0, 1,\dots, 10 - 1 = 9 \rangle 
 $$
 Thus showing the summation sequence gives:
 $$
 \begin{gather*}
-\hat{x} = \langle \hat{x}_{0}, \hat{x}_{1},\dots,\hat{x}_{n-1} \rangle \\ \\
+\hat{x} = 123 = \langle 3, 2, 1\rangle \\ \\
 \mapsto \\ \\
  = \pm \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ b^{i}}
 \end{gather*}
 $$
+
+# Standard integer representations
+Consider the case of trying to represent the numbers within $\mathbb{Z}$. However theere 
+
