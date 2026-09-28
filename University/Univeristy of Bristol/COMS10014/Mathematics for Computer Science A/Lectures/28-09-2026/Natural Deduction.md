@@ -47,4 +47,12 @@ However this implication also has it's own assumption of $p$. This makes another
 
 If we were to use Elimination for the statement of $x > 0 \implies x +1$
 
+# Example proof 
+Consider $((p\implies p)\implies q)$
+1. Assume $(p\implies p)\implies q)$
+2. Assume $p$ 
+3. $p$ by assumption 2.
+4. Now consider $p\implies p$ by introduction on 2,3.
+5. $q$ by elimination on 1, 4 
 
+Scope - Range of assumptions. This means that implication in natural deduction is one of the more fundamental rules. 
