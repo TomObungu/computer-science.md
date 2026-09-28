@@ -86,6 +86,7 @@ $$
 \begin{gather*}
 \hat{x} = \langle \hat{x}_{0}, \hat{x}_{1},\dots,\hat{x}_{n-1} \rangle \\ \\
 \mapsto \\ \\
- = \pm \hat{x}_{n-1} \dot -2n^{n-1+ } \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ 2^{i}}
+ = \pm \hat{x}_{n-1} \dot -2n^{n-1} + \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ 2^{i}}
 \end{gather*}
 $$
+
