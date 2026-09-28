@@ -57,7 +57,8 @@ E \mapsto 14 \\ \\
 F \mapsto 15 \\ \\
 \end{gather*}
 $$
-## Example 
+## Examples
+### Decimal
 Consider an example where $b=10 and that $x=123$. This means that
 $$
 x \in X = 10 = \langle 0, 1,\dots, 10 - 1 = 9 \rangle 
@@ -70,7 +71,9 @@ $$
  = \pm \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ b^{i}}
 \end{gather*}
 $$
+### Binary
 
+### Octal 
 # Standard integer representations
 Consider the case of trying to represent the numbers within $\mathbb{Z}$. However theere 
 
