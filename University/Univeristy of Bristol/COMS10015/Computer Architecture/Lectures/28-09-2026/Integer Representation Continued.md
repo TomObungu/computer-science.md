@@ -49,6 +49,9 @@ Below is the formal mathematical representation of the above algorithms on addit
 4. $c_{0} \gets c_{n}$
 5. $\mathbf{return} \ r, c_{0}$
 
+This algorithm below forms the basis of an adder function. 
+
+* circuit goes here*
 
 
 This lines below within the algorithm  is analagous to a function that takes in 3 inputs that maps to a output of two variables:
@@ -58,4 +61,12 @@ $$
 f_{i}: \{0,1\}^{3} \to \{0, 1\}^{2}
 $$
 
+| $c_{in}$ | $x$ | $y$ | $r$ | $c$ |
+| -------- | --- | --- | --- | --- |
+| 0        | 0   | 0   | 0   | 0   |
+| 0        | 1   | 0   |     |     |
+| 0        | 1   | 1   |     |     |
+By taking in the $c_{o}$ from the previous adder in unison with the other variable inputs for each adder, the combination of them termed a ripple-carry adder. The connection or carry bit $c_{0}$ is what connects between adders
 
+# Cases of signed and unsigned integers
+When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude of $r=x+y$ can exceed what is represented via $\hat{r}$. 
