@@ -24,6 +24,21 @@ In this case, $f$ is a function that has an action on $\hat{x}$ and $\hat{y}$ su
 # Agenda : produce a design for $f$
 Now consider the case of producing designs for function $f$ which function correctly and satisify pertinent quality metrics. That is is efficient in time and space $(O(n), \Omega ()))$
 
+## Addition in theory
+Consider the familiar decimal addition found in base $10$:
+$$
+\begin{gather*}
+x = 107_{(10)} \mapsto 1 \ 0 \ 7 \\ 
+y = 14_{(14)} \mapsto 0 \ 1 \ 4 \\
+\hline 
+c = \\\ 
+r = \\
+\end{gather*}
+$$
+$$
+\begin{table*}
 
+\end{}
+$$
 
 
