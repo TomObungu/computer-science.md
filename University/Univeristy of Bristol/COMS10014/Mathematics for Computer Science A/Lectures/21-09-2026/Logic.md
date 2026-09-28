@@ -42,9 +42,15 @@ The conjunction of two propositions. The result is true if both sub-propositions
 # Disjunctions (OR)
 The  symbol for a disjunction in formal logic is $\lor$. The disjunction of two proposiitions. The result is true if either on of sub-propoistions are true. 
 
+| p      | q      | $p \lor q$ |
+| ------ | ------ | ---------- |
+| $\bot$ | $\bot$ | $\bot$     |
+| $\bot$ | $\top$ | $\top$     |
+| $\top$ | $\bot$ | $\top$     |
+| $\top$ | $\top$ | $\top$     |
 # Negation (NOT)
 The symbol fo a negational propositoin in formal logic is $¬$
-A unary operator, i.e with only one input, that flips true to false and false to true. 
+A unary operator, i.e with only one input, that flips true to false and false to true. Unlike every English "or", it's also true when both inputs are true. 
 
 # Implication 
 Encodes "if p then q." We refer to p as the antecedent (left of the arrow), and q is the consequent (right).
