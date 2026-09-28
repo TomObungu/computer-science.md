@@ -56,3 +56,27 @@ Consider $((p\implies p)\implies q)$
 5. $q$ by elimination on 1, 4 
 
 Scope - Range of assumptions. This means that implication in natural deduction is one of the more fundamental rules. 
+
+# Using rules of introduction and elimination
+
+## Proving conjunction
+If we were to prove a statement such as $\phi \wedge \psi$
+
+
+## Proving  $p \implies (q \implies p \wedge q)$
+Claim $p \implies (q \implies p \wedge q)$
+Let's assume the rules for conjunction from above for $p$ and $q$.
+Proof:
+1. Assume p
+2. Assume q
+3. Thus $p \wedge q$ by $\wedge$ introduction 
+4. $\therefore$ $q\implies p\wedge q$ by the implication of introduction on line 2 and 3
+5. If $q\implies p \wedge q$, $\therefore$ $p$
+
+## Proving $p \wedge q \implies q \wedge p$
+Claim $p \wedge q = q \wedge p$
+1. Assume that $p \wedge q$
+2. Assume $p$ is true by $\wedge$ elimination on 1.
+3. Assume that $q$ is true by $\wedge$ on  1.
+4. Thus $q \wedge p$ is also true by introduction on lines 2. and 3.
+5. If $q \wedge p$ is true and $p \wedge q$ then $p \wedge q \implies q \wedge p$
