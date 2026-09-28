@@ -74,4 +74,4 @@ When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude o
 1. If $\hat{x}$ and $\hat{y}$ are unsigned, and 
 2. If $\hat{x}$ and $\hat{y}$ are signed and signs between them are incorrect, then there is a overflow error
 
-Consider 
+Adding two positive 
