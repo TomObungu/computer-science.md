@@ -101,3 +101,10 @@ The call stack is efficient as as the functionality to return and call instances
 
 # Global Variables
 In C if you have programs which require sharing of multiple variables between files then global concurrency would be required. In 
+
+$$
+\begin{gather*}
+T(n_{i}) = n \\ \\
+T(n_{i+1}) = n_{n-1} + n_{n-1}
+\end{gather*}
+$$
