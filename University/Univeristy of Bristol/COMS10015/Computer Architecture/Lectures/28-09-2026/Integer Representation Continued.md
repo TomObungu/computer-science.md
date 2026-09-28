@@ -70,3 +70,8 @@ By taking in the $c_{o}$ from the previous adder in unison with the other variab
 
 # Cases of signed and unsigned integers
 When dealing with unsigned integers for $\hat{x}$ and $\hat{y}$, the magnitude of $r=x+y$ can exceed what is represented via $\hat{r}$. 
+
+1. If $\hat{x}$ and $\hat{y}$ are unsigned, and 
+2. If $\hat{x}$ and $\hat{y}$ are signed and signs between them are incorrect, then there is a overflow error
+
+
