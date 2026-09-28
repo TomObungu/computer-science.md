@@ -75,5 +75,17 @@ $$
 
 ### Octal 
 # Standard integer representations
-Consider the case of trying to represent the numbers within $\mathbb{Z}$. However theere 
+Consider the case of trying to represent the numbers within $\mathbb{Z}$. However there 
 
+# Sign and Magnitude
+A problem with sign and magnitude representation is that arises problems the same bit sequences representing the same numbers on a contiguous number line. 
+
+# Signed Integers (Two's complement)
+A signed integer can be repsented by by using the two's complement appraoch. The idea is to weight the $(n-1)th$ bit using $-2^{n-1}$ and all other bits as normal. 
+$$
+\begin{gather*}
+\hat{x} = \langle \hat{x}_{0}, \hat{x}_{1},\dots,\hat{x}_{n-1} \rangle \\ \\
+\mapsto \\ \\
+ = \pm \hat{x}_{n-1} \dot -2n^{n-1+ } \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ 2^{i}}
+\end{gather*}
+$$
