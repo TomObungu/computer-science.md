@@ -51,6 +51,11 @@ Below is the formal mathematical representation of the above algorithms on addit
 
 
 
-
+This lines below within the algorithm  is analagous to a function that takes in 3 inputs that maps to a output of two variables:
+	1. $r_{I} \gets (x_{i} + y_{i} + c_{i})$
+	2. if $(x_{i} + y_{i} + c_{i}) < b \ \mathbf{then} \ c_{i} \gets 0 \ \mathbf{else}\ c_{i} \gets 1$
+$$
+f_{i}: \{0,1\}^{3} \to \{0, 1\}^{2}
+$$
 
 
