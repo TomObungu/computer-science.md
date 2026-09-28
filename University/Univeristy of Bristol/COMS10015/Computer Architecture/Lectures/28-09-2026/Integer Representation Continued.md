@@ -32,13 +32,25 @@ x = 107_{(10)} \mapsto 1 \ 0 \ 7 \\
 y = 14_{(14)} \ \ \mapsto 0 \ 1 \ 4 \\
 \hline 
 c = \qquad \qquad  0 \ 1 \ 0 \ \\
-r = \qquad \qquad   
+r = \qquad \qquad   1\ 2 \ 1
 \end{gather*}
 $$
-$$
-\begin{table*}
 
-\end{}
-$$
+
+# Algorithm in place
+
+Below is the formal mathematical representation of the above algorithms on addition. Is is rigorous in the case that it contains the base $b$ and carry digit $c$ as  variables. This adds versatility and makes it a general purpose algorithm that be universally shared. 
+
+1. r $\gets 0, c_{0} \gets c_{i}$
+2. $\mathbf{for} \ i = 0 \ \mathbf{upto} \ n-1 \mathbf{step} +1  \ \mathbf{do}$
+	1. $r_{I} \gets (x_{i} + y_{i} + c_{i})$
+	2. if $(x_{i} + y_{i} + c_{i}) < b \ \mathbf{then} \ c_{i} \gets 0 \ \mathbf{else}\ c_{i} \gets 1$
+3. $\mathbf{end}$
+4. $c_{0} \gets c_{n}$
+5. $\mathbf{return} \ r, c_{0}$
+
+
+
+
 
 
