@@ -14,8 +14,15 @@ $$
 \text{Claim:} \\ \\
 t(n) = \frac{n(n+1)}{2} \\ \\
 \text{Consider the case: } n = 1 \\ \\
-LHS = 1
+LHS = 1 
 \end{gather*}
 $$
 
 
+
+$$
+\phi  = \frac{1 + \sqrt{ 5 }}{2}
+$$
+
+
+# Padovan sequence
