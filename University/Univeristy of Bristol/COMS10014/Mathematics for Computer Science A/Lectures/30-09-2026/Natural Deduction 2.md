@@ -25,5 +25,9 @@ The variable $\rho$ is the goal case
 # Example 
 Claim $(p \lor q)\implies(q \lor p)$
 Proof:
-	1. Assume $p\lor q$. The goal or $\rho$ is $(q \lor p)$
-	2. 
+1	 Assume $p\lor q$. The goal or $\rho$ is $(q \lor p)$
+2		Assume $p$
+3		    $q\lor p$ by $\lor$ introduction on $2.$
+4	 Assume $q$
+5	  $q \lor p$ by $\lor$ introduction on 4
+6   $q \lor p$ by $\lor$ elimination on 1,3,5
