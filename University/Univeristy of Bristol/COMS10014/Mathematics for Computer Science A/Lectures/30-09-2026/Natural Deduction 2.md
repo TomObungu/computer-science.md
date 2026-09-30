@@ -51,4 +51,18 @@ If $¬\phi$ and $\phi$
 Claim. $p\implies ¬¬p$
 1. Assume $p$. The object is now to show $¬¬p$. Think about any introduction or elimination rules that can be used on any compound statement.  
 	1. Assume $¬p$. For this statement 
-	2. However 
+	2. However this is a contradiction to $p\implies \bot$. $\implies$  $¬$elimination on 1,2
+
+# Proving $\bot$ from Introduction
+How would it be possible to prove $\bot$? 
+The statement of $\bot$ only comes from contradictory assumptions. (¬Elimination)
+
+Now consider the statement for $\bot$. If we have $\bot$ then $\phi$. This is due to vacuous truth. 
+
+Claim: $(p \land ¬p) \implies q$. 
+
+1. Assume $p \land ¬p$ 
+2. $p$. Due to $\wedge$ elimination on $1$
+3. $¬p$. Due to $\wedge$ elimination on 1
+4. $\bot$ . Due to $¬$ elimination on 2
+5. $q$ due to $\bot$ elimination on 
