@@ -6,7 +6,6 @@ The introduction rule for disjunction is:
 	Prove $p \lor \psi$
 		Either prove $p$ or prove $\psi$
 
-
 # Disjunction
 ## Introduction Form
 Consider the case of introduction for disjunction. 
@@ -24,7 +23,7 @@ If we have $\phi \lor \rho$
 Conclude $\rho$ follows. 
 The variable $\rho$ is the goal case 
 
-## Example 
+## Example 1
 Claim $(p \lor q)\implies(q \lor p)$
 Proof:
 1	 Assume $p\lor q$. The goal or $\rho$ is $(q \lor p)$
@@ -55,7 +54,7 @@ Claim. $p\implies ¬¬p$
 
 # Proving $\bot$ from Introduction
 How would it be possible to prove $\bot$? 
-The statement of $\bot$ only comes from contradictory assumptions. (¬Elimination)
+The statement of $\bot$ only comes from contradictory assumptions. ¬ elimination
 
 Now consider the statement for $\bot$. If we have $\bot$ then $\phi$. This is due to vacuous truth. 
 
@@ -66,3 +65,22 @@ Claim: $(p \land ¬p) \implies q$.
 3. $¬p$. Due to $\wedge$ elimination on 1
 4. $\bot$ . Due to $¬$ elimination on 2
 5. $q$ due to $\bot$ elimination on 
+
+# Proving $\top$ from introduction 
+If we are trying to prove $\top$. Then the statement is already trivially done. 
+At any point we may conclude $\top$. 
+
+However this statement cannot be used for elimination due to $\top$ not providing any sufficient evidence for elimination. 
+
+# Example 2
+Claim $¬¬p \implies p$
+1. Assume $¬¬p$
+2. Assume $¬p$. The goal is $¬¬p$
+3. However this is a contradiction. Thus $\bot$
+4. $¬p \implies$
+
+# The law of Excluded Middle
+$$
+\phi \lor ¬\phi \equiv \top 
+$$
+At any point we may have $\phi \lor ¬\phi$ is true by LEM. 
