@@ -84,3 +84,17 @@ $$
 \phi \lor ¬\phi \equiv \top 
 $$
 At any point we may have $\phi \lor ¬\phi$ is true by LEM. 
+
+Now return to $¬¬p\implies p$
+
+1. Assume $¬¬p$
+	1. $p \lor ¬p$ by LEM
+	2. Assume $p$
+	3. $p$ by assumption 
+	4. Assume $¬p$
+	5. $\bot$ by $¬$elimination
+	6. $p$ by $\bot$ elimination. 
+	7. $\therefore$ p is true by $\lor$ elimination on 2,4,7
+	8.  $\therefore$ $¬¬p\implies p$ by $\implies$ introduction on 1,8
+
+
