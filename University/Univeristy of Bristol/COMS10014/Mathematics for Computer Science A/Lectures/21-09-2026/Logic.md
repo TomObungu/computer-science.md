@@ -149,6 +149,11 @@ $$
 # Functional Completeness
 A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function. For each row where the function is true, build the term that matches the row using conjunction, negation and disjunction. 
 
+For example consider the case of the XOR function for $p \oplus q$. It is true when exactly one input is true. The function can be rewritten as:
+$$
+f(p,q) = (p \land ¬q) \lor (¬p \land q)
+$$
+
 ## Theorem 1
 $\wedge, \lor$ and $¬$ are together functionally complete. 
 
