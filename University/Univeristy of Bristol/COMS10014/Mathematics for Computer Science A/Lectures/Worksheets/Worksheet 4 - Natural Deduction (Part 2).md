@@ -8,7 +8,7 @@ $$
 3. \text{Assume } q \\
 4. q \text{ by assumption} \\
 5. \text{Assume } p \\
-6. p \text{ by assumption }\\
+6. q \text{ by elimination on 1,4 }\\
 7. p \implies q  \text{ by elimination on 4,6 } \\
 8. q \lor p \implies q \text{ by } \implies \text{introduction on 2,7} \\
 9. (p\implies q) \implies (q \lor p \implies q) \text{ by } \implies \text{introduction on 1,8}
