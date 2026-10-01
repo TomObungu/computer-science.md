@@ -28,4 +28,6 @@ $$
 \end{gather*}
 $$
 # 3.  
-Formalise the following argument as a natural deduction 
+$$
+p \lor q 
+$$
