@@ -76,14 +76,40 @@ If work had finished and it was not past 5pm then there wouldn't be enough evide
 ## Implication and vacuous truth
 For example take a statement such as "If pigs can fly then, then work has finished". In this scenario since the statement is always a claim that doesn't hold any value, then on the truth table, the statement will always return true. Regardless of any input the result will always be $\top$
 
+The statement is called vacuous precisely because it makes no real claim about the world - its condition can never hold. 
+
+For example, consider a statement such as "If pigs can fly, then it's time to finish work." Boolean functions don't care about meaning or context - only truth values. Due to the statement of pigs being able to fly being false, the antecedent for the implication is always false so the statment is always true regardless of whether it's time to finish work. 
+
+Remember implication occurs when the antecedent is is false or the consequent is true, thus in this case the implication will always be true regardless of the consequent. 
+
 # Alternative Notation
+| Operator    | Course         | Also seen as              |
+| ----------- | -------------- | ------------------------- |
+| Conjunction | $p\land q$     | `p && q`, `p & q`, `p.q`  |
+| Disjunction | $p \lor q$     | `p \|\| q, p \| q, p + q` |
+| Implicaiton | $p \implies q$ | $p \to q$                 |
+| Negation    | $¬p$           | `!p, ~p`                  |
 
 # Operator Precedence
+Compound terms combine several operators. Higher precedence evalutes first - negation binds tightest, implication loosest. 
+
 The hierachy of operator precedence is:
 1. Parenthesis
 2. Negation
 3. Conjunction
 4. Disjunctions 
+5. Implication
+
+## Worked example
+Consider the logical statment below:
+$$
+p \land q \lor r
+$$
+If there are no parenthesis to imply the order of operations, use the rules of operator precedence. Thus in this case the statement above becomes:
+$$
+p \land (q \lor r)
+$$
+According to operator precedence.
 
 # Associativity
 A binary operator $o$ is associative if $( p )$
