@@ -114,8 +114,16 @@ According to operator precedence.
 # Associativity
 A binary operator $\circ$ is associative if $(p \circ q) \circ r$ and $p \circ (q \circ r)$ are equivalent - interchangeable, regardless of grouping. 
 
-Implication is not associative. By convention
-
+Implication is not associative. 
+By convention:
+$$
+p \implies q\implies r
+$$
+Is read as:
+$$
+p \implies (q\implies r)
+$$
+Note that this is only by convention, it does mean implication is an associative as an operation. 
 For example 
 $$
 \begin{gather*}
@@ -124,6 +132,8 @@ p \implies q \implies r \neq (p \implies q) \implies r \\
 p \implies q \implies r \neq p \implies (q \implies r)
 \end{gather*}
 $$
+# Terms as Trees
+
 
 # Functional Completeness
 A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function. For each row where the function is true, build the term that matches the row using conjunction, negation and disjunction. 
