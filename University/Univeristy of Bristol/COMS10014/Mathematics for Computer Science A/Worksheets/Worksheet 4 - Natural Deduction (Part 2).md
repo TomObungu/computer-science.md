@@ -23,6 +23,7 @@ $$
 1. \text{Assume p} \\
 2. p \lor q \text{ by } \text{ by } \lor \text{ introduction on 1} \\ 
 3. \text{Assume q} \\
-4. (p \lor q) \land q \text{ by } \text{introduction }
+4. (p \lor q) \land q \text{ by } \text{introduction } \\
+5. (p \lor q) 
 \end{gather*}
 $$
