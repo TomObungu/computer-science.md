@@ -71,7 +71,7 @@ $$
 As well as that, consider the logic of $p\implies q$ using a logical statement:
 E.g. (If it is past 5pm, then it implies that work has finished)
 
-If work had finished and it was not past 5pm then there wouldn't be enough evidence to support the implication between work finishing and the time of 5pm. Likewise if work had finished 
+If work had finished and it was not past 5pm then there wouldn't be enough evidence to support the implication between work finishing and the time of 5pm. 
 
 ## Implication and vacuous truth
 For example take a statement such as "If pigs can fly then, then work has finished". In this scenario since the statement is always a claim that doesn't hold any value, then on the truth table, the statement will always return true. Regardless of any input the result will always be $\top$
