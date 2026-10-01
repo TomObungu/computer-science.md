@@ -112,7 +112,7 @@ $$
 According to operator precedence.
 
 # Associativity
-A binary operator $o$ is associative if $( p )$
+A binary operator $\circ$ is associative if $(p \circ q) \circ r$ and $p \circ (q \circ r)$ are equivalent - interchangeable, regardless of grouping. 
 
 Implication is not associative. By convention
 
