@@ -27,3 +27,4 @@ $$
 5. (p \lor q) 
 \end{gather*}
 $$
+# 3.  
