@@ -24,7 +24,8 @@ $$
 2. p \lor q \text{ by } \text{ by } \lor \text{ introduction on 1} \\ 
 3. \text{Assume q} \\
 4. (p \lor q) \land q \text{ by } \text{introduction } \\
-5. (p \lor q) 
+5. p \implies (p \lor q) \land q \text{ by } \implies \text{introduction on 1, 4} 
 \end{gather*}
 $$
 # 3.  
+Formalise the following argument as a natural deduction 
