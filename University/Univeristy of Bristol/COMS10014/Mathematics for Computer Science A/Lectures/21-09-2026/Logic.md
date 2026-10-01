@@ -133,7 +133,18 @@ p \implies q \implies r \neq p \implies (q \implies r)
 \end{gather*}
 $$
 # Terms as Trees
+Each node is an  operator or a variable; The nodes below it are its arguments. The root represents the whole term. 
 
+Consider the tree for the expression:
+$$
+p \land q \lor r
+$$
+![[Pasted image 20261001015820.png]]
+Now consider the tree for the expression:
+$$
+p \land (q \lor r)
+$$
+![[Pasted image 20261001015918.png]]
 
 # Functional Completeness
 A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function. For each row where the function is true, build the term that matches the row using conjunction, negation and disjunction. 
