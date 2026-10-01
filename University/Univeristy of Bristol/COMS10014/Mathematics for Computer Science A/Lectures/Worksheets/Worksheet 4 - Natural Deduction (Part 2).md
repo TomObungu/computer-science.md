@@ -1,4 +1,5 @@
 # Disjunction
+# 1. 
 Claim. $(p\implies q) \implies (q \lor p \implies q)$
 Proof.
 $$
@@ -14,6 +15,13 @@ $$
 9. (p\implies q) \implies (q \lor p \implies q) \text{ by } \implies \text{introduction on 1,8}
 \end{gather*}
 $$
+# 2.
  Claim. $p\implies(p \lor q) \land q$
  Proof. 
- 
+ $$
+\begin{gather*}
+1. \text{Assume p} \\
+2. p \lor q \text{ by } \text{ by } \land \text{ introduction on 2, 3}
+3. 
+\end{gather*}
+$$
