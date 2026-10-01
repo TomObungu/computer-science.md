@@ -21,7 +21,8 @@ $$
  $$
 \begin{gather*}
 1. \text{Assume p} \\
-2. p \lor q \text{ by } \text{ by } \land \text{ introduction on 2, 3}
-3. 
+2. p \lor q \text{ by } \text{ by } \land \text{ introduction on 2, 3} \\ 
+3. \text{Assume q} \\
+4. (p \lor q) \land q \text{ by } \text{introduction }
 \end{gather*}
 $$
