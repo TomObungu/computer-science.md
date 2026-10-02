@@ -1,41 +1,45 @@
-# Bad practices
-## `break`
-An advised practice is to not use the `break` statement within loops. 
+# Feature Creep
+In previous lectures advice was given to avoid quite a number of features, thus adding features to a language is not necessarily a good idea. In programming in C it would be possible to pefrom all computations using `while` loops only. However during eveloutions of languages, execessive features may be added that can be considered redundant. 
 
-## `return`
-Furthermore it is also not advised to use `return` statements within the `main` loop due to ambigious return statemetns inside the loop and outside the loop. 
+## Arrays
+A sequence of related variables can be declared as a single array. Each individual array element is accessible via an index starting from `0`. 
 
-## `continue`
-Ensure that counters are placed appropiatley when using the `continue` statement:
+Arrays are not initialised for efficiency  are initially undefined. Each element must be written before it is read. 
+
+Constant-length arrays can be initialised compactly like this:
 ```C
-int main(void){
-    int i = 0;
-    while( i < N){
-        i++;
-        if(i == STOP){
-            continue;
-        }
-        printf("%d\n", i);
-    }
-    return 0;
-}
+int seq[3] = {10, 5, 4};
+int seq[3] = {7, 9}
+```
+For fixed-length initialisation only, the compiler can work out the length of the array using inference:
+```C
+int seq[] = {10, 5, 4}
 ```
 
-## `do while()`
-Another unadvised practice is using `do while()` loops. Remember that `do while()` loops run the iteration of code at least once before performing the iterations for `Nth` times. 
+For the most part, we think that variables are stored contigously in memory. However C has no garuantee that the variables stored in contiguous memory. 
 
-## `labels`
-Another highly unadvised practice using statments such as `goto`
+A declaration of array reserves one contiguous block of memory. The first element in the array is the pointer to contiguous block of memory. 
+
+# Bugs
+Indexing from `0` is usually helpful, but mistakes are still possible. Consider the code below:
 ```C
-int main(void){
-    int i = 0;
-loop:
-    if(i >= N) goto done;
-    printf("%d\n", i);
-    i++;
-goto loop;
-done: 
-    return 0;
-}
+int seq[3];
+seq[3] = 127;
+```
+This code below is trying to access out of bound memory. C does not automatically detect this. This may cause the program to run and produce garbage values or crash. Furthermore 
+
+# Segmentation Faults
+A segmentation fault or segfault is when your program tries to access memory which doesn't belong to it. An example code of a segmentation fault is below:
+```C
+int q = 3
+int *p = q
+int *p = NULL
+
+printf("%p", p);
 ```
 
+# Variable-length Arrays
+Lengths of arrays can be variables. However the length of the array can't change after it is declared. It is only possible to do this using memory management. 
+```C
+
+```
