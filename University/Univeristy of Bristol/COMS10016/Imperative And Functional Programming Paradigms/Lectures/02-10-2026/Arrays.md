@@ -66,3 +66,6 @@ void add(int n, double a[n], double b[n], double result[n]) {
 int matrix[3][2] = {{1,4}, {5,3}, {9,2}};
 printf("bottom right element: %d\n", matrix[2][1]);
 ```
+
+# Printing a Matrix
+Multi-dimensional arrays, the compiler needs to know the length of each dimension excep the first. It is possible to do this using nested for loops. 
