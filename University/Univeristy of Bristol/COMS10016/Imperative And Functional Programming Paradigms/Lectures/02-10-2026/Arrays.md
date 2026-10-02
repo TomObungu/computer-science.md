@@ -43,3 +43,12 @@ Lengths of arrays can be variables. However the length of the array can't change
 ```C
 
 ```
+
+# The Average Program
+When passing in an array into a function as arguement. The length of the array must also be passed into function parameters. This only works if `n` is before the array 
+
+# Pass-by-Reference
+Array arugments can be passed by reference using pointers. This means that the actual array element is modified. Before the values edited were only copies from the array. 
+
+# Returning of Arrays
+Arrays can't be returned from functions directly. However it will be possible to return pointers to arrays can 
