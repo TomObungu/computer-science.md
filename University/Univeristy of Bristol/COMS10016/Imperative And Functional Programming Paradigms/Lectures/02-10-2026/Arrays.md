@@ -51,4 +51,14 @@ When passing in an array into a function as arguement. The length of the array m
 Array arugments can be passed by reference using pointers. This means that the actual array element is modified. Before the values edited were only copies from the array. 
 
 # Returning of Arrays
-Arrays can't be returned from functions directly. However it will be possible to return pointers to arrays can 
+Arrays can't be returned from functions directly. However it will be possible to return pointers to arrays that can be returned within functions. For example consider a function that adds two vectors
+```C
+void add(int n, double a[n], double b[n], double result[n]) {
+	for(int i = 0; i < n; i++) {
+		result[i] = a[i] + b[i];
+	}
+}
+```
+
+# Arrays of Arrays
+2D matrices in C can just be defined as arrays of arrays. 
