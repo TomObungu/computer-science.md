@@ -62,3 +62,7 @@ void add(int n, double a[n], double b[n], double result[n]) {
 
 # Arrays of Arrays
 2D matrices in C can just be defined as arrays of arrays. 
+```C
+int matrix[3][2] = {{1,4}, {5,3}, {9,2}};
+printf("bottom right element: %d\n", matrix[2][1]);
+```
