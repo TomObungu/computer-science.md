@@ -16,4 +16,5 @@ Hal Burch conducted an analysis over spring break of 1999 and made an amazing di
 - Heuristic Search
 - Approximate Search
 - Ad Hoc Problems
+
 The most challenging problems are Combination Problems which involve a loop (combinations, subsets, etc.) around one of the above algorithms - or even a loop of one algorithm with another inside it. These seem extraordinarily tricky to get right, even though conceptually they are ``obvious''
