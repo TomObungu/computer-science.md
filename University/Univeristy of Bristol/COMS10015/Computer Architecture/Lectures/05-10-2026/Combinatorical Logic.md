@@ -36,4 +36,11 @@ Such special purpose building blocks include:
 	- Has $m$ outputs
 	- Uses a $\log_{2}(m)$ bit control signal input to choose which output is connected to the input. 
 
-# 
+## Multiplexer Analogy in C
+The C `switch` statement can show the behaviour of a multiplexer
+```C
+switch(c) {
+	case 0: r = x
+	case 1: r = y
+}
+```
