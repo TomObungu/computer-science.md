@@ -44,7 +44,7 @@ The critical path will be the sum of the times of delay for each logic gates. In
 The value of $\mathbb{Z}$ would represent a value of high impedance. The idea is to allow a wire to be "disconnected" per say. 
 
 ## Fan-in and fan-out
-
+There can be a limit to the number of logic gates connected to the output of a logic gates due to the distribution of voltage being distributed below the point of threshold. There is a proposed limit $m$. That limit is CMOS circuits is often very large. 
 
 
 
