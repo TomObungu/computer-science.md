@@ -13,3 +13,13 @@ and assume the power rails are everywhere. This forms a pull-up network of P-MOS
 | $1$ | $0$ |
 It is easier to derive the logic gates for NAND and NOR using transistors. Remember that NAND and NOR are universal Boolean functions - thus from them, every other Boolean function such as AND,OR can be composed from them. It is often more efficient to make NAND and NOR circuits than AND and OR circuits directly. 
 
+The inversion of the NOT gate is called a "buffer". Computationally this may not have much value, however it is still possible to think about them on higher levels of abstraction. 
+
+# Physical Limitations
+## Delay
+Wire delay - The time taken for current to move through the conductive wires from one to another
+Gate delay - The time taken in each gate to switch between connected and unconnected states. 
+
+Often times the wire delay is greater than wire. 
+
+The critical path is the path in which there is the longest sequential delay between and input and output. That is, it is the path that has the largest delay from the sum of the combinations of the circuits. 
