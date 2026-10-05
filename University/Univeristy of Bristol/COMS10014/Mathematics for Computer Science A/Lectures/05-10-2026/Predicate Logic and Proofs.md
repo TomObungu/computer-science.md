@@ -93,7 +93,20 @@ Consider the statment, every student has taken the class test in logic. The nega
 $$
 \forall y \exists xMother(x,y)
 $$
-By 
+The above statement can be translated that everyone person $y$ has a mother $x$.
+# Translating Natural Lanaguage and Predicate Logic
+"All students work hard."
+$$
+\begin{gather*}
+\forall x (S(x) \implies W(x)) \\ 
+\end{gather*}
+$$
+"Some students do not sleep at night". For the below statment conjunction must be used. 
+$$
+\exists x (S(x) \lor ¬Sleep(x) )
+$$
+
+
 
 
 
