@@ -77,5 +77,6 @@ A varaible that not bound is said to be free. In $\forall xP(x,y)$ the variable 
 ## Important
 **All the the variables in functions in a propositional statement must either be bound or have a value assigned to them.**
 
-
+# Scope
+Quantifiers bind variables with a scope. In $\exists x(P(x)\implies(Q(x)))$, the scope existential scope 
 
