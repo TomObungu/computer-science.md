@@ -90,4 +90,5 @@ sprintf(str, "Room %d", 42)
 
 ## Common string mistakes
 - Forgetting the `\0`
-- 
+
+Using static buffers is much faster than dynamic allocation. 
