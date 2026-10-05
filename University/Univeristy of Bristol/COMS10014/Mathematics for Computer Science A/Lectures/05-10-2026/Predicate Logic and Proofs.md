@@ -78,5 +78,18 @@ A varaible that not bound is said to be free. In $\forall xP(x,y)$ the variable 
 **All the the variables in functions in a propositional statement must either be bound or have a value assigned to them.**
 
 # Scope
-Quantifiers bind variables with a scope. In $\exists x(P(x)\implies(Q(x)))$, the scope existential scope 
+Quantifiers bind variables with a scope. In $\forall x(\exists x(P(x)\implies(Q(x)))$, the scope universal quantifer scope is for all varaibles. 
+
+# De Morgan's Law For Quantifiers
+$$
+\begin{gather*}
+¬\forall xP(x) \equiv ¬\exists xP(x) \\ \\
+¬\exists xQ(x) \equiv \forall x¬Q(x)
+\end{gather*}
+$$
+Consider the statment, every student has taken the class test in logic. The negation of this statement is "It is not the case that every student has taken the class test in logic". 
+
+The statment can be applied to 
+
+
 
