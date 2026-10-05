@@ -38,5 +38,9 @@ OR -> 20ms
 
 This means there will be a variation of results of the logic gates depending on the time interval. 
 
-The critical path will be the sum of the times of delay for each logic gates. In this case it would be 50ms. Crucially there are some points in time where the output is actually incorrect.
+The critical path will be the sum of the times of delay for each logic gates. In this case it would be 50ms. In this case it would be 50ms. Crucially there are some points in time where the output is actually incorrect.
+
+# Extra state of $\mathbb{Z}$  
+The value of $\mathbb{Z}$ would represent a value of high impedance. The idea is to allow a wire to be "disconnected" per say. 
+
 
