@@ -61,6 +61,8 @@ int main(int n, char *args[]){
 
 it is also possible to use `char **args` as well. 
 
+`args[0]` is the program name itself. 
+
 # Checking string identity
 The identity of two strings can checked with the `==` operator.  However comparing strings using the `==` on strings will  return the same content but not return identity due to the `==` not considering where the string starts. Remember that strings are just a pointer to where an array of characters starts. 
 
@@ -85,9 +87,12 @@ It is possible to print strings into strings using `sprintf`
 char str[10]
 sprintf(str, "Room %d", 42)
 ```
+The difference between `printf` and `sprintf` is that `sprintf` prints to `stdin` which is the the terminal. Whereas `sprintf` prints directly into a string. 
 
 # Calculating Length using `sprintf()`
-
+```
+int len snprintf(0, )
+```
 ## Common string mistakes
 - Forgetting the `\0`
 
