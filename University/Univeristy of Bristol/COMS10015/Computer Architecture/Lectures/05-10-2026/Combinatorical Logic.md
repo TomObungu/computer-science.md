@@ -44,3 +44,11 @@ switch(c) {
 	case 1: r = y
 }
 ```
+Below is also an example behaviour of a demultiplexer 
+```C
+switch(c) {
+	case 0: r_0 = x
+	case 1: r_1 = x
+}
+```
+
