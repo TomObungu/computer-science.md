@@ -33,3 +33,16 @@ char mychr = '\0' // Null terminator. 8 bits (1 byte) on machines
 Not null-terminating your strings can lead to out of bounds errors and segmentation faults. 
 
 To initialise a string you must use double quotation marks `""`  to automatically initialise strings.  This means the data representation will automatically have the `\0` character at the end of the string. 
+
+The `strln` from `string.h` provides the functionality to calculate the size of a string. The `size_t` return type is an unsigned integer type evaluated at a compile time. 
+
+For must cases C, treats an array of characters and pointers to the first value in an array as the same thing. That the function declartions are the same
+```C
+size_t strln(const char* str) 
+size_t strln(const char str[]) 
+```
+
+You can use the `"%zu"` format specifier in `printf()` when dealing with `size_t`.
+
+# Input from the command line
+So far, programs get their input from `scanf` while running. However it possible to use command line arguments.
