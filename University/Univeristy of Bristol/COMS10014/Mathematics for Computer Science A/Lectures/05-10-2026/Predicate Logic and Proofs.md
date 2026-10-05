@@ -89,7 +89,11 @@ $$
 $$
 Consider the statment, every student has taken the class test in logic. The negation of this statement is "It is not the case that every student has taken the class test in logic". 
 
-The statment can be applied to 
+# Nesting quantifiers 
+$$
+\forall y \exists xMother(x,y)
+$$
+By 
 
 
 
