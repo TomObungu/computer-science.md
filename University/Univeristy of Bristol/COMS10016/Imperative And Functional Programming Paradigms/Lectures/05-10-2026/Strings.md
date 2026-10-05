@@ -90,8 +90,8 @@ sprintf(str, "Room %d", 42)
 The difference between `printf` and `sprintf` is that `sprintf` prints to `stdin` which is the the terminal. Whereas `sprintf` prints directly into a string. 
 
 # Calculating Length using `sprintf()`
-```
-int len snprintf(0, "Room %d", 42)
+```C
+int len = snprintf(0, "Room %d", 42)
 ```
 ## Common string mistakes
 - Forgetting the `\0`
