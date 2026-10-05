@@ -19,13 +19,13 @@ $$
 # Decomposition 
 Given an $n$-input function with $m$ outputs. It is possible to decompose the function in terms of smaller and simpler functions
 
-# Independent replication
+## Independent replication
 It is possible to take a problem solved and replicate the function on each index of $r_{i}$. 
 
-# Dependent replication 
+## Dependent replication 
 It is possible to compute multiple inputs. The outcomes of each computation are combined. 
 
-# Selection
+## Selection
 Such special purpose building blocks include:
 1. A multipliexer
 	- Has $m$ inputs
@@ -36,7 +36,7 @@ Such special purpose building blocks include:
 	- Has $m$ outputs
 	- Uses a $\log_{2}(m)$ bit control signal input to choose which output is connected to the input. 
 
-## Multiplexer Analogy in C
+### Multiplexer Analogy in C
 The C `switch` statement can show the behaviour of a multiplexer
 ```C
 switch(c) {
@@ -52,13 +52,14 @@ switch(c) {
 }
 ```
 
-# Addition 
-## Half-adders
+## Addition 
+### Half-adders
 The half-adder has two inputs x and y. It computes the 2-bit result of $x$ and $y$. It has the output of the sum $s$ and a carry-out $c_{0}$ which are the LSB and MSB of the result.
-## Full-adders
+### Full-adders
 Full adders is the combination of two half-adders in which the carry bit is fed into the input of a the secondary adder. This was the ripple-carry adder. Sequences of half-adders form this. The output of each adder still remains the same of the sum $s$ and the carry of $c$.
 
-# Comparison 
+## Comparison 
 - An equality comparator has 2 inputs $x$ and $y$. Computes the $1$ output based on wether $x=y$.
 - A less than comparator has two 2 inputs . Computer on the $1$ output based on the magnitude of the values. 
 
+## Translation
