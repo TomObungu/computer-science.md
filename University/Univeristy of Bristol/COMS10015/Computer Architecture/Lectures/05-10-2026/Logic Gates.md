@@ -23,3 +23,5 @@ Gate delay - The time taken in each gate to switch between connected and unconne
 Often times the wire delay is greater than wire. 
 
 The critical path is the path in which there is the longest sequential delay between and input and output. That is, it is the path that has the largest delay from the sum of the combinations of the circuits. 
+
+In reality the idealised instantaneous square response is not realistic. A more curved response between logic levels is realistic. 
