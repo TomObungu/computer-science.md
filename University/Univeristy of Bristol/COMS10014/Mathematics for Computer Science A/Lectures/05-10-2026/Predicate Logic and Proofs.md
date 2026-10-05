@@ -107,6 +107,9 @@ $$
 $$
 
 
-
+Sometimes can be represented as:
+$$
+\exists x \forall y
+$$
 
 
