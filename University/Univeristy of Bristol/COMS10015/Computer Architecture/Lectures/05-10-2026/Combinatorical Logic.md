@@ -52,3 +52,7 @@ switch(c) {
 }
 ```
 
+# Addition 
+## Half-adders
+The half-adder has two inputs x and y. It computes the 2-bit result of $x$ and $y$. It has the output of the sum $s$ and a carry-out $c_{0}$ which are the LSB and MSB of the result.
+Full adders is the 
