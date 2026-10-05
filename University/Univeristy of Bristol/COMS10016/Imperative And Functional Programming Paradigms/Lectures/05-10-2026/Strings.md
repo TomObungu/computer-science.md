@@ -91,7 +91,7 @@ The difference between `printf` and `sprintf` is that `sprintf` prints to `stdin
 
 # Calculating Length using `sprintf()`
 ```
-int len snprintf(0, )
+int len snprintf(0, "Room %d", 42)
 ```
 ## Common string mistakes
 - Forgetting the `\0`
