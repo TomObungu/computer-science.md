@@ -55,4 +55,10 @@ switch(c) {
 # Addition 
 ## Half-adders
 The half-adder has two inputs x and y. It computes the 2-bit result of $x$ and $y$. It has the output of the sum $s$ and a carry-out $c_{0}$ which are the LSB and MSB of the result.
-Full adders is the 
+## Full-adders
+Full adders is the combination of two half-adders in which the carry bit is fed into the input of a the secondary adder. This was the ripple-carry adder. Sequences of half-adders form this. The output of each adder still remains the same of the sum $s$ and the carry of $c$.
+
+# Comparison 
+- An equality comparator has 2 inputs $x$ and $y$. Computes the $1$ output based on wether $x=y$.
+- A less than comparator has two 2 inputs . Computer on the $1$ output based on the magnitude of the values. 
+
