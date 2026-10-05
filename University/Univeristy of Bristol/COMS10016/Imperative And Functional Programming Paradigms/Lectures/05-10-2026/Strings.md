@@ -97,3 +97,5 @@ int len snprintf(0, "Room %d", 42)
 - Forgetting the `\0`
 
 Using static buffers is much faster than dynamic allocation. 
+
+It is conventional to pass in the null terminator. 
