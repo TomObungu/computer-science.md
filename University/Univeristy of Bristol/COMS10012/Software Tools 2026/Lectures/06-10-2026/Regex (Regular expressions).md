@@ -27,4 +27,6 @@ A faster alternative for grep is `ripgrep`. However they don't behave the same o
 - `-R` - search folder recursivley 
 
 ## Examples
-An example is trying to find the number of words 
+An example is trying to find the number of words in the English lexicon that contain double letters. 
+
+Assuming a dictionary is stored at `/usr/share/dict/words`. It is possible to use the `grep` command and the `wc` command to 
