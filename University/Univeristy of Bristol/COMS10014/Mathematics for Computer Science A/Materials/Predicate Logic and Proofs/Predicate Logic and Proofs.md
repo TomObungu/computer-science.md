@@ -10,7 +10,7 @@ A variable is a placeholding value ranging over a domain e.g. $x$, $y$, $z$.
 
 Functions which may take in multiples variables as input to produce an output. Each function has a fixed arity (number of inputs).  For example, the function $f(x)$ is a unary function, $day(dd,mm,yyyy)$ is a tenary function. A function applied to terms produces a new term. 
 
-# Upper layer - Tormulas
+# Upper layer - Formulas
 The upper layer consists of predicates, propositional connectives and quantifiers. 
 
 A predicate takes in one terms and inputs and outputs  boolean values. For example $=$ is  a built in binary predicate. For example $isEven(x)$ is a predicate.
