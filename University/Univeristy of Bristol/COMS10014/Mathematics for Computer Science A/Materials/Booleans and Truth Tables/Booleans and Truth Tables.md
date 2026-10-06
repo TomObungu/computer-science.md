@@ -12,3 +12,6 @@ The conjunction operator i.e logical "and" encodes the fact that both sub-propos
 
 ## Disjunction
 The disjunction operator i.e logical "or" return true if either sub-propositions are true. It is possible to write $p \lor q$ to expression the disjunction of two Booleans or propositions $p$ and $q$, which are reffered to as the disjuncts. 
+
+# Negation
+The negation operator i.e logical "not" evaluates to the opposite of its input. Turning true into false and vice versa. It is expressed as $¬p$ 
