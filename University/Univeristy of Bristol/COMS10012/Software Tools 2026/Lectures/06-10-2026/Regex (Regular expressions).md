@@ -26,3 +26,5 @@ A faster alternative for grep is `ripgrep`. However they don't behave the same o
 - `-v` - inverted matching 
 - `-R` - search folder recursivley 
 
+## Examples
+An example is trying to find the number of words 
