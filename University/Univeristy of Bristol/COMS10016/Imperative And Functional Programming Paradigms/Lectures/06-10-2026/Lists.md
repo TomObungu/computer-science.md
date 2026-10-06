@@ -28,3 +28,13 @@ It is also possible to use the 'cons' constructor `:` like this. The cons constr
 egConsList :: [Int]
 egConsList = 1 : []
 ```
+
+# Pattern Matching on lists
+Consider the Haskell code below:
+```Haskell
+is123 :: [Int] -> Bool 
+is123 xs = case xs of 
+    1 : 2 : 3 : [] -> True
+    _ -> False
+```
+This code below initialses a function that takes in a an integer and returns a true value.  Afterwards the case statements can take in the list instead
