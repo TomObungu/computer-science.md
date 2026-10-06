@@ -19,14 +19,14 @@ Grep is a search tool for text documents. It's name comes from the ed editor com
 
 A faster alternative for grep is `ripgrep`. However they don't behave the same or aren't always available. 
 
-## Tags for `grep`
+### Tags for `grep`
 - `-i` - Case insensitive search
 - `-e` or `-p` - extended or Perl (non-POSIX) regexp
 - `-o` - only matching the string not line
 - `-v` - inverted matching 
 - `-R` - search folder recursivley 
 
-## Examples
+#### Examples
 An example is trying to find the number of words in the English lexicon that contain double letters. 
 
 Assuming a dictionary is stored at `/usr/share/dict/words`. It is possible to use the `grep` command and the `wc` command to count lines.
@@ -35,3 +35,38 @@ Assuming a dictionary is stored at `/usr/share/dict/words`. It is possible to us
 grep -i '\(.\)\l' /usr/share/dict/words | wc -l
 ```
 
+
+## `sed` is a programable editor for streams (pipes and files)
+
+### Tags for `sed`
+`-n` - Don't print lines by default
+`-E` - extended regexp
+`-i` - Edit files in places
+
+#### Example 
+For example, it is possible to run the grep regular expressions to find all the double words within a dictionary used `sed`
+
+```shell
+sed -n '/\(\(.\)\2.*)\{4\}/p' /usr/share/dict/words
+```
+
+### The `sed s` command
+The `sed s` command works as follows:
+```shell
+s/target/replacement/flags
+```
+
+
+## The `awk` command 
+The `awk` command is used to deal with semi structured data. It is a programming language with a focus on line based input and manipulation. 
+
+For example if there is a receipt that looks like the following:
+```
+# Orderer
+Item, Cost
+```
+
+```
+$cat receipt
+#Gretch
+```
