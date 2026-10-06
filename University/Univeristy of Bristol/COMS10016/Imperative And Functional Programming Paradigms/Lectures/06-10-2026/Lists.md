@@ -38,3 +38,25 @@ is123 xs = case xs of
     _ -> False
 ```
 This code below initialses a function that takes in a an integer and returns a true value.  Afterwards the case statements can take in the list instead
+```
+-- >>> is123 [1,2,3,4]
+-- False
+```
+Using the pattern matching on the list `[1,2,3,4]` will yield false. 
+Consider the Haskell code below:
+```Haskell
+head :: [Int] -> Int
+head xs = case xs of
+    x : xs' -> x
+```
+Running this code in the IDE will yield and error stating that there is an ambiguous variable within the header `Prelude`.
+```Haskell
+head :: [Int] -> Int
+head xs = case xs of
+    x : xs' -> x
+```
+It is possible to hide variables that have the same name as keywords within functions:
+```Haskell
+import Prelude hiding (head)
+```
+
