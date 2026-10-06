@@ -19,5 +19,8 @@ Grep is a search tool for text documents. It's name comes from the ed editor com
 
 ## Tags for `grep`
 - `-i` - Case insensitive search
-- `-E`
+- `-e` or `-p` - extended or Perl (non-POSIX) regexp
+- `-o` - only matching the string not line
+- `-v` - inverted matching 
+- `-R` - search folder recursivley 
 
