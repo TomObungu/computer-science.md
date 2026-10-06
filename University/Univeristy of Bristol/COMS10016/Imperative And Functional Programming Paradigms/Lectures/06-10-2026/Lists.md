@@ -60,3 +60,14 @@ It is possible to hide variables that have the same name as keywords within func
 import Prelude hiding (head)
 ```
 
+# Syntax sugar
+The Haskell code:
+```Haskell
+1 : 2 : 3 : []
+```
+and
+```Haskell
+[1,2,3]
+```
+are synonymous.
+
