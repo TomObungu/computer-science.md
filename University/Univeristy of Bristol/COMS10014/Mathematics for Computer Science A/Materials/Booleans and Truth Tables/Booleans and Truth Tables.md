@@ -35,13 +35,13 @@ Material implication in propositional logic and the way we naturally understand 
 The key is that, in propositional logic "if $p$, then $q$" does not mean "$p$ is the condition that must currently be true". It means  something more like:
 	"The is no case where $p$ is true and $q$ is false"
 
-Essientially $p\to q$ makes on promsise: Whenever $p$ occurs, $q$ must also occur. 
+Essientially $p\implies q$ makes on promsise: Whenever $p$ occurs, $q$ must also occur. This is why $p\implies q$ is false when $p$ is true and $q$ is false as it breaks the whole premesis of above clause. 
 
-| p      | q      | $p\to q$ |
-| ------ | ------ | -------- |
-| $\top$ | $\top$ | $\top$   |
-| $\top$ | $\bot$ | $\bot$   |
-| $\bot$ | $\top$ | $\top$   |
-| $\bot$ | $\bot$ | $\top$   |
+| p      | q      | $p\implies q$ |
+| ------ | ------ | ------------- |
+| $\top$ | $\top$ | $\top$        |
+| $\top$ | $\bot$ | $\bot$        |
+| $\bot$ | $\top$ | $\top$        |
+| $\bot$ | $\bot$ | $\top$        |
 
 
