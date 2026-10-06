@@ -5,5 +5,10 @@ There are various notations for Boolean values such as $1$ for true and $0$ for 
 
 # Boolean Operators and Truth Tables
 Propositions can be comprised of several smaller propositions. It is possible to express various configurations of this application using truth tables. 
-Truth tables capture the possible behaviour of a function actingon Boolean values. Truth tables describe the output values for all possible inputs. 
+Truth tables capture the possible behaviour of a function actingon Boolean values. Truth tables describe the output values for all possible inputs.  
 
+## Conjunction
+The conjunction operator i.e logical "and" encodes the fact that both sub-propositions must be true. It only ever returns true when both inputs are true as in final line of truth. 
+
+## Disjunction
+The disjunction operator i.e logical "or" return true if either sub-propositions are true. It is possible to write $p \lor q$ to expression the disjunction of two Booleans or propositions $p$ and $q$, which are reffered to as the disjuncts. 
