@@ -66,7 +66,3 @@ For example if there is a receipt that looks like the following:
 Item, Cost
 ```
 
-```
-$cat receipt
-#Gretch
-```
