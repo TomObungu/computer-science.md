@@ -16,6 +16,15 @@ To create a list, use the `=` operator and the `:`
 egList = 1:2:3:4
 ```
 
-
 ## List constructors
-It is possible to construct lists using the `[]` constructors.  
+It is possible to construct lists using the `[]` constructors.  By defining its type and then assigning it like this
+```Haskell
+egEmptyList :: [Int]
+egEmptyList = []
+```
+
+It is also possible to use the 'cons' constructor `:` like this. The cons constructor initialises a list and adds `1` to the list. 
+```Haskell
+egConsList :: [Int]
+egConsList = 1 : []
+```
