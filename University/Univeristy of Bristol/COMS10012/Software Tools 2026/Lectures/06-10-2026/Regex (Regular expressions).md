@@ -17,6 +17,8 @@ The
 ##  `grep` for search 
 Grep is a search tool for text documents. It's name comes from the ed editor command. Grep stands for global/regexp (regular expressions)/print (g/re/p). It prints all lines in its input that match a regexp passed as an argument. 
 
+A faster alternative for grep is `ripgrep`. However they don't behave the same or aren't always available. 
+
 ## Tags for `grep`
 - `-i` - Case insensitive search
 - `-e` or `-p` - extended or Perl (non-POSIX) regexp
