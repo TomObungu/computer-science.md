@@ -30,3 +30,5 @@ The negation operator i.e logical "not" evaluates to the opposite of its input. 
 # Implication 
 Informally, the implication operator encodes statements of the form "If X then Y". For example, if it is past 5pm then it is time to work. We will write $p\implies q$ to express implication between two Booleans or propositions $p$ and $q$. The first argument of an implication is called the antecedent and the second argument to right of the arrow is called the consequent. 
 
+The behaviour of this function can 
+
