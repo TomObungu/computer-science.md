@@ -13,7 +13,7 @@ Functions which may take in multiples variables as input to produce an output. E
 # Upper layer - Tormulas
 The upper layer consists of predicates, propositional connectives and quantifiers. 
 
-A predicate takes in terms and inputs and outputs truth values. For example $=$ is  a built in binary predicate
+A predicate takes in one terms and inputs and outputs truth values. For example $=$ is  a built in binary predicate
 
 A propositional connectives such as $\top$, $\bot$, $\lor$, $\land$, $\oplus$, $\implies$ and $ $
 
