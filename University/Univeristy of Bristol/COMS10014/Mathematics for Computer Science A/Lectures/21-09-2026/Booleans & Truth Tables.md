@@ -100,6 +100,7 @@ The hierachy of operator precedence is:
 4. Disjunctions 
 5. Implication
 
+
 ## Worked example
 Consider the logical statment below:
 $$
@@ -107,12 +108,21 @@ p \land q \lor r
 $$
 If there are no parenthesis to imply the order of operations, use the rules of operator precedence. Thus in this case the statement above becomes:
 $$
-p \land (q \lor r)
+(p \land q) \lor r
 $$
-According to operator precedence.
+This is because conjunction outranks disjunction, so $\land$ is evaluated first. To force other grouping, add parenthesis explicity: $p \land (q \lor r)$
 
 # Associativity
 A binary operator $\circ$ is associative if $(p \circ q) \circ r$ and $p \circ (q \circ r)$ are equivalent - interchangeable, regardless of grouping. 
+
+# $\land$ and $\lor$ are associative
+The conjunctive and disjunctive operator are associative. That is:
+$$
+\begin{gather*}
+(p \land q) \land r \equiv p \land (q \land r) \\ \\
+(p \lor q) \lor r \equiv p \lor (q \lor r)
+\end{gather*}
+$$
 
 Implication is not associative. 
 By convention:
@@ -139,12 +149,36 @@ Consider the tree for the expression:
 $$
 p \land q \lor r
 $$
+Recall that the above operation can be evaluated to:
+$$
+p \land q \lor r \equiv (p \land q) \lor r
+$$
+due to operator precedence. Thus is it possible to form a tree on that basis. 
 ![[Pasted image 20261001015820.png]]
 Now consider the tree for the expression:
 $$
 p \land (q \lor r)
 $$
 ![[Pasted image 20261001015918.png]]
+We can see that although the variables remain the same, there is different grouping and thus a different tree and different meaning. 
+
+## Evaluating Compound Terms
+It is useful to add a helper column for the sub-term $p \land q$ before computing the full expression. For example consider the implication 
+$$
+p \land q \implies r
+$$
+it is possible to add a truth table to simplify the full expression by adding a helper column for the sub term $p \land q$ before computing the full expression:
+
+| p      | q      | $p \land q$ | r      | $p \land q \implies r$ |
+| ------ | ------ | ----------- | ------ | ---------------------- |
+| $\bot$ | $\bot$ | $\bot$      | $\bot$ | $\top$                 |
+| $\bot$ | $\bot$ | $\bot$      | $\top$ | $\top$                 |
+| $\bot$ | $\top$ | $\bot$      | $\bot$ | $\top$                 |
+| $\bot$ | $\top$ | $\bot$      | $\top$ | $\top$                 |
+| $\top$ | $\bot$ | $\bot$      | $\bot$ | $\top$                 |
+| $\top$ | $\bot$ | $\bot$      | $\top$ | $\top$                 |
+| $\top$ | $\top$ | $\top$      | $\bot$ | $\bot$                 |
+| $\top$ | $\top$ | $\top$      | $\top$ | $\top$                 |
 
 # Functional Completeness
 A collection of Boolean functions is functionally complete if it can express any arbitrary Boolean function. For each row where the function is true, build the term that matches the row using conjunction, negation and disjunction. 
