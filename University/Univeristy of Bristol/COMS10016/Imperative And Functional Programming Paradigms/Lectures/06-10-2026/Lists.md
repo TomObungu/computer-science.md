@@ -71,3 +71,18 @@ and
 ```
 are synonymous.
 
+## Partial and full functions
+Below is a non-partial function as it covers the domain for other cases using the `_` operator
+```Haskell
+egListSugarMatch :: [Int] -> Int
+egListSugarMatch [x,y,z] = x + z
+-- Consider every other case value to ensure the function is not a partial function
+egListSugarMatch _ = 0;
+```
+The function below uses pattern matching on lists with arbitrary varaibles and returns its length
+```Haskell
+isLength3 :: [Int] -> Bool
+isLength3 listType = case listType of 
+    [x,y,z] -> True
+    _ -> False
+```
