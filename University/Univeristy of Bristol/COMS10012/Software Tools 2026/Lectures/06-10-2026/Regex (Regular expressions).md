@@ -29,4 +29,9 @@ A faster alternative for grep is `ripgrep`. However they don't behave the same o
 ## Examples
 An example is trying to find the number of words in the English lexicon that contain double letters. 
 
-Assuming a dictionary is stored at `/usr/share/dict/words`. It is possible to use the `grep` command and the `wc` command to 
+Assuming a dictionary is stored at `/usr/share/dict/words`. It is possible to use the `grep` command and the `wc` command to count lines.
+
+```shell
+grep -i '\(.\)\l' /usr/share/dict/words | wc -l
+```
+
