@@ -3,9 +3,20 @@ A proposition is simply a statment or condition that is either true or false. Tr
 
 There are various notations for Boolean values such as $1$ for true and $0$ for false and $\top$ for true and $\bot$ for false. You could even do $T$ for true and $F$ for false. 
 
+
 # Boolean Operators and Truth Tables
 Propositions can be comprised of several smaller propositions. It is possible to express various configurations of this application using truth tables. 
 Truth tables capture the possible behaviour of a function actingon Boolean values. Truth tables describe the output values for all possible inputs.  
+
+Consider a truth table that express the statement of "The dark mode  option is selected and it is past 5pm". If these statments are both true simulatnously, then night mode is turned on. It is possible to express the various configurations of this application by the table in Figure 1.
+
+| Night Mode Option? | Past 5pm | Night Mode |
+| ------------------ | -------- | ---------- |
+| $\bot$             | $\bot$   | $\bot$     |
+| $\bot$             | $\top$   | $\bot$     |
+| $\top$             | $\bot$   | $\bot$     |
+| $\top$             | $\top$   | $\top$     |
+
 
 ## Conjunction
 The conjunction operator i.e logical "and" encodes the fact that both sub-propositions must be true. It only ever returns true when both inputs are true as in final line of truth. 
@@ -16,4 +27,6 @@ The disjunction operator i.e logical "or" return true if either sub-propositions
 # Negation
 The negation operator i.e logical "not" evaluates to the opposite of its input. Turning true into false and vice versa. It is expressed as $¬p$ . This operation corresponds to the English connective word "not". 
 
-Impli
+# Implication 
+Informally, the implication operator encodes statements of the form "If X then Y". For example, if it is past 5pm then it is time to work. We will write $p\implies q$ to express implication between two Booleans or propositions $p$ and $q$. The first argument of an implication is called the antecedent and the second argument to right of the arrow is called the consequent. 
+
