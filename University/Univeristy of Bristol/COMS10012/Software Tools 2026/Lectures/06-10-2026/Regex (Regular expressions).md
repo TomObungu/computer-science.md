@@ -13,5 +13,6 @@ Regular expressions are read from the left one item at a time.
 ## Examples
 The 
 
-#
-# Grep for search 
+# Uses of Regex
+##  Grep for search 
+Grep is a search tool for text documents. It's name comes from the ed editor command. Grep stands for global/regexp (regular expressions)/print ()
