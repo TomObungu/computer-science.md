@@ -37,7 +37,8 @@ Where $S(x)$ is a student, $W(x)$ and
 Proof:
 1. Let $x$ be an arbitrary person
 2. Assume $S(x)$
-3. Since $\forall x.(S(x)\implies W(x))$, in particular $S(x)\implies W(x)$
+3. Since $\forall x.(S(x)\implies W(x))$, in particular $S(x)\implies W(x)$. 
+
 
 
 
