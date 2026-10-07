@@ -43,3 +43,16 @@ div :: Int -> Int ->Int
 
 # Pattern Matching on Lists
 2.1 
+```Haskell
+headOrZero :: [Int] -> Int
+headOrZero xs = case xs of
+    [] -> 0
+    x : xs' -> x
+```
+2.2
+```Haskell
+length :: [Int] -> Int 
+length [] = 0
+length (_ : xs ) = 1 + length xs
+```
+2.3 
