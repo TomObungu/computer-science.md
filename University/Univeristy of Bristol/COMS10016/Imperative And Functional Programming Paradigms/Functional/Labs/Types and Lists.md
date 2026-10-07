@@ -1,4 +1,6 @@
-1.1.  (a) 
+# Types
+1.1.  
+(a) 
 ```Haskell
 expression :: Bool -> Int -> Int -> Int
 ```
@@ -21,3 +23,23 @@ ghci> expression True 6 7
 ```
 
 1.2 
+(a)
+```Haskell
+(even n) :: Bool
+even n :: Int -> Bool,
+n :: Int, 
+(div n 2) -> Int 
+div :: Int -> Int ->Int
+((3 * n) + 1) :: Int
+(3 * n) :: Int
+3 :: Int
+1 :: Int
+(+) :: Int -> Int -> Int
+```
+(b) Alan included the entire expression
+```Haskell
+(if even n then div n 2 else (3 * n) + 1)) :: Int
+```
+
+# Pattern Matching on Lists
+2.1 
