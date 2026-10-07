@@ -7,4 +7,5 @@ Formulas in predicate logic can be built from variables, constants, connectives 
 
 There are also predicates and quantifiers
 - Predicates are a set of functions that return truth values
-- Quantifiers 
+- Quantifiers such as $\exists, \forall$
+
