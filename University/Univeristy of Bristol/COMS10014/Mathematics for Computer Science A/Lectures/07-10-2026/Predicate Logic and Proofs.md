@@ -40,5 +40,12 @@ Proof:
 3. Since $\forall x.(S(x)\implies W(x))$, in particular $S(x)\implies W(x)$. 
 
 
+# Rules for Natural Deduction
+## $\forall -$ Introduction
+Let $x$ be an arbitrary element of $D$. Making no extra assumptions
+
+
+
+
 
 
