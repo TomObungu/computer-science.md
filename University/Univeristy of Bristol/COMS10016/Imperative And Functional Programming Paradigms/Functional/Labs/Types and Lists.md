@@ -53,13 +53,15 @@ headOrZero xs = case xs of
 ```Haskell
 length :: [Int] -> Int 
 length [] = 0
-length (_ : xs ) = 1 + length xs
+length ( _ : xs ) = 1 + length xs
 ```
 2.3 
 ```Haskell
 length (1:2:[])
 length = 1 + length [2]
-length = 1 + 1 
-length = 
+length = 1 + 1 + length []
+length = 1 + 1 + 0
+length = 2
 
 ```
+2.4
