@@ -31,4 +31,11 @@ Below is the formal explanation of the approach to use a Karnaugh map.
 	2. With the above premises ensure that there are fewer groups
 4. Translate each group into one term of an SoP form Boolean expression.
 
-## Example
+## Example 
+Consider a 4 input, 16 row truth table like below. It possible to use a Karnaugh map to produce a Boolean expression in  much faster and efficient manner than the computational approach.
+
+| w   | x   | y   | z   | r   |
+| --- | --- | --- | --- | --- |
+| 0   | 0   |     |     |     |
+
+? | 00 | 01 | 11 |  10 
