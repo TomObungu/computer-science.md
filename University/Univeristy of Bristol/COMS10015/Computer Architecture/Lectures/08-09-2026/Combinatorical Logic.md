@@ -21,3 +21,4 @@ The following output gives a result in Sum Of Positives form or SoP form.
 A different approach is to use a Karnaugh map. Karnaugh maps may be useful when dealing with truth tables with more binary rows. 
 
 Below is the formal explanation of the approach to use a Karnaugh map
+
