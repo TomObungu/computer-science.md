@@ -15,10 +15,20 @@ $$
 e = \bigvee_{{i \in T}} t_{i} \\ \\
 \end{gather*}
 $$
-The following output gives a result in Sum Of Positives form or SoP form. 
+The following output gives a result in Sum Of Products (SoP) form. 
 
 # Method 2 : Karnaugh Maps
-A different approach is to use a Karnaugh map. Karnaugh maps may be useful when dealing with truth tables with more binary rows. 
+A different approach is to use a Karnaugh map. Karnaugh maps may be useful when dealing with truth tables with more binary rows.  The truth table contains $n$ inputs and 1 output. The result of using a Karnaugh map will produce a Boolean expression $e$ that implements $f$.
 
-Below is the formal explanation of the approach to use a Karnaugh map
+Below is the formal explanation of the approach to use a Karnaugh map.
 
+1. Draw a rectangular $p\times q$ -element grid, such that
+	1. $p\equiv q\equiv 0$
+	2. $p \cdot q = 2^{n}$
+2. Fill the grid elements with the output corresponding to inputs for that row and colum
+3. Cover rectangular groups of adjacent 1 elements which are of total size $2^{m}$ for some $m$. 
+	1. Ensure that the groups are largest value of $2^{m}$ as possible
+	2. With the above premises ensure that there are fewer groups
+4. Translate each group into one term of an SoP form Boolean expression.
+
+## Example
