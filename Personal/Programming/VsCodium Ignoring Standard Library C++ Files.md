@@ -1,4 +1,7 @@
-Inside VSCode, there is this problem that involves using debugging. Sometimes when debugging C++ files after pressing the debug button, stepping into lines of code containing keywords of the `C++` standard library may trigger a step into the actual source file of the library. For example if your line of code contains code using `std::vector` such as the `.push_back()` function, the debugger may actual step into the `vector.h` header file and show all of the cryptic standard library implementation code. 
+
+https://reversed.top/2016-05-26/skipping-standard-library-in-gdb/
+
+nside VSCode/VSCodium, there is this problem that involves using debugging. Sometimes when debugging C++ files after pressing the debug button, stepping into lines of code containing keywords of the `C++` standard library may trigger a step into the actual source file of the library. For example if your line of code contains code using `std::vector` such as the `.push_back()` function, the debugger may actual step into the `vector.h` header file and show all of the cryptic standard library implementation code. 
 
 A quick search to fix says that putting this line of code below inside the `launch.json` configuration usually fixes it. 
 ```json
