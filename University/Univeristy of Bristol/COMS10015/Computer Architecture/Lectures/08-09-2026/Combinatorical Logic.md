@@ -38,4 +38,11 @@ Consider a 4 input, 16 row truth table like below. It possible to use a Karnaugh
 | --- | --- | --- | --- | --- |
 | 0   | 0   |     |     |     |
 
-? | 00 | 01 | 11 |  10 
+|     | 00  | 01  | 11  | 10  | yz  |
+| --- | --- | --- | --- | --- | --- |
+| 00  |     |     |     |     |     |
+| 01  |     |     |     |     |     |
+| 11  |     |     |     |     |     |
+| 10  |     |     |     |     |     |
+| wx  |     |     |     |     |     |
+## Complex Example 
