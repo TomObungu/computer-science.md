@@ -1,5 +1,17 @@
-- All words containing the letter Q, capitalised. _(A regular expression containing a string of one or more letters matches all strings that contain the expression as a substring.)_
+- All words containing the letter Q, capitalised. 
 ```shell
-grep 'Q.' /usr/share/dict/words
+> grep 'Q' /usr/share/dict/words
 ```
+Output:
 
+Albu==🔴qu==erque
+Albuquerque's
+
+- All words starting with the letter R, in either upper or lower-case. _(
+```shell
+grep -i '^R.' /usr/share/dict/words 
+```
+- All words ending in j.
+```shell
+grep -i ''
+```
