@@ -27,7 +27,7 @@ Maj
 adj
 con
 
-- The number of words containing the letter Q, ignoring case (e.g. capitalised or not).
+- The number of words containing the letter Q, ignoring case (e.g. capitalised or not). Remember 
 ```shell
-
+grep -i "Q" /usr/share/dict/words | wc -l
 ```
