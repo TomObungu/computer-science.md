@@ -69,4 +69,12 @@ Multi-Byte integers may be stored in big-endian. This means that the most signif
 
 
 # Bitwise Operators and Masking
-A 
+C provides six operators that take one or more arguments and apply modifications to their bits. An example use is masking: a variable b is used as a mask to set all bits of a to 0 which are 0 in b. 
+
+Bitwise operators are efficient as they only contain one cycle of the CPU. 
+
+```C
+unsigned char a = 0x9E;
+unsigned char b = 0xF0;
+unsigned char c = (a & b);
+```
