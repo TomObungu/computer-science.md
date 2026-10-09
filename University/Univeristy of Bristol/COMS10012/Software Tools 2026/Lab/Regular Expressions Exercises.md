@@ -46,4 +46,7 @@ grep [^c]kp /usr/share/dict/words
 ```shell
 grep ^..$ /usr/share/dict/words | tail -n 15
 ```
-
+- All three-letter words with no vowels (aeiou)
+```shell
+grep ^[^aeiou][^aeiou][^aeiou]$ /usr/share/dict/words
+```
