@@ -55,3 +55,12 @@ $$
 -2^{n-1} - 2^{n-1} - 1
 $$
 # Printing Hex in Representation
+```C
+unsigned char byte = 0x0E;
+printf("%02x\n", byte);
+// prints 0x0e
+```
+
+# Coercion, Truncation, Sign Extension
+When different types are combined without casts, there are implicit rules of conversion, called coercion. 
+
