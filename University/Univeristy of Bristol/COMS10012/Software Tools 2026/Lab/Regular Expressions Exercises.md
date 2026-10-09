@@ -37,4 +37,8 @@ grep -i "Q" /usr/share/dict/words | wc -l
 grep "^cl" /usr/share/dict/words | head -n 5
 ```
 
+- All words containing the sequence "kp", but not "ckp"
+```shell
+grep [^c]kp /usr/share/dict/words
+```
 
