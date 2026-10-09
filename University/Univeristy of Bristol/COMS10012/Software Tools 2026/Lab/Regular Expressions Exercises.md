@@ -31,3 +31,10 @@ con
 ```shell
 grep -i "Q" /usr/share/dict/words | wc -l
 ```
+
+- The first five words containing the letter sequence 'cl'
+```shell
+grep "^cl" /usr/share/dict/words | head -n 5
+```
+
+
