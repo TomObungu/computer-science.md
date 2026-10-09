@@ -64,3 +64,5 @@ printf("%02x\n", byte);
 # Coercion, Truncation, Sign Extension
 When different types are combined without casts, there are implicit rules of conversion, called coercion. 
 
+# Endian-ness
+Multi-Byte integers may be stored in big-endian. This means that the most significant byte is first in memory. 
