@@ -17,7 +17,7 @@ Output :
 ==🔴R==yukyu
 ==🔴R==yukyu's
 
-All words ending in j.
+- All words ending in j.
 ```shell
 grep 'j$' /usr/share/dict/words 
 ```
@@ -25,4 +25,9 @@ grep 'j$' /usr/share/dict/words
 Output:
 Maj
 adj
-conj
+con
+
+- The number of words containing the letter Q, ignoring case (e.g. capitalised or not).
+```shell
+
+```
