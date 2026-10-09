@@ -19,5 +19,10 @@ Output :
 
 All words ending in j.
 ```shell
-grep -i ''
+grep 'j$' /usr/share/dict/words 
 ```
+
+Output:
+Maj
+adj
+conj
