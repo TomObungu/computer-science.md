@@ -42,3 +42,8 @@ grep "^cl" /usr/share/dict/words | head -n 5
 grep [^c]kp /usr/share/dict/words
 ```
 
+- The last 15 words of exactly two letters.
+```shell
+grep ^..$ /usr/share/dict/words | tail -n 15
+```
+
