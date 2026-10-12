@@ -57,3 +57,8 @@ For every set $A$, $\phi \subseteq A \subseteq \mathcal U$.
 
 # Predicates in sets
 If $P$ is a predicate then $\{x | P(x\}$  denotes the set elements in $\mathcal U$, then $P(x)$ holds true. 
+
+# Proof of De Morgan's law
+$$
+(A \cup B)^{C} = A^{C} \cap B^{C}
+$$
