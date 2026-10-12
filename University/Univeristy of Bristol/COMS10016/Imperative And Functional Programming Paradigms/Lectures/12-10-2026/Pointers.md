@@ -12,7 +12,7 @@ A pointer essentially holds a reference in memory. In C, pointers are variables 
 Pointers will point to random positions in memory until it is initialised. Printing the uninitialised variables will yield undefined behaviour.
 
 The pointer variable can be initialised by the address operator `&` which has been using `scanf`
-```
+```C
 p = &k;
 ```
 
@@ -22,3 +22,17 @@ In arrays in C, arrays are pointers to the first elements in the usually contigu
 int a[3] = {2, 4, 6}
 int *p = a; // Points to the first element of the array only
 ```
+
+# Notational Meaning
+Beware that the line below means that a pointer is initialised and then assigned to address `x`.
+```c
+int *p = x
+```
+However the line below means that 
+
+## Pointer Arithmetic
+If a pointer variable `int*`  points to an int, then `p++` or `p+1` points one `int` further on. That is jump one `sizeof(int)` in bytes within the memory. 
+
+The `void` pointer type is a generic pointer to memory. However `void` pointers cannot be dereferenced or have pointer arithmetic applied to them. 
+
+# NULL
