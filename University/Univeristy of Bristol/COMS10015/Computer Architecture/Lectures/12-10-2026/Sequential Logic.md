@@ -61,8 +61,9 @@ Q' = D
 $$
 
 # SR latch design
+## Problem #1: Initial design for an SR latch
 The SR latch design uses cross-coupled NOR gates.
 ![[Pasted image 20261012094343.png]]
 
-The excitation tables for $S$ and $R$ are logically consistent with the specified values of the inputs of $S$ and $R$. The value of $¬Q$ is sort of an integral 
+The excitation tables for $S$ and $R$ are logically consistent with the specified values of the inputs of $S$ and $R$. The value of $¬Q$ is sort of an integral check. 
 ![[Pasted image 20261012094531.png]]
