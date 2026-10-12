@@ -49,3 +49,6 @@ A D-type edge-triggered flip-flop behaviour  is as below:
 This is the design of a finalised solution that solves the original problem of increment an $n$ bit counter. 
 ![[Pasted image 20261012133611.png]]
 
+## Circuit 
+Below is the circuit implementation of above design using latches. 
+![[Pasted image 20261012133945.png]]
