@@ -62,3 +62,7 @@ If $P$ is a predicate then $\{x | P(x\}$  denotes the set elements in $\mathcal 
 $$
 (A \cup B)^{C} = A^{C} \cap B^{C}
 $$
+1. Pick $x\in(A \cup B)^{C}$. Show that $x in  A^{C} \cap B^{C}$
+2. Unpack the complement operator: $x \notin (A \cup B), i.e $¬(x \in A \cup B)$
+3. Unpack the union: $¬(x \in A \vee x \in B)$
+4. Using the De Morgan's law for propositional logc $(¬x \vee  A)$
