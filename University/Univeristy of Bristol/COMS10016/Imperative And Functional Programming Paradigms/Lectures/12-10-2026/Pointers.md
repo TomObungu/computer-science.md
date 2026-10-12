@@ -28,7 +28,10 @@ Beware that the line below means that a pointer is initialised and then assigned
 ```c
 int *p = x
 ```
-However the line below means that 
+However the line below means that a pointer to an int `p` is declared and regular int `q`
+```C
+int *p; int q;
+```
 
 ## Pointer Arithmetic
 If a pointer variable `int*`  points to an int, then `p++` or `p+1` points one `int` further on. That is jump one `sizeof(int)` in bytes within the memory. 
@@ -36,3 +39,21 @@ If a pointer variable `int*`  points to an int, then `p++` or `p+1` points one `
 The `void` pointer type is a generic pointer to memory. However `void` pointers cannot be dereferenced or have pointer arithmetic applied to them. 
 
 # NULL
+The special `NULL` operator is found in `stdio.h`. It is identical to `0` filled with `0`. It is unusable and belongs to the OS. It is used as an error indicator. 
+
+# Pointers, arrays and string constants
+The lines of code below would be identical however `char *p` is a fixed string constant. However if the string is indeed fixed, then s is less efficient for a long string as it allocates more memory. 
+```C
+char s[] = "bat";
+char *p* = "bat"
+```
+
+# Pass-by-reference and Array returns
+It possible to return arrays from functions via pointers!
+```C
+char* upperCase(char *s) {
+// do stuff
+return 
+
+}
+```
