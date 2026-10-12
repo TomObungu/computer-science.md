@@ -51,4 +51,5 @@ This is the design of a finalised solution that solves the original problem of i
 
 ## Circuit 
 Below is the circuit implementation of above design using latches. 
+The middle partition containing the NOT gate acts a reset counter. 
 ![[Pasted image 20261012133945.png]]
