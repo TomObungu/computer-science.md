@@ -26,3 +26,19 @@ A lock is a signal that oscillates between $1$ and $0$. The usage of clocks can 
 Clocks signals are generator either by a clock generator or an externally supplied input. 
 
 The clock frequency must be fast enough to satisfy design goals but slow enough to cope with the critical path of a given step. If the clock frequency is faster than the critical path than the step then the next step will begin without the outputs being ready to be processed. 
+
+## $n$-phase clocks
+$n$-phase clocks are distributed as $n$ separate signals along n wires. Each phase signal name as $\phi_{i}$. There is a guarantee that the positive levels of $\phi_{i}$ don't overlap. The times between the signals is $\delta_{i}$. The values of $\delta_{i}$ can be parameterised to be minimised. 
+![[Pasted image 20261012092616.png]]
+
+# Latches, flip-flops and registers
+## Bistables
+A bistable component can exit in two states of $0$ and $1$. At a given time it can retain some state $Q$ or the value of $Q$ can be updated to the next state of $Q'$.
+
+The state of a bistable can be described by an excitation table using equations. 
+
+A bistable can be level-triggered i.e the given voltage level or edge-triggered i.e updated by a given edge. 
+
+A latch is a level-triggered bistable and a flip-flop is edge-triggered. 
+
+For such bistables the input can be 
