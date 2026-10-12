@@ -48,5 +48,9 @@ The complement of a set a $A$ is the set of consisting elements not in $A$. It d
 
 The difference between $A$ and $B$ denoted $A \setminus B$. It is set of elements in $X$ that are not in $Y$. 
 
+# Subsets
+A is a subset of $B$ is denoted as $A \subseteq B$, means that every element of $A$ is also an element of $B$. 
 
+$A \subset B$ means that $A$ is a proper subset of $B$, that is $A \subseteq B$ and $A \neq B$. 
 
+For every set $A$, $\phi \subseteq A \subseteq  $
