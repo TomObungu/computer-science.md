@@ -55,3 +55,27 @@ char* upperCase(char *s)
 ```
 
 # Dangling Pointers
+The code blow has a problem due to the variable `s` going out of scope. It will yield undefined behaviour as `s` is on the stack goes out of scope. It returns what is known as a dangling pointer. 
+```C
+char *show(int n) {
+	char s[12];
+	itoa(n, s, 10); // convert integer to string with base 10
+	return s; // MAJOR BUG: since s goes out of scope here
+}
+```
+
+There is no dangling pointer problem if we return an actual argument to a poiner:
+```C
+char *min(char *s1, char *s2) {
+	if (strcmp(s1,s2)<0) return s1;
+	return s2;
+}
+```
+Furthermore there is no dangling pointer problem is the heap is used to allocate memory. 
+
+# Main Signatures
+The `main` function takes in as a second argument an array of n pointers to char array `args`
+```C
+int main(int n, char *args[n]) {
+}
+```
