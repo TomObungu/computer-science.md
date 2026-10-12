@@ -36,5 +36,11 @@ A D-type latch is described symbolically as a rectangular box.
 Below is the associated behaviour for level-triggered updates. As D alternates, the behaviour 
 ![[Pasted image 20261012132431.png]]
 
-A D-type edge-triggered behaviour  flip-flop is as below:
+A D-type edge-triggered flip flop is as below:
+![[Pasted image 20261012132952.png]]
+
+A D-type edge-triggered flip-flop behaviour  is as below:
 ![[Pasted image 20261012132526.png]]
+
+
+# Combing latches into registers 
