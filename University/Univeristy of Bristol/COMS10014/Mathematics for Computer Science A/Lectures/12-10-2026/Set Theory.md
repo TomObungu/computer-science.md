@@ -53,5 +53,8 @@ A is a subset of $B$ is denoted as $A \subseteq B$, means that every element of 
 
 $A \subset B$ means that $A$ is a proper subset of $B$, that is $A \subseteq B$ and $A \neq B$. 
 
-For every set $A$, $\phi \subseteq A \subseteq $
+For every set $A$, $\phi \subseteq A \subseteq \mathcal U$
+
+# Predicates in sets
+If $P$ is a predicate then $\{x | P(x\}$  denotes the set elements in $\mathcal U$, then $P(x)$ holds true. 
 
