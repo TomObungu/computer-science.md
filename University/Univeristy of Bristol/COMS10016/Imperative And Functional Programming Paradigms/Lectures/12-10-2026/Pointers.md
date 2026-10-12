@@ -22,7 +22,6 @@ In arrays in C, arrays are pointers to the first elements in the usually contigu
 int a[3] = {2, 4, 6}
 int *p = a; // Points to the first element of the array only
 ```
-
 # Notational Meaning
 Beware that the line below means that a pointer is initialised and then assigned to address `x`.
 ```c
@@ -78,4 +77,11 @@ The `main` function takes in as a second argument an array of n pointers to char
 ```C
 int main(int n, char *args[n]) {
 }
+```
+
+However these notations are identical
+```C
+... int main(int n, char **args) {...} ...
+... int main(int argc, char *argv[argc]) {...} ...
+... int main(int n, char *args[]) {...}
 ```
