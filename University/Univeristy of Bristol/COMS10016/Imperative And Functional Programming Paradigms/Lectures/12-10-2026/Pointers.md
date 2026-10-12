@@ -8,3 +8,6 @@ Consider the data type of an `int`. An int consists of 4 bytes, thus the address
 ## Pointers
 A pointer essentially holds a reference in memory. In C, pointers are variables which live in memory like any other variable. They are usually 8 byte integers (64 bit integers). Pointers can be typed to keep information about the type of the item stored at that address. 
 
+Pointers will point to random positions in memory until it is initialised. Printing the uninitialised variables will yield undefined behaviour.
+
+The pointer variable can be yielded by 
