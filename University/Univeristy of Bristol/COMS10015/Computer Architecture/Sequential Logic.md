@@ -21,6 +21,8 @@ The solution to this is sequential logic design - the output of a function plus 
 # Clocks
 A lock is a signal that oscillates between $1$ and $0$. The usage of clocks can be used for synchronisations and triggering of inputs. 
 
+![[Pasted image 20261012092050.png]]
+
 Clocks signals are generator either by a clock generator or an externally supplied input. 
 
-The clock frequency must be fast enough to satisfy design goals but slow enough to cope with the critical path of a given step. 
+The clock frequency must be fast enough to satisfy design goals but slow enough to cope with the critical path of a given step. If the clock frequency is faster than the critical path than the step then the next step will begin without the outputs being ready to be processed. 
