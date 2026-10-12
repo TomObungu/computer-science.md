@@ -45,15 +45,13 @@ The special `NULL` operator is found in `stdio.h`. It is identical to `0` filled
 The lines of code below would be identical however `char *p` is a fixed string constant. However if the string is indeed fixed, then s is less efficient for a long string as it allocates more memory. 
 ```C
 char s[] = "bat";
-char *p* = "bat"
+char *p* = "bat";
 ```
 
 # Pass-by-reference and Array returns
 It possible to return arrays from functions via pointers!
 ```C
-char* upperCase(char *s) {
-// do stuff
-return 
-
-}
+char* upperCase(char *s)
 ```
+
+# Dangling Pointers
