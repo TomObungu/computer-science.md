@@ -46,3 +46,5 @@ A D-type edge-triggered flip-flop behaviour  is as below:
 
 
 # Structure Plus Strategy
+This is the design of a finalised solution that solves the original problem of increment an $n$ bit counter. 
+![[Pasted image 20261012133611.png]]
