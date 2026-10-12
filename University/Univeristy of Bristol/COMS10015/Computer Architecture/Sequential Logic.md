@@ -41,4 +41,5 @@ A bistable can be level-triggered i.e the given voltage level or edge-triggered 
 
 A latch is a level-triggered bistable and a flip-flop is edge-triggered. 
 
-For such bistables the input can be 
+For such bistables the input can be by a clock generator or externally alternating input. 
+
