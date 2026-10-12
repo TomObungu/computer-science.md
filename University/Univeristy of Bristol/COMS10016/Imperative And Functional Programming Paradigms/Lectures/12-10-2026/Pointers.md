@@ -15,3 +15,10 @@ The pointer variable can be initialised by the address operator `&` which has be
 ```
 p = &k;
 ```
+
+In arrays in C, arrays are pointers to the first elements in the usually contiguous chunk of memory.
+
+```C
+int a[3] = {2, 4, 6}
+int *p = a; // Points to the first element of the array only
+```
