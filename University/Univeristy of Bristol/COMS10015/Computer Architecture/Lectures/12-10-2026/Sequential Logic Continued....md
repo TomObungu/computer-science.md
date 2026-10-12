@@ -43,3 +43,6 @@ A D-type edge-triggered flip-flop behaviour  is as below:
 ![[Pasted image 20261012132526.png]]
 
 # Combing latches into registers 
+
+
+# Structure Plus Strategy
