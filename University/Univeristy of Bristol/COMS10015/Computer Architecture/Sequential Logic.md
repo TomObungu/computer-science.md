@@ -43,3 +43,26 @@ A latch is a level-triggered bistable and a flip-flop is edge-triggered.
 
 For such bistables the input can be by a clock generator or externally alternating input. 
 
+# SR and D latch/flip-flops
+Consider the examples of the "SR" latch/flip-flop and the "D" latch/flip-flop. In both of these components, when they are not enabled, the component is in storage mode so retains $Q$.
+
+## SR latch/flip-flops
+In the excitation table, if $S=0$ and $R=0$, then the components retains $Q$. If $S=1$ and $R=0$, then the component updates to $1$. If $S=0$ and $R=1$, the component updates to $Q=0$.
+
+The behaviour of such components can be represented as
+$$
+Q' = S \vee (¬R \wedge Q)
+$$
+
+# D latch/flips
+In the excitation table, if $D=1$ the component updates to $Q=1$. If $D=0$ the component updates to $Q=0.$ The behaviour can be represented as
+$$
+Q' = D
+$$
+
+# SR latch design
+The SR latch design uses cross-coupled NOR gates.
+![[Pasted image 20261012094343.png]]
+
+The excitation tables for $S$ and $R$ are logically consistent with the specified values of the inputs of $S$ and $R$. The value of $¬Q$ is sort of an integral 
+![[Pasted image 20261012094531.png]]
