@@ -73,9 +73,9 @@ $$
 $$
 
 ## The law of the excluded middle
-This law means that a variable in disjunction with itself will always evaluate to true. 
+This law means that a variable in disjunction with the negation of itself will always evaluate to true. For conjunctions, it impossible for of them to be true at the same otherwise there would be a contradiction.
 
-This is because the that using the disjunciton (OR) table with $\phi$ wil always evaluate to true due to $\phi$ being true within itself. 
+This is because the that using the disjunction (OR) table with $\phi$ will always evaluate to true due to $\phi$ being true within itself.  
 $$
 \begin{gather*}
 \phi \lor ¬\phi \equiv \top \\ \\
@@ -84,30 +84,46 @@ $$
 $$
 
 # Tautology
-A tautology is a proposition that is universally true regardless of the statement.
-
-### Valid 
-A statemennt that is always true. For example the equation below is a valid claim:
+A tautology is a proposition that is universally true regardless of the statement. That is the propositional formula statement below is true regardless.
 $$
-x > 0 \implies x > -100
+\phi \equiv \top
+$$
+Tautologies are the basic logical facts. They contain enough information within themselves for the statement to evaluate to true. 
+### Valid 
+A statement that is always true. For example the equation below is a valid claim:
+$$
+x > -100 \implies x > 0 
 $$
 ### Invalid
-A statement that is not always true. 
+A statement that is not always true. This does not necessarily mean that is always false.
 $$
-\phi \neq \top 
+\phi \not\equiv \top 
 $$
+A statement such as
+$$
+x > 0
+$$
+Can be invalid as it is not always true for some arbitrarily given variable $x$. 
 ### Satisfiable 
-A statement that **can** be true. A statement that is not always false. Below are satisfiable statements:
+A statement that **can** be true. A statement that is not always false. Below are satisfiable statements. The statement below leaves for ambiguity as the statement can also be true. 
 $$
 \begin{gather*}
 x > 0 \\ \\
-q \equiv \bot
 \end{gather*}
-
 $$
-### Unsatisfiable 
-A statement that is always false regardless. 
+$$
+q \equiv \bot
+$$
 
+### Unsatisfiable 
+A statement that is always false regardless.  For example, the statements form the Law of Excluded middle is an unsatisfiable statement. If $\phi \lor ¬\phi$ then $\phi \land ¬\phi$ is unsatisfiable. 
+
+## Differences between
+Valid means that statement is always true regardless. However invalid means that a statement is not always true. 
+
+For example, if we have an assertion for the statement to be true and a counterexample $\rho$ is found, then the statement is invalid for that $\rho$.
+
+For example, if 
 
 # Double negation rule
 This means that a double negated statment will produce an unchanged statement from the original proposition. 
