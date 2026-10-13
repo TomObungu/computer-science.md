@@ -25,3 +25,7 @@ Version control software can help you merge all these different versions.
 The most dominant version control system by a wide margin is Git. Git is a revision control system. Linus Torvalds initially created Git in 2005 to manage the development of the Linux Kernel. 
 ## Using Git Locally
 It is possible to initialise a git repository using the `git init` inside a directory. 
+
+## Advanced Time Travel
+Most of the linear time-travel between branches is quite mundane. However most of the time it is possible have version control on multiple parallel intersecting branches. 
+
