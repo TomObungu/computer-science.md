@@ -25,3 +25,13 @@ $$
 \phi \lor (\psi \lor \rho) \equiv (\phi \lor \psi) \land (\phi \lor \psi) \\ \\
 \end{gather*}
 $$
+Distributivity applies to both conjunction over disjunction and disjunction over conjunction. 
+
+# Idempotence
+Consider the conjunction of two identical propositions. For this proposition to evaluate to true under any given assignment, we need that both conjuncts $\phi$ and $\phi$ are true. Therefore $\phi \land \phi$ evaluates to just $\phi$. 
+$$
+\begin{gather*}
+\phi \land \phi \equiv \phi \\ \\
+\phi \lor \phi \equiv \phi
+\end{gather*}
+$$

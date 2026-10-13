@@ -1,0 +1,1 @@
+De Morgan's laws are another set of laws explaining how disjunction and conjunctoin relate to one another. Much like validity and s
