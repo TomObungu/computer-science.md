@@ -139,6 +139,8 @@ $$
 \end{gather*}
 $$
 ## Implication 
+
+
 $$
 \begin{gather*}
 p \implies ( q \implies r) \\ \\
