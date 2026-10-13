@@ -67,7 +67,6 @@ When different types are combined without casts, there are implicit rules of con
 # Endian-ness
 Multi-Byte integers may be stored in big-endian. This means that the most significant byte is first in memory. 
 
-
 # Bitwise Operators and Masking
 C provides six operators that take one or more arguments and apply modifications to their bits. An example use is masking: a variable b is used as a mask to set all bits of a to 0 which are 0 in b. 
 
