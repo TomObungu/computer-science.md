@@ -2,3 +2,4 @@ Algebraic data types (ADTs) let you define values using the `|` operator. They a
 ```Haskell
 data Player = White | Black
 ```
+
