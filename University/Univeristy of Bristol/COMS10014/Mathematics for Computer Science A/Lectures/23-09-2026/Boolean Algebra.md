@@ -3,17 +3,40 @@ Algebra is about equality. When you consider the equation, the left hand must eq
 $$
 x + y = z
 $$
-For example take the equation below. It is true that the left hand side is equal to right hand side. 
+For example take the equation below. It is true that the left hand side is equal to right hand side. They are not syntactically the same term, however they mean the same thing. 
 $$
 x + 0 = x
+$$
+Thus the equation below would yield the equivalence below:
+$$
+p \land \top \equiv p 
+$$
+This equation would be true for the corresponding truth table
+$$
+\begin{align}
+\begin{array}{c|c}
+\text{p}  & p \land \top \\
+\hline 
+\top  & \bot\\
+\top   & \bot
+\end{array}{} &\equiv \begin{array}{c|c} 
+p  & p  \\
+\hline 
+\top  & \bot\\
+\top   & \bot
+\end{array}
+\end{align}
 $$
 If we were to take an equation within Boolean Algebra, it is possible to show equality in the same manner:
 $$
 (p \wedge q )\lor r \equiv p \wedge q \lor r
 $$
 # Variables
-Greek letters such as $\psi,\phi,\rho$ are variables that stand in for arbitrary proposition. 
+Greek letters such as $\psi,\phi,\rho$ are variables that stand in for arbitrary proposition **formulas** themselves. Propositional formulas contain propositional variables plus a combination or operators such as conjunction, disjunction and negation. 
 
+Letters $p$, $q$, and $r$ are variables used to represent variables in propositions that can take in values. 
+
+Two propositional formulas are equivalent if they equal under all assignments. If $\phi$ and $\psi$ evaluate to the same truth value, regardless of the assignments of $p$, $q$ and $r$. 
 # Associativity 
 The associativity rule means that algebraic statements are true regardless of the placement of parenthesis. The equation below evaluates to true. If the individual truth tables were to be drawn out, comparing the truth tables will show the equivalence. This is the case for the conjunction.
 $$
@@ -36,14 +59,19 @@ Below is the case for pushing a disjunction within a conjunction:
 $$
 \phi \lor( \psi \wedge \rho) \equiv (\phi \lor \psi)\wedge (\phi \wedge \rho)
 $$
+This is very similar to the algebraic law of addition.
+$$
+(x + y) + z \equiv x + (y + z)
+$$
 # Idempotence
-The defintion of idempotence means that the algebraic expression is left unaffected if the terms are repeated. For example consider the expression below. 
+The definition of idempotent means that the algebraic expression is left unaffected if the terms are repeated. For example consider the expression below. 
 $$
 \begin{gather*}
 \phi \wedge \phi \equiv \phi \\ \\
 \phi \lor \phi \equiv \phi
 \end{gather*}
 $$
+
 ## The law of the excluded middle
 This law means that a variable in disjunction with itself will always evaluate to true. 
 
