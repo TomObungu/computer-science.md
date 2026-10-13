@@ -95,7 +95,7 @@ $$
 x > -100 \implies x > 0 
 $$
 ### Invalid
-A statement that is not always true. This does not necessarily mean that is always false.
+A statement that is not always true. This does not necessarily mean that it is always false.
 $$
 \phi \not\equiv \top 
 $$
@@ -119,14 +119,16 @@ $$
 A statement that is always false regardless.  For example, the statements form the Law of Excluded middle is an unsatisfiable statement. If $\phi \lor ¬\phi$ then $\phi \land ¬\phi$ is unsatisfiable. 
 
 ## Differences between
-Valid means that statement is always true regardless. However invalid means that a statement is not always true. 
+Valid means that a statement is always true regardless. However invalid means that a statement is not always true. 
 
 For example, if we have an assertion for the statement to be true and a counterexample $\rho$ is found, then the statement is invalid for that $\rho$.
 
-For example, if 
+Likewise if we have an assertion for the statement to be false and a counter example $\delta$ is found, then the statement is satisfiable for that $\delta$. 
+
+A statement is unsatisfiable if the statement is false for all values of $x$. 
 
 # Double negation rule
-This means that a double negated statment will produce an unchanged statement from the original proposition. 
+This means that a double negated statement will produce an unchanged statement from the original proposition. 
 
 # De Morgan's Law
 De Morgan's law states that it is possible to flip back and forth between disjunction and conjunction using the negation operator. 

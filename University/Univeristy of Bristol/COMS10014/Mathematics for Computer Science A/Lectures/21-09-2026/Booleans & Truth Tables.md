@@ -99,8 +99,6 @@ The hierachy of operator precedence is:
 3. Conjunction
 4. Disjunctions 
 5. Implication
-
-
 ## Worked example
 Consider the logical statment below:
 $$
