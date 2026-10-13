@@ -6,7 +6,7 @@ Formulas in predicate logic can be built from variables, constants, connectives 
 - Function is a set of n-ary functions e.g. $f(x), date(dd,mm,yyyy)$
 
 There are also predicates and quantifiers
-- Predicates are a set of functions that return truth values $Father()$
+- Predicates are a set of functions that return truth values $Father(x)$
 - Quantifiers such as $\exists, \forall$
 
 An atomic formula consists of a predicate function  $P(t_{1},t_{2}, t_{3})$, where $t_{n}$ are valid terms. 
