@@ -3,5 +3,5 @@ $$
 x_{1}, x_{2} = \pm \frac{-b\sqrt{ b^{2} -4ac}}{2ac}
 $$
 $$
-\bigcup
+\mathcal{P}(A) = \bigcup_{i = 1}^{|A|} \{A_{i}\}
 $$
