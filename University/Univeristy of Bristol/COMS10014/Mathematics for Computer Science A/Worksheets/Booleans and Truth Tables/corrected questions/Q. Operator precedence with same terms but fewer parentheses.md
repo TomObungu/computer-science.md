@@ -13,4 +13,4 @@ p \land r \lor ¬q
 \end{gather*}
 $$
 
-to remove the parenthesis entirely, this does not ensure the terms are kept the same. Thus th
+to remove the parenthesis entirely, this does not ensure the terms are kept the same. Thus 
