@@ -1,0 +1,1 @@
+Higher order functions are functions
