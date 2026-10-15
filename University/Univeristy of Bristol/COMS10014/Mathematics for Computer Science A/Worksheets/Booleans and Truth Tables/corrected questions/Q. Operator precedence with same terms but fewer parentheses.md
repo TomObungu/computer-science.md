@@ -22,7 +22,7 @@ $$
 (p \implies q)\implies (r) \to (p\implies q)\implies r
 \end{gather*}
 $$
-Remember that if there are no parenthesis, by convention:
+Remember that if there are no parenthesis, by convention. Take this assumption mentally even if there are no brackets visually. 
 $$
 p \implies q \implies r \to p \implies (q \implies r)
 $$
@@ -38,4 +38,7 @@ $$
 $$
 (p \lor q) \land r \to (p \lor q) \land r
 $$
-5. 
+5. For the fifth case it would involve removing all the parenthesis to let conventional precedence take over
+$$
+p \land q \implies p \implies q
+$$
