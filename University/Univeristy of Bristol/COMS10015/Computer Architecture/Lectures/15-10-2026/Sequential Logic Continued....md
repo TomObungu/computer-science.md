@@ -111,3 +111,9 @@ $$
 \delta \times \omega \times \beta
 $$
 Where $\delta$ is the capacity measured in multiples of bits. $\omega$ describes the width of words, measured in bits and $\beta$ is number of internal logic banks. 
+
+## 1-bit to $w$-bit SRAM device via replication
+![[Pasted image 20261015114930.png]]
+
+# 1-bit to $w$-bit DRAM device via replication 
+![[Pasted image 20261015115006.png]]
