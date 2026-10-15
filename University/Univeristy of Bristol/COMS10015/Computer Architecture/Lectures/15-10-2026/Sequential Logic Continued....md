@@ -117,3 +117,4 @@ Where $\delta$ is the capacity measured in multiples of bits. $\omega$ describes
 
 # 1-bit to $w$-bit DRAM device via replication 
 ![[Pasted image 20261015115006.png]]
+
