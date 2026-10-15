@@ -9,8 +9,15 @@ $$
 \begin{gather*}
 ¬(¬p \lor q ) \lor r \\ \\
 (p \land ¬q) \lor r \\ \\
-p \land r \lor ¬q 
+p \lor r \land p \lor ¬q
 \end{gather*}
 $$
 
-to remove the parenthesis entirely, this does not ensure the terms are kept the same. Thus 
+to remove the parenthesis entirely. However this does not ensure the terms are kept the same. 
+
+Below are the following equivalences with the same terms:
+1. The first case 
+2. The second case can be explained with associativity
+$$
+(p \lor q) \lor ( q \land r) \equiv p \lor q \lor q \land r
+$$
