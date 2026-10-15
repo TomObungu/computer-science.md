@@ -1,1 +1,1 @@
-Higher order functions are functions
+Higher order functions are functions that take in functions as parameters
