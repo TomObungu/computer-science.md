@@ -129,3 +129,27 @@ endprimitive
 ![[Pasted image 20261019132232.png]]
 
 # Register Transfer Level (RTL) modules
+Register transfer levels allow continuous assignments. The LHS must be a wire or wire vector, whereas the RHS can contain many C-style operators. Beware that if this setup is continuous it means that it is sequential the stepwise logic code. The code below
+```Verilog
+assign r = ( x | y) & z
+```
+would be map to such code below:
+```Verilog
+or t0(w, x, y);
+and t1(r, w, z)
+```
+The code above would map the logic gates below:
+![[Pasted image 20261019132901.png]]
+
+## Reduction operator
+Consider a case where wire `wire [ 3 : 0 ] x`.  The reduction expression can be expressed as a sequential application of the XOR function for each element in the wire
+![[Pasted image 20261019133235.png]]
+
+# Tenary operator
+The tenary operator can allow inline if-else statements
+Consider the case where `wire [ 3 : 0 ] x`, `wire [ 3 : 0 ] y` and `wire c`. The statement below
+```Verilog
+c ? y : x
+```
+Maps to such 
+![[Pasted image 20261019133554.png]]
