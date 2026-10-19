@@ -25,3 +25,16 @@ The heap is memory specifically set aside for dynamic allocation. Unlike the sta
 # Virtual Memory
 In higher order abstractions on levels of C software. The memory represented on the heap may seem to be contiguous but on the lower level. The virtual memory addresses can be comprised of specific chunks of RAM memory and disk memory.
 ![[Pasted image 20261019101545.png]]
+
+
+# The Heap and the Stack example
+Consider a program that has a `main()` function body that reserves a `float`, and array of `floats` in such manner:
+```C
+float fDist;
+float fV1[] = { 4, 10, 12}
+float fV2[] = {14, 1}
+```
+On the stack this would look like 
+$$
+
+$$
