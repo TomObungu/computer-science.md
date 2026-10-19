@@ -75,5 +75,10 @@ Below is an example growing and shrinking a stack during a recursive call sequen
 
 The stack grows and shrinks at random. The stack has limited size (for instance this can be `8192`KB) on some linux systems cotrolled by the terminal command `ulimit -s 8192`
 
-# Heap Dyanmics
+# Heap Dynamics
 The heap is used for dyanmically allocated memory. The most common case is an array or any other data structure which needs to be persistent throughout function calls and/orneeds to shrink or grow dynamically. The heap is managed by the malloc and free libraries functions from stdlib.
+
+The heap never shrinks but gaps appear after `free`. `malloc` searches for the best gap, `free` merges `gaps` and both use a header at the start of allocations and gaps to keep track of everything. 
+
+# Calling `malloc`
+The return type of malloc is `void*` whi
