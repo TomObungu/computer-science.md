@@ -34,10 +34,10 @@ xor t9(r,w,x,y,z);
 Below would be Verilog code for a corresponding full-adder. 
 ```Verilog
 module fa( output wire co ,
-output wire s,
-input wire ci ,
-input wire x,
-input wire y );
+			output wire s,
+			input wire ci ,
+			input wire x,
+			input wire y );
 
 wire w0 , w1 , w2;
 
@@ -56,9 +56,9 @@ endmodule
 Below would be Verilog code for a 2 input, 1 bit multiplexer
 ```Verilog
 module mux2_1bit ( output wire r,
-input wire c,
-input wire x,
-input wire y );
+					input wire c,
+					input wire x,
+					input wire y );
 
 wire w0 , w1 , w2;
 
@@ -76,9 +76,9 @@ endmodule
 Below would the Verilog code for a 2 input, 4-bit multiplexer. Notice that code below makes use of the user defined`mux2_1bit` module defined from above. 
 ```Verilog
 module mux2_4bit ( output wire [ 3 : 0 ] r,
-input wire c,
-input wire [ 3 : 0 ] x,
-input wire [ 3 : 0 ] y );
+					input wire c,
+					input wire [ 3 : 0 ] x,
+					input wire [ 3 : 0 ] y );
 
 mux2_1bit t0( r[ 0 ], c, x[ 0 ], y[ 0 ] );
 mux2_1bit t1( r[ 1 ], c, x[ 1 ], y[ 1 ] );
@@ -92,12 +92,12 @@ endmodule
 Below would be the Verilog code for a 4-bit, 1-bit multiplexer. In this case, the implementation still uses the user defined `mux2_1bit` from above
 ```Verilog
 module mux4_1bit ( output wire r,
-input wire c0 ,
-input wire c1 ,
-input wire w,
-input wire x,
-input wire y,
-input wire z );
+					input wire c0 ,
+					input wire c1 ,
+					input wire w,
+					input wire x,
+					input wire y,
+					input wire z );
 
 wire w0 , w1;
 
@@ -109,3 +109,23 @@ endmodule
 ```
 ![[Pasted image 20261019131753.png]]
 
+# User-Defined Primitives
+An advantage of Verilog is a concept known as UDPs. In Verilog, it is possible to write a primitive type that has a truth table that is equivalent to a truth table that is wanted to be computed. The Verilog code will produce the same output as the truth table on the left:
+```Verilog
+primitive mux2_1bit ( output r,
+						input c,
+						input x,
+						input y );
+	table
+	 0 0 ? : 0;
+	 0 1 ? : 1;
+	 1 ? 0 : 0;
+	 1 ? 1 : 1;
+	endtable
+
+endprimitive
+```
+
+![[Pasted image 20261019132232.png]]
+
+# Register Transfer Level (RTL) modules
