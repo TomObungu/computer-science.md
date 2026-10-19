@@ -163,3 +163,5 @@ An internal 4-bit registor vector x can be defined as below
 ```Verilog
 reg [ 3 : 0] x
 ```
+
+# Module interfacing rules
