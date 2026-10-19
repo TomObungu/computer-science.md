@@ -76,9 +76,38 @@ Below is an example growing and shrinking a stack during a recursive call sequen
 The stack grows and shrinks at random. The stack has limited size (for instance this can be `8192`KB) on some linux systems cotrolled by the terminal command `ulimit -s 8192`
 
 # Heap Dynamics
-The heap is used for dyanmically allocated memory. The most common case is an array or any other data structure which needs to be persistent throughout function calls and/orneeds to shrink or grow dynamically. The heap is managed by the malloc and free libraries functions from stdlib.
+The heap is used for dynamically allocated memory. The most common case is an array or any other data structure which needs to be persistent throughout function calls and/or needs to shrink or grow dynamically. The heap is managed by the `malloc` and `free` libraries functions from `stdlib`.
 
 The heap never shrinks but gaps appear after `free`. `malloc` searches for the best gap, `free` merges `gaps` and both use a header at the start of allocations and gaps to keep track of everything. 
 
 # Calling `malloc`
-The return type of malloc is `void*` whi
+The return type of malloc is `void*` which means "pointer to something", this means it is compatible with all pointer types. However you cannot deference nor perform pointer arithmetic `void*`. However you can implicitly  convert the `void*` to a pointer to the desired type. This gives some form of genericness to the `void*` type
+```C
+char *s  = (char *)malloc(4)
+```
+
+## Visualising Memory Allocation.
+`malloc`ed memory essentially returns a pointer to a block of memory on the heap.
+![[Pasted image 20261019104648.png]]
+To avoid memory leaks, use the advanced debugging option `-fsanitize=address`. 
+Remember that `s[i]` is just an abbreviation to `*(s+i)
+
+## Heap Dynamics Continued...
+```C
+char *s = malloc(4);
+s = "cat";
+printf("%s\n", s);
+free(s);
+```
+The program above has a problem in that the pointer `s` is updated to point to a constant string and no longer points to allocated memory. The allocated memory will remain allocated but unused. This is a memory leak. 
+
+## `malloc` and `calloc`
+The `malloc` function allocates a chunk of unintialised memory.  
+```C
+int *numbers = malloc(10 * sizeof(int));
+```
+There is an alternative function `calloc` that clears the memory and sets it to zero
+```C
+int * numbers = calloc(10, sizeof(int));
+```
+However `calloc` is inefficient if you are about initialise the memory yourself. 
