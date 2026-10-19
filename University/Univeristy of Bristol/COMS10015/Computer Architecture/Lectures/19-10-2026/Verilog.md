@@ -19,4 +19,51 @@ After this, the next steps are actually manufacturing and testing the hardware.
 
 The whole point of this iterative waterfall is to minimise the chance of getting to the manufacturing stage and needing restart the design due to errors. 
 # Analogy
-Verilog in hardware might be seen to be analogous to C in software. ![[Pasted image 20261019092412.png]]In C, you write code to produce a program whereas in Verilog you write code to produce a model. 
+Verilog in hardware might be seen to be analogous to C in software. ![[Pasted image 20261019092412.png]]In C, you write code to produce a program whereas in Verilog you write code to produce a model of hardware. In C you write static functions whereas in Verilog you write static modules. In C, functions are references via calls whereas modules are instantiated in Verilog. Values in C are stored in variables. Values in Verilog are carried by nets on which computation is performed by modules. "Nets" can be though of us as wires. 
+
+# Example
+Below is a translation of Verilog code to represent a module of a full adder. 
+![[Pasted image 20261019093051.png]]
+
+# Levels of abstraction
+## 1. switch-level Verilog
+At the lowest level, the model can be described using individual transistors. For example, this Verilog code can translate to the design of a MOSFET-based NOR gate. This gives us greatest level of control.
+```Verilog
+pmos( t, VDD, b );
+pmos( a, t, c );
+nmos( a, VSS, c );
+nmos( a, VSS, b );
+```
+## 2. gate-level Verilog
+Force the model to be described at a low-level using only primitive logic gates e.g. AND, OR, NOT. 
+```Verilog
+nor t(a, b, c)
+```
+
+## 3. Register Transfer Level Verilog
+This syntax is similar to C but focuses on describing the model in terms of data-flow between components rather than high-level components. For example, the code below produces continous assignment driving through wire with the result of evaluating $¬( b \vee c)$. It has a form of static typing. 
+```Verilog
+assign a = ~(b | c)
+```
+
+##  4. Behaviour-level Verilog
+At the highest level, C-style descriptions of the model use assignements, loops and conditional statements. For example, the code below sets the register equal to a result of evaluating 
+```Verilog
+a = ~(b | c)
+```
+
+# Wires in Verilog
+Wires a form of not used to communicate values. 
+1. `wire w` -> Translate to an internal 1-bit wire
+2. `wire [ 3 : 0] x` represents an internal 4-bit wire vector `x`
+
+# Values in Verilog
+Values in Verilog can take on the state of 3-state logic
+1. 0
+2. 1
+3. X -> Unknown (either 1 or 0)
+4. Z -> High impedence
+Values in Verilog can also be written in binary, decimal or hexadecimal, e.g.
+5. `2'b10` -> A 2 bit binary literal with value $2_{10}$
+6. `8'd17` -> A 8-bit decimal literal with value $17_{10}$
+Values in Verilog can also 
