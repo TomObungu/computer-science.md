@@ -56,6 +56,8 @@ a = ~(b | c)
 Wires a form of not used to communicate values. 
 1. `wire w` -> Translate to an internal 1-bit wire
 2. `wire [ 3 : 0] x` represents an internal 4-bit wire vector `x`
+3. `input wire [ 3 : 0 ] y` represents an input 4-bit wire vector y
+4. `output wire [ 3 : 0 ] z` represents an output wire vector z
 
 # Values in Verilog
 Values in Verilog can take on the state of 3-state logic
