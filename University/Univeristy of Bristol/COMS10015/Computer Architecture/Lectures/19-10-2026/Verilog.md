@@ -66,4 +66,7 @@ Values in Verilog can take on the state of 3-state logic
 Values in Verilog can also be written in binary, decimal or hexadecimal, e.g.
 5. `2'b10` -> A 2 bit binary literal with value $2_{10}$
 6. `8'd17` -> A 8-bit decimal literal with value $17_{10}$
-Values in Verilog can also 
+Values in Verilog can also include 3-state values on a per-bit basis e.g.
+7. `1'bX` -> A 1-bit binary literal
+8. `4'b10XZ` -> A 4-bit binary literal 
+
