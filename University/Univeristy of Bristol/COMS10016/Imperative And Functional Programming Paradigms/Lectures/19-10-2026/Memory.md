@@ -27,14 +27,46 @@ In higher order abstractions on levels of C software. The memory represented on 
 ![[Pasted image 20261019101545.png]]
 
 
-# The Heap and the Stack example
+# The Stack example
 Consider a program that has a `main()` function body that reserves a `float`, and array of `floats` in such manner:
 ```C
 float fDist;
 float fV1[] = { 4, 10, 12}
 float fV2[] = {14, 1}
 ```
-On the stack this would look like 
-$$
+On the stack this would look like. Assume that the stack is 1MB.  The main function is the most active functional call on the stack frame
+![[Pasted image 20261019102132.png]]
+Consider another function `L2norm` that computes square root of a square differences of two floating point numbers that contains variables and a for loop
+```C
+float L2norm(float fV1[], float fV2[], int n)
+...
+int i;
+float fSum = 0
+for (int i = 0; i < n; i++)
+	fSum +=
+...
+```
+When this function is called, it pushed onto the stack and its variables become the most active varibles within the program scope
+![[Pasted image 20261019102711.png]]
+When the function `L2Norm` has finished executing and returns. It's variables and function call are pushed off the stack and the variables of `main()` are set in use again.
+![[Pasted image 20261019102132.png]]
 
-$$
+
+# The Heap Example
+Consider a function in C that uses the `malloc` function to allocate 6 floats on the heap
+```C
+flaot * makeRand6DvectorRIGHT()
+{
+	int i;
+	float * fA = (float*) malloc(sizeof(float)*6);
+	
+	for (int i = 0; i < 6; i++)
+		fA[i] = (float)(rand() % 100);
+		
+	return fA;
+}
+```
+The call of `malloc` within the variable `fA` will allocate a variable on the stack in such manner
+![[Pasted image 20261019103146.png]]
+
+Below is an example 
