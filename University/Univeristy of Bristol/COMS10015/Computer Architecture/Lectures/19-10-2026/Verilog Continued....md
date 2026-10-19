@@ -153,3 +153,13 @@ c ? y : x
 ```
 Maps to such 
 ![[Pasted image 20261019133554.png]]
+
+# Registers (Sequential Logic)
+Register within Verilog are a form of net used to store values that retain state. A register can be seen as buffer to store values. A register can be instantiated using the `reg` command.
+```Verilog
+reg w
+```
+An internal 4-bit registor vector x can be defined as below
+```Verilog
+reg [ 3 : 0] x
+```
