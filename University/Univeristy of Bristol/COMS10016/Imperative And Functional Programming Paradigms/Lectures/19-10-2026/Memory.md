@@ -69,4 +69,11 @@ flaot * makeRand6DvectorRIGHT()
 The call of `malloc` within the variable `fA` will allocate a variable on the stack in such manner
 ![[Pasted image 20261019103146.png]]
 
-Below is an example 
+# Stack Dynamics
+Below is an example growing and shrinking a stack during a recursive call sequence. 
+![[Pasted image 20261019103452.png]]
+
+The stack grows and shrinks at random. The stack has limited size (for instance this can be `8192`KB) on some linux systems cotrolled by the terminal command `ulimit -s 8192`
+
+# Heap Dyanmics
+The heap is used for dyanmically allocated memory. The most common case is an array or any other data structure which needs to be persistent throughout function calls and/orneeds to shrink or grow dynamically. The heap is managed by the malloc and free libraries functions from stdlib.
