@@ -102,7 +102,7 @@ free(s);
 The program above has a problem in that the pointer `s` is updated to point to a constant string and no longer points to allocated memory. The allocated memory will remain allocated but unused. This is a memory leak. 
 
 ## `malloc` and `calloc`
-The `malloc` function allocates a chunk of unintialised memory.  
+The `malloc` function allocates a chunk of uninitialised memory.  
 ```C
 int *numbers = malloc(10 * sizeof(int));
 ```
