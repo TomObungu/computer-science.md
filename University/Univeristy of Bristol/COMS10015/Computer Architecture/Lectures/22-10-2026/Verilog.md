@@ -1,4 +1,3 @@
-
 # High-level Modelling
 ## Registers
 Registers are a form of net used to store values. For example
