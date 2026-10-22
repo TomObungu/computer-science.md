@@ -73,4 +73,4 @@ $$
 $$
 # Properties of Sets
 Restriction can only create sets out of other sets; you have to start with something. 
-- Commutative laws $A \cap B = B \cap A$ and $A \cup B$
+- Commutative laws $A \cap B = B \cap A$ and $A \cup B = B $
