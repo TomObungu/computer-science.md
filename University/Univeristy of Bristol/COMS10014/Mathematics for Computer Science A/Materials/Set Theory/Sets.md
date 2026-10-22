@@ -77,4 +77,3 @@ Restriction can only create sets out of other sets; you have to start with somet
 - Associative laws $(A \cap B) \cap C = A \cap ( B \cap C)$  and the same for $\cup$
 - DeMorgan's laws $\overline{A \cap B} = \bar{A} \cup \bar{B}$  and $\overline{A \cup B} = \bar{A} \cap \bar{B}$
 - Distributive laws $A \cup (B \cap C) = (A \cup B)\cap(A)$
-- 
