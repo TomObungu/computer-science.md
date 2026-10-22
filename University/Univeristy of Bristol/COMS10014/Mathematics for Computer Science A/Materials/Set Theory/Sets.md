@@ -44,8 +44,9 @@ Note that without a universe, $\{a | a \notin X\}$ is not a valid term as a set 
 ## Venn Diagram
 When working with two or three sets, it is helpful to think diagrammatically. Consider the the diagram below.
 
-It is split into an enclosing 
+It is split into an enclosing rectangle, representing the universe into four areas. Elements in area $1$ are in $A$ but in not in $B;$ elements are in area $2$ are both $A$ and $B;$ elements in area 3 are in $B$ but not in $A$ and elements in area $4$ are neither in $A$ nor $B$. 
 
+For example if we called area 1 $W$, then we could have $\forall e \in W . e\in A \land e \notin B$. If we interpreted the numbers $1-4$ as elements, then we could have have $\mathcal{U}=\{1,2,3,4\}$ and $A = \{1,2\}$ and $B=\{2,3\}$
 
-
-
+# Subets
+A set $X$ is called a subet of $Y$, written $X \subset$
