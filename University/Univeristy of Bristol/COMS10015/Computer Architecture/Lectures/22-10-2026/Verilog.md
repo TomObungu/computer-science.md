@@ -31,4 +31,19 @@ For example a module can have a tag:
 - `@( posedge )` - This means the module is only triggered when `x` changes from `0` to `1`
 - `@( nedgedge )` - This means that the module is only triggered when `x`changes from a `1` to a `0`.
 ## Procedural assignment
-Procedural assignment differs from continous assignement in that must use registers as the LHS. The registers are assigned to whatever the RHS evaluates to when the statement executes. 
+Procedural assignment differs from continous assignement in that must use registers as the LHS. The registers are assigned to whatever the RHS evaluates to when the statement executes.
+
+For example in the code below, the variables `x` and `y` are instantiated and only assigned values when the `always @ ( posedge clk ) begin`
+
+```Verilog
+module foo( input wire clk)
+
+	reg x, y;
+	
+	always @ ( posedge clk ) begin
+		x = 1'b0:
+		y = 1'b1:
+	end
+
+endmodule
+```
