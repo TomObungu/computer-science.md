@@ -66,5 +66,10 @@ is called the restriction of $S$ to $P$, pronounced 'the set of all $x$ in S suc
 
 **The result of a set restriction ${x \in S | P(x)}$ is always a subset of the original set $S$.** 
 
-# P
-Restriction can only create sets out of other sets; you have to start with something 
+## Russels Paradox
+Restrictions can only create sets out of other sets; you have to start with something that is a set in the first place. Consider the expression, 'the set of all sets such that' this expression leads to a contradiction; it looks like it should be a set restriction but the problem is that all sets is not a set itself. 
+$$
+\{ x | x \notin x \}
+$$
+# Properties of Sets
+Restriction can only create sets out of other sets; you have to start with something. 
