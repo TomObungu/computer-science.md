@@ -66,11 +66,14 @@ is called the restriction of $S$ to $P$, pronounced 'the set of all $x$ in S suc
 
 **The result of a set restriction ${x \in S | P(x)}$ is always a subset of the original set $S$.** 
 
-## Russels Paradox
+## Russells Paradox
 Restrictions can only create sets out of other sets; you have to start with something that is a set in the first place. Consider the expression, 'the set of all sets such that' this expression leads to a contradiction; it looks like it should be a set restriction but the problem is that all sets is not a set itself. 
 $$
 \{ x | x \notin x \}
 $$
 # Properties of Sets
 Restriction can only create sets out of other sets; you have to start with something. 
-- Commutative laws $A \cap B = B \cap A$ and $A \cup B = B $
+- Commutative laws $A \cap B = B \cap A$ and $A \cup B = B \cup A$
+- Associative laws $(A \cap B) \cap C = A \cap ( B \cap C)$  and the same for $\cup$
+- DeMorgan's laws $\overline{A \cap B} = \bar{A} \cup \bar{B}$  and $\overline{A \cup B} = \bar{A} \cap \bar{B}$
+- Distributive laws $A \cup (B \cap C) = (A \cup B)\cap(A)$
