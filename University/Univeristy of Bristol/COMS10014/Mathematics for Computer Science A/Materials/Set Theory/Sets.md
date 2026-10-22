@@ -37,4 +37,4 @@ $$
 The similarity in shapes between $\vee$ and $\cap$ and between $\vee$ and $\cup$ is intentional. Some books write $X-Y$ for set difference instead of $X\setminus Y$
 
 # Universe of a set
-The universe of a set is defined as $u$
+The universe of a set is defined as 
