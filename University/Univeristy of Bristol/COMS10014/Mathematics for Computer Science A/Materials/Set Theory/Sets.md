@@ -49,4 +49,4 @@ It is split into an enclosing rectangle, representing the universe into four are
 For example if we called area 1 $W$, then we could have $\forall e \in W . e\in A \land e \notin B$. If we interpreted the numbers $1-4$ as elements, then we could have have $\mathcal{U}=\{1,2,3,4\}$ and $A = \{1,2\}$ and $B=\{2,3\}$
 
 # Subets
-A set $X$ is called a subet of $Y$, written $X \subset$
+A set $X$ is called a subet of $Y$, written $X \subseteq Y$, if every element 
