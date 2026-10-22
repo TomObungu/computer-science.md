@@ -66,4 +66,5 @@ is called the restriction of $S$ to $P$, pronounced 'the set of all $x$ in S suc
 
 **The result of a set restriction ${x \in S | P(x)}$ is always a subset of the original set $S$.** 
 
+# P
 Restriction can only create sets out of other sets; you have to start with something 
