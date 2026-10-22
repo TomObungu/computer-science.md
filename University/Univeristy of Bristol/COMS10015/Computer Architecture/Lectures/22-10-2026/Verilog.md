@@ -48,4 +48,4 @@ module foo( input wire clk)
 endmodule
 ```
 
-## Modelled day 
+## Modelled delay 
