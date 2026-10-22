@@ -57,4 +57,13 @@ $$
 X \subseteq Y \wedge Y \subseteq X
 $$
 
-# Set Restrict
+# Set Restrictions
+If we have a set and predicate, we can define another by using predicates. If $S$ is a set and $P$ is a predicate, then expression
+$$
+\{x \in S | P(x)\}
+$$
+is called the restriction of $S$ to $P$, pronounced 'the set of all $x$ in S such that $P$ holds on $x$'. This is again a set. 
+
+**The result of a set restriction ${x \in S | P(x)}$ is always a subset of the original set $S$.** 
+
+Restriction can only create sets out of other sets; you have to start with something 
