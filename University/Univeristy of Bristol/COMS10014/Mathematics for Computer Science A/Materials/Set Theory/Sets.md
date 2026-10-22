@@ -42,8 +42,10 @@ The universe of a set is defined as $\mathcal{U}$, such as the integer or real n
 Note that without a universe, $\{a | a \notin X\}$ is not a valid term as a set restriction needs to start with a set, but $\{a \in \mathcal{U} | a \notin X \}$. In this case $\mathcal{U}$ could be something like $\mathbb{R}$, $\mathbb{Z}$ or $\mathbb{N}$.
 
 ## Venn Diagram
-When working with two or three sets, it is helpful to think diagrammatically. Consider the the diagram below
-![[Pasted image 20261022140007.png]]
+When working with two or three sets, it is helpful to think diagrammatically. Consider the the diagram below.
+
+It is split into an enclosing 
+
 
 
 
