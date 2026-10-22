@@ -37,5 +37,9 @@ $$
 The similarity in shapes between $\vee$ and $\cap$ and between $\vee$ and $\cup$ is intentional. Some books write $X-Y$ for set difference instead of $X\setminus Y$
 
 # Universe of a set
-The universe of a set is defined as $\mathcal{U}$, such as the integer or real numbers $\mathbb{Z}$ or $\mathbb{R}$. Then we can define a set's complement $\bar{X}  = \mathcal{U} \setminus X$.
+The universe of a set is defined as $\mathcal{U}$, such as the integer or real numbers $\mathbb{Z}$ or $\mathbb{R}$. Then we can define a set's complement $\bar{X}  = \mathcal{U} \setminus X$. 
+
+Note that without a universe, $\{a | a \notin X\}$ is not a valid term as a set restriction needs to start with a set, but $\{a \in \mathcal{U} | a \notin X \}$. In this case $\mathcal{U}$
+
+
 
