@@ -1,0 +1,1 @@
+A list a sequence of data items, except that the number of items can change dynamically over time. 
