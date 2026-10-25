@@ -1,0 +1,1 @@
+The question asked us to write a tiny program called replace.c that requires two strings as command line arguments and then prints  a string where all occurrences of the second string in the first string are iteratively replaced left-to-right all overlaps are ignored. 
