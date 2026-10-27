@@ -1,2 +1,2 @@
 - Only use standard libraries provided by code
-- 
+- list.c a structure for the node which make up the list is defined. The node structure 
