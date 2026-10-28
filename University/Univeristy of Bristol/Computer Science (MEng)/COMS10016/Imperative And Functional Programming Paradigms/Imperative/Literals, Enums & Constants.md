@@ -1,7 +1,7 @@
 Somtimes enums are used to define isolated constants instead of sequences. An advantage of using const is that compiler knows that they are truly constant and optimize better. You can use `enum` in order to define separate types:
 ```C
-enum { BOARD_SIZE = 8};
-enum { WIDTH = 2, HEIGHT = 5};
+enum { BOARD_SIZE = 8 };
+enum { WIDTH = 2, HEIGHT = 5 };
 ```
 
 # Formatted Conversion Specification
