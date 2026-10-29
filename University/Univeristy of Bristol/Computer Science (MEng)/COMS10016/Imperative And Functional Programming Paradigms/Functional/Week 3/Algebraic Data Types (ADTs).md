@@ -41,7 +41,7 @@ The `MKPiece` constructor can be evaluated as below:
 ```Haskell
 MkPiece :: Player -> PieceType -> Piece`
 ```
-## Type punnning
+## Type punning
 It is also possible to have the type and the constructor share the same name
 ```Haskell
 data Piece' = Piece' Player PieceType
@@ -50,4 +50,20 @@ From the above piece it is possible to define a variable using the ADT in the fo
 ```Haskell
 whiteQueen :: Piece
 whiteQueen = MkPiece White Queen
+```
+## Pattern matching on Products
+It is then possible to pattern match on product types as below. For example the function takes in a Piece and changes the piece type to `Queen`
+```Haskell
+promoteToQueen :: Piece -> Piece
+promoteToQueen (MkPiece c Pawn) = MkPiece c Queen
+```
+
+## Records
+Records allow naming of parts of a product type
+```Haskell
+data PieceR = MkPieceR { player :: Player, pieceType :: PieceType }
+```
+Now when defining the constructor, the name of the product are clearly defined
+```Haskell
+blackQueen = MkPieceR Black Queen
 ```
