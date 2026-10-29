@@ -17,7 +17,7 @@ chmod 727 file
 Each digit within the 3 digit tags are in octal notation and each digit responds to either a user, group or 'other'.
 
 # Other useful commands
-Use `du -h` to see how much space is being sued
+Use `du -h` to see how much space is being ised
 Use `df -h` how much different filesystems and partitions
 `scp -p -r [path to folder to copy/*] [username]@[other machine]:[pathto dir on other machine]` Use secure copy to a file to a ssh.
 
