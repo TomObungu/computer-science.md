@@ -86,4 +86,47 @@ egGuardDesugar x
  ```
 
 # Let and Where - Local Variables
-It is possible to introduce an number of local variables using either `let`or `where` when dealing 
+It is possible to introduce an number of local variables using either `let`or `where` when dealing pattern matching. The syntax for `let...in...` is like below
+```Haskell
+let variable = expression 
+in statementUsingExpression
+```
+For example the code below allows `result` to defined as an expression and then evaluted in the `in` clause
+```Haskell
+let myFunc =
+	let result = x * 2
+	in result + 1
+```
+The above function doubles `x` in `result` and then returns the expression plus 1
+
+It possible to also return a defined `result` and the variable are defined after regardless of order
+```Haskell
+whereEg x = result
+  where
+    xCubed = x * x * x
+    result = xCubed + xSquared
+    xSquared = x * x
+```
+
+# C-syntax
+It is possible to write cases statement like this with semi-colons
+```Haskell
+foo''' x = case x of {
+             1 -> "bish";
+             2 -> "bash";
+             _ -> "bosh"; -- last semi-colon optional
+           }
+```
+
+# Recursion
+It is possible to define the first few terms of a recurrence relation by stating their `n`. For example in the perrin sequence the first terms are 3, 0 and 2 and the recurrence relation is 
+$$
+P_{n} = P_{n-3} + P_{n-2}
+$$
+Thus the function can be expressed as below:
+```Haskell
+perrin 1 = 3
+perrin 2 = 0
+perrin 3 = 2
+perrin n = perrin (n-3) + perrin (n-2)
+```
