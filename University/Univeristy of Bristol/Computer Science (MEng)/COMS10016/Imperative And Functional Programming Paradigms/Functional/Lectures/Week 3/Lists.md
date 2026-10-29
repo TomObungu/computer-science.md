@@ -20,4 +20,18 @@ is123 xs = case xs of
   1 : 2 : 3 : [] -> True
   _ -> False
 ```
-
+## head and tail
+The `:` allows splitting of lists. For example if we are writing a function, it possible to split the the list into the first element of the list and the rest of the list. 
+```Haskell
+myFunc :: [Int]
+my ( x : xs ) = x
+```
+For example in the function above, if the example function is called
+```Haskell
+myFunc [3,2,1]
+```
+The example list is evaluated as:
+```Haskell
+[3] : [2,1]
+```
+Where `x` would equal `3` and the remaining list (tail) of the list would be `[2,1]`. In this case `[3]` would be returned. 
