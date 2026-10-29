@@ -86,4 +86,4 @@ egGuardDesugar x
  ```
 
 # Let and Where - Local Variables
-It possible to introduce and number of local variables using either `let`or `where` when dealing 
+It is possible to introduce an number of local variables using either `let`or `where` when dealing 
