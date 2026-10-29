@@ -29,4 +29,4 @@ class Equality a where
 ```
 It is very similar to operator overloading in C++.
 
-It is then possible to then use the 
+It is then possible to now use the defined `===`/ `Equality` operator to as in instance to form pattern matching on the types. For exa
