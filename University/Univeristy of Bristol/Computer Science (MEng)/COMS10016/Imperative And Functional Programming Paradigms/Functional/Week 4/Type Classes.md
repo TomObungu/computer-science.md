@@ -27,4 +27,6 @@ Thus for our above equation we can define the `===` operator with a type class o
 class Equality a where
   (===) :: a -> a -> Bool
 ```
+It is very similar to operator overloading in C++.
 
+It is then possible to then use the 
