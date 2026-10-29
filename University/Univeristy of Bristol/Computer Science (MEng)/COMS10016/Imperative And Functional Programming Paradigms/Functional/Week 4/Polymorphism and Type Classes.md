@@ -1,0 +1,1 @@
+Polymorphism allows listing of any type. The opposite of polymorphism is monomorphism. 
