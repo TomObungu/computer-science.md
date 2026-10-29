@@ -103,3 +103,4 @@ identity x = x
 
 The function receives a value of type `a` and returns a value of the same type. It cannot arbitrarily change that value into a value of another type.
 
+# Type Classes
