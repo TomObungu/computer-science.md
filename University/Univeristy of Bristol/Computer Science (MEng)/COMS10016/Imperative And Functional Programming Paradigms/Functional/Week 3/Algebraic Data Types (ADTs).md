@@ -1,0 +1,1 @@
+ADTs are Haskell's way of making data representations. To define an ADT user the keyword `data`. 
