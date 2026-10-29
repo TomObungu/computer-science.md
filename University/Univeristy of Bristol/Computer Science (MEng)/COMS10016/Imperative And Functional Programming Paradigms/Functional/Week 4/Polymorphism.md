@@ -7,7 +7,6 @@ data List a = Empty | Cons a (List a)
 ```
 
 Here, `a` represents any type. This is what defines polymorphism in this example. The list will either be empty (`Empty`) or use the `Cons` constructor to add an element of type `a` to another list of type `List a`.
-
 For example, we could create lists containing integers or characters:
 
 ```Haskell
@@ -19,9 +18,7 @@ charList = Cons 'a' (Cons 'b' Empty)
 ```
 
 The same `List` type can therefore represent lists of different element types. The type variable `a` is replaced by a particular type when we use the list.
-
 ## Polymorphic Algebraic Data Types
-
 We can define our own data types that work with different types by using type variables.
 For example, a pair can contain two values of the same type:
 ```Haskell
@@ -36,9 +33,7 @@ Here, `a` and `b` are independent type variables. This means that the first valu
 example :: Pair Int Char
 example = Pair 10 'a'
 ```
-
 We can also define a type that represents a value of either one type or another:
-
 ```Haskell
 data Either a b = Left a | Right b
 ```
@@ -83,4 +78,10 @@ identity x = x
 
 The function receives a value of type `a` and returns a value of the same type. It cannot arbitrarily change that value into a value of another type.
 
-H
+Here are some unique examples of polymorphic, recursive types:
+```Haskell
+
+data BinaryTree a = Leaf a | Node (BinaryTree a) (BinaryTree a) -- values at leafs
+data BinaryTree' a = Tip | Node' (BinaryTree' a) a (BinaryTree' a) -- values at nodes
+data NaryTree a = Leaf' a | Branch [NaryTree a]
+```
