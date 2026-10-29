@@ -13,4 +13,11 @@ For example in the above code, it pronounced as "3 cons empty list". It adds the
 1 : (2 : (3 : [])) == 1 : 2 : 3 : []
 ```
 
-The `:` operator define how to create data AND
+The `:` operator defines how to create data AND also pattern match on it. For example the following function on lists allows pattern matching. It first creates a list \[1,2,3\] and the compares it with the variable `xs`. If `xs` matches the list \[1,2,3\] then it will compare it. 
+```Haskell
+is123 :: [Int] -> Bool
+is123 xs = case xs of
+  1 : 2 : 3 : [] -> True
+  _ -> False
+```
+
