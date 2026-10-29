@@ -22,4 +22,9 @@ eqList (Cons x xs) (Cons y ys) = eqList xs ys && undefined
 
 However type classes solve this issue. The presence of custom data types and polymorphism makes type classes useful for saving namespaces but also providing function overloading. Thus the function 
 
-Thus for our above equation we can define the `===` operator with a type class of `Equality`. The ope
+Thus for our above equation we can define the `===` operator with a type class of `Equality`. The function body for this operator would be `a -> a -> Bool`. Notice the function is also polymorphic. 
+```Haskell
+class Equality a where
+  (===) :: a -> a -> Bool
+```
+
