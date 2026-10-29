@@ -14,4 +14,10 @@ Writing such functions is not very efficient and can be rather laborious.
 
 The issue compounds when considering polymorphic ADTs such as lists:
 ```Haskell
+data List a = Empty | Cons a (List a)
+eqList :: List a -> List a -> Bool
+eqList Empty Empty = True
+eqList (Cons x xs) (Cons y ys) = eqList xs ys && undefined
 ```
+
+However type classes sovle this issue. 
