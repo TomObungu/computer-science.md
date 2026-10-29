@@ -1,4 +1,4 @@
-The presence of custom data types and polymorphism motivates why the need for something called classes. Consider the following custom data types:
+The presence of custom data types and polymorphism motivates why the need for something called classes. Consider the following ADTs.
 ```Haskell
 data Player = White | Black
 data PieceType = Pawn | Knight | Bishop | Rook | Queen | King
@@ -29,4 +29,10 @@ class Equality a where
 ```
 It is very similar to operator overloading in C++.
 
-It is then possible to now use the defined `===`/ `Equality` operator to as in instance to form pattern matching on the types. For exa
+It is then possible to now use the defined `===`/ `Equality` operator to as in instance to form pattern matching on the types. For example if we want to use the instance on the Sum ADT of player:
+```Haskell
+instance Equality Player where
+  White === White = True
+  Black === Black = True
+  _     === _     = False
+```
