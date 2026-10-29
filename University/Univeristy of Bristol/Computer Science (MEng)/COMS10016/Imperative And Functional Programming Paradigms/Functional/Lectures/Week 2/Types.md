@@ -33,3 +33,37 @@ type Price = Double
 price :: Price
 price = 19.99
 ```
+## `undefined`
+Much like how in C you can have placeholder values for function in the manner of `return` or `return NULL`. In Haskell you can use a placeholder function called `undefined` that essentially states "I haven't implemented this yet"
+```Haskell
+calcTip :: Double -> Double
+calcTip = undefined
+```
+## `fst`
+`fst` is a function that returns the first value of a pair. Imagine you declare a function `pairFirsts` with pair types `(Int, Bool)` and `(String, Double)`. When given the input pairs `p1` and `p2`, the function will always return the `Int` of the first pair and the `Bool` or the second pair
+```Haskell
+pairFirsts :: (Int, Bool) -> (String, Double) -> (Int, String)
+```
+## Comma separation
+You can type two things at once with the following syntax
+```Haskell
+t,f :: Bool
+```
+## Integer limits
+In Haskell, the maximum largest integer that can be represented using the `Int` is capped at the 32-bit integer limit of $2^{32}-1$, 
+```Haskell
+intMax, intMin :: Int
+intMax = 9223372036854775807 
+```
+### `Integer`
+However using the `Intger` will allow unbounded defining of unbounded literals of greater than $2^{32}-1$
+```Haskell
+integer :: Integer -- Integers are unbounded literals
+integer = 9223372036854775808
+```
+### `Word`
+The word type has an integer limit of $2^{64}$. Although it's size is the same size as `Int` of using `32 bits`, it is unsigned. This is because the extra bit is used to not represent the negative sign. 
+```Haskell
+word :: Word
+word = 18446744073709551615 
+```
