@@ -117,7 +117,6 @@ foo''' x = case x of {
              _ -> "bosh"; -- last semi-colon optional
            }
 ```
-
 # Recursion
 It is possible to define the first few terms of a recurrence relation by stating their `n`. For example in the perrin sequence the first terms are 3, 0 and 2 and the recurrence relation is 
 $$
