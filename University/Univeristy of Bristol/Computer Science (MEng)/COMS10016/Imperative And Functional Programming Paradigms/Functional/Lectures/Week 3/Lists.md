@@ -2,7 +2,7 @@ In Haskell, lists are homogeneous, meaning they only store one type. In Haskell 
 ```Haskell
 egList :: [Int]
 ```
-# The 'Cons' constructor `:`
+# The 'Cons' constructor / semicolon operator `:`
 The `cons` constructor constructs a list from an element and an existing list to create a new list.  
 ```Haskell
 egConsList :: [Int]
@@ -12,3 +12,5 @@ For example in the above code, it pronounced as "3 cons empty list". It adds the
 ```Haskell
 1 : (2 : (3 : [])) == 1 : 2 : 3 : []
 ```
+
+The `:` operator define how to create data AND
