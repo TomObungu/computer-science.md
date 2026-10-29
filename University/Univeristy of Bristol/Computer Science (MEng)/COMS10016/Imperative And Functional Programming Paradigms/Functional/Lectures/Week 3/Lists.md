@@ -49,3 +49,4 @@ isLength3EgSolution _ = False
 ```
 Recall that the list is has the default clause of `_` to prevent the function from being a partial function. 
 # Recursive List Functions
+There are two cases we need to think about when writing recursive functions. We need to think about the base case 
