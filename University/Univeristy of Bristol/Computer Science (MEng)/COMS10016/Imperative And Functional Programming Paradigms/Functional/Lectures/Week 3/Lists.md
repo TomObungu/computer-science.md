@@ -34,4 +34,18 @@ The example list is evaluated as:
 ```Haskell
 [3] : [2,1]
 ```
-Where `x` would equal `3` and the remaining list (tail) of the list would be `[2,1]`. In this case `[3]` would be returned. 
+Where `x` (head) would equal `3` and the remaining list (tail) of the list would be `[2,1]`. In this case `[3]` would be returned. 
+
+## pattern matching with `:`
+It is possible to have advanced pattern matching with the `:` operator. For example if we are asked to write a function `isLength3` that determines whether a list has length `3`.
+```Haskell
+isLength3 :: [Int] -> Bool
+```
+It possible to use the `_` operator and the cons `:` operator to pattern for any 3 items in the list. Beware the key part of this is that the constructor must end in `[]` to show that the list a bound list of only 3 elements
+```Haskell
+isLength3EgSolution :: [Int] -> Bool
+isLength3EgSolution (_ : _ : _ : []) = True
+isLength3EgSolution _ = False
+```
+Recall that the list is has the default clause of `_` to prevent the function from being a partial function. 
+# Recursive List Functions
