@@ -20,4 +20,4 @@ eqList Empty Empty = True
 eqList (Cons x xs) (Cons y ys) = eqList xs ys && undefined
 ```
 
-However type classes sovle this issue. 
+However type classes solve this issue. The presence of custom data types and polymorphism makes type classes useful for saving namespaces but also providing function overloading. Thus the function 
