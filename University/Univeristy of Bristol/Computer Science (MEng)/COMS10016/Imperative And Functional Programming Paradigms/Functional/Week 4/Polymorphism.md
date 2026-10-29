@@ -80,7 +80,6 @@ The function receives a value of type `a` and returns a value of the same type. 
 
 Here are some unique examples of polymorphic, recursive types:
 ```Haskell
-
 data BinaryTree a = Leaf a | Node (BinaryTree a) (BinaryTree a) -- values at leafs
 data BinaryTree' a = Tip | Node' (BinaryTree' a) a (BinaryTree' a) -- values at nodes
 data NaryTree a = Leaf' a | Branch [NaryTree a]
