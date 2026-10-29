@@ -81,4 +81,8 @@ The function below would extract the `pieceType` from the `PieceR` type
 getPlayer :: PieceR -> pieceType
 getPlayer p = pieceType p
 ```
-It is then possible to use record syntax to update values. For example in the code below, this type promotes 
+It is then possible to use record syntax to update values. For example in the code below, this type promotes piece to the desired pieceType
+```Haskell
+promoteAny' :: PieceR -> PieceType -> PieceR
+promoteAny' p q = p { pieceType = q}
+```

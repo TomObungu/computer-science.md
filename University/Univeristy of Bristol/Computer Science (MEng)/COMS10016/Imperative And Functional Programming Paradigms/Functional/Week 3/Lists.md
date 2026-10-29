@@ -59,3 +59,10 @@ For example in the code below, the recursive case. The recursive case can be vis
 $$
 S(n) = s_{n} + s_{n+1}
 $$
+## In-line case expressions
+It possible to use the C style syntax without indentations to write in-line recursive functions. 
+```Haskell  
+
+sumOneLine :: [Int] -> Int
+sumOneLine xs = case xs of { [] -> 0; x : xs -> x + sumOneLine xs }
+```
