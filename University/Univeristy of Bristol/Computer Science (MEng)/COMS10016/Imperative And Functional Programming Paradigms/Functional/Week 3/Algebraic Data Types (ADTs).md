@@ -67,3 +67,18 @@ Now when defining the constructor, the name of the product are clearly defined
 ```Haskell
 blackQueen = MkPieceR Black Queen
 ```
+
+### Projection
+Record syntax become clear for large products, particularly when projecting large products. Projection allows extraction of specific member variables of ADTs.
+
+For example in the code below, the function takes in  record `PieceR` type and returns a `Player` type extract from the record type passed in. 
+```Haskell
+getPlayer :: PieceR -> Player
+getPlayer p = player p
+```
+The function below would extract the `pieceType` from the `PieceR` type
+```Haskell
+getPlayer :: PieceR -> pieceType
+getPlayer p = pieceType p
+```
+It is then possible to use record syntax to update values. For example in the code below, this type promotes 
