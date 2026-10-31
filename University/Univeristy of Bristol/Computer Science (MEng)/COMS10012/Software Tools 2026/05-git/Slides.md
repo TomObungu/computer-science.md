@@ -18,5 +18,4 @@ Use the `-D` tag to delete the branch without merging
 ```
 git branch -D badidea
 ```
-
 # Merge Conflicts
