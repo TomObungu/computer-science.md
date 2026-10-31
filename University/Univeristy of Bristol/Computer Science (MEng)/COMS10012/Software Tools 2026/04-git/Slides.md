@@ -23,3 +23,6 @@ Remember you can get the commit ID of a branch using `git log`
 
 # `git checkout`
 Loads the contents of a commit into a repository. `git checkout main/master` goes back to the current directory contents
+
+# `git remote`
+To connect your existing repository to a new remote, use `git remote add origin [remote URL]`
