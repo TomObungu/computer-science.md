@@ -11,7 +11,15 @@ You can compare against historic file versions like this
 git diff [commitID] hello.txt
 ```
 
-You 
-
 # `git restore`
-You can use `git restore` to restore a current file to the repository with `gitrestore`
+You can use `git restore` to restore a current file to the repository with `git restore`
+
+You can restore the to a specific commit ID like this
+```
+git restore -s [commitID] hello.tx
+```
+
+Remember you can get the commit ID of a branch using `git log`
+
+# `git checkout`
+Loads the contents of a commit into a repository. `git checkout main/master` goes back to the current directory contents
