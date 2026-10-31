@@ -1,3 +1,4 @@
+# Recap
 Say if you want to take a project to a new direction, it's often good to do it in a branch. To create a new branch use.
 ```
 git branch newidea
