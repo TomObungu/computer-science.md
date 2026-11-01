@@ -130,3 +130,21 @@ x / 2^{y} = \left( \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} \right) / 2^{y} \\ 
 = x \gg y
 \end{gather*}
 $$
+# Shift-and-mask Paradigm 
+To set the $i$-th bit of some $x$ to $1$, you must do:
+$$
+x \land ( 1 \ll i)
+$$
+To set the $i$-th bit of some $x$ to $0$, you must do:
+$$
+x \land ¬(1 \ll i)
+$$
+To extract and $m$-bit sub-word i.e $m$ contiguous bits starting at the $i$-th bit of some$x$. This can be achieved by computing:
+$$
+( x \gg i) \land (( 1 \ll m) -1)
+$$
+## Example 
+For example if $x=1011_{(2)}$ and $m=2$. If we want to extract the sub-word $\langle x_{1}, x_{2} \rangle$:
+$$
+( x \gg i) \land 
+$$
