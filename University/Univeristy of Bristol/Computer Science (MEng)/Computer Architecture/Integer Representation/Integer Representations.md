@@ -2,10 +2,19 @@ Conceptually, we can say that the literal $123$ is basically just a sequence of 
 $$
 123 \equiv \langle{3 ,2, 1} \rangle
 $$
-- A bit is a single binary digit i.e $0$ or $1$
-- A byte is an 8-element sequence of bits
-- A word is a $w$-element sequence of bits
 It is up to us as the user, what these decimal digits represent. 
+# Grouping
+Some bit-sequences are given special names depending on their length. For example for base 2 binary.
+
+- A bit is a single binary digit i.e $0$ or $1$
+- A nybble is a 4-element binary
+- A byte is an 8-element sequence of bits
+
+- A word is a $w$-element sequence of bits
+- A half-word is a $\frac{w}{2}$-bit sequence
+- A doubl- word is a $w \cdot 2$-bit sequence
+- A quad-word is a $w \cdot 4$-bit sequence
+
 $$
 01111011 \equiv \langle 1,1,0,1,1,1,1,0 \rangle
 $$
