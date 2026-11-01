@@ -95,3 +95,22 @@ For $\hat{x} \in\{0,1\}$. This yields
 $$
 -2^{n-1} \leq x \leq +2^{n-1}-1
 $$
+# Left Shift
+A left shift of some $x$ by $y$ digits is equivalent to multiplication by $b^{y}$. For taking the standard $b=2$.
+$$
+\begin{gather*}
+x \times 2^{y} = \left( \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} \right) \times 2^{y} \\ \\
+= \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i+y} \\ \\
+= x \ll y
+\end{gather*}
+$$
+
+# Right Shift
+A right-shift of some $x$ by $y$ digits is equivalent to division by $b^{y}$
+$$
+\begin{gather*}
+x / 2^{y} = \left( \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} \right) / 2^{y} \\ \\
+= \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i-y} \\ \\
+= x \gg y
+\end{gather*}
+$$
