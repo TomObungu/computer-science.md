@@ -69,3 +69,8 @@ x \\ \\
 \end{gather*}
 $$
 ---
+# Standard Integer Representations
+We want to represent elements of $\mathbb{Z}$ but it is an infinite set and so far we've ignored the issue of sign. In C there are representations
+$$
+unsigned char \approxeq \text{uint8_t}
+$$
