@@ -1,5 +1,8 @@
-A tree is a non-empty set ^[2]
+A tree is a non-empty set with an element that is designated as the root of the tree while the remaining elements are partitioned. ^[2]
 
+The depth of a node is the length of the path or number of edges from root to that node. 
+
+The height of a node is the longest path from that node to its leaves. The height of a tree is the height of the root. A leaf node has no children, its only path is up to its parent. 
 
 Suppose we have a list of items and routinely want to insert and find items. Using an unordered list would provide a finding time of $O(1)$ but searching would take $O(n)$. However the search takes $O(n)$ time. ^[1]
 
