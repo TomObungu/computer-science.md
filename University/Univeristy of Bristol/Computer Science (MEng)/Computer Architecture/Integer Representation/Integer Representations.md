@@ -130,7 +130,8 @@ x / 2^{y} = \left( \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} \right) / 2^{y} \\ 
 = x \gg y
 \end{gather*}
 $$
-# Shift-and-mask Paradigm 
+---
+# Shift-and-mask Paradigms 
 To set the $i$-th bit of some $x$ to $1$, you must do:
 $$
 x \land ( 1 \ll i)
@@ -143,8 +144,34 @@ To extract and $m$-bit sub-word i.e $m$ contiguous bits starting at the $i$-th b
 $$
 ( x \gg i) \land (( 1 \ll m) -1)
 $$
+---
 ## Example 
-For example if $x=1011_{(2)}$ and $m=2$. If we want to extract the sub-word $\langle x_{1}, x_{2} \rangle$:
+For example if $x=1011_{(2)}$ and $m=2$. If $i=0$, we want to extract the sub-word $\langle x_{1}, x_{0} \rangle$:
 $$
-( x \gg i) \land ( ( 1 \ll m))
+\begin{gather*}
+( x \gg i) \land ( ( 1 \ll m)) \\ \\
+( 1011_{2} \gg 0 ) \land (( 1  \ll 2) - 1) \\ \\
+( 1011_{2} \gg 0 ) \land ((0100) - 1) \\ \\
+( 1011_{2} \gg 0 ) \land (0011) \\ \\
+= 0011_{2}
+\end{gather*}
 $$
+Meaning $\langle x_{1}, x_{0} \rangle =\langle 1, 1 \rangle$ as expected. 
+
+---
+A special cask of extract an $m$-element sub-sequence, when $m=1$, we extract the $i$-th bit of $x$ alone. This is a useful and common operation. 
+$$
+( x \gg i) \land 1
+$$
+---
+# Units
+Prefixes in useage of bits and bytes all use power of base $10$. However The International Electrotechnical Commission (IEC) added some more SI prefixes to specify a binary, base-2 multiplier. 
+$$
+\begin{gather*}
+1 \text{ kibibit } \text{ (Kibit)} = 2^{10} \text{ bits} = 1024 \text{ bits} \\ \\
+\dots \\ \\
+1 \text{ tebibit } \text{ (Tibit)} = 2^{40} \text{ bits} = 1 099 511 627 776 \text{ bits}
+\end{gather*}
+$$
+
+# Representing Real Numbers 
