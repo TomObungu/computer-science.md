@@ -5,6 +5,66 @@ $$
 - A bit is a single binary digit i.e $0$ or $1$
 - A byte is an 8-element sequence of bits
 - A word is a $w$-element sequence of bits
+It is up to us as the user, what these decimal digits represent. 
 $$
 01111011 \equiv \langle 1,1,0,1,1,1,1,0 \rangle
+$$
+# little-endian
+A little-endian ordering is where we read bits in a literal form from right-to-left
+$$
+\hat{X}_{LE} = \langle X_{0}, X_{1}, X_{2}, X_{3}, X_{4}, X_{5}, X_{6} \rangle =  \langle 1,1,0,1,1,1,1 \rangle 
+$$
+# big-endian 
+A big-endian ordering is where we read bits in a literal form from left-to-right
+$$
+\hat{X}_{BE} = \langle X_{6}, X_{5}, X_{4}, X_{3}, X_{2}, X_{1}, X_{0} \rangle =  \langle 1,1,1,1,0,1,1 \rangle 
+$$
+
+# Least-Significant Bit (LSB) and Most-Significant Bit (MSB)
+Given a bit-sequence X, the LSB and MSB are those in X which have the least and most significance. They have the least and most impact on, the value it represents. 
+
+# Overloading
+It is possible to write $R = \ominus X$ and $R_{i = X \ominus Y}$ as  $R_{i} = \ominus X_{i}$ and $R_{i} = X_{i}\ominus Y_{i}$
+for $\ominus \in \{\land, \lor, \oplus\}$. Note for $R = \ominus X$, it is $0 \leq i <n$ and for $R_{i} = X_{i}\ominus Y_{i}$ it is $0 \leq i <n=m$, where if $n\neq m$, we pad either $X$ or $Y$ with $0$ until the $n=m$.
+
+---
+# Hamming Weight 
+The Hamming weight of $X$ is the number of bits that are equal to $1$ i.e, the number of times $X_{i}=1$. 
+$$
+HW(X) = \sum^{n-1}_{i =0} X_{i}
+$$
+
+# Hamming Distance
+The Hamming distance between $X$ and $Y$ is the number of bits in $X$ that differ from the corresponding bit in $Y$. The number of times $X_{i} \ne Yi$. 
+$$
+HD(X,Y) = \sum^{n-1}_{i=0} X_{i} \oplus Yi = HW (X \oplus Y)
+$$
+# Example 
+Given $X=\langle 1,0,0,1 \rangle$ and $Y = \langle 0,1,1,1 \rangle$, we find that $HW(X) = \sum ^{n-1}_{i=0} X_{i}=1+0+0+1=2$ and $HD(X,Y)=\sum ^{n-1}_{i=0} X_{i} \oplus Y_{i} = HW(X \oplus Y) = (1 \oplus 0) + (0 \oplus 1)\dots = 1 + 1 +1 + 0 = 3$
+
+---
+# Positional Number System
+A positional number system expresses the value of a number $x$ using a base-$b$ (or radix-$b$) expansion. 
+$$
+\begin{gather*}
+\hat{x} = \hat{x} \langle \hat{x}_{0}, \hat{x}_{1},\dots, \hat{x}_{n-1}  \rangle \mapsto x \\ \\
+= 
+\pm \sum_{i=0}^{n-1} \hat{x}_{i} \cdot b^{i}
+\end{gather*}
+$$
+Where each $\hat{x}_{i}$ is one of $n$ digits taken from the digit set $X = \{0,1, \dots,b-1\}$ and is "weighted" by some pwer of the base $b$.
+
+Beware that for $b>10$, we cannot express $\hat{x}_{i}$ using a single Arabic numeral. for $b=16$ (Hexadecimal) for $10 \leq \hat{x}_{i} \leq 16$, letters are used. $A \mapsto 10$, $B \mapsto 11$, $D \mapsto 12$, $C \mapsto 13$,$D \mapsto 14$, $E \mapsto 15$, $F \mapsto 16$.
+
+# Example : Octal Numbers
+Consider the case of octal numbers. In this case $b=8$ and $x_{i} \in X \{0, 1, \dots, 8 - 1=7\}$. From this if we were to reprsent the octal number $\hat{x} = 173$ in base 10 decimal. 
+$$
+\begin{gather*}
+\hat{x} = 173 = \langle 3, 7, 1 \rangle \mapsto 
+x \\ \\
+= \sum_{i=0}^{n-1} \hat{x}_{i} \cdot 8^{i} \\ \\
+= 3 \cdot 8^{0} + 7 \cdot 8^{1} + 1 \cdot 8^{2} \\ \\
+= 3 + 56 + 64 \\ \\
+= 123_{(10)}
+\end{gather*}
 $$
