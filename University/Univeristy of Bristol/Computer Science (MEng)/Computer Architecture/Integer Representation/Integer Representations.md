@@ -173,5 +173,12 @@ $$
 1 \text{ tebibit } \text{ (Tibit)} = 2^{40} \text{ bits} = 1 099 511 627 776 \text{ bits}
 \end{gather*}
 $$
-
+The same prefix extends into bytes
+$$
+\begin{gather*}
+1 \text{ kibibytes } \text{ (Kibit)} = 2^{10} \text{ bytes} = 1024 \text{ bits} \\ \\
+\dots \\ \\
+1 \text{ tebibytes } \text{ (Tibit)} = 2^{40} \text{ bits} = 1 099 511 627 776 \text{ bits}
+\end{gather*}
+$$
 # Representing Real Numbers 
