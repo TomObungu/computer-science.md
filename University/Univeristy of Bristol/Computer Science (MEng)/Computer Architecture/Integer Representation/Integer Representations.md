@@ -53,7 +53,7 @@ Given $X=\langle 1,0,0,1 \rangle$ and $Y = \langle 0,1,1,1 \rangle$, we find tha
 
 ---
 # Parity Bits
-
+Imagine $X$
 
 
 # Positional Number System
