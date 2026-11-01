@@ -57,7 +57,7 @@ Where each $\hat{x}_{i}$ is one of $n$ digits taken from the digit set $X = \{0,
 Beware that for $b>10$, we cannot express $\hat{x}_{i}$ using a single Arabic numeral. for $b=16$ (Hexadecimal) for $10 \leq \hat{x}_{i} \leq 16$, letters are used. $A \mapsto 10$, $B \mapsto 11$, $D \mapsto 12$, $C \mapsto 13$,$D \mapsto 14$, $E \mapsto 15$, $F \mapsto 16$.
 
 # Example : Octal Numbers
-Consider the case of octal numbers. In this case $b=8$ and $x_{i} \in X \{0, 1, \dots, 8 - 1=7\}$. From this if we were to reprsent the octal number $\hat{x} = 173$ in base 10 decimal. 
+Consider the case of octal numbers. In this case $b=8$ and $x_{i} \in X \{0, 1, \dots, 8 - 1=7\}$ and we want to represent the octal number $\hat{x} = 173$ in base 10 decimal. 
 $$
 \begin{gather*}
 \hat{x} = 173 = \langle 3, 7, 1 \rangle \mapsto 
@@ -68,3 +68,4 @@ x \\ \\
 = 123_{(10)}
 \end{gather*}
 $$
+---
