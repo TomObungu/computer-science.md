@@ -17,7 +17,11 @@ A binary tree is tree that only has zero, one or two children. This assertion ma
 # Sorted Binary Tree (Binary Search Tree)
 A tree is sorted if and only if all nodes in the left subtree have smaller keys than the node's own key. A key can only appear at most once in the tree.
 
-A
+# Searching
+To search for an item in a binary tree
+1. Start at the root node
+2. If the item you are searching for is less than current node move to the left child, other wise move to the right
+3. Repeat this process until you have found the item you are looking for or until the node is a leaf. In this case the tree doesn't contain the item being searched. 
 
 # Traversal
 Many problems require visiting the nodes of a tree in a systematic way: Tasks such as counting how many nodes exist or finding the maximum element.
