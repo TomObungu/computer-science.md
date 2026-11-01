@@ -146,5 +146,5 @@ $$
 ## Example 
 For example if $x=1011_{(2)}$ and $m=2$. If we want to extract the sub-word $\langle x_{1}, x_{2} \rangle$:
 $$
-( x \gg i) \land 
+( x \gg i) \land ( ( 1 \ll m))
 $$
