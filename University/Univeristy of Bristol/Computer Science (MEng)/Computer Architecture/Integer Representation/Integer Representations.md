@@ -52,10 +52,14 @@ $$
 Given $X=\langle 1,0,0,1 \rangle$ and $Y = \langle 0,1,1,1 \rangle$, we find that $HW(X) = \sum ^{n-1}_{i=0} X_{i}=1+0+0+1=2$ and $HD(X,Y)=\sum ^{n-1}_{i=0} X_{i} \oplus Y_{i} = HW(X \oplus Y) = (1 \oplus 0) + (0 \oplus 1)\dots = 1 + 1 +1 + 0 = 3$
 
 ---
-# Parity Bits
-Imagine $X$
-
-
+# Parity Bits (Check Bits)
+It is possible to append a parity bit $p$ to some n-bit sequence. Parity bits are simple a form of error detecting code. Appending  a parity bit can be represented as $X || p$. $PAR^{+}(X)$  implements an even-parity code such that $x || p$ will have an even number of $i$.  $PAR^{-}(X)$  implements an even-parity code such that $x || p$ will have an odd number of $i$. 
+$$
+\begin{gather*}
+PAR^{+}(X) = \sum^{i < n}_{i=0} X_{i} (mod 2) = \oplus^{i<n}_{i=0} X_{i} \\ \\
+PAR^{-}(X) = ¬\left(\sum^{i < n}_{i=0} X_{i} (mod 2)\right) = \oplus^{i<n}_{i=0} X_{i}\
+\end{gather*}
+$$
 # Positional Number System
 A positional number system expresses the value of a number $x$ using a base-$b$ (or radix-$b$) expansion. 
 $$
