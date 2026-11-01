@@ -71,8 +71,7 @@ $$
 ---
 # Standard Integer Representations
 We want to represent elements of $\mathbb{Z}$ but it is an infinite set and so far we've ignored the issue of sign. 
-
-# Unsigned Integer 
+## Unsigned Integer 
 An unsigned integer can be represented in $n$ bits by using the natural binary expansion.
 $$
 \begin{gather*}
@@ -84,11 +83,18 @@ For $\hat{x} \in\{0,1\}$. This yields
 $$
 0 \leq x \leq 2^{n} - 1
 $$
-
-
-# Signed Integers
-
-
+## Signed Integers
+A signed can be represented in $n$ bits using the sign-magnitude approach: $1$ bit is reserved for the sign. 
+$$
+\begin{gather*}
+\hat{x} = \langle \hat{x}_{0}, \hat{x}_{1},\dots, \hat{x}_{n-1} \rangle  \mapsto x  \\ \\
+= (-1)^{\hat{x}-1}\cdot \sum^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} 
+\end{gather*}
+$$
+For $\hat{x} \in\{0,1\}$. This yields
+$$
+-2^{n-1} \leq x \leq +2^{n-1}-1
+$$
 # Example 
 In C there are representations
 $$
