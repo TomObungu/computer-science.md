@@ -181,4 +181,3 @@ $$
 1 \text{ tebibytes } \text{ (Tibit)} = 2^{40} \text{ bits} = 1 099 511 627 776 \text{ bits}
 \end{gather*}
 $$
-# Representing Real Numbers 
