@@ -52,6 +52,10 @@ $$
 Given $X=\langle 1,0,0,1 \rangle$ and $Y = \langle 0,1,1,1 \rangle$, we find that $HW(X) = \sum ^{n-1}_{i=0} X_{i}=1+0+0+1=2$ and $HD(X,Y)=\sum ^{n-1}_{i=0} X_{i} \oplus Y_{i} = HW(X \oplus Y) = (1 \oplus 0) + (0 \oplus 1)\dots = 1 + 1 +1 + 0 = 3$
 
 ---
+# Parity Bits
+
+
+
 # Positional Number System
 A positional number system expresses the value of a number $x$ using a base-$b$ (or radix-$b$) expansion. 
 $$
@@ -113,7 +117,6 @@ x \times 2^{y} = \left( \sum ^{n-1}_{i=0} \hat{x}_{i} \cdot 2^{i} \right) \times
 = x \ll y
 \end{gather*}
 $$
-
 # Right Shift
 A right-shift of some $x$ by $y$ digits is equivalent to division by $b^{y}$
 $$
