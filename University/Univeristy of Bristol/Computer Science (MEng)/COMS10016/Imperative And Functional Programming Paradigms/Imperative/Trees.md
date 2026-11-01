@@ -3,8 +3,6 @@ A tree is a non-empty set with an element that is designated as the root of the 
 The depth of a node is the length of the path or number of edges from root to that node.  
 
 The height of a node is the longest path from that node to its leaves. The height of a tree is the height of the root. A leaf node has no children, its only path is up to its parent. 
-
-
 # Binary Trees
 Suppose we have a list of items and routinely want to insert and find items. Using an unordered list would provide a finding time of $O(1)$ but searching would take $O(n)$. However the search takes $O(n)$ time. ^[1]
 
@@ -18,6 +16,17 @@ A binary tree is tree that only has zero, one or two children. This assertion ma
 
 # Sorted Binary Tree (Binary Search Tree)
 A tree is sorted if and only if all nodes in the left subtree have smaller keys than the node's own key. A key can only appear at most once in the tree.
+
+A
+
+# Traversal
+Many problems require visiting the nodes of a tree in a systematic way: Tasks such as counting how many nodes exist or finding the maximum element.
+
+There are three different methods possible for binary trees. Preorder, postorder and in-order.
+
+- Preorder: Current node, left subtree, right subtree
+- Postorder: Left subtree, right subtree, current node
+- In-order: Left subtree, current node, right sutbree. 
 
 
 --- 
