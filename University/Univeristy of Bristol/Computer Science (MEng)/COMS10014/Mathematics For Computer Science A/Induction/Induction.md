@@ -19,6 +19,12 @@ To prove a statement like this is to split the proof into two steps.
 
 If you want to prove holds for all natural numbers $n \geq k$ for some $k$. Then change the base case to showing $S(k)$. 
 
+# Informally
+For the steps above, the arugment becomes:
+1. By $1$, $S(0)$ holds
+2. By 2, since we know
+
+---
 # Statements of the form $L(n)=R(n)$
 If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
 1. Define $L(n)$ and $R(n)$ 
@@ -27,6 +33,9 @@ If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
 4. Write out $L(k+1)$ and calculate
 5. At some point you will have a subterm $L(n)$ say "Using the induction assumption", replace it with $R(n)$
 6. Continue calculating until you hopefully have $R(k+1)$
+
+# Example
+
 
 ---
 # Well Ordering 
