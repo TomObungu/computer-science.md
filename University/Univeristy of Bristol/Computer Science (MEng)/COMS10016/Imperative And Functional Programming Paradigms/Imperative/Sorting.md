@@ -6,6 +6,7 @@ Selection sort uses swapping and simple recursion; the idea is to select one ite
 # Divide and Conquer
 For large arrays a more efficient general recursive design technique is to split the problem into two half-sized problems. 
 # Partitioning a segment of an array
+The splitting of a list into two sublists as need for quick sort is called parti
 ## Hoare's Algorithm
 Move `lo` to the right until an element greater than or equal to the pivot is found, and move `hi` to the left until an element less than or equal to the pivot is found. 
 
