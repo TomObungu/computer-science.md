@@ -46,7 +46,7 @@ Merge sort is guaranteed to be $O(n\log n)$ and recursively combines two sorted 
 
 For the merge sort function below, it takes in a low, high and middle pointer. It then takes in the array to be sorted and an additional array to to store the sorted result.
 
-The sorting algorithm works by starting off at the middle of the list and the recusively calling the `sort` function on each each sub segment of the list. Recursively, each sub segment is split in two until there is only 1 element. Once the sort function reaches the state of there sub segments being 1 element. 
+The sorting algorithm works by starting off at the middle of the list and the recursively calling the `sort` function on each each sub segment of the list. Recursively, each sub segment is split in two until there is only 1 element. Once the sort function reaches the state of there sub segments being 1 element. 
 
 ```C
 
