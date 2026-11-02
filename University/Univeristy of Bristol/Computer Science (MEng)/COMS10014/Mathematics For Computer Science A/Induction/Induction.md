@@ -34,6 +34,8 @@ If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
 
 ---
 # Well Ordering 
+Why does induction work? Or better, when does induction work?
+
 
 ---
 # Structural Induction
