@@ -28,8 +28,6 @@ If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
 4. Write out $L(k+1)$ and calculate
 5. At some point you will have a subterm $L(n)$ say "Using the induction assumption", replace it with $R(n)$
 6. Continue calculating until you hopefully have $R(k+1)$
-# Example
-
 
 ---
 # Well Ordering 
