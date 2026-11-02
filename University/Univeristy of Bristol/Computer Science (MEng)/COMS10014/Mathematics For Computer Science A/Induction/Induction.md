@@ -2,7 +2,7 @@ You can do proof without induction, then that is usually simpler. You can use di
 
 Induction Comes in at least two forms:
 	1. Induction over the natural numbers
-	2. Strurctural induction 
+	2. Structural induction 
 
 # Induction over the Natural Numbers
 Consider a statement like Gauss's formula:
@@ -13,3 +13,12 @@ $$
 \end{gather*}
 $$
 To prove a statement like this is to split the proof into two steps. 
+1. Prove the base case $S(0)$
+2. Prove  the induction step $S(n)\to S(n+1)$ leaving $n$ as free variable
+
+If you want to prove holds for all natural numbers $n \geq k$ for some $k$. Then change the base case to showing $S(k)$. 
+
+# Statements of the form $L(n)=R(n)$
+If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
+1. Define $L(n)$ and $R(n)$ 
+2. State the base case to of $n=0$. Ca
