@@ -31,6 +31,18 @@ int partition(int lo, int hi, item xs[]){
 ## Quick Sort
 Quick sort takes an array segment, partitions it into two parts and recursively repeats the procedure on each of the parts until array segments contain less than 2 items
 
+```C
+void sort(int lo, int hi, item xs[hi]){
+	if(hi -lo <= 1) return;
+	int split = partition(lo, hi, xs);
+	sort(lo, split, xs);
+	sort(split, hi, xs);
+}
+```
+
+
+
+
 It has a best and average case of $O(n\log n)$. However $O(n^{2})$ is it's worst case, because partitioning may split $n$ items into unequal halves. This means that quick sort isn't always used when time is critical.
 ## Merge Sort
 Merge sort is guaranteed to be $O(n\log n)$ and recursively combines two sorted array segments into a larger sorted one. Merge sort starts off by splitting the array into individual blocks recursively.  
