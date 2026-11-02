@@ -54,7 +54,12 @@ For example, consider the following rules for building term strings:
 3. IF X, Y are terms then so are $X+Y$, $X-Y$ and $X \times Y$. These are called operation terms. 
 4. If $X$ is a term then so is $(X)$
 
-From this structure we can prove that every term string has balanced brackets
+From this structure we can prove that every term string has balanced brackets. Let $T$ be any term.
+
+1. If $T$ is a value term, then $T$ contains no brackets at all
+2. If $T$ is a variable term, then $T$ still contains no brackets so brackets are still balanced
+3. If $T$ is an operation term, then our induction assumption is that the subterms $X$, $Y$ both have balanced brackets. If $X$ has $a$ opening brackets and $Y$ has $b$ opening brackets then $T$ has $a+b$ opening and closing brackets
+4. If $T$ is a bracket term, then out induction assumption is that the subterm $X$ has balanced brackets; Let the number of opening and closing brackets in $X$ be $n$. Thus $T$ has $n+1$ opening and closing brackets.
 # Example
 
 ---
