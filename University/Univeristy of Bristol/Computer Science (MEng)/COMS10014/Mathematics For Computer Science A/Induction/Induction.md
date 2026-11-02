@@ -44,11 +44,11 @@ We can prove this statement by contradiction. Suppose that this is not the case.
 
 This relies on the fact that $S(x)$ is false for any $x \in \mathbb{N}$, then we can get the smallest such $x$. A set such as the natural numbers where every non-empty subset has a smallest element is called well-ordered. 
 
-The key step in the proof above, as far as set theory is concerned, is to define the subset of all natural numbers where the proposition $S$ does not hold. If $S$ is not a tautology, then this subset is non-empty so we can applt well-ordering and pick the smallest element of this subset. 
+The key step in the proof above, as far as set theory is concerned, is to define the subset of all natural numbers where the proposition $S$ does not hold. If $S$ is not a tautology, then this subset is non-empty so we can apply well-ordering and pick the smallest element of this subset. 
 
 ---
 # Structural Induction
-Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. For exampl
+Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. For example, consider the following rules for building term strings 
 
 ---
 
