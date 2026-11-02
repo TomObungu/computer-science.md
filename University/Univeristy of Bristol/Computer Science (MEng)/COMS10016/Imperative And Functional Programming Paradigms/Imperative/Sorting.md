@@ -32,7 +32,7 @@ int partition(int lo, int hi, item xs[]){
 Quick sort takes an array segment, partitions it into two parts and recursively repeats the procedure on each of the parts until array segments contain less than 2 items
 
 ```C
-void sort(int lo, int hi, item xs[hi]){
+void qsort(int lo, int hi, item xs[hi]){
 	if(hi -lo <= 1) return;
 	int split = partition(lo, hi, xs);
 	sort(lo, split, xs);
@@ -40,9 +40,24 @@ void sort(int lo, int hi, item xs[hi]){
 }
 ```
 
-The quick sort recursively partitions the sub segment between lo and hi and 
-
-
 It has a best and average case of $O(n\log n)$. However $O(n^{2})$ is it's worst case, because partitioning may split $n$ items into unequal halves. This means that quick sort isn't always used when time is critical.
 ## Merge Sort
 Merge sort is guaranteed to be $O(n\log n)$ and recursively combines two sorted array segments into a larger sorted one. Merge sort starts off by splitting the array into individual blocks recursively.  
+
+For the merge sort function below, it takes in a low, high and middle pointer. It then takes in the array to be sorted and an additional array to to store the sorted result.
+
+The sorting algorithm works by starting off at the middle of the list and the recusively calling the `sort` function on each each sub segment of the list. Recursively, each sub segment is split in two until there is only 1 element. Once the sort function reaches the state of there sub segments being 1 element. 
+
+```C
+
+```
+
+The merge function works by 
+```C
+void merge(int lo, int hi, item xs[hi], item other[hi]){
+	int i = lo, j = mid;
+	for (int k = lo; k < hi; k++){
+		if ( i < mid && (j >= hi || xs[i] <= xs[j]))
+	}
+}
+```
