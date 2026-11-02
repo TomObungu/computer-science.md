@@ -49,10 +49,13 @@ The key step in the proof above, as far as set theory is concerned, is to define
 Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. 
 
 For example, consider the following rules for building term strings:
+1. T1 is an integer term, called a value term. 
+2. A variable is a term 
+3. IF X, Y are terms then so are $X+Y$, $X-Y$ and $X \times Y$. These are called operation terms. 
+4. If $X$ is a term then so is $(X)$
 
-
-
-
+From this structure we can prove that every term string has balanced brackets
+# Example
 
 ---
 
