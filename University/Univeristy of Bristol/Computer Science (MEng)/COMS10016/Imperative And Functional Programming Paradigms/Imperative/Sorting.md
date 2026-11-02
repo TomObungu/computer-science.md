@@ -1,4 +1,4 @@
-Few sorting algorithm dominate: insertion sort is widely used: insertion sort for small data sets, while for large data sets. Merge sort and quick sort are often used.  
+Few sorting algorithms dominate: insertion sort is widely used: insertion sort for small data sets, while for large data sets. Merge sort and quick sort are often used.  
 
 The simplest sorting concepts use repeated swapping of items in a list to sort it. 
 # Selection Sort
@@ -40,7 +40,7 @@ void sort(int lo, int hi, item xs[hi]){
 }
 ```
 
-
+The quick sort recursively partitions the sub segment between lo and hi and 
 
 
 It has a best and average case of $O(n\log n)$. However $O(n^{2})$ is it's worst case, because partitioning may split $n$ items into unequal halves. This means that quick sort isn't always used when time is critical.
