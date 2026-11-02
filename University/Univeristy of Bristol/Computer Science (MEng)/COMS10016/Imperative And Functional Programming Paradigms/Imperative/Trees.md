@@ -23,6 +23,13 @@ To search for an item in a binary tree
 2. If the item you are searching for is less than current node move to the left child, other wise move to the right
 3. Repeat this process until you have found the item you are looking for or until the node is a leaf. In this case the tree doesn't contain the item being searched. 
 
+Searching takes $O(\log n)$. 
+
+# Adding an Item
+To add an item, you must first search through the tree until you find a leaf. Once at the leaf add the item as child on the leaf
+# Deleting an Item
+To delete an item, you must first search for an item and then remove the item form the parent node. 
+
 # Traversal
 Many problems require visiting the nodes of a tree in a systematic way: Tasks such as counting how many nodes exist or finding the maximum element.
 
