@@ -46,7 +46,9 @@ The key step in the proof above, as far as set theory is concerned, is to define
 
 ---
 # Structural Induction
-Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. For example, consider the following rules for building term strings 
+Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. For example, consider the following rules for building term strings:
+
+
 
 ---
 
