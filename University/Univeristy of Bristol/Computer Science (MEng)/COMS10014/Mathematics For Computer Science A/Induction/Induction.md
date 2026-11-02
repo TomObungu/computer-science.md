@@ -19,11 +19,6 @@ To prove a statement like this is to split the proof into two steps.
 
 If you want to prove holds for all natural numbers $n \geq k$ for some $k$. Then change the base case to showing $S(k)$. 
 
-# Informally
-For the steps above, the arugment becomes:
-1. By $1$, $S(0)$ holds
-2. By 2, since we know
-
 ---
 # Statements of the form $L(n)=R(n)$
 If we are proving a statement of the form $L(n) = R(n)$ we can use a template:
