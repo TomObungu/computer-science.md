@@ -49,10 +49,16 @@ For the merge sort function below, it takes in a low, high and middle pointer. I
 The sorting algorithm works by starting off at the middle of the list and the recursively calling the `sort` function on each each sub segment of the list. Recursively, each sub segment is split in two until there is only 1 element. Once the sort function reaches the state of there sub segments being 1 element. 
 
 ```C
-
+void sort(int lo, int hi, item xs[hi], item other[hi]){
+	if(hi - lo <= 1) return;
+	int mid = lo + (hi-lo)/2;
+	sort(lo, mid, other, xs);
+	sort(mid, hi, other, xs);
+	merge(lo, mid, hi, xs, other);
+}
 ```
 
-The merge function works by 
+Once the function has reached its state of the lists being independent element, the merge function works by comparing the single element arrays and sorting them. This merge function is called on each partitioned array. 
 ```C
 void merge(int lo, int hi, item xs[hi], item other[hi]){
 	int i = lo, j = mid;
