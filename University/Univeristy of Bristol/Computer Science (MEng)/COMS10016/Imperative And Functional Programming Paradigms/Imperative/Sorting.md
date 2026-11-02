@@ -57,7 +57,12 @@ The merge function works by
 void merge(int lo, int hi, item xs[hi], item other[hi]){
 	int i = lo, j = mid;
 	for (int k = lo; k < hi; k++){
-		if ( i < mid && (j >= hi || xs[i] <= xs[j]))
+		if ( i < mid && (j >= hi || xs[i] <= xs[j])){
+			other[k] = xs[i++];
+		} else {
+			other[k] = xs[j++];
+		}
 	}
 }
 ```
+
