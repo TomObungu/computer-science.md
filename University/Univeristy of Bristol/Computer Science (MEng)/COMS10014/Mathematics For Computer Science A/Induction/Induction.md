@@ -42,8 +42,13 @@ We can prove this statement by contradiction. Suppose that this is not the case.
 1. If $x=0$ then $S(0)$ is false, but this is a contradiction the assumption $S(0)$ is true.
 2. If $x >0$, then $x-1$ is also a natural number. Since $x$ was the smallest natural number where $S$ not true then $S(x-1)$ must be true. However, setting $S(n)$ for $n=x-1$ we get that $S(x)$ is true, however this is a contradiction 
 
+This relies on the fact that $S(x)$ is false for any $x \in \mathbb{N}$, then we can get the smallest such $x$. A set such as the natural numbers where every non-empty subset has a smallest element is called well-ordered. 
+
+The key step in the proof above, as far as set theory is concerned, is to define the subset of all natural numbers where the proposition $S$ does not hold. If $S$ is not a tautology, then this subset is non-empty so we can applt well-ordering and pick the smallest element of this subset. 
+
 ---
 # Structural Induction
+Whenever you have a recursively defined data type, then you can do proofs by induction over the structure of the data type. For exampl
 
 ---
 
