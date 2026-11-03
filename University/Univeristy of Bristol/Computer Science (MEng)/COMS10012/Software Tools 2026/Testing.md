@@ -68,4 +68,6 @@ int main(int argc, char **argv) {
 Random input generation is an  excellent way to discover bugs in code. Fuzzers are programs that are meant to break other programs. They generate demented input to stress-test the designers' assumptions. 
 
 # Evading the Fuzz
-To protect your code against deranged input generator, you need to be able to prove that this cannot go wrong. You could use formal 
+To protect your code against deranged input generator, you need to be able to prove that this cannot go wrong. You could use formal methods such as mathematical proofs. You could also use formal verification, it is possible to prove that desirable properties of your program will always hold. 
+
+Lean is a prgarmming langauge designed to enable you to write formally verified code. 
