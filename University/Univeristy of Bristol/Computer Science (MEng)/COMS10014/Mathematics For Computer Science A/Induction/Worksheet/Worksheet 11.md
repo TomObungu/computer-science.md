@@ -31,6 +31,6 @@ L(0) = R(0) \\ \\
 \sum_{i=0}^{k+1}r^{k} = \sum_{i=0}^{k}r^{i} +r^{k+1} = \frac{1-r^{k+1}}{1-r} + r^{k+1} \\ \\
 = \frac{1-r^{k+1}+r^{k+1}- r^{k+2}}{1-r} = \frac{1-r^{k+2}}{1-r}\\ \\
 \text{Thus the case for n=k+1 holds} \\ \\
-\text{Thus } \forall i \in \mathbb{N} \sum_{i=0}^{n}r^{i} = \frac{1-r^{n+1}}{1-r}, r\neq_{0}$ and r\neq_{1}
+\text{Thus } \forall i \in \mathbb{N} \sum_{i=0}^{n}r^{i} = \frac{1-r^{n+1}}{1-r}, r\neq_{0} \text{and } r\neq_{1}
 \end{gather*}
 $$
