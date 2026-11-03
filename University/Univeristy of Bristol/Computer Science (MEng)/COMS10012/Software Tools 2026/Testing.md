@@ -47,3 +47,25 @@ The TDD workflow follows what is known as the 'RED-GREEN-REFACTOR' model.
 Adopting new software engineering practices is often more about changing mindset than learning a new tool. Discipline is the bridge between goals and accomplishment. Embrace discipline of testing first. 
 
 # Property Testing
+A popular property testing framework is called QuickCheck
+```C
+#include "quickcheck4c.h"
+
+QCC_TestStatus mulCommutativity(QCC_GenValue **vals, int len, QCC_Stamp **stamp) {
+  int a = *QCC_getValue(vals, 0, int*);
+  int b = *QCC_getValue(vals, 1, int*);
+
+  return a*b == b*a;
+}
+
+int main(int argc, char **argv) {
+  QCC_init(0);
+  QCC_testForAll(100, 1000, mulCommutativity, 2, QCC_genInt, QCC_genInt);
+}
+```
+
+# Fuzzing
+Random input generation is an  excellent way to discover bugs in code. Fuzzers are programs that are meant to break other programs. They generate demented input to stress-test the designers' assumptions. 
+
+# Evading the Fuzz
+To protect your code against deranged input generator, you need to be able to prove that this cannot go wrong. You could use formal 
