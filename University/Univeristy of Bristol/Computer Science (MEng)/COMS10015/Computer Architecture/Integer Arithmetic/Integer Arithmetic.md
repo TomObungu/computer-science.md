@@ -7,7 +7,10 @@ $$
 The multiplication using tables that is commonly known is known as operand scanning. 
 
 ## Algorithm
-1. $r \$
+1. $r \gets 0$
+2. for $j=0$ upto $l_{y}-1$ step $+1$ do
+	1. $c \gets 0$
+	2. for $i=0$ upto $lx -1$ step +1 do
 # Product Scanning
 We know that $r$ will be of $2\cdot n$ thus for every bit column $r_{k}$, the corresponding $x$
 # Horner's Rule
