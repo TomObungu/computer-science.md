@@ -28,7 +28,11 @@ Multiplication means repeated addition, i.e
 $$
 y \times x = x + x \dots + x
 $$
-
+Expressing $y$ in base-2. We can see that 
+$$
+y \times x = \underbrace{ (y_{0}\cdot 2^{0} + y_{0}\cdot 2^{0} \dots y_{n-1}\cdot 2^{n-1}) + (y_{0}\cdot 2^{0} + y_{0}\cdot 2^{0} \dots y_{n-1}\cdot 2^{n-1}) \dots }_{ \text{x times} } 
+$$
+Where $y_{i}$ is the bit value of either 1 or 0. 
 # Horner's Rule
 For base 2 binary. It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
 $$
