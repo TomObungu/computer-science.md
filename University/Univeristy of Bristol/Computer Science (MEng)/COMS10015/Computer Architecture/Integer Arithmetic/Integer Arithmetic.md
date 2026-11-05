@@ -4,14 +4,24 @@ $$
 f : {0,1}^{n} \times {0, 1}^{n} \to {0,1}^{2 \cdot n}
 $$
 # Operand Scanning
-The multiplication using tables that is commonly known is known as operand scanning. In the inner loop $j=0$ up to $l_{y}$ and $j=0$ up to $l_{x}$, $y_{i}\times x_{j}$ is computed correspondingly. 
+For integers $x$ and$y$, the multiplication using tables that is commonly known is known as operand scanning. In the inner loop $j=0$ up to $l_{y}$ and $j=0$ up to $l_{x}$, $y_{i}\times x_{j}$ is computed correspondingly. 
 # Product Scanning
-SImilar to operand scanning in that you gain the same complexity, however the ordering of multiplication differs. 
+Similar to operand scanning in that you gain the same complexity, however the ordering of multiplication differs. 
 
 We know that $r$ will be of $2\cdot n$ there is an outer loop  up to $r_{k}$. The crucial step is that to two inner loops that are up $j=0$ up to $l_{y}-1$ and $i=0$  $l_{x}-1$. If $i+j = k$, then $y_{i} \times x_{j}$ is computed. This is then added to the resulting sum. 
 ## Algorithm 
-
-
+1. $l_{x} \gets |x|$, $l_{y} \gets |y|$, $l_{r} \gets  l_{x} + l_{y}$
+2. $r \gets 0$, $c_{0} \gets 0$, $c_{2} \gets 0$
+3. for $k=0$ upto $l_{x}+l_{y}$ step $+1$ do
+	1. for $j=0$ upto $l_{x}+l_{y}$ step $+1$ do
+		1. for $i=0$ upto $l_{y} -1$ step $+1$ do
+			1. for $j=0$ upto $l_{y} -1$ step $+1$ do
+				1. if $(j+i)=k$ then
+					1. $u \cdot b + v = t \gets  y_{i} \cdot x_{i}$
+					2. $c \dot{ b + c_{0}} = t \gets c_{0} + v$
+					3. $c_{2} \gets c_{2} + c$
+	2. $r_{k} \gets c_{0}, c_{0} \gets c_{1}, c_{1} \gets c_{2}, c_{2} \gets 0$
+4. $r_{l_{x}+l_{y}-1} \gets 0$
 # Horner's Rule
 It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
 $$
