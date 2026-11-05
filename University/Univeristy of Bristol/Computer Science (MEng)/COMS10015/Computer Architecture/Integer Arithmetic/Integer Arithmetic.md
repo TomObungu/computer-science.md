@@ -5,14 +5,8 @@ f : {0,1}^{n} \times {0, 1}^{n} \to {0,1}^{2 \cdot n}
 $$
 # Operand Scanning
 The multiplication using tables that is commonly known is known as operand scanning. 
-
-## Algorithm
-1. $r \gets 0$
-2. for $j=0$ upto $l_{y}-1$ step $+1$ do
-	1. $c \gets 0$
-	2. for $i=0$ upto $lx -1$ step +1 do
 # Product Scanning
-We know that $r$ will be of $2\cdot n$ thus for every bit column $r_{k}$, the corresponding $x$
+We know that $r$ will be of $2\cdot n$ thus for every bit column $r_{k}$, the corresponding $x$. 
 # Horner's Rule
 It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
 $$
