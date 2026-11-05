@@ -31,7 +31,14 @@ y \times x = y_{0} \cdot x  + 2 \cdot ( y_{1} \cdot x + 2 \cdot (y_{2}  \cdot x 
 \end{gather*}
 $$
 
-
+Thus for ever intermediate step $r'$, it possible to specialise it as
+$$
+r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}
+$$
+This can be furthe specialised in form 
+$$
+r' \gets { 2\cdot r \equiv (r \ll 1)}
+$$
 ## Combinatorical Approach
 It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wires shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
 ![[Pasted image 20261105114800.png]]
