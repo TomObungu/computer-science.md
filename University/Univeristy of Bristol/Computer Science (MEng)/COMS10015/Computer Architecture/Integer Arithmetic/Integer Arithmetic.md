@@ -50,4 +50,5 @@ It is possible to compute $r$ via AND gates to generate partial results. Some le
 The positive side of this is that it requires a larger data-path. Requires no control path. As this is a combinatorical circuit, it requires only one step.
 
 ## Sequential Approach
-It is possible to express $r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}$using sequential logic with the use o
+It is possible to express $r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}$using sequential logic with the use of 
+![[Pasted image 20261105220136.png]]
