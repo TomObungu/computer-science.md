@@ -4,7 +4,7 @@ $$
 f : {0,1}^{n} \times {0, 1}^{n} \to {0,1}^{2 \cdot n}
 $$
 # Operand Scanning
-
+The multiplication using tables that is commonly known is known as operand scanning. 
 # Horner's Rule
 It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
 $$
