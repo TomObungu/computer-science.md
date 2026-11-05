@@ -23,7 +23,7 @@ We know that $r$ will be of $2\cdot n$ there is an outer loop  up to $r_{k}$. Th
 	2. $r_{k} \gets c_{0}, c_{0} \gets c_{1}, c_{1} \gets c_{2}, c_{2} \gets 0$
 4. $r_{l_{x}+l_{y}-1} \gets 0$
 
-# Additive multiplicaiton
+# Additive multiplication
 Multiplication means repeated addition, i.e
 $$
 y \times x = x + x \dots + x
