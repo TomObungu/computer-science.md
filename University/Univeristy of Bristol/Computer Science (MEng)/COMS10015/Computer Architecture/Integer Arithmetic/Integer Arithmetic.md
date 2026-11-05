@@ -35,9 +35,13 @@ Thus for ever intermediate step $r'$, it possible to specialise it as
 $$
 r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}
 $$
-This can be furthe specialised in form 
+This can be further specialised in form 
 $$
-r' \gets { 2\cdot r \equiv (r \ll 1)}
+r' \gets \begin{cases}
+2\cdot r \equiv (r \ll 1), \text{ if} y_{i} =0\\ \\
+x \cdot + 2 \cdot r \equiv x + ( r \ll 1), \\
+  \text{ if} y_{i}=1
+\end{cases} 
 $$
 ## Combinatorical Approach
 It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wires shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
@@ -46,4 +50,4 @@ It is possible to compute $r$ via AND gates to generate partial results. Some le
 The positive side of this is that it requires a larger data-path. Requires no control path. As this is a combinatorical circuit, it requires only one step.
 
 ## Sequential Approach
-
+It is possible to express $r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}$using sequential logic with the use o
