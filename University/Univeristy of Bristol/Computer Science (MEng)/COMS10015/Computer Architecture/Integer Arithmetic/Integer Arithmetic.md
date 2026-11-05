@@ -4,8 +4,10 @@ $$
 f : {0,1}^{n} \times {0, 1}^{n} \to {0,1}^{2 \cdot n}
 $$
 # Operand Scanning
-The multiplication using tables that is commonly known is known as operand scanning. Consider $y$ and $x$; An algorithm for such would step through the digits of$y_{i}$ and out loop steps through $\xi$
+The multiplication using tables that is commonly known is known as operand scanning. 
 
+## Algorithm
+1. $r \$
 # Product Scanning
 We know that $r$ will be of $2\cdot n$ thus for every bit column $r_{k}$, the corresponding $x$
 # Horner's Rule
