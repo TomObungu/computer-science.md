@@ -1,2 +1,2 @@
 # Horner's Rule
-It is similar to b
+It is similar to binary exponentiation 
