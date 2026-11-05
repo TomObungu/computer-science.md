@@ -55,7 +55,7 @@ x \cdot + 2 \cdot r \equiv x + ( r \ll 1), \\
 \end{cases} 
 $$
 ## Combinatorical Approach
-It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wires shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
+It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wire shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
 ![[Pasted image 20261105114800.png]]
 
 The positive side of this is that it requires a larger data-path. Requires no control path. As this is a combinatorical circuit, it requires only one step.
@@ -63,3 +63,5 @@ The positive side of this is that it requires a larger data-path. Requires no co
 ## Sequential Approach
 It is possible to express $r_{i} \gets y_{i} \cdot x + 2 \cdot r_{i-1}$using sequential logic with the use of 
 ![[Pasted image 20261105220136.png]]
+
+In this case the algorithm starts off with some finite state machine that will choose $y_{i}$ as the selector.$y_{i}$ is passed into $r'$. This then becomes $r$ and is passed into the constant bit shifter component that multiplies $y_{i}$ by 2. This result is then passed into $x$ and also passed into the adder component 
