@@ -4,8 +4,11 @@ $$
 y \times x = y_{0} \cdot x  + 2 \cdot ( y_{1} \cdot x + 2 \cdot (y_{2}  \cdot x \dots + 2(y_{n-1} \cdot x))
 $$
 
-## Combinatoric Approach
-It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components i.e barrel shifters or multiplexers and some adder components to sums the scaled partial sums. 
+## Combinatorical Approach
+It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wires shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
 ![[Pasted image 20261105114800.png]]
 
 The positive side of this is that it requires a larger data-path. Requires no control path. As this is a combinatorical circuit, it requires only one step.
+
+## Sequential Approach
+
