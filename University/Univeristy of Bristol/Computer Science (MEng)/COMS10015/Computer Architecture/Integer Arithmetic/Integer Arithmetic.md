@@ -23,10 +23,14 @@ We know that $r$ will be of $2\cdot n$ there is an outer loop  up to $r_{k}$. Th
 	2. $r_{k} \gets c_{0}, c_{0} \gets c_{1}, c_{1} \gets c_{2}, c_{2} \gets 0$
 4. $r_{l_{x}+l_{y}-1} \gets 0$
 # Horner's Rule
-It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
+For base 2 binary. It is similar to binary exponentiation in that when evaluating $y\times x$. The product is computed by multiplying $y_{i}$ by $x$ and by $2^{i}$ where $i$ is the position of the bit and adding the next $i$ bit position. Thus to comput $y\times x$ where $y$ is an expression with $n$ bits in base $2$. 
 $$
-y \times x = y_{0} \cdot x  + 2 \cdot ( y_{1} \cdot x + 2 \cdot (y_{2}  \cdot x \dots + 2(y_{n-1} \cdot x))
+\begin{gather*}
+y \times x = y_{0} \cdot x  + 2 \cdot ( y_{1} \cdot x + 2 \cdot (y_{2}  \cdot x \dots + 2(y_{n-1} \cdot x)) \\ \\
+\left(\sum ^{n-1}_{i=0} y_{i} \cdot 2^{i} \cdot x\right)
+\end{gather*}
 $$
+
 
 ## Combinatorical Approach
 It is possible to compute $r$ via AND gates to generate partial results. Some left-shift components  e.g. wires shifting, computation or multiplexers and some adder components to sums the scaled partial sums. 
