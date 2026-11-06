@@ -83,3 +83,10 @@ inputController :: Event -> System Model ()
 inputController event = case event of 
 	EventKey (SpecialKey  KeyEsc) DOwn _ _ -> liftIO exit
 ```
+
+## Boids
+```Haskell
+separation :: System' ()
+seperation = cmapM $ \(Boid, Position p, Velocity v) -> do
+```
+
