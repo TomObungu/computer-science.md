@@ -22,3 +22,4 @@ FAIL
 If you want to commit without the tests passing you can do `git commit --no-verify`. 
 
 # Workflows
+It is possible to run a test.yml 
