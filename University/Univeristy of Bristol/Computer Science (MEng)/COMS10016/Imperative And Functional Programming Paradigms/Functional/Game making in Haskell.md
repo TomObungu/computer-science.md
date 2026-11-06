@@ -65,3 +65,21 @@ cmap
 	=> (cx -> cy) -> System'()
 ```
 
+You can use a language extension called `TemplateHaskell` and gloss to form a model. Remember to `import Apecs.Gloss`. 
+```Haskell
+makeWord "Model" [''Camera, ''Position, ''Velocity]
+```
+
+```Haskell
+view :: System Model Picture
+view 
+	= foldDraw (\(Pos (x,y))
+		-> translateCircle x y (Circle 10)
+```
+
+You can use pattern matching on inputControllers
+```Haskell
+inputController :: Event -> System Model ()
+inputController event = case event of 
+	EventKey (SpecialKey  KeyEsc) DOwn _ _ -> liftIO exit
+```
