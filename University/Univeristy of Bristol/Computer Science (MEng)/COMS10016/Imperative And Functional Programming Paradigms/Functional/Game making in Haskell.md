@@ -85,6 +85,7 @@ inputController event = case event of
 ```
 
 ## Boids
+https://red3d.com/cwr/boids/
 ```Haskell
 separation :: System' ()
 seperation = cmapM $ \(Boid, Position p, Velocity v) -> do
