@@ -59,6 +59,9 @@ void sort(int lo, int hi, item xs[hi], item other[hi]){
 }
 ```
 
+![[Pasted image 20261106104746.png]]
+
+
 Once the function has reached its state of the lists being independent element, the merge function works by comparing the single element arrays and sorting them. This merge function is called on each partitioned array. 
 ```C
 void merge(int lo, int hi, item xs[hi], item other[hi]){
