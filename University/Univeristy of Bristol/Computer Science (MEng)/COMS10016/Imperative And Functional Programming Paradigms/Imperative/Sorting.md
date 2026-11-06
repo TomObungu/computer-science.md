@@ -1,4 +1,4 @@
-Few sorting algorithms dominate: insertion sort is widely used: insertion sort for small data sets, while for large data sets. Merge sort and quick sort are often used.  
+lcdFew sorting algorithms dominate: insertion sort is widely used: insertion sort for small data sets, while for large data sets. Merge sort and quick sort are often used.  
 
 The simplest sorting concepts use repeated swapping of items in a list to sort it. 
 # Selection Sort
