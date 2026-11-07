@@ -1,3 +1,4 @@
+https://docs.google.com/presentation/d/1i4Qeb1SaQDL2bZ2dfk6xSxSzIhRVTGS7hya1x1TFFDg/edit?slide=id.g2b65e455e43_0_0#slide=id.g2b65e455e43_0_0
 # Glossy MVC
 Much like OOP, there are also design patterns in Haskell. The MVC is
 - Model
