@@ -69,4 +69,12 @@ $$
 (n-2)! \times 2
 $$
 
+Example : 8 people around a table, two must sit together gives: $(8-2)! \times 2 = 6! \times 2$.
+
+# Counting Functions
+Given sets such that $|A| = m$ and $|B| = n$. Each element of $A$ can map to any $n$ elements of $B$ independently, thus $|B|^{|A|}$:
+$$
+|f : A \to B| = n^{m}
+$$
+Example : Number of 4-letter codes from alphabet ${A,B,C}$ with repetition allowed gives $3^{4}=81$. 
 
