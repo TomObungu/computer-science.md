@@ -9,3 +9,6 @@ However mentoring ins't academic support, pastoral care or the mentors being exp
 
 # Who are the mentors
 The mentors have worked in a related industry with at least 18 months experience but at any stage in their career. They are all volunteers from small, medium and large companies. 
+
+# Meeting 1
+There will be an assessment 
