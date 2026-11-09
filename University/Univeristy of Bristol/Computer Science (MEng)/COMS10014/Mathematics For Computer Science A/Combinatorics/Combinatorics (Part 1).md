@@ -98,3 +98,12 @@ Relations on $A$ (subsets $A\times A$, which has $m^{2}$) elements gives $2^{m^{
 For relations on reflexive relations we must include all diagonal painrs gives $2^{m(m-1)}$.
 
 # Double Counting Principle
+For example if you have an $a \times b$ grid, when counting columns you are given $a \times b$ squares and $b \times a$ columns. Equating the two gives $a \times b = b \times a$.
+
+For example if you $n$ teams in a tournament with no draws, where each match there will be $W_{i}$ wins and $L_{i}$ losses. For each match, there is either a win or a loss, thus:
+$$
+\sum W_{i} = \sum L_{i}
+$$
+
+# Handshaking Lemma
+An undirected graph $G=(V,E)$ consists of $V$ vertices and $E$ edges. The degree is the 
