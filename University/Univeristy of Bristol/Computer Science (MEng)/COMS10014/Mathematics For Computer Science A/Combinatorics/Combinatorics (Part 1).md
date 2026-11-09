@@ -62,6 +62,8 @@ To arrange $n$ people around a table, the number of permutations is:
 $$
 (n-1)!
 $$
+This is because on a table, there are $n$ repeated counts for rotations, thus consider those counts you must do $\frac{n!}{n}$.
+
 Example : If two particular people must sit together, treat them as a block, seat the $n-1$ objects around the table to array the pair internally
 $$
 (n-2)! \times 2
