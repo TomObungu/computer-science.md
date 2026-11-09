@@ -85,3 +85,16 @@ $$
 
 For bijective fucntions of where $n=m$, then the number of permuations are $n!$
 
+
+# Counting Relations
+The number of relations form $A$ to $B$ gives $2^{mn}$. This is because
+$$
+|A \times B| = m \times n
+$$
+We are given pairs (a,b) thus it gives $2^{mn}$.
+
+Relations on $A$ (subsets $A\times A$, which has $m^{2}$) elements gives $2^{m^{2}
+
+For relations on reflexive relations we must include all diagonal painrs gives $2^{m(m-1)}$.
+
+# Double Counting Principle
