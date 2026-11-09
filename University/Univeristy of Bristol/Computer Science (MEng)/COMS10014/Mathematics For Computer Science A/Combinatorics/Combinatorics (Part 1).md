@@ -104,4 +104,4 @@ $$
 $$
 
 # Handshaking Lemma
-An undirected graph $G=(V,E)$ consists of $V$ vertices and $E$ edges. The degree is the 
+An undirected graph $G=(V,E)$ consists of $V$ vertices and $E$ edges. The degree of a vertex $v$ is the number of edges connected to it. 
