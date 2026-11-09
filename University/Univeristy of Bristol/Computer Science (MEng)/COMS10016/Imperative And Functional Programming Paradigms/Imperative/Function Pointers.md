@@ -8,3 +8,15 @@ int (*f)(int);
 f = square;
 ```
 
+# Arrays of Function Pointers
+It possible to have function selection using function pointers
+```C
+typedef int op(int x, int y);
+enum opcode { Plus, Minus, Times, Over };
+op *ops[] = { add, subtract, multiply, divide };
+...
+int main(){
+    op *f = ops[Times];
+    int n = f(6,7);
+```
+
