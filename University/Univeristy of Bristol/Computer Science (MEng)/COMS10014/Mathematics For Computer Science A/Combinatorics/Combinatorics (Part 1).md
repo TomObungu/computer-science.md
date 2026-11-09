@@ -84,8 +84,6 @@ $$
 $$
 
 For bijective fucntions of where $n=m$, then the number of permuations are $n!$
-
-
 # Counting Relations
 The number of relations form $A$ to $B$ gives $2^{mn}$. This is because
 $$
