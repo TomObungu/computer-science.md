@@ -78,3 +78,10 @@ $$
 $$
 Example : Number of 4-letter codes from alphabet ${A,B,C}$ with repetition allowed gives $3^{4}=81$. 
 
+For injective function of $n\geq m$ of no two elements of $A$ mapping to the same element of $B$. This gives:
+$$
+\frac{n!}{(n-m)!}
+$$
+
+For bijective fucntions of where $n=m$, then the number of permuations are $n!$
+
