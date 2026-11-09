@@ -46,4 +46,7 @@ $$
 \frac{11!}{4!4!2!}
 $$
 
-# 
+# Restricted Permutations
+
+# Adjacency constaint
+
