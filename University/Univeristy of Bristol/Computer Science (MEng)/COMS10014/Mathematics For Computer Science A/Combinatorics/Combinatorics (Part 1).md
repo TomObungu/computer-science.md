@@ -47,6 +47,24 @@ $$
 $$
 
 # Restricted Permutations
+# Relative-order constraints
+Consider the case of arranging the letters of Algorithm so that $A$ appears before $M$. All $9!$ permutation letters are equally likely, thus by symmetry: $\frac{9!}{2}$
 
-# Adjacency constaint
+# Adjacency constraint
+If two specific elements must sit together, treat them as a block. 
+
+Example : . 8 students line up and two particular students must sit together. There are $7!$ways to arrange the blocks and $2!$ to arrange the pair internally:
+$$
+7! \times 2!
+$$
+# Circular Constraints
+To arrange $n$ people around a table, the number of permutations is:
+$$
+(n-1)!
+$$
+Example : If two particular people must sit together, treat them as a block, seat the $n-1$ objects around the table to array the pair internally
+$$
+(n-2)! \times 2
+$$
+
 
