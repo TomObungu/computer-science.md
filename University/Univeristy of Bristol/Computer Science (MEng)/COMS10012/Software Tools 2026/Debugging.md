@@ -33,5 +33,16 @@ That was usage of the `memcheck` module, other modules of Valgrind involve
 - `massif`: Measure memory usage over time
 # gdb
 To use gdb, you must compile your code with `gcc` and ensure the `-g` tag is included in the compiling tags:
+```shell
+gcc -Wall -Wextra -Wpedantic -fsanitize=address -fsanitize=undefined -g3 -O0 -o badcode demo.c
 ```
+You can pass a program into argument to `gdb` like 
+```shell
+gdb ./badcode
 ```
+To view source in multiple formats run this command and press enter a few times.
+```
+(gdb) lay next
+```
+You can then run the debugger by running `(gdb) run` or `(gdb) r`.
+You can set breakpoints using `break [function_name]`, you can see what functions using `info functions`. You can step in execution 
