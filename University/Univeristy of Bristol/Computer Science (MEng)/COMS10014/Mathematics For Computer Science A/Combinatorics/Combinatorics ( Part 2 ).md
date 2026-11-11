@@ -36,7 +36,9 @@ $$
 # Combinations vs. Permuations
 When dealing with permutations, ordering matters. For example if you had a student committee and you wanted to pick a president, secretary, and treasurer, since these roles are distinct. Thus you would use permutations
 
+Example : A standard 52-card deck has 4 suits and 13 ranks. The total 5-card hands are $\begin{pmatrix}52 \\ 2\end{pmatrix}$.
 
+To choose the rank for the four there are 13 ways.  If all 4 suits are fixed, then you can choose 
 
 
 
