@@ -1,5 +1,5 @@
 # Permuation
-A permuation is a the number of ways to select an ordered set of $k$ elements from $n$ elements with no reptition
+A permuation is a the number of ways to select an ordered set of $k$ elements from $n$ elements with no repetition
 $$
 P(n,k) = \frac{n!}{(n-k)!}
 $$
@@ -14,5 +14,15 @@ $$
 
 Example : Consider 4 people A, B, C and D. How many 2-person committees can we form? 
 
+Example : A project team of 4 is chosen from a class of 20. How many possible teams are there? 
+
+$$
+\begin{pmatrix}
+20 \\
+4
+\end{pmatrix} = \frac{20!}{4!16!} = 190
+$$
+
+Example : A hand of 5 cars, how many ways can you choose 2 
 
 
