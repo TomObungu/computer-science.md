@@ -38,7 +38,35 @@ When dealing with permutations, ordering matters. For example if you had a stude
 
 Example : A standard 52-card deck has 4 suits and 13 ranks. The total 5-card hands are $\begin{pmatrix}52 \\ 2\end{pmatrix}$.
 
-To choose the rank for the four there are 13 ways.  If all 4 suits are fixed, then you can choose 
+To choose the rank for the four there are 13 ways.  If all 4 suits are fixed, then you can choose the other 48 cards. This gives a total of $13 \times 48 = 624$ cards. 
+
+Example : What would be the case of choosing three cards of one rank with the other two being different. 
+
+You choose the rank for the three out of cards; there are 13 ways thus $13 \times\begin{pmatrix} 4  \\ 3\end{pmatrix}$. Then you choose the rank of the other 2 cards out of the 12 other rnaks, thus $\begin{pmatrix}12 \\ 2\end{pmatrix}$. You then choose the suit for each remaining card 
+
+# Binomial Coefficients / Bionmial Expansion
+For all intergers $n \geq 0$
+$$
+(x+y)^{n} = \sum_{k=0}^{n} \begin{pmatrix}
+n \\
+k
+\end{pmatrix}x^{n-k}y^{k}
+$$
+
+For natural numbers with $n$ and $k$ with $1 \leq k \leq n$, Pascal's Identity holds:
+$$
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix} = \begin{pmatrix}
+n - 1 \\
+k - 1
+\end{pmatrix} + \begin{pmatrix}
+n - 1  \\
+k
+\end{pmatrix}
+$$
+
 
 
 
