@@ -67,7 +67,40 @@ k
 \end{pmatrix}
 $$
 
+# Counting Subsets
+Each subset of$n$-element set corresponds to a binary string of length $n$:$2^{n}$
+thus
+$$
+\sum_{k=0}^{n} \begin{pmatrix}
+ n \\
+k
+\end{pmatrix} = 2^{n}
+$$
+To pick $k$ elements to include to include $n-k$ by symmetry:
+$$
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix} = \begin{pmatrix}
+n \\
+n - k
+\end{pmatrix}
+$$
 
+# Multinomials
+Recall $\begin{pmatrix} n \\ k\end{pmatrix}$ counts ways to split $n$ items into one group of $k$ and one group of $n-k$. What if we want three groups of sizes $k_{1}$, $k_{2}$ and $k_{3}$ with $k_{1}+k_{2}+k_{3} = n$?
 
+1. Choose $k_{1}$ items from group 1: $\begin{pmatrix}n \\ k_{1}\end{pmatrix}$ ways. 
+2. From what's left $(n-k_{1})$ choose $k_{2}$ from group 2: $\begin{pmatrix}n-k_{1} \\ k_{2}\end{pmatrix}$
+3. For the remaining $k_{3} = n -k_{1} -k_{2}$ elements, there is only one way to choose an element. 
 
-
+Thus gives the unified expression:
+$$
+\begin{pmatrix}
+n \\
+k_{1}
+\end{pmatrix}\begin{pmatrix}
+n-k_{1} \\
+k_{2}
+\end{pmatrix} = \frac{n!}{k_{1}!(n - k_{1})!} 
+$$
