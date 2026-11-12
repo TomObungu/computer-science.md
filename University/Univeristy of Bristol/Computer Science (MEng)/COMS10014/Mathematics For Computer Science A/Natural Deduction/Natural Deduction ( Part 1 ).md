@@ -21,4 +21,4 @@ Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like
 1. Assume $(p\implies p)\implies q$. Our goal now becomes $q$
 2. Using a tree to split the implication up even more, our goal becomes $p\implies p$
 3. Splitting up again, we assume $p$. 
-4. 
+4. If we have $p$, we have $p\implies p$ by 
