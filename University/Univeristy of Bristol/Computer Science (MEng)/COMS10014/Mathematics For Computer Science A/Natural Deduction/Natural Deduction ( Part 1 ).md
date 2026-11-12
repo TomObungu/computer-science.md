@@ -19,6 +19,6 @@ Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like
 ![[Pasted image 20261112074754.png]]
 
 1. Assume $(p\implies p)\implies q$. Our goal now becomes $q$
-2. Using a tree to split the implication up even more, we assume $p\implies p$
+2. Using a tree to split the implication up even more, our goal becomes $p\implies p$
 3. Splitting up again, we assume $p$. 
 4. 
