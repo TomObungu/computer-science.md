@@ -34,8 +34,23 @@ For any propositions $\phi$ and $\psi$
 -  ($\wedge$ elimination). If we have $\phi \land \psi$. Then we may conclude $\psi$ and $\psi$
 
 # Example 2
-Claim. $p\implies q\implies p \wedge q$
-1. Assume $p\implies q$. The goal is $p \wedge q$.
-2. Assume $p$. 
-3. This gives $q$ by $\implies$ elimination
-4. This gives us $p \wedge q$ by introduction
+Claim. $p\implies q\implies p \wedge q$. Recall that implication by convention is read as $p\implies(q\implies r)$. Thus in this case it becomes. $p\implies(q\implies p \wedge q)$
+1. Starting from the left hand side assume $p$. The goal is now $q \implies p \wedge q$
+2. Starting from the left hand side again, assume $q$. The goal is now $p \land q$
+3. If we have $p$ and $q$, we have $p \wedge q$ by $\wedge$ introduction
+4. If we have $p \wedge q$, we have $q \implies p \wedge q$ by introduction
+5. If we have $q \implies p \wedge q$, then $p\implies(q\implies p \wedge q)$ is given by introduction
+$$
+\square
+$$
+
+# Example 3
+Claim. $(p \wedge q) \implies (q \wedge p)$
+1. Assume $p \land q$. The goal is $q \wedge p$.
+2. This gives $p$ by $\land$ elimination
+3. This gives $q$ by $\land$ elimination
+4. This gives $q \land p$ by $\land$  introduction
+5. This gives $(p \wedge q) \implies (q \wedge p)$ by $\implies$ introduction
+$$
+\square
+$$
