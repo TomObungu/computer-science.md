@@ -102,7 +102,7 @@ k_{1}
 \end{pmatrix}\begin{pmatrix}
 n-k_{1} \\
 k_{2}
-\end{pmatrix} = \frac{n!}{k_{1}!(n - k_{1})!} \frac{(n-k_{1})!}{k_{2}!(n-k_{1}-k_{2}!)} = \frac{n!}{k_{1}!k_{2}!k_{3}!}
+\end{pmatrix} = \frac{n!}{k_{1}!(n - k_{1})!} \frac{(n-k_{1})!}{k_{2}!k_{3}!} = \frac{n!}{k_{1}!k_{2}!k_{3}!}
 $$
 
 # Inclusion-Exclusion Principle
