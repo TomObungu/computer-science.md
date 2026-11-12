@@ -18,7 +18,7 @@ E.g. if you have the assumption $(p\implies p) \implies q$. If we have $(p\impli
 Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like this, you can use a tree to split it up into the middle most connective. Often we dealing with proofs, start with the left most antcedent
 ![[Pasted image 20261112074754.png]]
 
-1. Assume $(p\implies p)\implies q$. Our goal now becomes $q$
+1. Assume $(p\implies p)\implies q$.The goal is $q$
 2. Using a tree to split the implication up even more, our goal becomes $p\implies p$
 3. Splitting up again, we assume $p$. 
 4. If we have $p$, we have $p\implies p$ by $\implies$ introduction
