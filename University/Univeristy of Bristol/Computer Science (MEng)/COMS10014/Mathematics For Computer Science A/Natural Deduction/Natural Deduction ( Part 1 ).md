@@ -35,4 +35,7 @@ For any propositions $\phi$ and $\psi$
 
 # Example 2
 Claim. $p\implies q\implies p \wedge q$
-1. Ass
+1. Assume $p\implies q$. The goal is $p \wedge q$.
+2. Assume $p$. 
+3. This gives $q$ by $\implies$ elimination
+4. This gives us $p \wedge q$ by introduction
