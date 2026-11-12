@@ -35,4 +35,5 @@ For any propositions $\phi$ and $\psi$
 
 # Example 2
 Claim. $p\implies q\implies p \wedge q$
-1. Our goal is $p \land q$, we we can assume $$
+1. Assume $p \wedge q$, 
+2. 
