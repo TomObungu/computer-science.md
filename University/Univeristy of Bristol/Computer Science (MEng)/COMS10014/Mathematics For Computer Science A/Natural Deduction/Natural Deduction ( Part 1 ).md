@@ -6,3 +6,5 @@ An assumption isn't a claim that a proposition is true, but rather it is a condi
 For each Boolean connective there are two types of proof steps
 - Introduction rules constructs the information 
 - Elimination extracts the information inside a proposition i.e once we have proven it or have it as assumption, we use it to prove something else
+
+# 
