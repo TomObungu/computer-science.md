@@ -15,4 +15,7 @@ For any propositions $\phi$ and $\psi$,
 E.g. if you have the assumption $(p\implies p) \implies q$. If we have $(p\implies p)$ then we can conclude $p$. The 
 
 # Example 1
-Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like this, you can use a tree to split it up into the middle most connective. 
+Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like this, you can use a tree to split it up into the middle most connective. Often we dealing with proofs, start with the left most antcedent
+![[Pasted image 20261112074754.png]]
+
+1. Assume $(p\implies p)\implies q$
