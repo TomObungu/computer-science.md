@@ -111,4 +111,11 @@ If a set is split into disjoint parks, we can add their sizes directly
 $$
 | A \cup B | = | A \setminus B | + | B \setminus A | = | A \cap B |
 $$
-However 
+However, this is not the most natural way to split the elements. The Inclusion-Exclusion principle states:
+$$
+|A \cup B| = |A| + |B| - |A \cap B|
+$$
+The same holds for multiple sets, in that you remove the intersection for each individual set
+$$
+|A \cup B \cup C | = |A| + |B| + |C| = |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C |
+$$
