@@ -1,5 +1,5 @@
 # Permuation
-A permuation is a the number of ways to select an ordered set of $k$ elements from $n$ elements with no repetition
+A permuation is a the number of ways to select an ordered set of $k$ elements from $n$ elements with no repetition. Think of it as number of possible arrangements. 
 $$
 P(n,k) = \frac{n!}{(n-k)!}
 $$
@@ -76,6 +76,8 @@ $$
 k
 \end{pmatrix} = 2^{n}
 $$
+
+
 To pick $k$ elements to include to include $n-k$ by symmetry:
 $$
 \begin{pmatrix}
