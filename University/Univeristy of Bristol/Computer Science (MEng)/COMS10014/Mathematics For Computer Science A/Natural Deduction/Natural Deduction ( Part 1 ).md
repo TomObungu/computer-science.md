@@ -65,3 +65,13 @@ Claim $(p\implies q)\land(p\implies r) \implies p \implies q \wedge r$
 7. $q \wedge r$ by $\wedge$ introduction
 8. $p\implies q \wedge r$ by introduction
 9. $(p\implies q)\land(p\implies r) \implies p \implies q \wedge r$ by introduction
+
+Claim $((p\implies q)\wedge p) \implies(q \wedge p)$
+1. Assume $(p\implies q)\wedge p)$
+2. Assume $p\implies q$
+3. Assume $p$
+4. $p$ by assumption
+5. $q$ by $\implies$ elimination
+6. $q \wedge p$ by $\wedge$ introduction
+7. $(p\implies q)\wedge p$ by introduction
+8. $(p\implies q)\land(p\implies r) \implies p \implies q \wedge r$ by introduction
