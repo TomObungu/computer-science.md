@@ -7,7 +7,7 @@ For each Boolean connective there are two types of proof steps
 - Introduction rules constructs the information 
 - Elimination extracts the information inside a proposition i.e once we have proven it or have it as assumption, we use it to prove something else
 
-# Definition 1. 
+# Definition for $\implies$
 For any propositions $\phi$ and $\psi$, 
 	- ($\implies$ introduction) To prove $\phi \implies \psi$, assume $\phi$ and then prove $\psi$
 	- ($\implies$ elimination)  if we have $\phi\implies \psi$, and $\phi$ we we may conclude $\psi$
@@ -21,4 +21,21 @@ Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like
 1. Assume $(p\implies p)\implies q$. Our goal now becomes $q$
 2. Using a tree to split the implication up even more, our goal becomes $p\implies p$
 3. Splitting up again, we assume $p$. 
-4. If we have $p$, we have $p\implies p$ by 
+4. If we have $p$, we have $p\implies p$ by $\implies$ introduction
+5. If we have $p\implies p$  we have $q$ by $\implies$ elimination 
+6. We have $q$, thus we now have $((p\implies p)\implies q)\implies q$ by $\implies$ introduction
+$$
+\square
+$$
+
+# Definition for $\wedge$
+For any propositions $\phi$ and $\psi$
+- ($\wedge$ introduction). To prove $\phi \wedge \psi$, prove both $\phi$ and$\psi$
+-  ($\wedge$ elimination). If we have $\phi \land \psi$. Then we may conclude $\psi$ and $\psi$
+
+# Example 2
+Claim. $p\implies q\implies p \wedge q$
+1. Starting with the left hand side, assume $p\implies q$. Our goal becomes $p \wedge q$. 
+2. Splitting up again we assume $p$.  
+3. If we have $p$ we have $q$ by $\implies$ elimination
+4. If we have $p\implies q$, we then have $p \wedge q$ by $\implies$ elimination
