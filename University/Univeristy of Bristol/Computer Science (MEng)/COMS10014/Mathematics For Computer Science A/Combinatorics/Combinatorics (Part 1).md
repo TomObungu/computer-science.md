@@ -83,7 +83,7 @@ $$
 \frac{n!}{(n-m)!}
 $$
 
-For bijective fucntions of where $n=m$, then the number of permuations are $n!$
+For bijective functions of where $n=m$, then the number of permutations are $n!$
 # Counting Relations
 The number of relations form $A$ to $B$ gives $2^{mn}$. This is because
 $$
@@ -93,7 +93,7 @@ We are given pairs (a,b) thus it gives $2^{mn}$.
 
 Relations on $A$ (subsets $A\times A$, which has $m^{2}$) elements gives $2^{m^{2}
 
-For relations on reflexive relations we must include all diagonal painrs gives $2^{m(m-1)}$.
+For relations on reflexive relations we must include all diagonal pairs gives $2^{m(m-1)}$.
 
 # Double Counting Principle
 For example if you have an $a \times b$ grid, when counting columns you are given $a \times b$ squares and $b \times a$ columns. Equating the two gives $a \times b = b \times a$.
@@ -110,4 +110,5 @@ $$
 $$
 From the formula:
 - The sum of all vertex degrees in even
-- Hence, the number of vertices of odd degree must be even
+- Hence, the number of vertices of odd degree must be even, otherwise the sum would be odd. 
+This fact is called the handshaking lemme and is useful in graph theory. 
