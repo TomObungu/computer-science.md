@@ -35,7 +35,4 @@ For any propositions $\phi$ and $\psi$
 
 # Example 2
 Claim. $p\implies q\implies p \wedge q$
-1. Starting with the left hand side, assume $p\implies q$. Our goal becomes $p \wedge q$. 
-2. Splitting up again we assume $p$.  
-3. If we have $p$ we have $q$ by $\implies$ elimination
-4. If we have $p\implies q$, we then have $p \wedge q$ by $\implies$ elimination
+1. Our goal is $p \land q$, we we can assume $$
