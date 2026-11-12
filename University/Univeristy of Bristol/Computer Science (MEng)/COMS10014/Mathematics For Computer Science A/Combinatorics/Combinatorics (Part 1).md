@@ -108,3 +108,6 @@ An undirected graph $G=(V,E)$ consists of $V$ vertices and $E$ edges. The degree
 $$
 \sum_{v\in V} deg(v) = 2|E|
 $$
+From the formula:
+- The sum of all vertex degrees in even
+- Hence, the number of vertices of odd degree must be even
