@@ -20,4 +20,5 @@ Claim. $((p\implies p)\implies q)\implies q$. For nested implication proofs like
 
 1. Assume $(p\implies p)\implies q$. Our goal now becomes $q$
 2. Using a tree to split the implication up even more, we assume $p\implies p$
-3. We now have $p$ due to 
+3. Splitting up again, we assume $p$. 
+4. 
