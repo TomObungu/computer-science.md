@@ -104,6 +104,13 @@ n-k_{1} \\
 k_{2}
 \end{pmatrix} = \frac{n!}{k_{1}!(n - k_{1})!} \frac{(n-k_{1})!}{k_{2}!k_{3}!} = \frac{n!}{k_{1}!k_{2}!k_{3}!}
 $$
+Thus in general:
+$$
+\begin{pmatrix}
+n \\
+k_{1},\dots ,k_{m}
+\end{pmatrix} = \frac{n!}{k_{1}!\dots k_{m}!}
+$$
 
 # Inclusion-Exclusion Principle
 ## Partitioning
