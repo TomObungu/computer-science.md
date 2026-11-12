@@ -54,3 +54,14 @@ Claim. $(p \wedge q) \implies (q \wedge p)$
 $$
 \square
 $$
+
+Claim $(p\implies q)\land(p\implies r) \implies p \implies q \wedge r$
+1. Assume $(p\implies q)\land(p\implies r)$
+2. $p\implies q$ by $\wedge$ elimination
+3. $p\implies r$ by $\wedge$ elimination
+4. Assume $p$
+5. $q$ by $\implies$ elimination
+6. $r$ by $\implies$ elimination
+7. $q \wedge r$ by $\wedge$ introduction
+8. $p\implies q \wedge r$ by introduction
+9. $(p\implies q)\land(p\implies r) \implies p \implies q \wedge r$ by introduction
