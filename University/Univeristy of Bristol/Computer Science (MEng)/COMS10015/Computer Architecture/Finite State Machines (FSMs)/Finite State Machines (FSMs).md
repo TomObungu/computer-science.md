@@ -20,6 +20,7 @@ Where $S$ is a finite set of states that include a start state $s\in S$, $A$ is 
 A Mealy FSM has the case of an empty input $\epsilon$, which means a transition can always occur.
 
 # In Theory
+Consider the tabular and algorithmic representation of a FSM that 
 
 Double circles around the diagram means that the symbol is in an accepting state, That is $A= \{S_{Odd}\}$
 
