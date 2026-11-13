@@ -12,4 +12,18 @@ Many I/O operations in C are flawed and can pose security risks.
 - `fprintf` - Write lines to file
 
 # File Handlers
-A file name is associated to a so called handle variable of type `FILE*` via `fopen`
+A file name is associated to a so called handle variable of type `FILE*` via `fopen
+```C
+FILE* fopen(char* filename, char* modes);
+```
+
+## Opening files
+The modes string describes the different ways a file can be opened as:
+- `r` - Open a file for reading
+- `w` - Open a file for writing
+- `a` - Open text file for appending
+- `rb` - Open binary file for reading
+- `wb` - Open binary file for writing
+- `an` - Open binary file for appending
+
+If the file cannot be found, written or if it is not readable, then fopen function returns `NULL`
