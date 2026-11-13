@@ -40,3 +40,7 @@ do
 done
 ```
 
+# Structured Input
+Once a line is read from the file, to read numbers and name from a string, one per line, you can use `sscanf(line, "%d %s", &n, name)`
+
+## Specifiers
