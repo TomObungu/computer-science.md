@@ -27,3 +27,16 @@ The modes string describes the different ways a file can be opened as:
 - `an` - Open binary file for appending
 
 If the file cannot be found, written or if it is not readable, then fopen function returns `NULL`
+
+# Closing Files
+You must close a file when you have finished processing it. The file isn't closed until the program ends and you may reach the small limit on the number of open files on your OS. 
+
+In Linux, the root user could this script to learn about open file handles:
+```shell
+cd /proc
+for pid in [0-9]*
+do
+	echo "PID = $pid with $(ls /proc/$pid/fd/ | wc -l) file with descriptors"
+done
+```
+
