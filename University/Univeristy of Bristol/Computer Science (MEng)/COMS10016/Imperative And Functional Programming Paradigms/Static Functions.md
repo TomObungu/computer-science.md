@@ -43,4 +43,7 @@ int g(){
 ```
 
 # Storage Classes
-A local variable can also be defined as `register` which means the compiler tries to allocate the va
+A local variable can also be defined as `register` which means the compiler tries to allocate the variable to fast storage within the process (optimisation may do this anyway), but there is no gaurantee:
+```C
+register int l =
+```
