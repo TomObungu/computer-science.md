@@ -13,7 +13,7 @@ Static functions are not provided to the linker and, thus, can only be used with
 
 The benefit of producing object files first and linking them is that you will not need to recompile unchanged files, only files that are changed will need to be recompiled and then can be linked into the binary.
 
-# Extern
+# `extern`
 Any function that is not `static` is by default compiled as `extern` such as `print()`. Thus `void print(){}` and `extern void print(){}` are identical. 
 
 Remember `extern` means make it available to the linker to linked.
@@ -34,10 +34,13 @@ auto  int b = }
 ```
 
 However if a local variable is `static` it will initialised only once per DATA segment and will remain a valid value until the program ends:
-```
+```C
 int g(){
-	static int c = 5; // run only once
+	static int c = 5; // runs only once
 	c++
 	return c;
-} // first returns 6, called 7, 8 aga
+} // first returns 6, called 7, 8 again
 ```
+
+# Storage Classes
+A local variable can also be defined as `register` which means the compiler tries to allocate the va
