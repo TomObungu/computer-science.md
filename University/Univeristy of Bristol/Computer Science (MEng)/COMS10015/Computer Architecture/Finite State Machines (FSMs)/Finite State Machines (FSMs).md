@@ -2,7 +2,7 @@ An FSM is an idealised computer which at a given point in time, it is in one of 
 
 An alphabet is a non-empty set of symbols
 
-A string $X$ with respect to some alphabet $\sum$ is a sequence of finite length, whose elements are members of $\sum$. 
+A string $X$ with respect to some alphabet $\sum$ is a sequence of finite length, whose elements are members of $\sum$. For some $n$ such that $X_{i}\in \sum$ for $0\leq i<n$
 $$
 X = \langle X_{0}, X_{1},\dots X_{n-1} \rangle
 $$
