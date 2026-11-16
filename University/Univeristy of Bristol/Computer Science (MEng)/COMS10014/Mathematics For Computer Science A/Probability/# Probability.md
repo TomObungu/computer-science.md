@@ -57,4 +57,5 @@ The case of $(1,3)$ has a counter part of $(3,1)$. Where as $(2,2)$ has only one
 - $P(E) = 1 - P(E)$
 - $P(E_{1} \cup E_{2}) = P(E_{1}) + P(E_{2}) - P(E_{1} \cap E_{2})$
 - $P(E_{1} \cup E_{2}) \leq P(E_{1}) + P(E_{2})$
-- $P(E_{1} \cap E_{2}) <$
+- $P(E_{1} \cap E_{2}) \leq min\{P(E_{1}), P(E_{2})\}$
+ - $P(E) = \sum P(E )$
