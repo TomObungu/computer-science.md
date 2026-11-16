@@ -24,7 +24,11 @@ $$
 $$
 A Mealey FSM has the case of an empty input $\epsilon$, which means a transition can always occur.
 # In Theory
-Consider the tabular and algorithmic representation of a FSM that 
+Consider the tabular and algorithmic representation of a FSM that decides whether a binary sequences $X$ has an odd number of 1 elements in it. 
+
+
+
+
 
 Double circles around the diagram means that the symbol is in an accepting state, That is $A= \{S_{Odd}\}$
 
