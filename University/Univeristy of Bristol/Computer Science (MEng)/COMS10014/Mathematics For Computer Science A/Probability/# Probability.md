@@ -51,3 +51,4 @@ Consider the case of when the dice are unlabelled. This would mean $\Omega = \{X
 
 The case of $(1,3)$ has a counter part of $(3,1)$. Where as $(2,2)$ has only one distinct case of $(2,2)$. This means the probability of $(1,3)$ has twice the probability of $\{2\}$. The probabilities would be $\frac{2}{36}$ and $\frac{1}{36}$ respectively. 
 
+# Properi
