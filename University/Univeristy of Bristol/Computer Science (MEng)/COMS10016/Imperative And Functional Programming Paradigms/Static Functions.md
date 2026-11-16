@@ -23,4 +23,12 @@ When using global variables which are defined in other modules, use `extern` to 
 externa int a;
 ```
 
-By d
+By default local variables are compiled as `auto`, which means they are allocated on the `STACK` and their values vanish once out of scope. The two line
+```
+f() {
+int b = }
+```
+```C
+f() {
+auto  int b = }
+```
