@@ -1,4 +1,7 @@
-A FSM is an idealised computer which at a given point in time, it is in one of a set of finite set of states. 
+An FSM is an idealised computer which at a given point in time, it is in one of a set of finite set of states. The phase finite automata $\equiv$ finite state machine.
+
+# Alphabet 
+An alphabet is a non-empty set of symbols
 
 A string $X$ with respect to some alphabet $\sum$ is a sequence of finite length, whose elements are members of $\sum$. 
 $$
@@ -9,7 +12,6 @@ A language $\Lambda$ is a set of strings $X$.
 C accepts an input string with respect to some $\sum$, one symbol at a time. C either rejects the input string or accepts the input string. 
 
 If $C$ every string in some $\Lambda$. $\Lambda$ is the language of $C$.
-
 # Definition
 A (deterministic) Finite State Machine is a tuple
 $$
