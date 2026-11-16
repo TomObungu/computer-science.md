@@ -30,3 +30,13 @@ $$
 $$
 
 
+
+# Designing an FSM 
+1. Replicates the behaviour of a controlled loop counter, e.g., $i$ within a $C$-style loop such as 
+2. ```
+   f(int i = m; i < n; i++){
+   }
+   ```
+3. Has an interface that allows signalling for
+	1. The start of the iteration so $i=m$. The end of the iteration $i=n$.
+	
