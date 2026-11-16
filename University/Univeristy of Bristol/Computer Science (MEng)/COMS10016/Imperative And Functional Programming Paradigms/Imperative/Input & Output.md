@@ -47,7 +47,10 @@ Once a line is read from the file, to read numbers and name from a string, one p
 `%s` in `sscanf` reads in a word up to the next space. Instead use the conversion specifier `%[]` for strings with spaces. 
 
 ## Removing New Line Markers
-If you want to get rid of a newline at the end of a string  you've just read in, this is another compact technique:
+If you want to get rid of a newline at the end of a string  you've just read in, this is another compact technique. 
 ```C
 line[strcspn(line, "\r\n")] = '\0';
 ```
+The function `strcspn` calculates the length of the number of characters present in both strings, then this index is used to terminate the string right there before the newline. This is cross-platform (it handles `\n` `\r\n`) and it works on strings which don't have a newline. 
+
+Don't use functions like `getline` and `readline`. They are not part of the `stdlib`  and are not even available on some other platforms. 
