@@ -61,3 +61,4 @@ The case of $(1,3)$ has a counter part of $(3,1)$. Where as $(2,2)$ has only one
  - $P(E) = \sum P(E \cap A_{i}) + P(E \cap \bar{A_{i}})$
 
 # Probability Tables
+Consider $A_{1}, \dots,A_{n}$ is some partition. 
