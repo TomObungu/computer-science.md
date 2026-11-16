@@ -47,5 +47,7 @@ The event $E$ would be $E=\{(x,y) | x + y = 4\}$. This would be $\{(1,2), (2,2),
 Thus the probability of $E$ would be $P(E)=\frac{|E|}{|\Omega|} = \frac{3}{36}=\frac{1}{12}$.
 
 ### Indistinguishable Dice 
-Consider the case of when the dice are unlabelled. This would mean $\Omega = \{X \subseteq \{1, \dots, 6\} |1 \leq |X| \leq 2\}$. When considering the cases $E \{(1,3),(2,2)\dots\}$. The case of $(1,3)$ has a co
+Consider the case of when the dice are unlabelled. This would mean $\Omega = \{X \subseteq \{1, \dots, 6\} |1 \leq |X| \leq 2\}$. When considering the cases $E \{(1,3),(2,2)\dots\}$. 
+
+The case of $(1,3)$ has a counter part of $(3,1)$. Where as $(2,2)$ has only one distinct case of $(2,2)$. This means their probabli
 
