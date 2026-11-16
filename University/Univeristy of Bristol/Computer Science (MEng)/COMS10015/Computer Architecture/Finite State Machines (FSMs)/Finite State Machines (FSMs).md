@@ -23,18 +23,6 @@ $$
 \omega : S \times \Sigma \to \Gamma
 $$
 A Mealey FSM has the case of an empty input $\epsilon$, which means a transition can always occur.
-
-
-```mermaid
-flowchart LR
-    start([start]) --> run((S_run))
-    run -->|X_i = 0| run
-    run -->|X_i = 1| add((S_add))
-    add -->|X_i = 0| add
-    add -->|X_i = 1| run
-```
-
-
 # In Theory
 Consider the tabular and algorithmic representation of a FSM that decides whether a binary sequences $X$ has an odd number of 1 elements in it. 
 
