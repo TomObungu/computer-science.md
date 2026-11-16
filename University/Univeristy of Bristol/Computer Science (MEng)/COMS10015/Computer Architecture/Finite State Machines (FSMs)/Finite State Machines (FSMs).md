@@ -34,9 +34,6 @@ flowchart LR
     add -->|X_i = 1| run
 ```
 
-
-
-
 Double circles around the diagram means that the symbol is in an accepting state, That is $A= \{S_{Odd}\}$
 
 You could implement a FSM like this
