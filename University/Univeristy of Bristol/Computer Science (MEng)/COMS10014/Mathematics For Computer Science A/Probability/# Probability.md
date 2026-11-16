@@ -27,3 +27,25 @@ If $E_{1} \cup E = \phi$, then it means $E_{1}$ and $E_{2}$ are mutually exclusi
 
 
 # Probability Space
+The probability space is subset of outcomes. The probability space sums into one $P(\Omega)=1$. Thus, $P : P(\Omega) \to|[0,1]$. For example consider the probability of tossing a coin: $\Omega = \{H,T\}$,
+
+- $\Omega = P(\{H\} + \{T\})$
+- $P(\{H\})=1$ would be impossible and  $P(\{T\})=1$ would be impossible. As they are mutually exclusive events. Showing this would mean $\Omega = P(\{H\} + \{T\}) = 1+1 = 2 \neq 1$ which is a contradiction as $P(\Omega)=1$.
+
+
+# Uniform Distribution 
+All outcomes are equally likely. This would mean $(\Omega, P)$ where $P : P(\Omega)\to [0,1]$ such that $P(\{x_{1}, x_{2}\})= P(\{x_{1}\}) + P(\{x_{2}\})=P+P$. 
+
+This would mean $P(E)=\frac{|E|}{|\Omega|}$.  Dividing by $|\Omega|$ is like a normalisation factor. Think of it finding the outcome out of a total space. 
+
+## Example 
+Consider two dices that are 6-sided $2d6$. Let's consider the probability that they sum to 4. 
+
+The probability space would be $\Omega= \{1,\dots,6\}\times\{1,\dots,6\}$. 
+The event $E$ would be $E=\{(x,y) | x + y = 4\}$. This would be $\{(1,2), (2,2),(3,1)\}$.
+
+Thus the probability of $E$ would be $P(E)=\frac{|E|}{|\Omega|} = \frac{3}{36}=\frac{1}{12}$.
+
+### Indistinguishable Dice 
+Consider the case of when the dice are unlabelled. This would mean $\Omega = \{X \subseteq \{1, \dots, 6\} |1 \leq |X| \leq 2\}$. The case 
+
