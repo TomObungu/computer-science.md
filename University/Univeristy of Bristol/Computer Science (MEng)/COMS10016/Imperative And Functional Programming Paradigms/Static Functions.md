@@ -33,4 +33,11 @@ f() {
 auto  int b = }
 ```
 
-However if a local variable is `static` it will initialised only once per DATA segment and will remain a valid value until
+However if a local variable is `static` it will initialised only once per DATA segment and will remain a valid value until the program ends:
+```
+int g(){
+	static int c = 5; // run only once
+	c++
+	return c;
+} // first returns 6, called 7, 8 aga
+```
