@@ -34,7 +34,6 @@ flowchart LR
     odd -->|X_i = 1| even
 ```
 $$
-
 \begin{array}{c|cc}
 & \delta \\
 \hline
