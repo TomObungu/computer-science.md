@@ -16,7 +16,7 @@ A (deterministic) Finite State Machine is a tuple
 $$
 C = (S,s,A,\Sigma,\Gamma, \delta,\omega)
 $$
-Where $S$ is a finite set of states that include a start state $s\in S$, $A$ is a finite set of accepting states such that $A \subseteq S$, $\delta$ is a transition function such that $\delta:S \times \sum \to S$ and an output function $\omega:S \to \Gamma$ (known as a Moore FSM). 
+Where $S$ is a finite set of states that include a start state $s\in S$, $A$ is a finite set of accepting states such that $A \subseteq S$, $\Sigma$ is an input alphabet and $\Gamma$ is an output alphabet, $\delta$ is a transition function such that $\delta:S \times \sum \to S$ and an output function $\omega:S \to \Gamma$ (known as a Moore FSM). 
 
 A Moore FSM or:
 $$
