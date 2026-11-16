@@ -27,12 +27,18 @@ A Mealey FSM has the case of an empty input $\epsilon$, which means a transition
 Consider the tabular and algorithmic representation of a FSM that decides whether a binary sequences $X$ has an odd number of 1 elements in it. 
 ```mermaid
 flowchart LR
-    start([start]) --> run((S_run))
-    run -->|X_i = 0| run
-    run -->|X_i = 1| add((S_add))
-    add -->|X_i = 0| add
-    add -->|X_i = 1| run
+    start([start]) --> even((S_even))
+    even -->|X_i = 0| even
+    even -->|X_i = 1| odd((S_odd))
+    odd -->|X_i = 0| odd
+    odd -->|X_i = 1| even
 ```
+
+
+
+
+
+
 
 Double circles around the diagram means that the symbol is in an accepting state, That is $A= \{S_{Odd}\}$
 
