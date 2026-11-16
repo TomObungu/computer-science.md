@@ -33,11 +33,17 @@ flowchart LR
     odd -->|X_i = 0| odd
     odd -->|X_i = 1| even
 ```
+$$
 
-
-
-
-
+\begin{array}{c|cc}
+& \delta \\
+\hline
+ Q  & Q' X_i = 0 & X_i = 1 \\
+\hline
+S_{\mathrm{even}} & S_{\mathrm{even}} & S_{\mathrm{odd}} \\
+S_{\mathrm{odd}} & S_{\mathrm{odd}} & S_{\mathrm{even}}
+\end{array}
+$$
 
 
 Double circles around the diagram means that the symbol is in an accepting state, That is $A= \{S_{Odd}\}$
