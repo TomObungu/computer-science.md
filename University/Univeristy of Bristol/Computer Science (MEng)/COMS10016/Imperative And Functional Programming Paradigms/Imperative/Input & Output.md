@@ -44,8 +44,9 @@ done
 Once a line is read from the file, to read numbers and name from a string, one per line, you can use `sscanf(line, "%d %s", &n, name)`
 
 ## Specifiers
-`%s` in `sscanf` reads in a word up to the next space. Instead use the conversion specifier `%[]` for strings with spaces. 
+`%s` in `sscanf` reads in a word up to the next space. Instead use the conversion specifier `%[ ]` for strings with spaces. 
 
+You can use `%[^,]%*c` to read everything up to (just before) a comma and then discard the comma. The `%[]` means to read a character, the `%[,]` means to read a character up to a comma and the `^` means to ignore it. The `%*c` then means to 
 ## Removing New Line Markers
 If you want to get rid of a newline at the end of a string  you've just read in, this is another compact technique. 
 ```C
@@ -54,3 +55,20 @@ line[strcspn(line, "\r\n")] = '\0';
 The function `strcspn` calculates the length of the number of characters present in both strings, then this index is used to terminate the string right there before the newline. This is cross-platform (it handles `\n` `\r\n`) and it works on strings which don't have a newline. 
 
 Don't use functions like `getline` and `readline`. They are not part of the `stdlib`  and are not even available on some other platforms. 
+
+## Efficiency
+Often physical `I/O` is very slow so much so the efficiency of the code itself becomes irrelevant. However when it matters, reading a line at a time is faster than reading a character at a time. 
+
+For maximum efficiency, use `fread` to transfer the whole file into a string `s` at once.
+
+Use the `fseek` function to manipulate the current file position 
+
+Use the `ftell` to get the file length (so you can get enough memory for `s`):
+```C
+FILE *fp = fopen(path, "rb");
+fseek(fp, 0, SEEK_END);
+long length = ftell(fp);
+fseek(fp, 0, SEEK_SET);
+fread(s, length, 1, fp);
+fclose(fp);
+```
