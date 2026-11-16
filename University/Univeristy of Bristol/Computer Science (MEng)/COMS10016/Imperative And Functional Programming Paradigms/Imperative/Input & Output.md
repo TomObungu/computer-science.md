@@ -44,3 +44,10 @@ done
 Once a line is read from the file, to read numbers and name from a string, one per line, you can use `sscanf(line, "%d %s", &n, name)`
 
 ## Specifiers
+`%s` in `sscanf` reads in a word up to the next space. Instead use the conversion specifier `%[]` for strings with spaces. 
+
+## Removing New Line Markers
+If you want to get rid of a newline at the end of a string  you've just read in, this is another compact technique:
+```C
+line[strcspn(line, "\r\n")] = '\0';
+```
