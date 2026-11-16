@@ -43,7 +43,21 @@ int g(){
 ```
 
 # Storage Classes
-A local variable can also be defined as `register` which means the compiler tries to allocate the variable to fast storage within the process (optimisation may do this anyway), but there is no gaurantee:
+A local variable can also be defined as `register` which means the compiler tries to allocate the variable to fast storage within the process (optimisation may do this anyway), but there is no guarantee:
 ```C
 register int l =
 ```
+
+Variables can either be `auto,register,extern or static`. Functions can be `extern or static`.
+
+# Encapsulation and Opaque Types 
+When types are only decalared in the header and defined in the `.c`  file they are called opaque. This is what it means when you have a header file e.g. `list.h`
+```C
+sturct list
+typdef struct list list
+```
+and the fields are only defined in `list.c`
+```C
+struct list { ... }
+```
+The function is opaque because you can't see inside it as a user of a compiled object file. The list module has been encapsulated; 
