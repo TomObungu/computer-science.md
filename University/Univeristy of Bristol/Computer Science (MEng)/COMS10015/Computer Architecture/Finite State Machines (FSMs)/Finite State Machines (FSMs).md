@@ -18,8 +18,11 @@ C = (S,s,A,\Sigma,\Gamma, \delta,\omega)
 $$
 Where $S$ is a finite set of states that include a start state $s\in S$, $A$ is a finite set of accepting states such that $A \subseteq S$, $\delta$ is a transition function such that $\delta:S \times \sum \to S$ and an output function $\omega:S \to \Gamma$ (known as a Moore FSM). 
 
-A Mealy FSM has the case of an empty input $\epsilon$, which means a transition can always occur.
-
+A Moore FSM or:
+$$
+\omega : S \times \Sigma \to \Gamma
+$$
+A Mealey FSM has the case of an empty input $\epsilon$, which means a transition can always occur.
 # In Theory
 Consider the tabular and algorithmic representation of a FSM that 
 
