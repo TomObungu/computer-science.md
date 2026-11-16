@@ -55,4 +55,5 @@ The case of $(1,3)$ has a counter part of $(3,1)$. Where as $(2,2)$ has only one
 - $P(\phi)=0$, $X \cup \phi=X \iff x + 0 =x$.
 - $E_{1} \leq E_{2} \implies P(E_{1}) \leq P(E_{2})$
 - $P(E) = 1 - P(E)$
-- $P$
+- $P(E_{1} \cup E_{2}) = P(E_{1}) + P(E_{2}) - P(E_{1} \cap E_{2})$
+- $P(E)$
