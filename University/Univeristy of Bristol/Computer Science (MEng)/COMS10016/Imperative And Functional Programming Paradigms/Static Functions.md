@@ -23,8 +23,8 @@ When using global variables which are defined in other modules, use `extern` to 
 externa int a;
 ```
 
-By default local variables are compiled as `auto`, which means they are allocated on the `STACK` and their values vanish once out of scope. The two line
-```
+By default local variables are compiled as `auto`, which means they are allocated on the `STACK` and their values vanish once out of scope. The two modules are identical. 
+```C
 f() {
 int b = }
 ```
@@ -32,3 +32,5 @@ int b = }
 f() {
 auto  int b = }
 ```
+
+However if a local variable is `static` it will initialised only once per DATA segment and will remain a valid value until
