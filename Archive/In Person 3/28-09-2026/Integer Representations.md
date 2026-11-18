@@ -72,8 +72,6 @@ $$
  = \pm \sum_{i=0}^{n-1} \hat{x}_{i} \dot{ b^{i}}
 \end{gather*}
 $$
-### Binary
-
 ### Octal 
 # Standard integer representations
 Consider the case of trying to represent the numbers within $\mathbb{Z}$. However there 
