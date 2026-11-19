@@ -7,12 +7,19 @@ The FSM of the calculator can be shown with the input alphabet $X_{i} \in\Sigma$
 The computations of the next state are given as $Q'=\delta(Q,X_{i})$. The result is then outputted with the output functions $R_{i}=\omega(Q,X_{i})$. The output is the outputted on screen such that $R_{i}\in \Gamma$.
 
 # Algorithm 
-1. The first steps of the algorithm include showing the contents of the register X. The digits are $V$  such that $V\in\{0,1,\dots , 9\}$. For each digit position $X'$ i.e tens, hundreds, thousands..., the digit is shown to be $X' \gets 10 \cdot X+V$.
-2. The HP-35 contains 4 registers $X$, $Y$, $Z$ and $T$. The data layout of these registers can be show as a stack. The computations are performed with the binary operator $\odot$.  The registers $Y,Z,T$ are such that $Y'\gets Y$, $Z'\gets Z$ and $T'\gets T$.
-3. On the case of pressing the 'CLR' button, the registers $X$
+The HP-35 contains 4 operational registers $X$, $Y$, $Z$ and $T$. There is a fifth register $S$ for constant storage. The data layout of these registers can be shown as a stack. The display always shows $X$. 
 
+
+1. The first steps of the algorithm include showing the contents of the register X. The digits are $V$  such that $V\in\{0,1,\dots , 9\}$. For each digit position $X'$ i.e tens, hundreds, thousands..., the digit is shown to be $X' \gets 10 \cdot X+V$.
+2. The computations are performed with the binary operator $\odot$.  The registers $Y,Z,T$ are such that $Y'\gets Y$, $Z'\gets Z$ and $T'\gets T$.
+3. On the case of pressing the 'CLR' button, the registers $X$, $Y$, $Z$ and $T$ all get the next value $0$, that is $X'\gets 0$, $Y'\gets 0$, $z'\gets 0$ and $T'\gets 0$
+4. The 'STO' button will store the result of $X$ inside $S$
+5. The 'RCL' button will set the the display to what's stored in S, that is $X'\gets S$
+6. The '$\uparrow$' or "enter" will set the next state of display such that $X' \gets X$, $Y'\gets X$, $Z' \gets Y$ and $T' \gets Z$
 
 # Notation
+Most commonly known notations are in-fix notation that give $(19-5)\times(1+2)$. Pre-fix (or Polish notation) give $\times - 19 \quad 5 \quad + \quad 1 \quad 2$.
+
 The HP-35 uses reverse polish notation which is known as post-fix notation. The operands and digits are given as:
 $$
 19 \quad 5 \quad - \quad 1 \quad 2 \quad + \quad \times
@@ -25,7 +32,23 @@ Consider
 $$
 19 \quad 5 \quad - \quad 1 \quad 2 \quad + \quad \times
 $$
-
+The tabular representation of this computation is shown as:
+$$
+\text{Key-presses}\\
+\begin{array}{c|c|c|c|c|c|c|c}
+\hline
+ &  & 1 & 9 & \uparrow & 5  & - & 1 & \uparrow & 2  & +  & \times \\ 
+\hline 
+X  & 0 & 1 & 19 & 19 & 5 & 14 & 1 & 1 & 2 & 3  & 42\\ 
+\hline
+Y  & 0 & 0 & 0 & 19 & 19 & 0 & 14 & 1 & 1 & 14 & 0\\
+\hline
+Z  & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 14 & 14 & 0 & 0\\
+\hline
+T & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+\end{array}
+$$
+Notice that after inputting the digits $19$, the pressing of $\uparrow$ signals the end of multi-line operands. The intermediate result is then stored in $Y$. Afterwards the the pressing of the subtraction operator, performs the computation and displays the result. Afterwards the starting 
 # Implementation 
 The internal composition of the HP-35 can be composed of a 2-phase clock for synchronisation, the arithmetic and register unit (A&R). The ROM unit and the C&T unit for control signals to tell what the A&R unit should compute. There is a lot of parallel with the Von-Neumann CPU architecture known today. 
 ![[Pasted image 20261119113416.png]]
