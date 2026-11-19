@@ -48,7 +48,11 @@ Z  & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 14 & 14 & 0 & 0\\
 T & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
 \end{array}
 $$
-Notice that after inputting the digits $19$, the pressing of $\uparrow$ signals the end of multi-line operands. The intermediate result is then stored in $Y$. Afterwards the the pressing of the subtraction operator, performs the computation and displays the result. Afterwards the starting 
+Notice that after inputting the digits $19$, the pressing of $\uparrow$ signals the end of multi-line operands. The intermediate result is then stored in $Y$.
+
+Afterwards the pressing of the subtraction operator, performs the computation and displays the result. Afterwards the sub-expressions $1$ and $2$ are stored on evaluation stack and stored on calculated intermediately. This resulting calculation is later pushed to evaluate $14 \times 3=42$. 
+
+Thus, the registers $T$, $Z$, $Y$ and $X$ are used as a 4 layer evaluation stack.
 # Implementation 
 The internal composition of the HP-35 can be composed of a 2-phase clock for synchronisation, the arithmetic and register unit (A&R). The ROM unit and the C&T unit for control signals to tell what the A&R unit should compute. There is a lot of parallel with the Von-Neumann CPU architecture known today. 
 ![[Pasted image 20261119113416.png]]
@@ -56,6 +60,7 @@ The internal composition of the HP-35 can be composed of a 2-phase clock for syn
 # Arithmetic and Register Unit (A&R)
 
 ## Arithmetic
+The arithmetic unit 
 
 ## Register
 The register part of the contains of the A&R unit consists of the current value of the register $X$, a large multiplexer that has multiple branches to map the next state $X'$. The multiplexer contains control signals from the C&T unit to select the branch. The design uses latches as it contains a two phase clock. The design is implemented for each register $Y$,$Z$,$T$ and $S$.
