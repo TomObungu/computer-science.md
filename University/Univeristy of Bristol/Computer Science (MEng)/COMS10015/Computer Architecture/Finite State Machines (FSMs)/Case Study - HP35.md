@@ -1,6 +1,6 @@
 The HP-35 Calculator was released in 1972 and discontinued in 1975. 
 
-The HP-35 model can be abstracted to show the concepts of FSM + arithmetic. These build up a calculator and show relation to micro-processors. 
+The HP-35 model can be abstracted to show the concepts of a FSM + arithmetic. These build up a calculator and show relation to micro-processors. 
 
 The FSM of the calculator can be shown with the input alphabet $X_{i} \in\Sigma$. These represent the operands and digits on the keypad. Secondary the calculator contains transition functions $\delta$ and $\omega$. As well as that the states of the computation are held in $Q$. The letters of $Q \in S$. 
 
@@ -61,8 +61,10 @@ The internal composition of the HP-35 can be composed of a 2-phase clock for syn
 
 ## Arithmetic
 The arithmetic unit consists of 4 sub-modules to perform the operations $+$, $-$ and $\times$, $+$. 
-The bottom most multiplexer consists of either a placeholder of $x=10$ and the result stored in $Y$. The selection of this result is fed into the operational sub-modules and the computation is performed. 
-
+The bottom most multiplexer consists of either a placeholder of $x=10$ and the result stored in $Y$. The selection of this result is fed into the operational sub-modules and the computation is performed. The result of each computation is then fed into a 4 input multiplexer with values $\omega$, $x$, $y$ and $z$. The control unit selects the output result of the operation. 
+![[Pasted image 20261119125120.png]]
 ## Register
 The register part of the contains of the A&R unit consists of the current value of the register $X$, a large multiplexer that has multiple branches to map the next state $X'$. The multiplexer contains control signals from the C&T unit to select the branch. The design uses latches as it contains a two phase clock. The design is implemented for each register $Y$,$Z$,$T$ and $S$.
 ![[Pasted image 20261119114038.png]]
+
+# Comparison 
