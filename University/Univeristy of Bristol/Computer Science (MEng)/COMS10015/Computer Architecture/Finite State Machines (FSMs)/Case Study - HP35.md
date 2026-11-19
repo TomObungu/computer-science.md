@@ -25,3 +25,14 @@ $$
 19 \quad 5 \quad - \quad 1 \quad 2 \quad + \quad \times
 $$
 
+# Implementation 
+The internal composition of the HP-35 can be composed of a 2-phase clock for synchronisation, the arithmetic and register unit (A&R). The ROM unit and the C&T unit for control signals to tell what the A&R unit should compute. There is a lot of parallel with the Von-Neumann CPU architecture known today. 
+![[Pasted image 20261119113416.png]]
+
+# Arithemtic and Register Unit (A&R)
+
+## Arithmetic
+
+## Register
+The register part of the contains of the A&R unit consists of the current value of the register $X$, a large multiplexer that has multiple branches to map the next state $X'$. The multiplexer contains control signals from the C&T unit to select the branch. The design uses latches as it contains a two phase clock. The design is implemented for each register $Y$,$Z$,$T$ and $S$.
+![[Pasted image 20261119114038.png]]
