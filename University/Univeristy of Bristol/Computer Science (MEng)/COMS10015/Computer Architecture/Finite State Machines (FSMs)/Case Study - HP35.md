@@ -9,6 +9,7 @@ The computations of the next state are given as $Q'=\delta(Q,X_{i})$. The result
 # Algorithm 
 1. The first steps of the algorithm include showing the contents of the register X. The digits are $V$  such that $V\in\{0,1,\dots , 9\}$. For each digit position $X'$ i.e tens, hundreds, thousands..., the digit is shown to be $X' \gets 10 \cdot X+V$.
 2. The HP-35 contains 4 registers $X$, $Y$, $Z$ and $T$. The data layout of these registers can be show as a stack. The computations are performed with the binary operator $\odot$.  The registers $Y,Z,T$ are such that $Y'\gets Y$, $Z'\gets Z$ and $T'\gets T$.
+3. On the case of pressing the 'CLR' button, the registers $X$
 
 
 # Notation
@@ -29,7 +30,7 @@ $$
 The internal composition of the HP-35 can be composed of a 2-phase clock for synchronisation, the arithmetic and register unit (A&R). The ROM unit and the C&T unit for control signals to tell what the A&R unit should compute. There is a lot of parallel with the Von-Neumann CPU architecture known today. 
 ![[Pasted image 20261119113416.png]]
 
-# Arithemtic and Register Unit (A&R)
+# Arithmetic and Register Unit (A&R)
 
 ## Arithmetic
 
