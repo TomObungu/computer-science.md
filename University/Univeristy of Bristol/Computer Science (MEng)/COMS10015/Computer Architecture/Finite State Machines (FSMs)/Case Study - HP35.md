@@ -61,7 +61,7 @@ The internal composition of the HP-35 can be composed of a 2-phase clock for syn
 
 ## Arithmetic
 The arithmetic unit consists of 4 sub-modules to perform the operations $+$, $-$ and $\times$, $+$. 
-The bottom most multiplexer consists of either a placeholder of $x=10$ and the result in stored in $Y$. The selection of this result in fed into the operational sub-modules 
+The bottom most multiplexer consists of either a placeholder of $x=10$ and the result stored in $Y$. The selection of this result is fed into the operational sub-modules and the computation is performed. 
 
 ## Register
 The register part of the contains of the A&R unit consists of the current value of the register $X$, a large multiplexer that has multiple branches to map the next state $X'$. The multiplexer contains control signals from the C&T unit to select the branch. The design uses latches as it contains a two phase clock. The design is implemented for each register $Y$,$Z$,$T$ and $S$.
