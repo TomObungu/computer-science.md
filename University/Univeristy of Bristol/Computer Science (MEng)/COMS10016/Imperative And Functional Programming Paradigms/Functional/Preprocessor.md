@@ -1,5 +1,4 @@
 Preprocessors are run before the compiler. Preprocessors find/replace code sections according to the preporcessor directives (symbols starting with `#`).
-
 # Macros with Arguments
 Macros with arguments are substituted into the replacement text then the macro is expanded:
 ```C
@@ -32,12 +31,12 @@ This means the call to `int c = square(b)` is simply replaced with
 int c = b * b
 ...
 ```
-A compiler can ignore the `inline` request all together. A function will be defined `inline` will not, and one defined `extern inline` will always be usable via other moduels when using the compiler option `-flto`.
+A compiler can ignore the `inline` request all together. A function will be defined `inline` will not, and one defined `extern inline` will always be usable via other modules when using the compiler option `-flto`.
 # `#` and `##`
 
-The `#` operator turns a replacement text into a string surrounded by quotes: `#define PRINT(X) printf( #x)`. That is when `PRINT(Welcome)` appears in a program, it is exapnded to `printf("Welcome")`. 
+The `#` operator turns a replacement text into a string surrounded by quotes: `#define PRINT(X) printf( #x)`. That is when `PRINT(Welcome)` appears in a program, it is expanded to `printf("Welcome")`. 
 
-The `##` operator concatenates two tokends defined like:
+The `##` operator concatenates two tokens defined like:
 ```C
 #define CONCAT(x,y) x##y
 ```
@@ -48,14 +47,21 @@ int hello = 5;
 printf("%d\n", CONCAT(hel,lo));
 ```
 
-# Double Enum Inclusion Problem
-Problems can occur if a shared module has enumerations and included twice. This can be fixed by turning the enum to `extern const`
+# Symbolic Constants and `#pragma`
+`__LINE__`  - The line number of the current source code
+`__FILE__` - The presumed name of the source file
+`__DATE__` - The date the source file was compiled from `Mmm dd yyyy`
+`__TIME__` - The time the source file was compiled (a string literal `hh:mm:ss`)
+
+The `#pragma` directive is an implementation-defined action, e.g. `#pragma startup f` will run `f()` before `main()` and `#pragma exit g` will run `g()` before the program exits. 
+# Double `Enum` Inclusion Problem
+Problems can occur if a shared module has enumerations and included twice. This can be fixed by turning the `enum` to `extern const`
 ```C
 extern intsuit {Club, Diamond, Heart, Spade};
 typdef int suit;
 ```
 
-This can also be fixed by protective `#ifdef` and `#ifndef` gaurds which prevents it from being included twice. 
+This can also be fixed by protective `#ifdef` and `#ifndef` guards which prevents it from being included twice. 
 ```C
 #ifndef HEADER_IS_INCLUDED
 #define HEADER_IS_INCLUDE
@@ -80,3 +86,4 @@ It is possible to include `main()` and testing in the compilation or not. That i
 ```shell
 gcc -std=c11 -Wall -Dlist_test list.c -o list
 ```
+
