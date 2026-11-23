@@ -23,3 +23,5 @@ $$
 C_i = \langle I, v_0, v_1,...v_{r-1} \rangle
 $$
 
+There are other types of Register Machines with different model e.g. Counter Machines, Random Access Machines (RAM), Random-Access Stored-Program (RASP) machines. Other models also exist in that they have different sets of valid instructions such as $L_i : R_addr \gets 0$ or a "clear" instruction. Or rather, a different instruction set all together. 
+
