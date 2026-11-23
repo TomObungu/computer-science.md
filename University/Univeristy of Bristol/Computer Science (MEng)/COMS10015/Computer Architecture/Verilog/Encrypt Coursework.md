@@ -11,3 +11,4 @@ the r_r, r_x and r_c for module instantiation and computation. and a_ck.
 
 On each clock cycle I will take in the input. I will then have some holding state to signal after 32 rounds whether or not the first input of computation has been down 
 
+I'm assuming I will probably need 32 module instantiations each of them computing the corresponding input 
