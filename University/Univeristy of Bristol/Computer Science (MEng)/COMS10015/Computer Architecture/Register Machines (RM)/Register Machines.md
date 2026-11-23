@@ -23,5 +23,3 @@ $$
 C_i = \langle I, v_0, v_1,...v_{r-1} \rangle
 $$
 
-## Halting Configurations
-;
