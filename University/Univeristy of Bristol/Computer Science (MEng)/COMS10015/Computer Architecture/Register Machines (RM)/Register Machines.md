@@ -9,3 +9,18 @@ A RM configuration is a tuple
 $$
 C = \langle I, v_0, v_1,...v_{r-1} \rangle
 $$
+
+Where $I$ is the current label and $v_j$ is the current value stored in register $R_j$
+
+## Finite Compuations
+
+A finite computation by some RM is captured by 
+$$
+\langle C_0, C_1, C_2, ... \rangle
+$$
+That is for a sequence of configurations such that, for $i=0$:
+$$
+C_i = \langle I, v_0, v_1,...v_{r-1} \rangle
+$$
+
+
