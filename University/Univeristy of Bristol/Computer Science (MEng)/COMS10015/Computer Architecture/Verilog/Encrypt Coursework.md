@@ -1,0 +1,2 @@
+# Stage 4
+The 0th input is accepted. On clock cycles 1, 2 and 3, the 0th input is also processed. On clock cycles 1, 2 and 3, the 0th, 1st and 2nd inputs are also accepted. It takes $n_{r}$ clock cycles to process the 0th input. After $n_{r}$ clock cycles, $n_{r}$ inputs are processed also. 
