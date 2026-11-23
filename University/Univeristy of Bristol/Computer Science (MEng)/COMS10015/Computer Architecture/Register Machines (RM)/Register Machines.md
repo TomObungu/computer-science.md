@@ -5,3 +5,7 @@ An instruction is a description of a computation step.
 
 A register machine is specified by a finite set of registers. A program is a list of instructions of the form label : body such that the i-th instruction has Label $L_i$
 
+A RM configuration is a tuple
+$$
+C = \langle I, v_0, v_1,...v_{r-1} \rangle
+$$
