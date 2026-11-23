@@ -1,6 +1,6 @@
 # Stage 4
 
-It does some thing like 1,2,3 where it fetches input and computes it at the same time. For example it will take in 0th input and compute 0th input, it it will take in 2nd input and computer 0th.
+It does some thing like 1,2,3 where it fetches input and computes it at the same time. For example it will take in 0th input and compute 0th input, it it will take in 2nd input and compute 0th.
 
 $$
 \to \downarrow
