@@ -9,3 +9,9 @@ Consider the instance of the `[]` case with functors
 instance Functor [] where
 	fmap :: (a -> b) -> 
 ```
+
+```Haskell
+data Either a b = Left a | Right b
+y = fmap (/ 2) (Left 404) 
+```
+`fmap` only changes the last most value of the ADT
