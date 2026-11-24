@@ -14,4 +14,4 @@ instance Functor [] where
 data Either a b = Left a | Right b
 y = fmap (/ 2) (Left 404) 
 ```
-`fmap` only changes the last most value of the ADT
+`fmap` only changes the last most value of the ADT when dealing with more than two values such as `Either a b`. 
