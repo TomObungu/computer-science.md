@@ -7,5 +7,5 @@ class Functor f where
 Consider the instance of the `[]` case with functors
 ```Haskell
 instance Functor [] where
-	fmap :: (a )
+	fmap :: (a -> b) -> 
 ```
