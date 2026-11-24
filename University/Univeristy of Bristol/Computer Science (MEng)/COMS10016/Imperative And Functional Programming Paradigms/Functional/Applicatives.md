@@ -6,3 +6,5 @@ class Functors f =>
 ```
 
 The output structure is based only on the input structure. This is the difference between a functor and an applicative. Output structure depends on the input structure alone. 
+
+For a particular type , only one kind of functor behaviour is possible 
