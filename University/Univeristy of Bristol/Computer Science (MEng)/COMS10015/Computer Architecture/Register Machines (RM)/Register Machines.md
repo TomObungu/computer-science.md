@@ -27,11 +27,13 @@ There are other types of Register Machines with different model e.g. Counter Mac
 
 
 # Machine Code
-The corresponding machine code : $L_{i}:R_{addr} \gets R_{addr} +1$ translates to:
+The corresponding lines of machine code correspond to $L_{i} \gets R_{addr} \gets R_{addr}$ 
 $$
-\begin{array}{c|c|c} \\
+\begin{array}{c|c|c}
 
-
-\end{array}{c|c|c} \\
-
+000 & addr & 0000 \\
+001 & addr & 0000 \\
+000 & addr & target \\
+011 & 00 & 0000
+\end{array} \\
 $$
