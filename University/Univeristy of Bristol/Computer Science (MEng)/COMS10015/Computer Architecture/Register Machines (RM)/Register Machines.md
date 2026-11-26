@@ -25,3 +25,13 @@ $$
 
 There are other types of Register Machines with different model e.g. Counter Machines, Random Access Machines (RAM), Random-Access Stored-Program (RASP) machines. Other models also exist in that they have different sets of valid instructions such as $L_i : R_addr \gets 0$ or a "clear" instruction. Or rather, a different instruction set all together. 
 
+
+# Machine Code
+The corresponding machine code : $L_{i}:R_{addr} \gets R_{addr} +1$ translates to:
+$$
+\begin{array}{c|c|c} \\
+
+
+\end{array}{c|c|c} \\
+
+$$
