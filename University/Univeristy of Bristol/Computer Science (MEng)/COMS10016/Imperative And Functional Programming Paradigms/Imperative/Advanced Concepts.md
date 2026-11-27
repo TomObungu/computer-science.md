@@ -4,3 +4,6 @@ C allows variadic functions with any number of types and arguments. The `printf`
 int printf(const char* format, ...)
 ```
 The `...` indicates the function receives a variable number of arguments of any types. 
+
+# Unions
+
