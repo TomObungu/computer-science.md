@@ -14,3 +14,5 @@ false Introduction
 $$
 \forall a . \bar{a} \implies
 $$
+
+Classical logic is all about  proving the truthness of the statement whereas intuitionistic logic would be building the constructive cases 
