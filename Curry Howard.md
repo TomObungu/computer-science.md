@@ -10,3 +10,7 @@ implication by composition:
 $$
 \forall a \ b \ c . (a \implies b) \implies (b \implies c) \implies (a \implies c)
 $$
+false Introduction
+$$
+\forall a . \bar{a} \implies
+$$
